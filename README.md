@@ -1,7 +1,7 @@
 # Pocket Monsters Red, Green, and Blue in English
 
 **pocketrgb-english** serves as a dissassembly base, based on the Japanese releases of the Generation 1 Pocket Monsters games.
-Based off of Masaru2's work on pokejp the goal of **pocketrgb-english** is to act as more of a "translation" and less of a localization. Masaru2's work has been great but I am surprised no one has made a version of RGB with Japanes names. Pokejp changes all the text and pokedex entries to match, but they are skipping all the pokemon and character names. So I will be going through each Pokemon and Character and replace their names with the closest Hepburn and Romaji versions that will fit. This way I can enjoy the Drunken man with original names while I play what is supposed to be a "translation" of the Japanese versions!
+Based off of Masaru2's work on pokejp the goal of **pocketrgb-english** is to act as more of a "translation" and less of a localization. Masaru2's work has been great but I am surprised no one has made a version of RGB with Japanes names. Pokejp changes all the text and pokedex entries to match, but they are skipping all the pokemon and character names. So I will be going through each Pokemon and Character and replace their names with the closest Hepburn and Romaji versions that will fit. This way I can enjoy the Drunken man with original names while I play the closest thing to a "translation" of the Japanese versions that I can manage!
 
 It builds the following ROMs:
 
