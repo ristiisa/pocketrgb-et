@@ -1,7 +1,7 @@
-# Pokémon Red, Green, and Blue JP: Masaru2 Edition
+# Pocket Monsters Red, Green, and Blue in English
 
-**pokejp** serves as a dissassembly base, based on the Japanese releases of the Generation 1 Pokémon games.
-Improves the romhack made by the user MoriyaFaith and fixes various things that weren't in his romhack.
+**pocketrgb-english** serves as a dissassembly base, based on the Japanese releases of the Generation 1 Pocket Monsters games.
+Based off of Masaru2's work on pokejp the goal of **pocketrgb-english** is to act as more of a "translation" and less of a localization. Masaru2's work has been great but I am surprised no one has made a version of RGB with Japanes names. Pokejp changes all the text and pokedex entries to match, but they are skipping all the pokemon and character names. So I will be going through each Pokemon and Character and replace their names with the closest Hepburn and Romaji versions that will fit. This way I can enjoy the Drunken man with original names while I play what is supposed to be a "translation" of the Japanese versions!
 
 It builds the following ROMs:
 
@@ -74,12 +74,13 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
+* Restore SGB boarders
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
 * Restore the title screen scrolling for R/G
 
 ## Credits
 
-* MoriyaFaith for his original pokejp project
+* MoriyaFaith for his original pokejp project and Masaru2 for his fork
 * [pokered](https://github.com/pret/pokered) for serving as a base dissassembly
 * Alchav's fork of pokered, which allowed usage of the RG sprites
 * Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps, Cerulean Cave and the Japanese Map Border Layout
