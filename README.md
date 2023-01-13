@@ -5,14 +5,16 @@ Based off of Masaru2's work on pokejp the goal of **pocketrgb-english** is to ac
 
 It builds the following ROMs:
 
-* Pokemon Red.gb 
-* Pokemon Green.gb  
-* Pokemon Blue.gb 
-* Pokemon Red Debug.gb
-* Pokemon Green Debug.gb
-* Pokemon Blue Debug.gb 
+* Pocket Monsters - Red Version (Canada, Japan) (SGB Enhanced).gb 
+* Pocket Monsters - Green Version (Canada, Japan) (SGB Enhanced).gb  
+* Pocket Monsters - Blue Version (Canada, Japan) (SGB Enhanced).gb 
 
-## Downloading and playing
+As well as these with DEBUG=1:
+* pocketred_debug.gb
+* pocketgreen_debug.gb
+* pocketblue_debug.gb 
+
+## Downloading and playing - No Current Patch
 In the case of simply wanting to play generation 1 as it was released in Japan, download the .bps patch files from the [patches](patches) folder, and use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch to the correct ROM.
 
 These are the roms you should use for each version:
@@ -51,7 +53,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## Screenshots
 
-**Pokémon Red**
+**Pocket Monsters - Red Version**
 
 ![red-title](screenshots/red-title.bmp)
 ![red-overworld](screenshots/red-overworld.bmp)
@@ -59,14 +61,14 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ![red-trade](screenshots/red-trade.bmp)
 ![red-map](screenshots/red-map.bmp)
 
-**Pokémon Green**
+**Pocket Monsters - Green Version**
 
 ![green-title](screenshots/green-title.bmp)
 ![green-slots](screenshots/green-slots.bmp)
 ![green-ceruleancave](screenshots/green-ceruleancave.bmp)
 ![green-card](screenshots/green-card.bmp)
 
-**Pokémon Blue**
+**Pocket Monsters - Blue Version**
 
 ![blue-title](screenshots/blue-title.bmp)
 ![blue-prizes](screenshots/blue-prizes.bmp)
@@ -74,7 +76,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
-* Restore SGB boarders
+* Restore SGB boarders (90% complete I just noticed Green's Boarder is to Dark and Red's "Red" is not is the same place when compared to a jp rom)
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
 * Restore the title screen scrolling for R/G
 
