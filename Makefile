@@ -158,13 +158,13 @@ endif
 gfx/battle/attack_anim_1.2bpp: tools/gfx += --trim-whitespace
 gfx/battle/attack_anim_2.2bpp: tools/gfx += --trim-whitespace
 
-gfx/intro/blue_jigglypuff_1.2bpp: rgbgfx += -h
-gfx/intro/blue_jigglypuff_2.2bpp: rgbgfx += -h
-gfx/intro/blue_jigglypuff_3.2bpp: rgbgfx += -h
-gfx/intro/red_nidorino_1.2bpp: rgbgfx += -h
-gfx/intro/red_nidorino_2.2bpp: rgbgfx += -h
-gfx/intro/red_nidorino_3.2bpp: rgbgfx += -h
-gfx/intro/gengar.2bpp: rgbgfx += -h
+gfx/intro/blue_jigglypuff_1.2bpp: rgbgfx += -Z
+gfx/intro/blue_jigglypuff_2.2bpp: rgbgfx += -Z
+gfx/intro/blue_jigglypuff_3.2bpp: rgbgfx += -Z
+gfx/intro/red_nidorino_1.2bpp: rgbgfx += -Z
+gfx/intro/red_nidorino_2.2bpp: rgbgfx += -Z
+gfx/intro/red_nidorino_3.2bpp: rgbgfx += -Z
+gfx/intro/gengar.2bpp: rgbgfx += -Z
 gfx/intro/gengar.2bpp: tools/gfx += --remove-duplicates --preserve=0x19,0x76
 
 gfx/credits/the_end.2bpp: tools/gfx += --interleave --png=$<
