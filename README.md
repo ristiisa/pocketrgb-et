@@ -86,6 +86,9 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Replace Mewtwo coordinates
 * Swap the trade Nidoran(m) to (f) and changed the nickname to the one used in the jp release (CHAPPY)
 * Port the save sound effect from Green.
+* Create a branch with Pokémon names replaced with their Hepburn/Trademarked Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#)
+* Create a branch with Character names replaced with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
+* Create a final branch without either before adding both to master
 
 ## To-Verify
 * Censorship is all Removed (drunk Old Man, praying man at the museum, the Tunguska incident Scientist)...
