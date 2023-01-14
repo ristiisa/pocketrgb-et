@@ -37,19 +37,19 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## What's changed?
 
+* The title screens of have been changed to the match the Japanese releases. (Mostly Slide Animation For Red and Green and the Whoosh are still missing)
+* Restored Japanese SGB Palettes and Boarders (Slight tweaks: Blue - Aligned pokeball shadows to a center glow rather then all over the place, Red - Kept the word "Red" centered rather then making it off center like jp)
 * Any bugs present in the original Red and Green that are not in International Red and Blue are not present and viceversa.
-* The title screen of Pokemon Red and Green has been changed to the original Japanese release.
-* Pokémon Blue's wild Pokémon data has been edited to the Japanese release. Pokémon Green uses US Blue's wild data.
-* Pokémon Red and Green now use the original Cerulean Cave layout.
-* Pokémon Red and Green use their Overworld and Pokémon graphics from their original release.
-* Pokémon Green loads its unique Super Game Boy Palette.
-* Each game's Super Game Boy Border now has text saying "POKEMON!" where "POCKET MONSTERS!" normally is in the Japanese version.
+* Pocket Monsters Blue Version's wild Pokémon data has been edited to the Japanese release. Pocket Monsters Green Version uses US Blue's wild data.
+* Pocket Monsters Red and Green now use the original Cerulean Cave layout.
+* Pocket Monsters Red and Green use their Overworld and Pokémon graphics from their original release.
+* Pocket Monsters Green Version loads its unique Super Game Boy Palette.
 * Fixed Glitch where Haunters from in-game trades wouldn't evolve.
 * Fixed The "Presents" Under the Game Freak logo not appearing where its supposed to.
 * Restores the original flashing lights for the moves "Thunderbolt" and "Hyper Beam".
 * Original map border layout from the japanese version restored.
 * Translated Red and Green Pokédex entries.
-* The gym leader names in the trainer card restored.
+* Gym leader names in the trainer card are restored.
 
 ## Screenshots
 
@@ -76,16 +76,38 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
-* Restore SGB boarders (90% complete I just noticed Green's Boarder is to Dark and Red's "Red" is not is the same place when compared to a jp rom)
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
 * Restore the title screen scrolling for R/G
+* Restore the title screen Woosh scrolling sfx
+* Repoint Celadon City poster text to add the missing puntuation mark
+* Fix text box boarders to match jp releases
+* Compare and replace non-matching blocks of the Unknown Dungeon map
+* Port item type and coordinates
+* Replace Mewtwo coordinates
+* Swap the trade Nidoran(m) to (f) and changed the nickname to the one used in the jp release (CHAPPY)
+* Port the save sound effect from Green.
+
+## To-Verify
+* Censorship is all Removed (drunk Old Man, praying man at the museum, the Tunguska incident Scientist)...
+* References removed from the official translation are Restored (Kanto map, Myracle-Cycle bike store, Pokémon mansion journals written in singular and its last entry)...
+* Check trainer lines and other text against Montblanc's Binary hack? https://www.romhacking.net/hacks/876/
+* The Blue version script texts for the in-game trades (evolving Raichu)...
+* The entire Pokédex has ben rewritten using the official translation from Fire red, but restoring some references like Cloyster enduring a napalm bomb or Ponyta jumping the whole Tokyo Tower
+* Pokémon version name at the credits have been replaced, and centered
+* Pokémon scrolling speed
+* Bulbasaur starts moving at the beginning of the title music after the introduction notes
+* Town Map border tiles were restored
+* Aerodactyl and Kabutops fossil sprites Ported from jp
+* Flower animation code was ported
+* Original wild mon battle tile detection behavior restored, removing the Old Man glitch that never happened in the jp release
+* Saffron City guards detecting any object as a drink fixed
 
 ## Credits
 
+* Montblanc and ShaneM for their rom hacks that got me trying to do this and have been a constant refrence
 * MoriyaFaith for his original pokejp project and Masaru2 for his fork
 * [pokered](https://github.com/pret/pokered) for serving as a base dissassembly
 * Alchav's fork of pokered, which allowed usage of the RG sprites
 * Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps, Cerulean Cave and the Japanese Map Border Layout
 * Satomew for fixing the 2x2 tile glitch
-* PPG6/Jojobear13 with helping me with port and translate the R/G and FR pokédex descriptions
 * Jojobear13 for the trainer card restoration code and the R/G Shooting Star SFX code
