@@ -37,7 +37,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## What's changed?
 
-* The title screens of have been changed to the match the Japanese releases. (Mostly Slide Animation For Red and Green and the Whoosh are still missing)
+* The title screens have been changed to match the Japanese releases. (Exceptions Slide Animation For Red and Green and the Whoosh are still missing)
 * Restored Japanese SGB Palettes and Boarders (Slight tweaks: Blue - Aligned pokeball shadows to a center glow rather then all over the place, Red - Kept the word "Red" centered rather then making it off center like jp)
 * Any bugs present in the original Red and Green that are not in International Red and Blue are not present and viceversa.
 * Pocket Monsters Blue Version's wild Pokémon data has been edited to the Japanese release. Pocket Monsters Green Version uses US Blue's wild data.
