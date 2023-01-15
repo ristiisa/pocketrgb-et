@@ -1,7 +1,10 @@
-# Pocket Monsters Red, Green, and Blue in English
+# Pocket Monsters - Red, Green, and Blue Version
 
-**pocketrgb-english** serves as a dissassembly base, based on the Japanese releases of the Generation 1 Pocket Monsters games.
-Based off of Masaru2's work on pokejp the goal of **pocketrgb-english** is to act as more of a "translation" and less of a localization. Masaru2's work has been great but I am surprised no one has made a version of RGB with Japanes names. Pokejp changes all the text and pokedex entries to match, but they are skipping all the pokemon and character names. So I will be going through each Pokemon and Character and replace their names with the closest Hepburn and Romaji versions that will fit. This way I can enjoy the Drunken man with original names while I play the closest thing to a "translation" of the Japanese versions that I can manage!
+## Translation > Localization
+**pocketrgb-en**  is a Gen 1 dissassembly, based on the japanese releases subtitled 'Pocket Monsters'.
+The idea came from my original hunt for a 1 to 1 translation of the japanese games that I could never find! I started thinking about doing it myself when I found an extremely good rom hack by ShaneM and later maintained by Montblanc. It took a lot of hunting but I found it's history through archive.org. On a closed forum I found posts where ShaneM made it clear they must have spoke japanese. In one of their earliest post they refrences getting the japanese version of red and having gone through them both side by side to compare the existing translation. After which he went through and fixed all the censoring and other missing content. This made their rom now the closest thing I was going to find to a 1 to 1 translation. Unfortunatly they kept the Pokémon logo and all the North Amarican names. We want Dr. Okido starting our japanese adventure not some Amarican named after a tree (love you Prof Oak).
+
+Later as I struggled to binary hack these changes in, Anon822 on the pokecommunity forum pointed me towards pokejp!! I immediately forked it and started **pocketrgb-en** with the goal of comparing pokejp to ShaneM and Montblanc's work to do my best to create a "translation" that feels less like a localization. Masaru2's work has been great but I am surprised no one has made a version of RGB with Japanese names. Pokejp changes all the text and pokedex entries though so that saves me a lot of work and allows me to just compare the final text from both. After which I will go through each Pokémon and Character and replace their names with the closest Hepburn and Romaji versions that will fit. This way I can enjoy the Drunken man with original names while I play!! This will be the closest thing to a "translation" that I can manage without speaking Japanese.
 
 It builds the following ROMs:
 
@@ -33,7 +36,7 @@ To set up the repository for your own editing purposes, see [**INSTALL.md**](INS
 
 ## Why make this?
 
-In 1996, The original Pocket Monsters Red and Green were released. Later that Year, Pocket Monsters Blue was released as well. In the west, 2 years later, Pokémon Red and Blue were released, using the updated Pocket Monsters Blue as the base engine. A Pokémon game with Pocket Monsters Blue's wild data was never released in Japan. This caused a multitude of changes in the International releases of Red and Blue. This ROM hack serves to create English Versions of those Japanese releases, the closest as possible.
+In 1996, The original Pocket Monsters Red and Green were released. Later that Year, Pocket Monsters Blue was released as well. In the west, 2 years later, Pokémon Red and Blue were released, using the updated Pocket Monsters Blue as the base engine, while using Red and Green's wild data. Meaning Pokémon game with Pocket Monsters Blue's wild data was never released in the west. This caused a multitude of changes and a few errors in the International releases of Red and Blue. This ROM hack serves to create English Versions of those Japanese releases, with names and imagery maintained.
 
 ## What's changed?
 
