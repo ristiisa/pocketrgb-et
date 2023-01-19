@@ -2,7 +2,7 @@
 
 ## Translation > Localization
 **pocketrgb-en**  is a Gen 1 dissassembly, based on the japanese releases subtitled 'Pocket Monsters'.
-The idea came from my original hunt for a 1 to 1 translation of the japanese games that I could never find! I started thinking about doing it myself when I found an extremely good rom hack by ShaneM and later maintained by Montblanc. It took a lot of hunting but I found it's history through archive.org. On a closed forum I found posts where ShaneM made it clear they must have spoke japanese. In one of their earliest post they refrences getting the japanese version of red and having gone through them both side by side to compare the existing translation. After which he went through and fixed all the censoring and other missing content. This made their rom now the closest thing I was going to find to a 1 to 1 translation. Unfortunatly they kept the Pokémon logo and all the North Amarican names. We want Dr. Okido starting our japanese adventure not some Amarican named after a tree (love you Prof Oak).
+The idea came from my original hunt for a 1 to 1 translation of the japanese games that I could never find! I started thinking about doing it myself when I found an extremely good rom hack by ShaneM and later maintained by Montblanc. It took a lot of hunting but I found it's history through archive.org. On a closed forum I found posts where ShaneM made it clear they must have spoke japanese. In one of their earliest post they refrences getting the japanese version of green and having gone through them both side by side to compare the existing translation. After which he went through and fixed all the censoring and other missing content. This made their rom now the closest thing I was going to find to a 1 to 1 translation. Unfortunatly they kept the Pokémon logo and all the North Amarican names. We want Dr. Okido starting our japanese adventure not some Amarican named after a tree (love you Prof Oak).
 
 Later as I struggled to binary hack these changes in, Anon822 on the pokecommunity forum pointed me towards pokejp!! I immediately forked it and started **pocketrgb-en** with the goal of comparing pokejp to ShaneM and Montblanc's work to do my best to create a "translation" that feels less like a localization. Masaru2's work has been great but I am surprised no one has made a version of RGB with Japanese names. Pokejp changes all the text and pokedex entries though so that saves me a lot of work and allows me to just compare the final text from both. After which I will go through each Pokémon and Character and replace their names with the closest Hepburn and Romaji versions that will fit. This way I can enjoy the Drunken man with original names while I play!! This will be the closest thing to a "translation" that I can manage without speaking Japanese.
 
@@ -55,6 +55,8 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Gym leader names in the trainer card are restored.
 * Fix text box boarders to match jp releases
 * Flower animations restored for Red and Green
+* Swap the trade Nidoran(m) to (f) and changed the nickname to the one used in the jp release (CHAPPY)
+* Replaced all other trade nicknames to the ones used in the jp releases
 
 ## Screenshots
 
@@ -84,11 +86,9 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
 * Restore the title screen scrolling for R/G
 * Restore the title screen Woosh scrolling sfx
-* Repoint Celadon City poster text to add the missing puntuation mark
 * Compare and replace non-matching blocks of the Unknown Dungeon map
 * Port item type and coordinates
 * Replace Mewtwo coordinates
-* Swap the trade Nidoran(m) to (f) and changed the nickname to the one used in the jp release (CHAPPY)
 * Port the save sound effect from Green.
 * Create a branch with Pokémon names replaced with their Hepburn/Trademarked Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#)
 * Create a branch with Character names replaced with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
