@@ -53,6 +53,8 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Original map border layout from the japanese version restored.
 * Translated Red and Green Pokédex entries.
 * Gym leader names in the trainer card are restored.
+* Fix text box boarders to match jp releases
+* Flower animations restored for Red and Green
 
 ## Screenshots
 
@@ -83,7 +85,6 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Restore the title screen scrolling for R/G
 * Restore the title screen Woosh scrolling sfx
 * Repoint Celadon City poster text to add the missing puntuation mark
-* Fix text box boarders to match jp releases
 * Compare and replace non-matching blocks of the Unknown Dungeon map
 * Port item type and coordinates
 * Replace Mewtwo coordinates
@@ -104,7 +105,6 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Bulbasaur starts moving at the beginning of the title music after the introduction notes
 * Town Map border tiles were restored
 * Aerodactyl and Kabutops fossil sprites Ported from jp
-* Flower animation code was ported
 * Original wild mon battle tile detection behavior restored, removing the Old Man glitch that never happened in the jp release
 * Saffron City guards detecting any object as a drink fixed
 
