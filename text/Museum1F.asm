@@ -56,9 +56,9 @@ _Museum1FText_5c251::
 	text "Thank heavens!"
 	
     para "I never thought I"
-	line "would ever see"
-    cont "the dragon god's"
-    cont "bone!"
+	line "would ever look"
+    cont "upon the Dragon"
+    cont "God's bones!"
 	done
 
 _Museum1FText_5c28e::
