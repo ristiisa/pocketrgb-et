@@ -53,9 +53,12 @@ _Museum1FText_5c242::
 	done
 
 _Museum1FText_5c251::
-	text "That is one"
-	line "magnificent"
-	cont "fossil!"
+	text "Thank heavens!"
+	
+    para "I never thought I"
+	line "would ever see"
+    cont "the dragon god's"
+    cont "bone!"
 	done
 
 _Museum1FText_5c28e::

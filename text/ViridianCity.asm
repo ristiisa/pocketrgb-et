@@ -44,15 +44,14 @@ _ViridianCityText_19157::
 
 _ViridianCityText_19175::
 	text "Oh Grandpa!"
-	line "Sleeping here"
-	cont "of all places!"
+	line "How did you fall"
+	cont "asleep here, of"
+    cont "all places!"
 	
-	para "It can't be"
-	line "helped..."
-	
-	para "We have to wait"
-	line "until he sobers"
-	cont "up."
+	para "We have no other"
+	line "choice than to"
+    cont "wait until he"
+    cont "sobers up..."
 	done
 
 _ViridianCityText_1917a::
@@ -64,13 +63,15 @@ _ViridianCityText_1917a::
 	done
 
 _ViridianCityText_19191::
-	text "Hey! Hic..."
+	text "Aww... Hiccup..."
 	line "Wait a minute!"
 	cont "Lissen to what"
-	cont "I hafta say!"
+	cont "I'm going to tell"
+    cont "you!..."
 
-	para "...Hey!"
-	line "I said don't go!"
+	para "Hey!"
+	line "Don't go away,"
+    cont "I said!"
 	done
 
 _ViridianCityText_191ca::
@@ -108,13 +109,14 @@ _TM42NoRoomText::
 
 _ViridianCityText_1920a::
 	text "Ugh..."
-	line "Looks like I was"
-	cont "drunk!"
+	line "Seems like I"
+	cont "was drunk!"
 
 	para "My head hurts..."
 
-	para "Are you in a"
-	line "hurry?"
+	para "By the way,"
+    line "are you in a"
+	cont "hurry?"
 	done
 
 _ViridianCityText_1920f::

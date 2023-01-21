@@ -37,7 +37,10 @@ _BluesHouseDaisyWalkingText::
 	done
 
 _BluesHouseTownMapText::
-	text "It's a big map of"
-	line "the KANTO region!"
-	cont "This is useful!"
+	text "It's a map of"
+	line "KANTO!..."
+	
+    para "It would be great"
+    line "if she gave it to"
+    cont "me, right?"
 	done

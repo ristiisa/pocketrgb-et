@@ -21,15 +21,15 @@ _Route10BattleText2::
 
 _Route10EndBattleText2::
 	text "Ha-haha!"
-	line "Actually..."
-	cont "I ate a magic"
-	cont "mushroom!"
+	line "... I actually"
+	cont "ate.. some magic"
+	cont "mushrooms..."
 	prompt
 
 _Route10AfterBattleText2::
-	text "Haha!"
-	line "Ha-ha-ha!"
-	cont "ha... ha..."
+	text "Haha-ha-ha!"
+	line "Ha-haha..."
+	cont "Haha..."
 	done
 
 _Route10BattleText3::

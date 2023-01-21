@@ -77,7 +77,7 @@ _SilphCo6BattleText3::
 
 	para "He shouldn't have"
 	line "sent me to the"
-	cont "TIKSI BRANCH!"
+	cont "TUNGUSKA BRANCH!"
 	done
 
 _SilphCo6EndBattleText3::
@@ -85,9 +85,9 @@ _SilphCo6EndBattleText3::
 	prompt
 
 _SilphCo6AfterBattleText3::
-	text "TIKSI BRANCH?"
-	line "It's in Russian"
-	cont "no man's land!"
+	text "TUNGUSKA BRANCH?"
+	line "It's deep in"
+	cont "Russia!"
 	done
 
 _SilphCo6BattleText4::

@@ -5,12 +5,13 @@ _OaksLabGaryText1::
 	done
 
 _OaksLabText40::
-	text "<RIVAL>: Heh, I"
-	line "don't need to be"
+	text "<RIVAL>: Heh, I'm"
+	line "an adult so I"
+    cont "don't need to be"
 	cont "greedy like you!"
 
 	para "Go ahead and"
-	line "choose, <PLAYER>!"
+	line "choose first, <PLAYER>!"
 	done
 
 _OaksLabText41::

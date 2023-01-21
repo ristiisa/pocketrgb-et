@@ -29,11 +29,14 @@ _Route3BattleText2::
 	text "Hi! I like shorts!"
 	line "They're comfy and"
 	cont "easy to wear!"
+    cont "Why don't you"
+    cont "wear them?"
 	done
 
 _Route3EndBattleText2::
-	text "I don't"
-	line "believe it!"
+	text "I "
+	line "tought they would"
+    cont "look good on you!"
 	prompt
 
 _Route3AfterBattleText2::

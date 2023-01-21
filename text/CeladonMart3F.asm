@@ -95,12 +95,12 @@ _CeladonMart3Text14::
 
 IF DEF(_BLUE)
 _CeladonMart3Text15::
-	text "Red and Green!"
+	text "Red and Blue!"
 	line "Both are #MON!"
 	done
 ELSE
 _CeladonMart3Text15::
-	text "Red and Blue!"
+	text "Red and Green!"
 	line "Both are #MON!"
 	done
 ENDC

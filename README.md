@@ -57,6 +57,14 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Flower animations restored for Red and Green
 * Swap the trade Nidoran(m) to (f) and changed the nickname to the one used in the jp release (CHAPPY)
 * Replaced all other trade nicknames to the ones used in the jp releases
+* Censorship is all Removed (drunk Old Man, praying man at the museum, the Tunguska incident Scientist)...
+* References removed from the official translation are Restored (Kanto map, Myracle-Cycle bike store, Pokémon mansion journals written in singular and its last entry)...
+* Check trainer lines and other text against Montblanc's Binary hack? https://www.romhacking.net/hacks/876/
+* The Blue version script texts for the in-game trades (evolving Raichu)...
+* Pokémon version name at the credits have been replaced, and centered
+* Town Map border tiles were restored
+* All trade Pokemon nicknames were restored to English translations of the Japanese ones
+* Aerodactyl and Kabutops fossil sprites Ported from jp
 
 ## Screenshots
 
@@ -95,16 +103,10 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Create a final branch without either before adding both to master
 
 ## To-Verify
-* Censorship is all Removed (drunk Old Man, praying man at the museum, the Tunguska incident Scientist)...
-* References removed from the official translation are Restored (Kanto map, Myracle-Cycle bike store, Pokémon mansion journals written in singular and its last entry)...
-* Check trainer lines and other text against Montblanc's Binary hack? https://www.romhacking.net/hacks/876/
-* The Blue version script texts for the in-game trades (evolving Raichu)...
+
 * The entire Pokédex has ben rewritten using the official translation from Fire red, but restoring some references like Cloyster enduring a napalm bomb or Ponyta jumping the whole Tokyo Tower
-* Pokémon version name at the credits have been replaced, and centered
 * Pokémon scrolling speed
 * Bulbasaur starts moving at the beginning of the title music after the introduction notes
-* Town Map border tiles were restored
-* Aerodactyl and Kabutops fossil sprites Ported from jp
 * Original wild mon battle tile detection behavior restored, removing the Old Man glitch that never happened in the jp release
 * Saffron City guards detecting any object as a drink fixed
 

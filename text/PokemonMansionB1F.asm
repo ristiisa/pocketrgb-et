@@ -1,4 +1,4 @@
-_Mansion4BattleText1::
+_ Mansion4BattleText1::
 	text "Uh-oh. Where am"
 	line "I now?"
 	done
@@ -29,11 +29,11 @@ _Mansion4AfterBattleText2::
 	done
 
 _Mansion4Text7::
-	text "Diary; Sept. 1"
+	text "Diary: Sept. 1"
 	line "MEWTWO is far too"
 	cont "powerful."
 
-	para "I have failed to"
-	line "curb its vicious"
-	cont "tendencies..."
+	para "It's no use..."
+	line "I cannot control"
+	cont "it!"
 	done
