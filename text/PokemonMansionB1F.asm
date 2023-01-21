@@ -1,4 +1,4 @@
-_ Mansion4BattleText1::
+_Mansion4BattleText1::
 	text "Uh-oh. Where am"
 	line "I now?"
 	done
