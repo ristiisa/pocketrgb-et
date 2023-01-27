@@ -94,8 +94,7 @@ _CeladonMart3Text14::
 	done
 
 _CeladonMart3Text15::
-	text "Red and Green
-    sa!"
+	text "Red and Green"
 	line "Both are #MON!"
 	done
 
