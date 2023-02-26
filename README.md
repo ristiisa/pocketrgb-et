@@ -64,6 +64,8 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Pokémon version name in the credits have been replaced
 * Town Map border tiles were restored
 * Aerodactyl and Kabutops fossil sprites Ported from jp
+* All Multi-Player Battle Engine and Single-Player Battle Engine Bugs Listed under pokered's Bug and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
+* Original wild mon battle tile detection behavior restored, removing the Old Man glitch that never happened in the jp release
 
 ## Screenshots
 
@@ -105,15 +107,14 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 * Pokémon scrolling speed
 * Bulbasaur starts moving at the beginning of the title music after the introduction notes
-* Original wild mon battle tile detection behavior restored, removing the Old Man glitch that never happened in the jp release
 * Saffron City guards detecting any object as a drink fixed
 
 ## Credits
 
 * Montblanc and ShaneM for their rom hacks that got me trying to do this and have been a constant refrence
 * MoriyaFaith for his original pokejp project and Masaru2 for his fork
-* [pokered](https://github.com/pret/pokered) for serving as a base dissassembly
+* [pokered](https://github.com/pret/pokered) for serving as a base dissassembly with a detailed Bugs list
 * Alchav's fork of pokered, which allowed usage of the RG sprites
 * Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps, Cerulean Cave and the Japanese Map Border Layout
 * Satomew for fixing the 2x2 tile glitch
-* Jojobear13 for the trainer card restoration code and the R/G Shooting Star SFX code
+* Jojobear13 for the trainer card restoration code, the R/G Shooting Star SFX code, Counter shenanigans Fix and Exp All Fixes
