@@ -278,6 +278,21 @@ EnemyRanText:
 	text_end
 
 MainInBattleLoop:
+;note - zero the damage from last round if not using a trapping move
+	ld a, [wEnemyBattleStatus1]
+	bit USING_TRAPPING_MOVE, a
+	jr nz, .no_trapping_moves
+	ld a, [wPlayerBattleStatus1]
+	bit USING_TRAPPING_MOVE, a
+	jr nz, .no_trapping_moves
+	call ZeroLastDamage	;note - prevent counter shenanigans of all sorts
+.no_trapping_moves
+;note - clear custom battle flags
+	ld a, [wUnusedC000]
+	res 7, a	;reset the bit that causes counter to miss
+	res 6, a	;reset the bit that specifies a leech seed effect
+	ld [wUnusedC000], a 
+;note - back to default flow
 	call ReadPlayerMonCurHPAndStatus
 	ld hl, wBattleMonHP
 	ld a, [hli]
@@ -7052,3 +7067,16 @@ LoadMonBackPic:
 	ldh a, [hLoadedROMBank]
 	ld b, a
 	jp CopyVideoData
+
+;note - this sets the last damage dealt to zero
+;meant for fixing counter glitches
+ZeroLastDamage:
+	push af
+	push hl
+	ld a, $00
+	ld hl, wDamage
+	ld [hli], a
+	ld [hl], a
+	pop hl
+	pop af
+	ret
