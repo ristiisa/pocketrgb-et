@@ -812,6 +812,18 @@ FaintEnemyPokemon:
 	push af
 	jr z, .giveExpToMonsThatFought ; if no exp all, then jump
 
+;EXP ALL is handled here
+
+
+; note - If all participated PKMN fainted, only apply the Exp.All effect
+;			- Half the exp will be split among all non-fainted party mons
+	ld a, [wPartyGainExpFlags]
+	or a
+	jr nz, .noZeroParticipants
+	pop af
+	jp .expallfix_end	;all your battle participants are toast. don't even bother giving them exp
+.noZeroParticipants
+
 ; the player has exp all
 ; first, we halve the values that determine exp gain
 ; the enemy mon base stats are added to stat exp, so they are halved
@@ -832,21 +844,24 @@ FaintEnemyPokemon:
 	callfar GainExperience
 	pop af
 	ret z ; return if no exp all
+;note - the GainExperience function will divide the stored exp further if multiple pkmn took part in battle
+;therefore there is a need to undo the previous division
+	;skip all this if only a single battle participant
+	ld a, [wUnusedD155]	
+	dec a
+	jr z, .expallfix_end
+	;else continue on
+	push hl
+	push bc
+	callba UndoDivision4ExpAll
+	pop bc
+	pop hl
+.expallfix_end
 
 ; the player has exp all
 ; now, set the gain exp flag for every party member
 ; half of the total stat exp and normal exp will divided evenly amongst every party member
-	ld a, $1
-	ld [wBoostExpByExpAll], a
-	ld a, [wPartyCount]
-	ld b, 0
-.gainExpFlagsLoop
-	scf
-	rl b
-	dec a
-	jr nz, .gainExpFlagsLoop
-	ld a, b
-	ld [wPartyGainExpFlags], a
+	callba SetExpAllFlags
 	jpfar GainExperience
 
 EnemyMonFaintedText:

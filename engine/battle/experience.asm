@@ -2,6 +2,14 @@ GainExperience:
 	ld a, [wLinkState]
 	cp LINK_STATE_BATTLING
 	ret z ; return if link battle
+	;note - set exp all bit for messaging
+	ld a, [wBoostExpByExpAll]
+	and a
+	jr z, .skipexpallmsg
+	ld a, [wd728]
+	set 7, a
+	ld [wd728], a	
+.skipexpallmsg
 	call DivideExpDataByNumMonsGainingExp
 	ld hl, wPartyMon1
 	xor a
@@ -147,7 +155,19 @@ GainExperience:
 	ld hl, wPartyMonNicks
 	call GetPartyMonName
 	ld hl, GainedText
+;note - changing exp.all text
+	ld a, [wBoostExpByExpAll]
+	and a
+	jr z, .noexpall
+	ld a, [wd728]
+	bit 7, a
+	jr z, .noexpprint	;print the exp.all amount only once (for the first party member)
+	res 7, a
+	ld [wd728], a
+	ld hl, WithExpAllText
+.noexpall
 	call PrintText
+.noexpprint
 	xor a ; PLAYER_PARTY_DATA
 	ld [wMonDataLocation], a
 	call LoadMonData
