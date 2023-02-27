@@ -39,6 +39,18 @@ HandleLedges::
 	ldh a, [hJoyHeld]
 	and e
 	ret z
+;   Prevent Ledge Jumping on to NPCs
+;   Note: I am going to try this first if it doesn't break anything I'm not fixing it! 
+;   This is just funny and it's totally something I'd allow if it was my game!
+;	push de
+;	xor a
+;	ld [hSpriteIndexOrTextID], a
+;	ld d, $20 ; talking range in pixels (double normal range)
+;	call IsSpriteInFrontOfPlayer2
+;	ld a, [hSpriteIndexOrTextID]
+;	and a ; was there a sprite collision?
+;	pop de
+;	ret nz
 	ld a, $ff
 	ld [wJoyIgnore], a
 	ld hl, wd736
