@@ -62,9 +62,8 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Checked trainer lines and other text against Montblanc's Binary hack https://www.romhacking.net/hacks/876/
 * The Blue version script text fixed for the in-game trades (evolving Raichu)...
 * Pokémon version name in the credits have been replaced
-* Town Map border tiles were restored
 * Aerodactyl and Kabutops fossil sprites Ported from jp
-* All Multi-Player Battle Engine and Single-Player Battle Engine Bugs Listed under pokered's Bug and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
+* All Multi-Player Battle Engine and Single-Player Battle Engine Bugs Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
 * Original wild mon battle tile detection behavior restored, removing the Old Man glitch that never happened in the jp release
 
 ## Screenshots
