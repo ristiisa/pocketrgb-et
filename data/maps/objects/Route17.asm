@@ -10,6 +10,7 @@ Route17_Object:
 	sign  9, 87, 14 ; Route17Text14
 	sign  9, 111, 15 ; Route17Text15
 	sign  9, 141, 16 ; Route17Text16
+	sign  5, -1, 17 ; Route17Text17 which is a repeat of Route16Text9
 
 	def_objects
 	object SPRITE_BIKER, 12, 19, STAY, LEFT, 1, OPP_CUE_BALL, 4

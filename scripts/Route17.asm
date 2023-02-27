@@ -29,6 +29,7 @@ Route17_TextPointers:
 	dw Route17Text14
 	dw Route17Text15
 	dw Route17Text16
+	dw Route17Text17
 
 Route17TrainerHeader0:
 	trainer EVENT_BEAT_ROUTE_17_TRAINER_0, 3, Route17BattleText1, Route17EndBattleText1, Route17AfterBattleText1
@@ -254,4 +255,8 @@ Route17Text15:
 
 Route17Text16:
 	text_far _Route17Text16
+	text_end
+
+Route17Text17:
+	text_far _Route16Text9
 	text_end
