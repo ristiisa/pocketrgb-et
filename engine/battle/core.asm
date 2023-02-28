@@ -279,19 +279,19 @@ EnemyRanText:
 
 MainInBattleLoop:
 ;note - zero the damage from last round if not using a trapping move
-	ld a, [wEnemyBattleStatus1]
-	bit USING_TRAPPING_MOVE, a
-	jr nz, .no_trapping_moves
-	ld a, [wPlayerBattleStatus1]
-	bit USING_TRAPPING_MOVE, a
-	jr nz, .no_trapping_moves
-	call ZeroLastDamage	;note - prevent counter shenanigans of all sorts
-.no_trapping_moves
+	;ld a, [wEnemyBattleStatus1]
+	;bit USING_TRAPPING_MOVE, a
+	;jr nz, .no_trapping_moves
+	;ld a, [wPlayerBattleStatus1]
+	;bit USING_TRAPPING_MOVE, a
+	;jr nz, .no_trapping_moves
+	;call ZeroLastDamage	;note - prevent counter shenanigans of all sorts
+;.no_trapping_moves
 ;note - clear custom battle flags
-	ld a, [wUnusedC000]
-	res 7, a	;reset the bit that causes counter to miss
-	res 6, a	;reset the bit that specifies a leech seed effect
-	ld [wUnusedC000], a 
+	;ld a, [wUnusedC000]
+	;res 7, a	;reset the bit that causes counter to miss
+	;res 6, a	;reset the bit that specifies a leech seed effect
+	;ld [wUnusedC000], a 
 ;note - back to default flow
 	call ReadPlayerMonCurHPAndStatus
 	ld hl, wBattleMonHP
@@ -3456,7 +3456,7 @@ CheckPlayerStatusConditions:
 	ld hl, wPlayerBattleStatus1
 	ld a, [hl]
 	; clear bide, thrashing, charging up, trapping moves such as wrap (already cleared for confusion damage), and invulnerable moves
-	and $ff ^ ((1 << STORING_ENERGY) | (1 << THRASHING_ABOUT) | (1 << CHARGING_UP) | (1 << USING_TRAPPING_MOVE)) | (1 << INVULNERABLE))
+	and $ff ^ ((1 << STORING_ENERGY) | (1 << THRASHING_ABOUT) | (1 << CHARGING_UP) | (1 << USING_TRAPPING_MOVE) | (1 << INVULNERABLE))
 	ld [hl], a
 	ld a, [wPlayerMoveEffect]
 	cp FLY_EFFECT

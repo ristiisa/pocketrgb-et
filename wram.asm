@@ -2191,9 +2191,10 @@ wPseudoItemID::
 	ds 1
 
 wUnusedD153::
-	ds 1
-
 	ds 2
+
+wUnusedD155:: ; d155	;note - use this to as a backup for how many pokemon to split exp between (fixing exp all)
+	ds 1				;		-this is a base-1-indexed number (so between 1 and 6 pkmn)
 
 wEvoStoneItemID::
 	ds 1

@@ -33,3 +33,15 @@ MACRO homecall
 	ldh [hLoadedROMBank], a
 	ld [MBC1RomBank], a
 ENDM
+
+MACRO callba
+	ld b, BANK(\1)
+	ld hl, \1
+	call Bankswitch
+ENDM
+
+MACRO callab 
+	ld hl, \1
+	ld b, BANK(\1)
+	call Bankswitch
+ENDM
