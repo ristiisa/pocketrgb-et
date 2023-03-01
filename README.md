@@ -40,31 +40,36 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 
 ## What's changed?
 
+Jp Restoration:
 * The title screens have been changed to match the Japanese releases. (Exceptions Slide Animation For Red and Green and the Whoosh are still missing)
 * Restored Japanese SGB Palettes and Boarders (Slight tweaks: Blue - Aligned pokeball shadows to a center glow rather then all over the place, Red - Kept the word "Red" centered rather then making it off center like jp)
-* Any bugs present in the original Red and Green that are not in International Red and Blue are not present and viceversa.
 * Pocket Monsters Blue Version's wild Pokémon data has been edited to the Japanese release. Pocket Monsters Green Version uses US Blue's wild data.
 * Pocket Monsters Red and Green now use the original Cerulean Cave layout.
 * Pocket Monsters Red and Green use their Overworld and Pokémon graphics from their original release.
-* Pocket Monsters Green Version loads its unique Super Game Boy Palette.
 * Fixed Glitch where Haunters from in-game trades wouldn't evolve.
-* Fixed The "Presents" Under the Game Freak logo not appearing where its supposed to.
+* Restored the "Presents" Under the Game Freak logo.
 * Restores the original flashing lights for the moves "Thunderbolt" and "Hyper Beam".
-* Original map border layout from the japanese version restored.
-* The entire Pokédex has ben rewritten using the official translation from Fire red, but restoring some references like Cloyster enduring a napalm bomb or Ponyta jumping the whole Tokyo Tower
-* Gym leader names in the trainer card are restored.
-* Fix text box boarders to match jp releases
-* Flower animations restored for Red and Green
-* Swap the trade Nidoran(m) to (f) and changed the nickname to the one used in the jp release (CHAPPY)
-* All other trade Pokemon nicknames were restored to English translations of the Japanese ones
-* Censorship is all Removed (drunk Old Man, praying man at the museum, the Tunguska incident Scientist)...
+* Restored the original map border layout from the japanese versions.
+* Pokédex rewritten using the official translation from Fire Red, but with restored references like Cloyster enduring a napalm bomb or Ponyta jumping the whole Tokyo Tower
+* Censorship Removed (drunk Old Man, praying man at the museum, the Tunguska incident Scientist)...
 * References removed from the official translation are Restored (Kanto map, Myracle-Cycle bike store, Pokémon mansion journals written in singular and its last entry)...
 * Checked trainer lines and other text against Montblanc's Binary hack https://www.romhacking.net/hacks/876/
-* The Blue version script text fixed for the in-game trades (evolving Raichu)...
+* Gym leader names in the trainer card are restored.
+* Restored text box boarders from jp releases
+* Restored Flower animations for Red and Green
+* Swap the trade Nidoran(m) to (f) and changed the nickname to the one used in the jp release (CHAPPY)
+* All other trade Pokemon nicknames were restored to English translations of the ones used in the Japanese releases
+* Blue version script fixed for the in-game trades (evolving Raichu, etc.)
 * Pokémon version name in the credits have been replaced
 * Aerodactyl and Kabutops fossil sprites Ported from jp
-* All Multi-Player Battle Engine and Single-Player Battle Engine Bugs Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
-* Original wild mon battle tile detection behavior restored, removing the Old Man glitch that never happened in the jp release
+
+Bug Fixes:
+* All Multi-Player Battle Engine and Single-Player Battle Engine Bugs (except Unexpected Counter Damage) Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
+* Original wild Pokemon battle tile detection behavior restored, removing the Old Man glitch that never happened in the jp release
+* All Game Engine Bugs Listed at (https://github.com/pret/pokered/wiki/Bugs-and-Glitches) have been fixed except cutable trees growing back, the players ability to jump on npc's, and the ability to use a pokedoll on the ghost Marowak. As I consider these things that could possible be intended design.
+* All Graphic and Audio issues have also been addressed from (https://github.com/pret/pokered/wiki/Bugs-and-Glitches) although I did not remove the Artacuno cry from the binoculars (I think a destorted cry is better then no cry at all)
+* All Scripted Event Bugs are addressed excpet for facing the guard (Think of it like the player being fed up with being stopped haha I always have)
+* The save system has also been adjusted to handle mid-save shutoff corrupted saves
 
 ## Screenshots
 
@@ -91,7 +96,6 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
-* Fix MissingNo. not having the correct graphics, if possible. This could potentially also fix MissingNo. corrupting Hall of Fame data.
 * Restore the title screen scrolling for R/G
 * Restore the title screen Woosh scrolling sfx
 * Compare and replace non-matching blocks of the Unknown Dungeon map
@@ -101,6 +105,7 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 * Create a branch with Pokémon names replaced with their Hepburn/Trademarked Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#)
 * Create a branch with Character names replaced with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
 * Create a final branch without either before adding both to master
+* Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
 
 ## To-Verify
 
