@@ -71,10 +71,6 @@ ReadTrainerHeaderInfo::
 	jr z, .readPointer ; read end battle text
 	cp $a
 	jr nz, .done
-	ld a, [hli]        ; read end battle text (2) but override the result afterwards (XXX why, bug?)
-	ld d, [hl]
-	ld e, a
-	jr .done
 .readPointer
 	ld a, [hli]
 	ld h, [hl]
@@ -107,7 +103,7 @@ TalkToTrainer::
 	call ReadTrainerHeaderInfo     ; print before battle text
 	call PrintText
 	ld a, $a
-	call ReadTrainerHeaderInfo     ; (?) does nothing apparently (maybe bug in ReadTrainerHeaderInfo)
+	call ReadTrainerHeaderInfo     ; read end battle text (2)
 	push de
 	ld a, $8
 	call ReadTrainerHeaderInfo     ; read end battle text
