@@ -1190,7 +1190,7 @@ Audio1_InitPitchSlideVars:
 	add hl, bc
 	pop af
 	ld a, [hl]
-	sbc af
+	sbc b
 	sub d
 	ld d, a
 	ld b, 0
