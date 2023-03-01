@@ -1030,6 +1030,8 @@ wFacingDirectionList::
 
 wSlotMachineWheel3TopTile::
 
+wStartBattleLevels:: ; ds PARTY_LENGTH which is 6 bytes
+
 wTempObtainedBadgesBooleans::
 ; 8 bytes
 ; temporary list created when displaying the badges on the trainer screen
