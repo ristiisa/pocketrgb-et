@@ -5142,7 +5142,7 @@ ReloadMoveData:
 	ld [wd11e], a
 	dec a
 	ld hl, Moves
-	ld bc, MoveEnd - Moves
+	ld bc, MOVE_LENGTH
 	call AddNTimes
 	ld a, BANK(Moves)
 	call FarCopyData ; copy the move's stats
@@ -6138,7 +6138,7 @@ GetCurrentMove:
 	ld [wd0b5], a
 	dec a
 	ld hl, Moves
-	ld bc, MoveEnd - Moves
+	ld bc, MOVE_LENGTH
 	call AddNTimes
 	ld a, BANK(Moves)
 	call FarCopyData

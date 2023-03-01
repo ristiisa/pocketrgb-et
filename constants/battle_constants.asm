@@ -5,6 +5,16 @@ NUM_STATS     EQU 5
 NUM_STAT_MODS EQU 8
 NUM_DVS       EQU 2
 
+; Moves struct fields (see data/moves/moves.asm)
+rsreset
+DEF MOVE_ANIM   rb
+DEF MOVE_EFFECT rb
+DEF MOVE_POWER  rb
+DEF MOVE_TYPE   rb
+DEF MOVE_ACC    rb
+DEF MOVE_PP     rb
+DEF MOVE_LENGTH EQU _RS
+
 ; D733 flags
 BIT_TEST_BATTLE EQU 0
 

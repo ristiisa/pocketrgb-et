@@ -50,7 +50,7 @@ DisplayMonFrontSpriteInBox:
 	cp FOSSIL_AERODACTYL
 	jr z, .skipCry
 	call PlayCry
-+.skipCry
+.skipCry
 	call WaitForTextScrollButtonPress
 	call LoadScreenTilesFromBuffer1
 	call Delay3
