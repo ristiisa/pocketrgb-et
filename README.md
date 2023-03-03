@@ -2,9 +2,13 @@
 
 ## Translation > Localization
 **pocketrgb-en**  is a Gen 1 dissassembly, based on the japanese releases subtitled 'Pocket Monsters'.
-The idea came from my original hunt for a 1 to 1 translation of the japanese games that I could never find! I started thinking about doing it myself when I found an extremely good rom hack by ShaneM and later maintained by Montblanc. It took a lot of hunting but I found it's history through archive.org. On a closed forum I found posts where ShaneM made it clear they must have spoke japanese. In one of their earliest post they refrences getting the japanese version of green and having gone through them both side by side to compare the existing translation. After which he went through and fixed all the censoring and other missing content. This made their rom now the closest thing I was going to find to a 1 to 1 translation. Unfortunatly they kept the Pokémon logo and all the North Amarican names. We want Dr. Okido starting our japanese adventure not some Amarican named after a tree (love you Prof Oak).
+The idea came from my original hunt for a 1 to 1 translation of the japanese games that I could never find! I started thinking about doing it myself when I found an extremely good rom hack by ShaneM and later maintained by Montblanc. It took a lot of hunting but I found it's history through archive.org. On a closed forum I found posts where ShaneM made it clear they must have spoke japanese. In one of their uploads they eve refrences getting the japanese version of green and how they went through it and red side by side to compare the orinal localization. After which he fixed all the censoring and other missing content. This made their rom my gold standard for a 1 to 1 translation. Unfortunatly they kept the Pokémon logo and all the North Amarican names. We want Dr. Okido starting our japanese adventure not some Amarican named after a tree (love you Prof Oak).
 
-Later as I struggled to binary hack these changes in, Anon822 on the pokecommunity forum pointed me towards pokejp!! I immediately forked it and started **pocketrgb-en** with the goal of comparing pokejp to ShaneM and Montblanc's work to do my best to create a "translation" that feels less like a localization. Masaru2's work has been great but I am surprised no one has made a version of RGB with Japanese names. Pokejp changes all the text and pokedex entries though so that saves me a lot of work and allows me to just compare the final text from both. After which I will go through each Pokémon and Character and replace their names with the closest Hepburn and Romaji versions that will fit. This way I can enjoy the Drunken man with original names while I play!! This will be the closest thing to a "translation" that I can manage without speaking Japanese.
+Later as I struggled to binary hack these changes in, Anon822 on the pokecommunity forum pointed me towards pokejp!! I immediately forked it and started **pocketrgb-en** with the goal of comparing pokejp to ShaneM and Montblanc's work to do my best to create a "translation" that feels less like a localization. Masaru2's work has been great but I am surprised no one has made a version of RGB with Japanese names. Pokejp changes all the text and pokedex entries so that saved me a lot of work and allows me to just compare the final text from both. After which I made a few executive desicions and combined the two usually favoring the rom hax translation with some grammer changes. This marked every peice of text including pokedex entries completely restored! 
+
+Next up I smashed every known bug I could with only two left on the chopping block. With that done its onto going through each Pokémon and Character to replace their names with the closest Hepburn and Romaji versions that will fit. 
+
+Then finally we can enjoy the Drunken man with original names!! This will be the closest thing to a "translation", with a side of bug fixes, that I can manage without speaking Japanese.
 
 It builds the following ROMs:
 
@@ -98,25 +102,16 @@ Bug Fixes:
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
-* Compare and replace non-matching blocks of the Unknown Dungeon map
-* Port item type and coordinates
-* Replace Mewtwo coordinates
-* Port the save sound effect from Green.
 * Create a branch with Pokémon names replaced with their Hepburn/Trademarked Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#)
 * Create a branch with Character names replaced with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
 * Create a final branch without either before adding both to master
 * Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
-
-## To-Verify
-
-* Pokémon scrolling speed
-* Bulbasaur starts moving at the beginning of the title music after the introduction notes
-* Saffron City guards detecting any object as a drink fixed
+* Look into the Saffron City guards detecting any object as a drink bug
 
 ## Credits
 
+* Masaru2 for his hand in the majority of the original work in his fork of MoriyaFaith's pokejp project
 * Montblanc and ShaneM for their rom hacks that got me trying to do this and have been a constant refrence
-* MoriyaFaith for his original pokejp project and Masaru2 for his fork
 * [pokered](https://github.com/pret/pokered) for serving as a base dissassembly with a detailed Bugs list
 * Alchav's fork of pokered, which allowed usage of the RG sprites
 * Rangi42 for creating Tilemap Studio and Polished Map, allowing for editing of tilemaps, Cerulean Cave and the Japanese Map Border Layout
