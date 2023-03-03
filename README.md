@@ -68,6 +68,7 @@ Jp Restoration:
 * Blue version script fixed for the in-game trades (evolving Raichu, etc.)
 * Pokémon version name in the credits have been replaced
 * Aerodactyl and Kabutops fossil sprites Ported from jp
+* Replaced Character names with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
 
 Bug Fixes:
 * All Multi-Player Battle Engine and Single-Player Battle Engine Bugs (except Unexpected Counter Damage) Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
@@ -102,7 +103,7 @@ Bug Fixes:
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
-* Replace Character names with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
+* Create a Branch for Translated City and Badge Names
 * Create a final branch without Translated names before adding both to master
 * Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
 * Look into the Saffron City guards detecting any object as a drink bug
