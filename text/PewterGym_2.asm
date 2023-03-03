@@ -85,7 +85,7 @@ _PewterGymBattleText1::
 
 	para "You're still light"
 	line "years from facing"
-	cont "BROCK!"
+	cont "TAKESHI!"
 	done
 
 _PewterGymEndBattleText1::
@@ -99,7 +99,7 @@ _PewterGymEndBattleText1::
 _PewterGymAfterBattleText1::
 	text "You're pretty hot,"
 	line "but not as hot"
-	cont "as BROCK!"
+	cont "as TAKESHI!"
 	done
 
 _PewterGymText_5c515::
