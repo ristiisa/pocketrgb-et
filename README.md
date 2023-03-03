@@ -77,7 +77,7 @@ Bug Fixes:
 
 **Pocket Monsters - Red Version**
 
-![red-title](https://i.imgur.com/qWFkexy.gif)
+![red-title](screenshots/red-title.bmp)
 ![red-overworld](screenshots/red-overworld.bmp)
 ![red-wild](screenshots/red-wild.bmp)
 ![red-trade](screenshots/red-trade.bmp)
