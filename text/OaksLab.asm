@@ -57,32 +57,33 @@ _OaksLabReceivedMonText::
 	text_end
 
 _OaksLabLastMonText::
-	text "That's PROF.OAK's"
+	text "That's DR.OHKIDO's"
 	line "last #MON!"
 	done
 
 _OaksLabText_1d2f0::
-	text "OAK: Now, <PLAYER>,"
-	line "which #MON do"
-	cont "you want?"
+	text "OHKIDO: Now,"
+	line "<PLAYER>, which"
+	cont "#MON do you want?"
 	done
 
 _OaksLabText_1d2f5::
-	text "OAK: If a wild"
+	text "OHKIDO: If a wild"
 	line "#MON appears,"
 	cont "your #MON can"
 	cont "fight against it!"
 	done
 
 _OaksLabText_1d2fa::
-	text "OAK: <PLAYER>,"
+	text "OHKIDO: <PLAYER>,"
 	line "raise your young"
 	cont "#MON by making"
 	cont "it fight!"
 	done
 
 _OaksLabDeliverParcelText1::
-	text "OAK: Oh, <PLAYER>!"
+	text "OHKIDO: Oh,"
+	line "<PLAYER>!"
 
 	para "How is my old"
 	line "#MON?"
@@ -98,7 +99,7 @@ _OaksLabDeliverParcelText1::
 	line "something for me?"
 
 	para "<PLAYER> delivered"
-	line "OAK's PARCEL.@"
+	line "OHKIDO's PARCEL.@"
 	text_end
 
 _OaksLabDeliverParcelText2::
@@ -116,9 +117,9 @@ _OaksLabAroundWorldText::
 	done
 
 _OaksLabGivePokeballsText1::
-	text "OAK: You can't get"
-	line "detailed data on"
-	cont "#MON by just"
+	text "OHKIDO: You can't"
+	line "get detailed data"
+	cont "on #MON by just"
 	cont "seeing them."
 
 	para "You must catch"
@@ -149,8 +150,8 @@ _OaksLabGivePokeballsText2::
 	done
 
 _OaksLabPleaseVisitText::
-	text "OAK: Come see me"
-	line "sometimes."
+	text "OHKIDO: Come see"
+	line "me sometimes."
 
 	para "I want to know how"
 	line "your #DEX is"
@@ -158,9 +159,9 @@ _OaksLabPleaseVisitText::
 	done
 
 _OaksLabText_1d31d::
-	text "OAK: Good to see "
-	line "you! How is your "
-	cont "#DEX coming? "
+	text "OHKIDO: Good to"
+	line "see you! How is"
+	cont "your #DEX coming?"
 	cont "Here, let me take"
 	cont "a look!"
 	prompt
@@ -176,7 +177,7 @@ _OaksLabText8::
 	done
 
 _OaksLabText_1d340::
-	text "PROF.OAK is the"
+	text "DR.OHKIDO is the"
 	line "authority on"
 	cont "#MON!"
 
@@ -192,7 +193,7 @@ _OaksLabRivalWaitingText::
 	done
 
 _OaksLabChooseMonText::
-	text "OAK: <RIVAL>?"
+	text "OHKIDO: <RIVAL>?"
 	line "Let me think..."
 
 	para "Oh, that's right,"
@@ -226,14 +227,15 @@ _OaksLabRivalInterjectionText::
 	done
 
 _OaksLabBePatientText::
-	text "OAK: Be patient!"
-	line "<RIVAL>, you can"
-	cont "have one too!"
+	text "OHKIDO: Be"
+	line "patient! <RIVAL>,"
+	cont "you can have"
+	cont "one too!"
 	done
 
 _OaksLabLeavingText::
-	text "OAK: Hey! Don't go"
-	line "away yet!"
+	text "OHKIDO: Hey! Don't"
+	line "go away yet!"
 	done
 
 _OaksLabRivalPickingMonText::
@@ -290,8 +292,8 @@ _OaksLabText22::
 	done
 
 _OaksLabText23::
-	text "OAK: Oh right! I"
-	line "have a request"
+	text "OHKIDO: Oh right!"
+	line "I have a request"
 	cont "of you two."
 	done
 
@@ -310,12 +312,12 @@ _OaksLabText24::
 	done
 
 _OaksLabText25::
-	text "OAK: <PLAYER> and"
-	line "<RIVAL>! Take"
+	text "OHKIDO: <PLAYER>"
+	line "and <RIVAL>! Take"
 	cont "these with you!"
 
 	para "<PLAYER> got"
-	line "#DEX from OAK!@"
+	line "#DEX from OHKIDO!@"
 	text_end
 
 _OaksLabText26::
@@ -361,7 +363,7 @@ _OaksLabText27::
 
 _OaksLabText_1d405::
 	text "I study #MON as"
-	line "PROF.OAK's AIDE."
+	line "DR.OHKIDO's AIDE."
 	done
 
 _OaksLabText_441cc::
@@ -375,7 +377,7 @@ _OaksLabText_441cc::
 	text_decimal hDexRatingNumMonsOwned, 1, 3
 	text " #MON owned"
 
-	para "PROF.OAK's"
+	para "DR.OHKIDO's"
 	line "Rating:"
 	prompt
 

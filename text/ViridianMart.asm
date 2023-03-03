@@ -1,6 +1,6 @@
 _ViridianMartText1::
 	text "Okay! Say hi to"
-	line "PROF.OAK for me!"
+	line "DR.OHKIDO for me!"
 	done
 
 _ViridianMartText4::
@@ -9,15 +9,15 @@ _ViridianMartText4::
 	done
 
 ViridianMartParcelQuestText::
-	text "You know PROF."
-	line "OAK, right?"
+	text "You know DR."
+	line "OHKIDO, right?"
 
 	para "His order came in."
 	line "Will you take it"
 	cont "to him?"
 
 	para "<PLAYER> got"
-	line "OAK's PARCEL!@"
+	line "OHKIDO's PARCEL!@"
 	text_end
 
 _ViridianMartText2::

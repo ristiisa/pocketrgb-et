@@ -435,7 +435,7 @@ _OakLabEmailText::
 	para "#MON LEAGUE HQ"
 	line "INDIGO PLATEAU"
 
-	para "PS: PROF.OAK,"
+	para "PS: DR.OHKIDO,"
 	line "please visit us!"
 	cont "..."
 	done
@@ -1669,12 +1669,12 @@ _GetDexRatedText::
 
 _ClosedOaksPCText::
 	text "Closed link to"
-	line "PROF.OAK's PC.@"
+	line "DR.OHKIDO's PC.@"
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed PROF."
-	line "OAK's PC."
+	text "Accessed DR."
+	line "OHKIDO's PC."
 
 	para "Accessed #DEX"
 	line "Rating System."
@@ -1700,9 +1700,9 @@ _OakSpeechText1::
 	line "Welcome to the"
 	cont "world of #MON!"
 
-	para "My name is OAK!"
+	para "My name is OHKIDO!"
 	line "People call me"
-	cont "the #MON PROF!"
+	cont "the #MON DR!"
 	prompt
 
 _OakSpeechText2A::

@@ -1,12 +1,13 @@
 _OakAppearsText::
-	text "OAK: Hey! Wait!"
+	text "OHKIDO: Hey! Wait!"
 	line "Don't go out!@"
 	text_end
 
 _OakWalksUpText::
-	text "OAK: It's unsafe!"
-	line "Wild #MON live"
-	cont "in tall grass!"
+	text "OHKIDO: It's"
+	line "unsafe! Wild"
+	cont "#MON live in"
+	cont "tall grass!"
 
 	para "You need your own"
 	line "#MON for your"
@@ -37,7 +38,7 @@ _PalletTownText3::
 	done
 
 _PalletTownText4::
-	text "OAK #MON"
+	text "OHKIDO #MON"
 	line "RESEARCH LAB"
 	done
 
