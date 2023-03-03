@@ -1,18 +1,19 @@
 _LavenderHouse1Text_1d8d1::
-	text "That's odd, MR.FUJI"
-	line "isn't here."
+	text "That's odd, ELDER"
+	line "FUJI isn't here."
 	cont "Where'd he go?"
 	done
 
 _LavenderHouse1Text_1d8d6::
-	text "MR.FUJI had been"
-	line "praying alone for"
-	cont "CUBONE's mother."
+	text "ELDER FUJI had"
+	line "been praying alone"
+	cont "for CUBONE's" 
+	cont "mother."
 	done
 
 _LavenderHouse1Text_1d8f4::
 	text "This is really"
-	line "MR.FUJI's house."
+	line "ELDER FUJI's house"
 
 	para "He's really kind!"
 

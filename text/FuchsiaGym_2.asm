@@ -83,7 +83,7 @@ _FuchsiaGymEndBattleText2::
 _FuchsiaGymAfterBattleText2::
 	text "I will keep on"
 	line "training under"
-	cont "KOGA, my ninja"
+	cont "KYO, my ninja"
 	cont "master!"
 	done
 
@@ -130,7 +130,7 @@ _FuchsiaGymAfterBattleText4::
 _FuchsiaGymBattleText5::
 	text "I also study the"
 	line "way of the ninja"
-	cont "with master KOGA!"
+	cont "with master KYO!"
 
 	para "Ninja have a long"
 	line "history of using"
@@ -147,7 +147,7 @@ _FuchsiaGymAfterBattleText5::
 	done
 
 _FuchsiaGymBattleText6::
-	text "Master KOGA comes"
+	text "Master KYO comes"
 	line "from a long line"
 	cont "of ninjas!"
 
@@ -178,7 +178,7 @@ _FuchsiaGymText_7564e::
 	line "riddled with"
 	cont "invisible walls!"
 
-	para "KOGA might appear"
+	para "KYO might appear"
 	line "close, but he's"
 	cont "blocked off!"
 

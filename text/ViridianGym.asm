@@ -14,7 +14,7 @@ _ViridianGymText_74ace::
 
 	para "Once more, you"
 	line "shall face"
-	cont "GIOVANNI, the"
+	cont "SAKAKI, the"
 	cont "greatest trainer!"
 	done
 
@@ -235,6 +235,6 @@ _ViridianGymText_74bd4::
 
 _ViridianGymText_74bd9::
 	text "Blow me away!"
-	line "GIOVANNI was the"
+	line "SAKAKI was the"
 	cont "GYM LEADER here?"
 	done

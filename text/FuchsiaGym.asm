@@ -1,5 +1,5 @@
 _KogaBeforeBattleText::
-	text "KOGA: Fwahahaha!"
+	text "KYO: Fwahahaha!"
 
 	para "A mere child like"
 	line "you dares to"
