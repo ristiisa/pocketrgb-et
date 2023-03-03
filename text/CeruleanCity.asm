@@ -228,7 +228,7 @@ _CeruleanCityText16::
 _CeruleanCityText17::
 	text "CERULEAN CITY"
 	line "#MON GYM"
-	cont "LEADER: MISTY"
+	cont "LEADER: KASUMI"
 
 	para "The Tomboyish"
 	line "Mermaid!"
