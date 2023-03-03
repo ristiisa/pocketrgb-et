@@ -1,5 +1,5 @@
 _CeruleanPokecenterText2::
-	text "That BILL!"
+	text "That MASAKI!"
 
 	para "I heard that"
 	line "he'll do whatever"
@@ -9,14 +9,14 @@ _CeruleanPokecenterText2::
 
 _CeruleanPokecenterText3::
 	text "Have you heard"
-	line "about BILL?"
+	line "about MASAKI?"
 
 	para "Everyone calls"
 	line "him a #MANIAC!"
 
 	para "I think people"
 	line "are just jealous"
-	cont "of BILL, though."
+	cont "of MASAKI, though."
 
 	para "Who wouldn't want"
 	line "to boast about"

@@ -38,7 +38,7 @@ _ItemUseBallText07::
 	text_ram wBoxMonNicks
 	text " was"
 	line "transferred to"
-	cont "BILL's PC!"
+	cont "MASAKI's PC!"
 	prompt
 
 _ItemUseBallText08::

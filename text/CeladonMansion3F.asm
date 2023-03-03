@@ -16,7 +16,7 @@ _WriterText::
 	para "I like KASUMI a"
 	line "lot too!"
 
-	para "Oh, and SABRINA,"
+	para "Oh, and NATSUME,"
 	line "I like her!"
 	done
 
