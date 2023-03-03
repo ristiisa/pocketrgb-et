@@ -1,5 +1,5 @@
 _AgathaBeforeBattleText::
-	text "I am AGATHA of"
+	text "I am KIKUKO of"
 	line "the ELITE FOUR!"
 
 	para "OHKIDO's taken a"
