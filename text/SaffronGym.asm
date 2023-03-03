@@ -78,7 +78,7 @@ _SaffronGymText_5d1e6::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "SABRINA's #MON"
+	para "NATSUME's #MON"
 	line "use psychic power"
 	cont "instead of force!"
 
@@ -101,7 +101,7 @@ _SaffronGymText_5d1eb::
 	done
 
 _SaffronGymBattleText1::
-	text "SABRINA is younger"
+	text "NATSUME is younger"
 	line "than I, but I"
 	cont "respect her!"
 	done
@@ -118,7 +118,7 @@ _SaffronGymAfterBattleText1::
 	cont "will wins!"
 
 	para "If you wish"
-	line "to beat SABRINA,"
+	line "to beat NATSUME,"
 	cont "focus on winning!"
 	done
 
@@ -170,7 +170,7 @@ _SaffronGymEndBattleText4::
 	prompt
 
 _SaffronGymAfterBattleText4::
-	text "SABRINA just wiped"
+	text "NATSUME just wiped"
 	line "out the KARATE"
 	cont "MASTER next door!"
 	done
@@ -193,7 +193,7 @@ _SaffronGymAfterBattleText5::
 	done
 
 _SaffronGymBattleText6::
-	text "SABRINA is young,"
+	text "NATSUME is young,"
 	line "but she's also"
 	cont "our LEADER!"
 
@@ -224,7 +224,7 @@ _SaffronGymBattleText7::
 	cont "its psychics!"
 
 	para "You want to see"
-	line "SABRINA!"
+	line "NATSUME!"
 	cont "I can tell!"
 	done
 
