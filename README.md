@@ -41,7 +41,9 @@ In 1996, The original Pocket Monsters Red and Green were released. Later that Ye
 ## What's changed?
 
 Jp Restoration:
-* The title screens have been changed to match the Japanese releases. (Exceptions Slide Animation For Red and Green and the Whoosh are still missing)
+* Completly Restored the Japanese releases Title Screens right down to Copyright dates and capitalization diffrences.
+* Compared timing of Intro and Title to be frame accurate to the Japanese Releases
+* Restored the title screen scrolling and Woosh sfx for R/G
 * Restored Japanese SGB Palettes and Boarders (Slight tweaks: Blue - Aligned pokeball shadows to a center glow rather then all over the place, Red - Kept the word "Red" centered rather then making it off center like jp)
 * Pocket Monsters Blue Version's wild Pokémon data has been edited to the Japanese release. Pocket Monsters Green Version uses US Blue's wild data.
 * Pocket Monsters Red and Green now use the original Cerulean Cave layout.
@@ -75,7 +77,7 @@ Bug Fixes:
 
 **Pocket Monsters - Red Version**
 
-![red-title](screenshots/red-title.bmp)
+![red-title](screenshots/red_intro.gif)
 ![red-overworld](screenshots/red-overworld.bmp)
 ![red-wild](screenshots/red-wild.bmp)
 ![red-trade](screenshots/red-trade.bmp)
@@ -83,21 +85,19 @@ Bug Fixes:
 
 **Pocket Monsters - Green Version**
 
-![green-title](screenshots/green-title.bmp)
+![green-title](screenshots/green_intro.gif)
 ![green-slots](screenshots/green-slots.bmp)
 ![green-ceruleancave](screenshots/green-ceruleancave.bmp)
 ![green-card](screenshots/green-card.bmp)
 
 **Pocket Monsters - Blue Version**
 
-![blue-title](screenshots/blue-title.bmp)
+![blue-title](screenshots/blue_intro.gif)
 ![blue-prizes](screenshots/blue-prizes.bmp)
 ![blue-wild](screenshots/blue-wild.bmp)
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
-* Restore the title screen scrolling for R/G
-* Restore the title screen Woosh scrolling sfx
 * Compare and replace non-matching blocks of the Unknown Dungeon map
 * Port item type and coordinates
 * Replace Mewtwo coordinates

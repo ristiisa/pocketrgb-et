@@ -219,11 +219,8 @@ ENDC
 IF DEF(_BLUE)
 	ld a, SFX_INTRO_WHOOSH
 	call PlaySound
-ELSE
-	;nothing
 ENDC
-
-; scroll game version in from the right
+	; scroll game version in from the right
 	call PrintGameVersionOnTitleScreen
 	ld a, SCREEN_HEIGHT_PX
 	ldh [hWY], a
@@ -241,7 +238,7 @@ IF DEF(_BLUE)
 	ld d, a
 	and a
 	jr nz, .scrollTitleScreenGameVersionLoop
-ELSE
+ELSE ; Delay Before Bring in the Game Version for Red and Green
 	call Delay3
 ENDC
 
@@ -259,7 +256,11 @@ ENDC
 
 ; Keep scrolling in new mons indefinitely until the user performs input.
 .awaitUserInterruptionLoop
+IF DEF(_BLUE)
 	ld c, 200
+ELSE ;Pokemon Scroll fast in jp Red and Green
+	ld c, 255
+ENDC
 	call CheckForUserInterruption
 	jr c, .finishedWaiting
 	call TitleScreenScrollInMon
