@@ -77,7 +77,7 @@ Bug Fixes:
 
 **Pocket Monsters - Red Version**
 
-![red-title](screenshots/red_intro.gif)
+![red-title](https://i.imgur.com/qWFkexy.gif)
 ![red-overworld](screenshots/red-overworld.bmp)
 ![red-wild](screenshots/red-wild.bmp)
 ![red-trade](screenshots/red-trade.bmp)
@@ -85,14 +85,14 @@ Bug Fixes:
 
 **Pocket Monsters - Green Version**
 
-![green-title](screenshots/green_intro.gif)
+![green-title](https://i.imgur.com/RWYHTME.gif)
 ![green-slots](screenshots/green-slots.bmp)
 ![green-ceruleancave](screenshots/green-ceruleancave.bmp)
 ![green-card](screenshots/green-card.bmp)
 
 **Pocket Monsters - Blue Version**
 
-![blue-title](screenshots/blue_intro.gif)
+![blue-title](https://i.imgur.com/fFypeSC.gif)
 ![blue-prizes](screenshots/blue-prizes.bmp)
 ![blue-wild](screenshots/blue-wild.bmp)
 ![blue-green](screenshots/blue-green.bmp)
