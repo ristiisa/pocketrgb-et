@@ -197,7 +197,7 @@ _ViridianGymAfterBattleText7::
 	done
 
 _ViridianGymBattleText8::
-	text "VIRIDIAN GYM was"
+	text "TOKIWA GYM was"
 	line "closed for a long"
 	cont "time, but now our"
 	cont "LEADER is back!"
@@ -220,7 +220,7 @@ _ViridianGymText_74bd4::
 	line "making!"
 
 	para "Even I don't know"
-	line "VIRIDIAN LEADER's"
+	line "TOKIWA LEADER's"
 	cont "identity!"
 
 	para "This will be the"

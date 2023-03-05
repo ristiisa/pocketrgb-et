@@ -4,13 +4,13 @@ _Route3Text1::
 	cont "Groan..."
 
 	para "That tunnel from"
-	line "CERULEAN takes a"
+	line "HANADA takes a"
 	cont "lot out of you!"
 	done
 
 _Route3BattleText1::
 	text "Hey! I met you in"
-	line "VIRIDIAN FOREST!"
+	line "TOKIWA FOREST!"
 	done
 
 _Route3EndBattleText1::

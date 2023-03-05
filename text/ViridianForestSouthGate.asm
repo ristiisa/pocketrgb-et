@@ -1,6 +1,6 @@
 _ViridianForestEntranceText1::
 	text "Are you going to"
-	line "VIRIDIAN FOREST?"
+	line "TOKIWA FOREST?"
 	cont "Be careful, it's"
 	cont "a natural maze!"
 	done

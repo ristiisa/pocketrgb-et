@@ -18,7 +18,7 @@ _ViridianCityText_19122::
 	done
 
 _ViridianCityText_19127::
-	text "VIRIDIAN GYM's"
+	text "TOKIWA GYM's"
 	line "LEADER returned!"
 	done
 
@@ -56,10 +56,10 @@ _ViridianCityText_19175::
 
 _ViridianCityText_1917a::
 	text "When I go shop in"
-	line "PEWTER CITY, I"
+	line "NIBI CITY, I"
 	cont "have to take the"
 	cont "winding trail in"
-	cont "VIRIDIAN FOREST."
+	cont "TOKIWA FOREST."
 	done
 
 _ViridianCityText_19191::
@@ -148,9 +148,9 @@ _ViridianCityText_19219::
 	done
 
 _ViridianCityText8::
-	text "VIRIDIAN CITY "
-	line "The Eternally"
-	cont "Green Paradise"
+	text "TOKIWA CITY "
+	line "is the color of"
+	cont "green eternally."
 	done
 
 _ViridianCityText9::
@@ -180,7 +180,7 @@ _ViridianCityText10::
 	done
 
 _ViridianCityText13::
-	text "VIRIDIAN CITY"
+	text "TOKIWA CITY"
 	line "#MON GYM"
 	done
 

@@ -8,7 +8,7 @@ _PewterGymText_5c4a3::
 	cont "#MON trainer!"
 
 	para "Go to the GYM in"
-	line "CERULEAN and test"
+	line "HANADA and test"
 	cont "your abilities!"
 	done
 

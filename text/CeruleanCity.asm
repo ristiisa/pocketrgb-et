@@ -192,7 +192,7 @@ _CeruleanCityText9::
 	done
 
 _CeruleanCityText10::
-	text "This is CERULEAN"
+	text "This is HANADA"
 	line "CAVE! Horribly"
 	cont "strong #MON"
 	cont "live in there!"
@@ -204,10 +204,9 @@ _CeruleanCityText10::
 	done
 
 _CeruleanCityText12::
-	text "CERULEAN CITY"
-	line "A Mysterious,"
-	cont "Blue Aura"
-	cont "Surrounds It"
+	text "HANADA CITY"
+	line "is the color of"
+	cont "aqua mysteries."
 	done
 
 _CeruleanCityText13::
@@ -226,7 +225,7 @@ _CeruleanCityText16::
 	done
 
 _CeruleanCityText17::
-	text "CERULEAN CITY"
+	text "HANADA CITY"
 	line "#MON GYM"
 	cont "LEADER: KASUMI"
 

@@ -15,7 +15,7 @@ _PewterCityText2::
 
 	para "They're all like"
 	line "BUG CATCHERs,"
-	cont "but PEWTER GYM's"
+	cont "but NIBI GYM's"
 	cont "TAKESHI is totally"
 	cont "into it!"
 	done
@@ -92,17 +92,17 @@ _PewterCityText7::
 	line "stealing #MON"
 	cont "fossils at MT."
 	cont "MOON! Please call"
-	cont "PEWTER POLICE"
+	cont "NIBI POLICE"
 	cont "with any info!"
 	done
 
 _PewterCityText10::
-	text "PEWTER MUSEUM"
+	text "NIBI MUSEUM"
 	line "OF SCIENCE"
 	done
 
 _PewterCityText11::
-	text "PEWTER CITY"
+	text "NIBI CITY"
 	line "#MON GYM"
 	cont "LEADER: TAKESHI"
 
@@ -111,7 +111,7 @@ _PewterCityText11::
 	done
 
 _PewterCityText12::
-	text "PEWTER CITY"
-	line "A Stone Gray"
-	cont "City"
+	text "NIBI CITY"
+	line "is the color of"
+	cont "gray stone."
 	done

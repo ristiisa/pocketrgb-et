@@ -152,6 +152,6 @@ _Route9AfterBattleText9::
 
 _Route9Text11::
 	text "ROUTE 9"
-	line "CERULEAN CITY-"
+	line "HANADA CITY-"
 	cont "ROCK TUNNEL"
 	done

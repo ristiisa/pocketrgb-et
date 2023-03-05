@@ -98,7 +98,7 @@ _MtMoon1AfterBattleText7::
 _MtMoon1BattleText8::
 	text "Go through this"
 	line "cave to get to"
-	cont "CERULEAN CITY!"
+	cont "HANADA CITY!"
 	done
 
 _MtMoon1EndBattleText8::

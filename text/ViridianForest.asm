@@ -118,6 +118,6 @@ _ViridianForestText13::
 
 _ViridianForestText14::
 	text "LEAVING"
-	line "VIRIDIAN FOREST"
-	cont "PEWTER CITY AHEAD"
+	line "TOKIWA FOREST"
+	cont "NIBI CITY AHEAD"
 	done

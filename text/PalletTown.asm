@@ -43,9 +43,10 @@ _PalletTownText4::
 	done
 
 _PalletTownText5::
-	text "PALLET TOWN"
-	line "Shades of your"
-	cont "journey await!"
+	text "MASARA TOWN"
+	line "is the color of"
+	cont "pure-white"
+	cont "beginnings."
 	done
 
 _PalletTownText6::

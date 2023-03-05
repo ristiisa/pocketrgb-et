@@ -29,7 +29,7 @@ _UGPathRoute7EntranceUnusedText_5d782::
 	cont "to LAVENDER."
 
 	para "If you're heading"
-	line "to CERULEAN, go"
+	line "to HANADA, go"
 	cont "to the building"
 	cont "across the road."
 	done

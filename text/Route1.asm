@@ -5,7 +5,7 @@ _Route1ViridianMartSampleText::
 	para "It's a convenient"
 	line "shop, so please"
 	cont "visit us in"
-	cont "VIRIDIAN CITY."
+	cont "TOKIWA CITY."
 
 	para "I know, I'll give"
 	line "you a sample!"
@@ -39,12 +39,12 @@ _Route1Text2::
 	cont "from them."
 
 	para "You can get back"
-	line "to PALLET TOWN"
+	line "to MASARA TOWN"
 	cont "quicker that way."
 	done
 
 _Route1Text3::
 	text "ROUTE 1"
-	line "PALLET TOWN -"
-	cont "VIRIDIAN CITY"
+	line "MASARA TOWN -"
+	cont "TOKIWA CITY"
 	done

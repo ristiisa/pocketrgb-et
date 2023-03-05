@@ -154,7 +154,7 @@ _Route25EndBattleText9::
 _Route25AfterBattleText9::
 	text "The trail below"
 	line "is a shortcut to"
-	cont "CERULEAN CITY."
+	cont "HANADA CITY."
 	done
 
 _Route25Text11::

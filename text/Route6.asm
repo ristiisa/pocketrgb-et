@@ -38,7 +38,7 @@ _Route6EndBattleText3::
 _Route6AfterBattleText3::
 	text "I like bugs, so"
 	line "I'm going back to"
-	cont "VIRIDIAN FOREST."
+	cont "TOKIWA FOREST."
 	done
 
 _Route6BattleText4::
@@ -92,6 +92,6 @@ _Route6AfterBattleText6::
 
 _Route6Text7::
 	text "UNDERGROUND PATH"
-	line "CERULEAN CITY -"
+	line "HANADA CITY -"
 	cont "VERMILION CITY"
 	done

@@ -1,6 +1,6 @@
 _PewterGymText_5c49e::
 	text "I'm TAKESHI!"
-	line "I'm PEWTER's GYM"
+	line "I'm NIBI's GYM"
 	cont "LEADER!"
 
 	para "I believe in rock"
