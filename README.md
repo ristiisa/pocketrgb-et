@@ -1,4 +1,4 @@
-# Pocket Monsters - Red, Green, and Blue Version
+# Pocket Monsters - Red, Green, and Blue Version (Localized Names Branch)
 
 ## Translation > Localization
 **pocketrgb-en**  is a Gen 1 dissassembly, based on the japanese releases subtitled 'Pocket Monsters'.
@@ -8,7 +8,7 @@ Later as I struggled to binary hack these changes in, Anon822 on the pokecommuni
 
 Next up I smashed every known bug I could with only two left on the chopping block. With that done its onto going through each Pokémon and Character to replace their names with the closest Hepburn and Romaji versions that will fit. 
 
-Then finally we can enjoy the Drunken man with original names!! This will be the closest thing to a "translation", with a side of bug fixes, that I can manage without speaking Japanese.
+But here you will find all the other benefits with none of the name changes. This branch stands as a checkpoint before any names were changed so if you just want the Japanese intro, accurate palletes, map layouts, visuals, translated text and a wack tone of bug fixes this will be the branch for you. If I make any additional bug fixes in the future I will be sure to push them to this branch as well but all Pokemon, Characters and Location names will be exactly as you'd remember.
 
 It builds the following ROMs:
 
@@ -40,7 +40,7 @@ To set up the repository for your own editing purposes, see [**INSTALL.md**](INS
 
 ## Why make this?
 
-In 1996, The original Pocket Monsters Red and Green were released. Later that Year, Pocket Monsters Blue was released as well. In the west, 2 years later, Pokémon Red and Blue were released, using the updated Pocket Monsters Blue as the base engine, while using Red and Green's wild data. Meaning Pokémon game with Pocket Monsters Blue's wild data was never released in the west. This caused a multitude of changes and a few errors in the International releases of Red and Blue. This ROM hack serves to create English Versions of those Japanese releases, with names and imagery maintained.
+In 1996, The original Pocket Monsters Red and Green were released. Later that Year, Pocket Monsters Blue was released as well. In the west, 2 years later, Pokémon Red and Blue were released, using the updated Pocket Monsters Blue as the base engine, while using Red and Green's wild data. Meaning Pokémon game with Pocket Monsters Blue's wild data was never released in the west. This caused a multitude of changes and a few errors in the International releases of Red and Blue. This ROM hack serves to create English Versions of those Japanese releases, with original design and imagery restored.
 
 ## What's changed?
 
@@ -102,9 +102,6 @@ Bug Fixes:
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
-* Create a branch with Pokémon names replaced with their Hepburn/Trademarked Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#)
-* Create a branch with Character names replaced with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
-* Create a final branch without either before adding both to master
 * Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
 * Look into the Saffron City guards detecting any object as a drink bug
 
