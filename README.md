@@ -70,6 +70,8 @@ Jp Restoration:
 * Aerodactyl and Kabutops fossil sprites Ported from jp
 * Replaced Character names with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
 * Replaced Player and Rival Name Options with JP equivelants
+* Replaced all Town/ City Names and Slogans to match Translations of the JP Releases
+* Replaced the badge names with their original color based names after seeing the connection to the JP slogans
 
 Bug Fixes:
 * All Multi-Player Battle Engine and Single-Player Battle Engine Bugs (except Unexpected Counter Damage) Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
