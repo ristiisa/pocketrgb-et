@@ -1,4 +1,4 @@
-# Pocket Monsters - Red, Green, and Blue Version (Translated Character Names Branch)
+# Pocket Monsters - Red, Green, and Blue Version
 
 ## Translation > Localization
 **pocketrgb-en**  is a Gen 1 dissassembly, based on the japanese releases subtitled 'Pocket Monsters'.
@@ -104,8 +104,6 @@ Bug Fixes:
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
-* Create a Branch for Translated City and Badge Names
-* Create a final branch without Translated names before adding both to master
 * Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
 * Look into the Saffron City guards detecting any object as a drink bug
 
