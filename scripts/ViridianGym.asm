@@ -14,7 +14,7 @@ ViridianGym_Script:
 	db "VIRIDIAN CITY@"
 
 .LeaderName:
-	db "GIOVANNI@"
+	db "SAKAKI@"
 
 ViridianGymScript_748d6:
 	xor a

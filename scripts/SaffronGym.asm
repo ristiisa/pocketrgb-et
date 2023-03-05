@@ -20,7 +20,7 @@ SaffronGym_Script:
 	db "SAFFRON CITY@"
 
 .LeaderName:
-	db "SABRINA@"
+	db "NATSUME@"
 
 SaffronGymText_5d048:
 	xor a

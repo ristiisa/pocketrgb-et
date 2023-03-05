@@ -2,7 +2,7 @@ _LoreleiBeforeBattleText::
 	text "Welcome to"
 	line "#MON LEAGUE!"
 
-	para "I am LORELEI of"
+	para "I am KANNA of"
 	line "the ELITE FOUR!"
 
 	para "No one can best"

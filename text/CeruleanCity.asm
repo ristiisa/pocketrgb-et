@@ -32,7 +32,7 @@ _CeruleanCityText_19677::
 	text "<RIVAL>: Hey,"
 	line "guess what?"
 
-	para "I went to BILL's"
+	para "I went to MASAKI's"
 	line "and got him to"
 	cont "show me his rare"
 	cont "#MON!"
@@ -41,7 +41,7 @@ _CeruleanCityText_19677::
 	line "of pages to my"
 	cont "#DEX!"
 
-	para "After all, BILL's"
+	para "After all MASAKI's"
 	line "world famous as a"
 	cont "#MANIAC!"
 
@@ -228,7 +228,7 @@ _CeruleanCityText16::
 _CeruleanCityText17::
 	text "CERULEAN CITY"
 	line "#MON GYM"
-	cont "LEADER: MISTY"
+	cont "LEADER: KASUMI"
 
 	para "The Tomboyish"
 	line "Mermaid!"

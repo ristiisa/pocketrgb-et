@@ -70,7 +70,7 @@ _CeruleanGymBattleText1::
 	text "I'm more than good"
 	line "enough for you!"
 
-	para "MISTY can wait!"
+	para "KASUMI can wait!"
 	done
 
 _CeruleanGymEndBattleText1::
@@ -98,7 +98,7 @@ _CeruleanGymEndBattleText2::
 	prompt
 
 _CeruleanGymAfterBattleText2::
-	text "MISTY is going to"
+	text "KASUMI is going to"
 	line "keep improving!"
 
 	para "She won't lose to"
@@ -111,7 +111,7 @@ _CeruleanGymText_5c82a::
 
 	para "Here's my advice!"
 
-	para "The LEADER, MISTY,"
+	para "The LEADER, KASUMI"
 	line "is a pro who uses"
 	cont "water #MON!"
 
@@ -124,7 +124,7 @@ _CeruleanGymText_5c82a::
 	done
 
 _CeruleanGymText_5c82f::
-	text "You beat MISTY!"
+	text "You beat KASUMI!"
 	line "What'd I tell ya?"
 
 	para "You and me kid,"

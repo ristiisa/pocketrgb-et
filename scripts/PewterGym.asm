@@ -20,7 +20,7 @@ PewterGym_Script:
 	db "PEWTER CITY@"
 
 .LeaderName:
-	db "BROCK@"
+	db "TAKESHI@"
 
 PewterGymScript_5c3bf:
 	xor a

@@ -38,7 +38,7 @@ _ItemUseBallText07::
 	text_ram wBoxMonNicks
 	text " was"
 	line "transferred to"
-	cont "BILL's PC!"
+	cont "MASAKI's PC!"
 	prompt
 
 _ItemUseBallText08::
@@ -188,7 +188,7 @@ _MonCannotLearnMachineMoveText::
 	prompt
 
 _ItemUseNotTimeText::
-	text "OAK: <PLAYER>!"
+	text "OHKIDO: <PLAYER>!"
 	line "This isn't the"
 	cont "time to use that! "
 	prompt

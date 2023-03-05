@@ -27,7 +27,7 @@ CinnabarGymScript_75759:
 	db "CINNABAR ISLAND@"
 
 .LeaderName:
-	db "BLAINE@"
+	db "KATSURA@"
 
 CinnabarGymScript_75792:
 	xor a

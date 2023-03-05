@@ -1,4 +1,4 @@
-# Pocket Monsters - Red, Green, and Blue Version
+# Pocket Monsters - Red, Green, and Blue Version (Translated Character Names Branch)
 
 ## Translation > Localization
 **pocketrgb-en**  is a Gen 1 dissassembly, based on the japanese releases subtitled 'Pocket Monsters'.
@@ -68,6 +68,8 @@ Jp Restoration:
 * Blue version script fixed for the in-game trades (evolving Raichu, etc.)
 * Pokémon version name in the credits have been replaced
 * Aerodactyl and Kabutops fossil sprites Ported from jp
+* Replaced Character names with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
+* Replaced Player and Rival Name Options with JP equivelants
 
 Bug Fixes:
 * All Multi-Player Battle Engine and Single-Player Battle Engine Bugs (except Unexpected Counter Damage) Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
@@ -102,9 +104,8 @@ Bug Fixes:
 ![blue-green](screenshots/blue-green.bmp)
 
 ## To-do
-* Create a branch with Pokémon names replaced with their Hepburn/Trademarked Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#)
-* Create a branch with Character names replaced with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
-* Create a final branch without either before adding both to master
+* Create a Branch for Translated City and Badge Names
+* Create a final branch without Translated names before adding both to master
 * Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
 * Look into the Saffron City guards detecting any object as a drink bug
 

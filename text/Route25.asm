@@ -142,7 +142,7 @@ _Route25AfterBattleText8::
 
 _Route25BattleText9::
 	text "You're going to"
-	line "see BILL? First,"
+	line "see MASAKI? First,"
 	cont "let's fight!"
 	done
 
@@ -159,5 +159,5 @@ _Route25AfterBattleText9::
 
 _Route25Text11::
 	text "SEA COTTAGE"
-	line "BILL lives here!"
+	line "MASAKI lives here!"
 	done

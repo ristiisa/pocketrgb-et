@@ -13,10 +13,10 @@ _WriterText::
 	text "I wrote the story!"
 	line "Isn't ERIKA cute?"
 
-	para "I like MISTY a"
+	para "I like KASUMI a"
 	line "lot too!"
 
-	para "Oh, and SABRINA,"
+	para "Oh, and NATSUME,"
 	line "I like her!"
 	done
 
