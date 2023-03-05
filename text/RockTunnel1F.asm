@@ -111,5 +111,5 @@ _RockTunnel1AfterBattleText7::
 _RockTunnel1Text8::
 	text "ROCK TUNNEL"
 	line "HANADA CITY -"
-	cont "LAVENDER TOWN"
+	cont "CION TOWN"
 	done

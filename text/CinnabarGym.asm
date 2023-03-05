@@ -3,7 +3,7 @@ _BlaineBattleText::
 
 	para "I am KATSURA! I"
 	line "am the LEADER of"
-	cont "CINNABAR GYM!"
+	cont "GUREN GYM!"
 
 	para "My fiery #MON"
 	line "will incinerate"
@@ -18,7 +18,7 @@ _BlaineEndBattleText::
 	line "burnt out!"
 
 	para "You have earned"
-	line "the VOLCANOBADGE!@"
+	line "the CRIMSONBADGE!@"
 	text_end
 
 _BlaineFireBlastText::
@@ -33,7 +33,7 @@ _BlaineFireBlastText::
 _BlaineBadgeText::
 	text "Hah!"
 
-	para "The VOLCANOBADGE"
+	para "The CRIMSONBADGE"
 	line "heightens the"
 	cont "SPECIAL abilities"
 	cont "of your #MON!"

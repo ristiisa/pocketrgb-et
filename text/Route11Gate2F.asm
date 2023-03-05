@@ -34,7 +34,7 @@ _Route11GateUpstairsText_494d5::
 
 	para "The only way to"
 	line "get from HANADA"
-	cont "CITY to LAVENDER"
+	cont "CITY to CION"
 	cont "is by way of the"
 	cont "ROCK TUNNEL."
 	done

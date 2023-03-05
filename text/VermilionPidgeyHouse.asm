@@ -1,7 +1,7 @@
 _VermilionHouse1Text1::
 	text "I'm getting my"
 	line "PIDGEY to fly a"
-	cont "letter to SAFFRON"
+	cont "letter to YAMABUKI"
 	cont "in the north!"
 	done
 
@@ -13,10 +13,10 @@ _VermilionHouse1Text3::
 	text "Dear PIPPI, I hope"
 	line "to see you soon."
 
-	para "I heard SAFFRON"
+	para "I heard YAMABUKI"
 	line "has problems with"
 	cont "TEAM ROCKET."
 
-	para "VERMILION appears"
+	para "KUCHIBA appears"
 	line "to be safe."
 	done

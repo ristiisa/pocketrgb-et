@@ -13,7 +13,7 @@ _Route20AfterBattleText1::
 	done
 
 _Route20BattleText2::
-	text "SEAFOAM is a"
+	text "TWIN ISLANDS is a"
 	line "quiet getaway!"
 	done
 
@@ -52,8 +52,8 @@ _Route20EndBattleText4::
 	prompt
 
 _Route20AfterBattleText4::
-	text "SEAFOAM used to"
-	line "be one island!"
+	text "TWIN ISLANDS used"
+	line "to be one island!"
 	done
 
 _Route20BattleText5::
@@ -120,7 +120,7 @@ _Route20AfterBattleText8::
 
 _Route20BattleText9::
 	text "I swam here from"
-	line "CINNABAR ISLAND!"
+	line "GUREN ISLAND!"
 	done
 
 _Route20EndBattleText9::
@@ -132,11 +132,11 @@ _Route20AfterBattleText9::
 	text "#MON have"
 	line "taken over an"
 	cont "abandoned mansion"
-	cont "on CINNABAR!"
+	cont "on GUREN!"
 	done
 
 _Route20BattleText10::
-	text "CINNABAR, in the"
+	text "GUREN, in the"
 	line "west, has a LAB"
 	cont "for #MON."
 	done
@@ -146,11 +146,11 @@ _Route20EndBattleText10::
 	prompt
 
 _Route20AfterBattleText10::
-	text "CINNABAR is a "
+	text "GUREN is a "
 	line "volcanic island!"
 	done
 
 _Route20Text12::
 _Route20Text11::
-	text "SEAFOAM ISLANDS"
+	text "TWIN ISLANDS"
 	done

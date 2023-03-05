@@ -24,7 +24,7 @@ _ViridianGymText_74ad3::
 	cont "intense fight!"
 	cont "You have won!"
 	cont "As proof, here is"
-	cont "the EARTHBADGE!@"
+	cont "the GREENBADGE!@"
 	text_end
 
 _ViridianGymText_74ad9::
@@ -44,7 +44,7 @@ _ViridianGymText_74ad9::
 	text_end
 
 _ViridianGymText12::
-	text "The EARTHBADGE"
+	text "The GREENBADGE"
 	line "makes #MON of"
 	cont "any level obey!"
 

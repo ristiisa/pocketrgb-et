@@ -14,7 +14,7 @@ _SaffronCityText3::
 	done
 
 _SaffronCityText4::
-	text "SAFFRON belongs"
+	text "YAMABUKI belongs"
 	line "to TEAM ROCKET!"
 	done
 
@@ -51,7 +51,7 @@ _SaffronCityText9::
 _SaffronCityText10::
 	text "People should be"
 	line "flocking back to"
-	cont "SAFFRON now."
+	cont "YAMABUKI now."
 	done
 
 _SaffronCityText11::
@@ -91,9 +91,9 @@ _SaffronCityText15::
 	done
 
 _SaffronCityText16::
-	text "SAFFRON CITY"
-	line "Shining, Golden"
-	cont "Land of Commerce"
+	text "YAMABUKI CITY"
+	line "is the color of"
+	cont "golden radiance."
 	done
 
 _SaffronCityText17::
@@ -101,7 +101,7 @@ _SaffronCityText17::
 	done
 
 _SaffronCityText18::
-	text "SAFFRON CITY"
+	text "YAMABUKI CITY"
 	line "#MON GYM"
 	cont "LEADER: NATSUME"
 

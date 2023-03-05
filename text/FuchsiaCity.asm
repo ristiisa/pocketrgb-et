@@ -32,9 +32,9 @@ _FuchsiaCityText5::
 	done
 
 _FuchsiaCityText11::
-	text "FUCHSIA CITY"
-	line "Behold! It's"
-	cont "Passion Pink!"
+	text "SEKICHIKU CITY"
+	line "is the color of"
+	cont "pink flora."
 	done
 
 _FuchsiaCityText13::
@@ -58,7 +58,7 @@ _FuchsiaCityText17::
 	done
 
 _FuchsiaCityText18::
-	text "FUCHSIA CITY"
+	text "SEKICHIKU CITY"
 	line "#MON GYM"
 	cont "LEADER: KYO"
 

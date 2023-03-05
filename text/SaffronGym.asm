@@ -27,7 +27,7 @@ _SaffronGymText_5d167::
 	cont "to win!"
 
 	para "You earned the"
-	line "MARSHBADGE!@"
+	line "GOLDBADGE!@"
 	text_end
 
 _SaffronGymText_5d16e::
@@ -38,7 +38,7 @@ _SaffronGymText_5d16e::
 	done
 
 _SaffronGymText_5d173::
-	text "The MARSHBADGE"
+	text "The GOLDBADGE"
 	line "makes #MON up"
 	cont "to L70 obey you!"
 
@@ -209,7 +209,7 @@ _SaffronGymEndBattleText6::
 _SaffronGymAfterBattleText6::
 	text "There used to be"
 	line "2 #MON GYMs in"
-	cont "SAFFRON."
+	cont "YAMABUKI."
 
 	para "The FIGHTING DOJO"
 	line "next door lost"
@@ -219,7 +219,7 @@ _SaffronGymAfterBattleText6::
 	done
 
 _SaffronGymBattleText7::
-	text "SAFFRON #MON"
+	text "YAMABUKI #MON"
 	line "GYM is famous for"
 	cont "its psychics!"
 

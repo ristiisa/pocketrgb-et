@@ -9,7 +9,7 @@ _CeladonGymText_48a5e::
 
 	para "My name is ERIKA."
 	line "I am the LEADER"
-	cont "of CELADON GYM."
+	cont "of TAMAMUSHI GYM."
 
 	para "I teach the art of"
 	line "flower arranging."
@@ -199,7 +199,7 @@ _CeladonGymAfterBattleText7::
 
 _CeladonGymBattleText8::
 	text "Welcome to"
-	line "CELADON GYM!"
+	line "TAMAMUSHI GYM!"
 
 	para "You better not"
 	line "underestimate"

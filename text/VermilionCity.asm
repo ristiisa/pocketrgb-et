@@ -83,14 +83,14 @@ _VermilionCityText6::
 	line "famous luxury"
 	cont "cruise ship."
 
-	para "We visit VERMILION"
+	para "We visit KUCHIBA"
 	line "once a year."
 	done
 
 _VermilionCityText7::
-	text "VERMILION CITY"
-	line "The Port of"
-	cont "Exquisite Sunsets"
+	text "KUCHIBA CITY"
+	line "is the color of"
+	cont "orange sunsets."
 	done
 
 _VermilionCityText8::
@@ -102,9 +102,9 @@ _VermilionCityText8::
 
 	para "Detour through"
 	line "ROCK TUNNEL to"
-	cont "LAVENDER TOWN."
+	cont "CION TOWN."
 
-	para "VERMILION POLICE"
+	para "KUCHIBA POLICE"
 	done
 
 _VermilionCityText11::
@@ -114,7 +114,7 @@ _VermilionCityText11::
 	done
 
 _VermilionCityText12::
-	text "VERMILION CITY"
+	text "KUCHIBA CITY"
 	line "#MON GYM"
 	cont "LEADER: MATIS"
 
@@ -123,5 +123,5 @@ _VermilionCityText12::
 	done
 
 _VermilionCityText13::
-	text "VERMILION HARBOR"
+	text "KUCHIBA HARBOR"
 	done

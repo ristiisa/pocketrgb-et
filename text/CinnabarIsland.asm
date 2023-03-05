@@ -4,7 +4,7 @@ _CinnabarIslandText8::
 	done
 
 _CinnabarIslandText1::
-	text "CINNABAR GYM's"
+	text "GUREN GYM's"
 	line "KATSURA is an odd"
 	cont "man who has lived"
 	cont "here for decades."
@@ -18,9 +18,9 @@ _CinnabarIslandText2::
 	done
 
 _CinnabarIslandText3::
-	text "CINNABAR ISLAND"
-	line "The Fiery Town of"
-	cont "Burning Desire"
+	text "GUREN's red"
+	line "is the color of"
+	cont "passion."
 	done
 
 _CinnabarIslandText6::
@@ -28,7 +28,7 @@ _CinnabarIslandText6::
 	done
 
 _CinnabarIslandText7::
-	text "CINNABAR ISLAND"
+	text "GUREN ISLAND"
 	line "#MON GYM"
 	cont "LEADER: KATSURA"
 

@@ -31,7 +31,7 @@ _Route17AfterBattleText2::
 
 _Route17BattleText3::
 	text "You heading to"
-	line "FUCHSIA?"
+	line "SEKICHIKU?"
 	done
 
 _Route17EndBattleText3::
@@ -177,8 +177,8 @@ _Route17Text13::
 
 _Route17Text14::
 	text "ROUTE 17"
-	line "CELADON CITY -"
-	cont "FUCHSIA CITY"
+	line "TAMAMUSHI CITY -"
+	cont "SEKICHIKU CITY"
 	done
 
 _Route17Text15::

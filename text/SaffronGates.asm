@@ -24,7 +24,7 @@ _SaffronGateText_1dff1::
 	cont "..."
 	cont "Gulp..."
 	cont "If you want to go"
-	cont "to SAFFRON CITY..."
+	cont "to YAMABUKI..."
 	cont "..."
 	cont "You can go on"
 	cont "through. I'll"

@@ -131,7 +131,7 @@ _Route12AfterBattleText7::
 
 _Route12Text11::
 	text "ROUTE 12 "
-	line "North to LAVENDER"
+	line "North to CION"
 	done
 
 _Route12Text12::

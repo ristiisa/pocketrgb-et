@@ -1,7 +1,7 @@
 _UGPathRoute7EntranceUnusedText_5d773::
 	text "I want to shop at"
-	line "the dept. store"
-	cont "in CELADON but..."
+	line "the dept. store in"
+	cont "TAMAMUSHI but..."
 
 	para "There are so many"
 	line "rough looking"
@@ -11,12 +11,12 @@ _UGPathRoute7EntranceUnusedText_5d773::
 _UGPathRoute7EntranceUnusedText_5d778::
 	text "TEAM ROCKET had a"
 	line "secret hideout in"
-	cont "CELADON CITY?"
+	cont "TAMAMUSHI CITY?"
 	done
 
 _UGPathRoute7EntranceUnusedText_5d77d::
 	text "You're here to"
-	line "shop in CELADON?"
+	line "shop in TAMAMUSHI?"
 
 	para "Just step outside"
 	line "and head west!"
@@ -25,8 +25,8 @@ _UGPathRoute7EntranceUnusedText_5d77d::
 _UGPathRoute7EntranceUnusedText_5d782::
 	text "The UNDERGROUND"
 	line "PATH goes beneath"
-	cont "SAFFRON and leads"
-	cont "to LAVENDER."
+	cont "YAMABUKI and leads"
+	cont "to CION."
 
 	para "If you're heading"
 	line "to HANADA, go"

@@ -93,5 +93,5 @@ _Route6AfterBattleText6::
 _Route6Text7::
 	text "UNDERGROUND PATH"
 	line "HANADA CITY -"
-	cont "VERMILION CITY"
+	cont "KUCHIBA CITY"
 	done

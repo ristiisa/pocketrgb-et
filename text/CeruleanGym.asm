@@ -26,7 +26,7 @@ _CeruleanGymText_5c7c3::
 	done
 
 _CeruleanGymText_5c7c8::
-	text "The CASCADEBADGE"
+	text "The BLUEBADGE"
 	line "makes all #MON"
 	cont "up to L30 obey!"
 
@@ -62,7 +62,7 @@ _CeruleanGymText_5c7d8::
 	para "All right!"
 
 	para "You can have the"
-	line "CASCADEBADGE to"
+	line "BLUEBADGE to"
 	cont "show you beat me!@"
 	text_end
 

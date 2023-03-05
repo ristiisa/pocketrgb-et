@@ -90,7 +90,7 @@ _CeladonGameCornerText_48dca::
 	line "things to do,"
 	cont "champ in making!"
 
-	para "CELADON GYM's"
+	para "TAMAMUSHI GYM's"
 	line "LEADER is ERIKA!"
 	cont "She uses grass-"
 	cont "type #MON!"

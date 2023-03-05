@@ -20,7 +20,7 @@ _Route25BattleText2::
 	text "Dad took me to a"
 	line "great party on"
 	cont "S.S.ANNE at"
-	cont "VERMILION CITY!"
+	cont "KUCHIBA CITY!"
 	done
 
 _Route25EndBattleText2::

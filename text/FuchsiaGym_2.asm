@@ -11,7 +11,7 @@ _KogaExplainToxicText::
 
 _FuchsiaGymText9::
 	text "Now that you have"
-	line "the SOULBADGE,"
+	line "the PINKBADGE,"
 	cont "the DEFENSE of"
 	cont "your #MON"
 	cont "increases!"
@@ -174,7 +174,7 @@ _FuchsiaGymText_7564e::
 	text "Yo! Champ in"
 	line "making!"
 
-	para "FUCHSIA GYM is"
+	para "SEKICHIKU GYM is"
 	line "riddled with"
 	cont "invisible walls!"
 

@@ -33,7 +33,7 @@ _Route9AfterBattleText2::
 _Route9BattleText3::
 	text "I'm taking ROCK"
 	line "TUNNEL to go to"
-	cont "LAVENDER..."
+	cont "CION..."
 	done
 
 _Route9EndBattleText3::

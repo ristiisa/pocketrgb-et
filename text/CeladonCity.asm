@@ -1,6 +1,6 @@
 _CeladonCityText1::
 	text "I got my KOFFING"
-	line "in CINNABAR!"
+	line "in GUREN!"
 
 	para "It's nice, but it"
 	line "breathes poison"
@@ -98,18 +98,18 @@ _CeladonCityText10::
 	cont "critical hits!"
 
 	para "Get your items at"
-	line "CELADON DEPT."
+	line "TAMAMUSHI DEPT."
 	cont "STORE!"
 	done
 
 _CeladonCityText11::
-	text "CELADON CITY"
-	line "The City of"
-	cont "Rainbow Dreams"
+	text "TAMAMUSHI CITY,"
+	line "the color of"
+	cont "rainbow dreams."
 	done
 
 _CeladonCityText13::
-	text "CELADON CITY"
+	text "TAMAMUSHI CITY"
 	line "#MON GYM"
 	cont "LEADER: ERIKA"
 
@@ -118,12 +118,12 @@ _CeladonCityText13::
 	done
 
 _CeladonCityText14::
-	text "CELADON MANSION"
+	text "TAMAMUSHI MANSION"
 	done
 
 _CeladonCityText15::
 	text "Find what you"
-	line "need at CELADON"
+	line "need at TAMAMUSHI"
 	cont "DEPT. STORE!"
 	done
 
@@ -137,7 +137,7 @@ _CeladonCityText16::
 	cont "fire and water!"
 
 	para "Get your items at"
-	line "CELADON DEPT."
+	line "TAMAMUSHI DEPT."
 	cont "STORE!"
 	done
 

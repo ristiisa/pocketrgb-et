@@ -38,9 +38,9 @@ _LavenderTownText3::
 	done
 
 _LavenderTownText4::
-	text "LAVENDER TOWN"
-	line "The Noble Purple"
-	cont "Town"
+	text "CION TOWN"
+	line "is the color of"
+	cont "purple nobility."
 	done
 
 _LavenderTownText5::
@@ -53,7 +53,7 @@ _LavenderTownText5::
 	done
 
 _LavenderTownText8::
-	text "LAVENDER VOLUNTEER"
+	text "CION VOLUNTEER"
 	line "#MON HOUSE"
 	done
 

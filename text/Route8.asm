@@ -75,7 +75,7 @@ _Route8EndBattleText5::
 _Route8AfterBattleText5::
 	text "We're stuck here"
 	line "because of the"
-	cont "gates at SAFFRON."
+	cont "gates at YAMABUKI."
 	done
 
 _Route8BattleText6::
@@ -105,7 +105,7 @@ _Route8EndBattleText7::
 	prompt
 
 _Route8AfterBattleText7::
-	text "SAFFRON's gate"
+	text "YAMABUKI's gate"
 	line "keeper won't let"
 	cont "us through."
 	cont "He's so mean!"
@@ -150,6 +150,6 @@ _Route8AfterBattleText9::
 
 _Route8Text10::
 	text "UNDERGROUND PATH"
-	line "CELADON CITY -"
-	cont "LAVENDER TOWN"
+	line "TAMAMUSHI CITY -"
+	cont "CION TOWN"
 	done

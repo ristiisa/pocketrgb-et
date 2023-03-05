@@ -161,7 +161,7 @@ _SilphCo7Text_51ec3::
 	cont "care!"
 
 	para "I saw you in"
-	line "SAFFRON, so I"
+	line "YAMABUKI, so I"
 	cont "decided to see if"
 	cont "you got better!"
 	done
