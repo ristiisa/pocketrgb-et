@@ -69,6 +69,7 @@ Jp Restoration:
 * Pokémon version name in the credits have been replaced
 * Aerodactyl and Kabutops fossil sprites Ported from jp
 * Replaced Character names with the Romaji names from Bulbapedia (https://bulbapedia.bulbagarden.net/wiki/List_of_characters_in_other_languages)
+* Replaced Player and Rival Name Options with JP equivelants
 
 Bug Fixes:
 * All Multi-Player Battle Engine and Single-Player Battle Engine Bugs (except Unexpected Counter Damage) Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
