@@ -17,11 +17,11 @@ _SafariZoneRestHouse4Text2::
 	done
 
 _SafariZoneRestHouse4Text3::
-	text "My EEVEE evolved"
-	line "into FLAREON!"
+	text "My EIEVUI evolved"
+	line "into BOOSTER!"
 
 	para "But, a friend's"
-	line "EEVEE turned into"
-	cont "a VAPOREON!"
+	line "EIEVUI turned into"
+	cont "a SHOWERS!"
 	cont "I wonder why?"
 	done

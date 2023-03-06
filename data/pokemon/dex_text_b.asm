@@ -71,7 +71,7 @@ _NidokingDexEntry::
 _SlowbroDexEntry::
 	text "The SHELLDER that"
 	next "is latched onto"
-	next "SLOWPOKE's tail"
+	next "YADON's tail"
 
 	page "is said to feed"
 	next "on the host's left"
@@ -95,7 +95,7 @@ _ExeggutorDexEntry::
 
 	page "will drop off and"
 	next "continue on as an"
-	next "EXEGGCUTE"
+	next "TAMATAMA"
 	dex
 
 _LickitungDexEntry::
@@ -490,7 +490,7 @@ _ElectabuzzDexEntry::
 
 _MagnetonDexEntry::
 	text "Formed by several"
-	next "MAGNEMITEs linked"
+	next "COILs linked"
 	next "together. They"
 
 	page "frequently appear"
@@ -1161,11 +1161,11 @@ _ClefableDexEntry::
 _WeezingDexEntry::
 	text "Where two kinds"
 	next "of poison gases"
-	next "meet, 2 KOFFINGs"
+	next "meet, 2 DOGARS"
 
 	page "can fuse into a"
-	next "WEEZING over many"
-	next "years"
+	next "MATADOGAS over"
+	next "many years"
 	dex
 
 _PersianDexEntry::
@@ -1235,7 +1235,7 @@ _PidgeotDexEntry::
 
 	page "speed to pick off"
 	next "unwary prey such"
-	next "as MAGIKARP"
+	next "as KOIKING"
 	dex
 
 _StarmieDexEntry::

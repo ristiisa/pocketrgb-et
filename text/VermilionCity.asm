@@ -2,9 +2,10 @@ _VermilionCityText1::
 	text "We're careful"
 	line "about pollution!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	para "We've heard"
+	line "BETBETER multi-"
+	cont "plies in toxic"
+	cont "sludge!"
 	done
 
 _VermilionCityTextDidYouSee::

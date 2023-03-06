@@ -1,5 +1,5 @@
 _CeladonCityText1::
-	text "I got my KOFFING"
+	text "I got my DOGARS"
 	line "in CINNABAR!"
 
 	para "It's nice, but it"
@@ -54,7 +54,7 @@ _TM41ExplanationText::
 	line "can use it!"
 
 	para "That #MON is"
-	line "CHANSEY!"
+	line "LUCKY!"
 	done
 
 _TM41NoRoomText::

@@ -63,7 +63,7 @@ _TM31NoRoomText::
 	text_end
 
 _CopycatsHouse2FText2::
-	text "DODUO: Giiih!"
+	text "DODO: Giiih!"
 
 	para "MIRROR MIRROR ON"
 	line "THE WALL, WHO IS"

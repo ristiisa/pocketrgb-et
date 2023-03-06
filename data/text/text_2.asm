@@ -182,7 +182,7 @@ _CeruleanPokecenterGuyText::
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
+	text "KARAKARAs wear"
 	line "skulls, right?"
 
 	para "People will pay a"
@@ -591,7 +591,7 @@ _Route15UpstairsBinocularsText::
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
+	text "PTERA Fossil"
 	line "A primitive and"
 	cont "rare #MON."
 	done

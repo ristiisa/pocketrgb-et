@@ -41,7 +41,7 @@ _CeladonMart3Text3::
 
 	para "My buddy's going"
 	line "to trade me his"
-	cont "KANGASKHAN for my"
+	cont "GARURA for my"
 	cont "GOLONE!"
 	done
 

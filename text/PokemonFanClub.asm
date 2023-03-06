@@ -12,7 +12,7 @@ PikachuFanBetterText::
 
 SeelFanText::
 	text "I just love my"
-	line "SEEL!"
+	line "PAWOU!"
 
 	para "It squeals when I"
 	line "hug it!"
@@ -21,7 +21,7 @@ SeelFanText::
 SeelFanBetterText::
 	text "Oh dear!"
 
-	para "My SEEL is far"
+	para "My PAWOU is far"
 	line "more attractive!"
 	done
 
@@ -31,7 +31,7 @@ FanClubPikachuText::
 	done
 
 FanClubSeelText::
-	text "SEEL: Kyuoo!"
+	text "PAWOU: Kyuoo!"
 	done
 
 FanClubMeetChairText::
@@ -57,7 +57,7 @@ FanClubChairStoryText::
 	line "Then listen up!"
 
 	para "My favorite"
-	line "RAPIDASH..."
+	line "GALLOP..."
 
 	para "It...cute..."
 	line "lovely...smart..."

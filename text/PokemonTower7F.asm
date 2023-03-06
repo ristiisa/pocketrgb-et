@@ -8,9 +8,9 @@ _TowerRescueFujiText::
 
 	para "I came to calm"
 	line "the soul of"
-	cont "CUBONE's mother."
+	cont "KARAKARA's mother."
 
-	para "I think MAROWAK's"
+	para "I think GARAGARA's"
 	line "spirit has gone"
 	cont "to the afterlife."
 

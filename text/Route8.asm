@@ -41,7 +41,7 @@ _Route8EndBattleText3::
 	prompt
 
 _Route8AfterBattleText3::
-	text "Go with GRIMER"
+	text "Go with BETBETER"
 	line "first...and..."
 	cont "...and...then..."
 	done
