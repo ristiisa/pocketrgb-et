@@ -79,7 +79,7 @@ _Route8AfterBattleText5::
 	done
 
 _Route8BattleText6::
-	text "MEOWTH is so cute,"
+	text "NYARTH is so cute,"
 	line "meow, meow, meow!"
 	done
 
@@ -88,8 +88,8 @@ _Route8EndBattleText6::
 	prompt
 
 _Route8AfterBattleText6::
-	text "I think PIDGEY"
-	line "and RATTATA"
+	text "I think POPPO"
+	line "and KORATTA"
 	cont "are cute too!"
 	done
 
@@ -138,12 +138,12 @@ _Route8EndBattleText9::
 	text "Stop!"
 
 	para "Don't be so mean"
-	line "to my CLEFAIRY!"
+	line "to my PIPPI!"
 	prompt
 
 _Route8AfterBattleText9::
 	text "I heard that"
-	line "CLEFAIRY evolves"
+	line "PIPPI evolves"
 	cont "when it's exposed"
 	cont "to a MOON STONE."
 	done

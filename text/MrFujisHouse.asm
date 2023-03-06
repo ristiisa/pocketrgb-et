@@ -28,7 +28,7 @@ _LavenderHouse1Text_1d8f9::
 	done
 
 _LavenderHouse1Text3::
-	text "PSYDUCK: Gwappa!@"
+	text "KODUCK: Gwappa!@"
 	text_end
 
 _LavenderHouse1Text4::

@@ -1,17 +1,17 @@
 _CeladonMansion1Text1::
-	text "MEOWTH: Meow!@"
+	text "NYARTH: Meow!@"
 	text_end
 
 _CeladonMansion1Text2::
 	text "My dear #MON"
 	line "keep me company."
 
-	para "MEOWTH even brings"
+	para "NYARTH even brings"
 	line "money home!"
 	done
 
 _CeladonMansion1Text3::
-	text "CLEFAIRY: Pi"
+	text "PIPPI: Pi"
 	line "pippippi!@"
 	text_end
 

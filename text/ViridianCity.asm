@@ -36,7 +36,7 @@ _ViridianCityText_19152::
 _ViridianCityText_19157::
 	text "CATERPIE has no"
 	line "poison, but"
-	cont "WEEDLE does."
+	cont "BEEDLE does."
 
 	para "Watch out for its"
 	line "POISON STING!"

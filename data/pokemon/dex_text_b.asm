@@ -894,8 +894,8 @@ _EkansDexEntry::
 	next "Eats the eggs of"
 
 	page "birds, such as"
-	next "PIDGEY and"
-	next "SPEAROW, whole"
+	next "POPPO and"
+	next "ONISUZUME, whole"
 	dex
 
 _ParasDexEntry::
@@ -979,7 +979,7 @@ _PrimeapeDexEntry::
 	dex
 
 _DugtrioDexEntry::
-	text "A team of DIGLETT"
+	text "A team of DIGDA"
 	next "triplets."
 	next "It triggers huge"
 

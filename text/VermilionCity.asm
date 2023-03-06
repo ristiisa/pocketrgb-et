@@ -67,13 +67,13 @@ _VermilionCityText4::
 	done
 
 _VermilionCityText5::
-	text "MACHOP: Guoh!"
+	text "WANRIKY: Guoh!"
 	line "Gogogoh!@"
 	text_end
 
 _VermilionCityText14::
 	text_start
-	para "A MACHOP is"
+	para "A WANRIKY is"
 	line "stomping the land"
 	cont "flat."
 	done

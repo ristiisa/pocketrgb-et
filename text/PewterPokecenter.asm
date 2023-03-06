@@ -9,6 +9,6 @@ _PewterPokecenterText2::
 	done
 
 _PewterJigglypuffText::
-	text "JIGGLYPUFF: Puu"
+	text "PURIN: Puu"
 	line "pupuu!"
 	done

@@ -355,13 +355,13 @@ _KadabraDexEntry::
 
 	page "powers awoke in"
 	next "bed transformed"
-	next "into KADABRA"
+	next "into YUNGERER"
 	dex
 
 _GravelerDexEntry::
 	text "Be careful while"
 	next "hiking on mountain"
-	next "trails. GRAVELER"
+	next "trails. GOLONE"
 
 	page "may come rolling"
 	next "down the path"

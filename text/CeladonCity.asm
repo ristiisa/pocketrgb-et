@@ -64,15 +64,15 @@ _TM41NoRoomText::
 
 _CeladonCityText6::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, NYOROBON!"
 
 	para "It evolved from"
-	line "POLIWHIRL when I"
+	line "NYOROZO when I"
 	cont "used WATER STONE!"
 	done
 
 _CeladonCityText7::
-	text "POLIWRATH: Ribi"
+	text "NYOROBON: Ribi"
 	line "ribit!@"
 	text_end
 

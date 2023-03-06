@@ -1,12 +1,12 @@
 _VermilionHouse1Text1::
 	text "I'm getting my"
-	line "PIDGEY to fly a"
+	line "POPPO to fly a"
 	cont "letter to SAFFRON"
 	cont "in the north!"
 	done
 
 _VermilionHouse1Text2::
-	text "PIDGEY: Kurukkoo!@"
+	text "POPPO: Kurukkoo!@"
 	text_end
 
 _VermilionHouse1Text3::

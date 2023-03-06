@@ -165,7 +165,7 @@ _ViridianCityPokecenterGuyText::
 _PewterCityPokecenterGuyText::
 	text "Yawn!"
 
-	para "When JIGGLYPUFF"
+	para "When PURIN"
 	line "sings, #MON"
 	cont "get drowsy..."
 
@@ -349,7 +349,7 @@ _CinnabarQuizQuestionsText2::
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
+	text "NYOROMO evolves 3"
 	line "times?"
 	done
 

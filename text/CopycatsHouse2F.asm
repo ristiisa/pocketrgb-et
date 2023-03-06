@@ -92,7 +92,7 @@ _CopycatsHouse2FText_5cd17::
 	line "Hobby: Collecting"
 	cont "dolls!"
 	cont "Favorite #MON:"
-	cont "CLEFAIRY!"
+	cont "PIPPI!"
 	done
 
 _CopycatsHouse2FText_5cd1c::

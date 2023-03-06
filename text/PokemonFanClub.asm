@@ -95,7 +95,7 @@ ExplainBikeVoucherText::
 	line "a BICYCLE!"
 
 	para "Don't worry, my"
-	line "FEAROW will FLY"
+	line "ONIDRILL will FLY"
 	cont "me anywhere!"
 
 	para "So, I don't need a"

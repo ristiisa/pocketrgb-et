@@ -1,6 +1,6 @@
 _PewterCityText1::
 	text "It's rumored that"
-	line "CLEFAIRYs came"
+	line "PIPPIs came"
 	cont "from the moon!"
 
 	para "They appeared "
