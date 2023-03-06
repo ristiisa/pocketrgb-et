@@ -56,7 +56,7 @@ _MtMoon3Text_49f99::
 	text_end
 
 _MtMoon3BattleText2::
-	text "TEAM ROCKET will"
+	text "ROCKET GANG will"
 	line "find the fossils,"
 	cont "revive and sell"
 	cont "them for cash!"
@@ -69,12 +69,12 @@ _MtMoon3EndBattleText2::
 
 _MtMoon3AfterBattleText2::
 	text "You made me mad!"
-	line "TEAM ROCKET will"
+	line "ROCKET GANG will"
 	cont "blacklist you!"
 	done
 
 _MtMoon3BattleText3::
-	text "We, TEAM ROCKET,"
+	text "We, ROCKET GANG,"
 	line "are #MON"
 	cont "gangsters!"
 	done

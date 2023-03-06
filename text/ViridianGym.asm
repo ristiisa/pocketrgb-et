@@ -3,8 +3,8 @@ _ViridianGymText_74ace::
 	line "my hideout!"
 
 	para "I planned to"
-	line "resurrect TEAM"
-	cont "ROCKET here!"
+	line "resurrect ROCKET"
+	cont "GANG here!"
 
 	para "But, you have"
 	line "caught me again!"
@@ -31,7 +31,7 @@ _ViridianGymText_74ad9::
 	text "Having lost, I"
 	line "cannot face my"
 	cont "underlings!"
-	cont "TEAM ROCKET is"
+	cont "ROCKET GANG is"
 	cont "finished forever!"
 
 	para "I will dedicate my"

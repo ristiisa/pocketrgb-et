@@ -28,7 +28,7 @@ _HeresYourLaprasText::
 	done
 
 _LaprasGuyText::
-	text "TEAM ROCKET's"
+	text "ROCKET GANG's"
 	line "BOSS went to the"
 	cont "boardroom! Is our"
 	cont "PRESIDENT OK?"
@@ -40,7 +40,7 @@ _LaprasGuySavedText::
 	done
 
 _SilphCo7Text_51e00::
-	text "TEAM ROCKET was"
+	text "ROCKET GANG was"
 	line "after the MASTER"
 	cont "BALL which will"
 	cont "catch any #MON!"
@@ -50,19 +50,19 @@ _CanceledMasterBallText::
 	text "We canceled the"
 	line "MASTER BALL"
 	cont "project because"
-	cont "of TEAM ROCKET."
+	cont "of ROCKET GANG."
 	done
 
 _SilphCo7Text_51e23::
 	text "It would be bad"
-	line "if TEAM ROCKET"
+	line "if ROCKET GANG"
 	cont "took over SILPH"
 	cont "or our #MON!"
 	done
 
 _SilphCo7Text_51e28::
 	text "Wow! You chased"
-	line "off TEAM ROCKET"
+	line "off ROCKET GANG"
 	cont "all by yourself?"
 	done
 
@@ -155,8 +155,8 @@ _SilphCo7Text_51ec3::
 	cont "turn up if I"
 	cont "waited here!"
 
-	para "I guess TEAM"
-	line "ROCKET slowed you"
+	para "I guess ROCKET"
+	line "GANG slowed you"
 	cont "down! Not that I"
 	cont "care!"
 
