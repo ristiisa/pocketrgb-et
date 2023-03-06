@@ -1,4 +1,4 @@
-# Pocket Monsters - Red, Green, and Blue Version
+# Pocket Monsters - Red, Green, and Blue Version (Translated Characters & Places Branch)
 
 ## Translation > Localization
 **pocketrgb-en**  is a Gen 1 dissassembly, based on the japanese releases subtitled 'Pocket Monsters'.
