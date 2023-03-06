@@ -165,7 +165,7 @@ _ViridianCityPokecenterGuyText::
 _PewterCityPokecenterGuyText::
 	text "Yawn!"
 
-	para "When JIGGLYPUFF"
+	para "When PURIN"
 	line "sings, #MON"
 	cont "get drowsy..."
 
@@ -182,7 +182,7 @@ _CeruleanPokecenterGuyText::
 	done
 
 _LavenderPokecenterGuyText::
-	text "CUBONEs wear"
+	text "KARAKARAs wear"
 	line "skulls, right?"
 
 	para "People will pay a"
@@ -349,7 +349,7 @@ _CinnabarQuizQuestionsText2::
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "POLIWAG evolves 3"
+	text "NYOROMO evolves 3"
 	line "times?"
 	done
 
@@ -591,7 +591,7 @@ _Route15UpstairsBinocularsText::
 	done
 
 _AerodactylFossilText::
-	text "AERODACTYL Fossil"
+	text "PTERA Fossil"
 	line "A primitive and"
 	cont "rare #MON."
 	done

@@ -7,7 +7,7 @@ _LavenderHouse1Text_1d8d1::
 _LavenderHouse1Text_1d8d6::
 	text "ELDER FUJI had"
 	line "been praying alone"
-	cont "for CUBONE's" 
+	cont "for KARAKARA's"
 	cont "mother."
 	done
 
@@ -29,7 +29,7 @@ _LavenderHouse1Text_1d8f9::
 	done
 
 _LavenderHouse1Text3::
-	text "PSYDUCK: Gwappa!@"
+	text "KODUCK: Gwappa!@"
 	text_end
 
 _LavenderHouse1Text4::

@@ -36,7 +36,7 @@ _ViridianCityText_19152::
 _ViridianCityText_19157::
 	text "CATERPIE has no"
 	line "poison, but"
-	cont "WEEDLE does."
+	cont "BEEDLE does."
 
 	para "Watch out for its"
 	line "POISON STING!"
@@ -80,7 +80,7 @@ _ViridianCityText_191ca::
 	cont "off in the sun."
 
 	para "I had this dream"
-	line "about a DROWZEE"
+	line "about a SLEEP"
 	cont "eating my dream."
 	cont "What's this?"
 	cont "Where did this TM"

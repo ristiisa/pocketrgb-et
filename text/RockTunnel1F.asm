@@ -9,7 +9,7 @@ _RockTunnel1EndBattleText1::
 	prompt
 
 _RockTunnel1AfterBattleText1::
-	text "Watch for ONIX!"
+	text "Watch for IWARK!"
 	line "It can put the"
 	cont "squeeze on you!"
 	done
@@ -74,7 +74,7 @@ _RockTunnel1EndBattleText5::
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a MACHOP"
+	text "I saw a WANRIKY"
 	line "in this tunnel!"
 	done
 

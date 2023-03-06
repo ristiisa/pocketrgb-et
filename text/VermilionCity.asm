@@ -2,9 +2,10 @@ _VermilionCityText1::
 	text "We're careful"
 	line "about pollution!"
 
-	para "We've heard GRIMER"
-	line "multiplies in"
-	cont "toxic sludge!"
+	para "We've heard"
+	line "BETBETER multi-"
+	cont "plies in toxic"
+	cont "sludge!"
 	done
 
 _VermilionCityTextDidYouSee::
@@ -67,13 +68,13 @@ _VermilionCityText4::
 	done
 
 _VermilionCityText5::
-	text "MACHOP: Guoh!"
+	text "WANRIKY: Guoh!"
 	line "Gogogoh!@"
 	text_end
 
 _VermilionCityText14::
 	text_start
-	para "A MACHOP is"
+	para "A WANRIKY is"
 	line "stomping the land"
 	cont "flat."
 	done

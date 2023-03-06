@@ -1,12 +1,13 @@
 _LavenderHouse2Text1::
-	text "CUBONE: Kyarugoo!@"
+	text "KARAKARA: "
+	line "Kyarugoo!@"
 	text_end
 
 _LavenderHouse2Text_1d9dc::
 	text "I hate those"
 	line "horrible ROCKETs!"
 
-	para "That poor CUBONE's"
+	para "That poor KARAKARA's"
 	line "mother..."
 
 	para "It was killed"

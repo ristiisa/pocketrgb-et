@@ -1,5 +1,5 @@
 _CeladonCityText1::
-	text "I got my KOFFING"
+	text "I got my DOGARS"
 	line "in GUREN!"
 
 	para "It's nice, but it"
@@ -54,7 +54,7 @@ _TM41ExplanationText::
 	line "can use it!"
 
 	para "That #MON is"
-	line "CHANSEY!"
+	line "LUCKY!"
 	done
 
 _TM41NoRoomText::
@@ -64,15 +64,15 @@ _TM41NoRoomText::
 
 _CeladonCityText6::
 	text "This is my trusted"
-	line "pal, POLIWRATH!"
+	line "pal, NYOROBON!"
 
 	para "It evolved from"
-	line "POLIWHIRL when I"
+	line "NYOROZO when I"
 	cont "used WATER STONE!"
 	done
 
 _CeladonCityText7::
-	text "POLIWRATH: Ribi"
+	text "NYOROBON: Ribi"
 	line "ribit!@"
 	text_end
 

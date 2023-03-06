@@ -1,5 +1,5 @@
 _SSAnne10Text8::
-	text "MACHOKE: Gwoh!"
+	text "GORIKY: Gwoh!"
 	line "Goggoh!@"
 	text_end
 
@@ -105,7 +105,7 @@ _SSAnne10AfterBattleText6::
 	done
 
 _SSAnne10Text7::
-	text "My buddy, MACHOKE,"
+	text "My buddy, GORIKY,"
 	line "is super strong!"
 
 	para "He has enough"

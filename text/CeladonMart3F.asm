@@ -41,19 +41,19 @@ _CeladonMart3Text3::
 
 	para "My buddy's going"
 	line "to trade me his"
-	cont "KANGASKHAN for my"
-	cont "GRAVELER!"
+	cont "GARURA for my"
+	cont "GOLONE!"
 	done
 
 _CeladonMart3Text4::
-	text "Come on GRAVELER!"
+	text "Come on GOLONE!"
 
-	para "I love GRAVELER!"
+	para "I love GOLONE!"
 	line "I collect them!"
 
 	para "Huh?"
 
-	para "GRAVELER turned"
+	para "GOLONE turned"
 	line "into a different"
 	cont "#MON!"
 	done

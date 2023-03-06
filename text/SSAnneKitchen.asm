@@ -25,7 +25,7 @@ _SSAnne6Text4::
 
 _SSAnne6Text5::
 	text "Did you hear about"
-	line "SNORLAX?"
+	line "KABIGON?"
 
 	para "All it does is"
 	line "eat and sleep!"

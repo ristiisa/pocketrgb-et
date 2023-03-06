@@ -13,14 +13,14 @@ _PokemonTower1Text2::
 
 _PokemonTower1Text3::
 	text "I came to pray"
-	line "for my CLEFAIRY."
+	line "for my PIPPI."
 
 	para "Sniff! I can't"
 	line "stop crying..."
 	done
 
 _PokemonTower1Text4::
-	text "My GROWLITHE..."
+	text "My GARDIE..."
 	line "Why did you die?"
 	done
 

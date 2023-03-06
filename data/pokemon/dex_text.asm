@@ -69,13 +69,13 @@ _NidokingDexEntry::
 	dex
 
 _SlowbroDexEntry::
-	text "When a SLOWPOKE"
+	text "When a YADON"
 	next "went hunting, its"
 	next "tail was bitten by"
 
 	page "a SHELLDER. That"
 	next "made it evolve"
-	next "into SLOWBRO"
+	next "into YADORAN"
 	dex
 
 _IvysaurDexEntry::
@@ -123,7 +123,7 @@ _GrimerDexEntry::
 	next "X rays from the"
 	next "Moon transformed"
 
-	page "into GRIMER. It"
+	page "into BETBETER. It"
 	next "loves feeding on"
 	next "filthy things"
 	dex
@@ -355,13 +355,13 @@ _KadabraDexEntry::
 
 	page "powers awoke in"
 	next "bed transformed"
-	next "into KADABRA"
+	next "into YUNGERER"
 	dex
 
 _GravelerDexEntry::
 	text "Be careful while"
 	next "hiking on mountain"
-	next "trails. GRAVELER"
+	next "trails. GOLONE"
 
 	page "may come rolling"
 	next "down the path"
@@ -491,7 +491,7 @@ _ElectabuzzDexEntry::
 _MagnetonDexEntry::
 	text "A linked cluster"
 	next "formed of several"
-	next "MAGNEMITE. It"
+	next "COIL. It"
 
 	page "discharges power-"
 	next "ful magnetic waves"
@@ -1163,9 +1163,9 @@ _WeezingDexEntry::
 	next "sudden mutation"
 	next "can result in two"
 	
-	page "small KOFFING"
+	page "small DOGARS"
 	next "twins becoming a"
-	next "WEEZING"
+	next "MATADOGAS"
 	dex
 
 _PersianDexEntry::
@@ -1223,7 +1223,7 @@ _PidgeottoDexEntry::
 	next "feet are well"
 	next "developed. It can"
 
-	page "carry an EXEGGCUTE"
+	page "carry an TAMATAMA"
 	next "to its nest over"
 	next "100 km away"
 	dex

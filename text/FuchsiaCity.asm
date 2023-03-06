@@ -67,21 +67,21 @@ _FuchsiaCityText18::
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: CHANSEY"
+	text "Name: LUCKY"
 
 	para "Catching one is"
 	line "all up to chance."
 	prompt
 
 _FuchsiaCityVoltorbText::
-	text "Name: VOLTORB"
+	text "Name: BIRIRIDAMA"
 
 	para "The very image of"
 	line "a # BALL."
 	prompt
 
 _FuchsiaCityKangaskhanText::
-	text "Name: KANGASKHAN"
+	text "Name: GARURA"
 
 	para "A maternal #MON"
 	line "that raises its"
@@ -90,21 +90,21 @@ _FuchsiaCityKangaskhanText::
 	prompt
 
 _FuchsiaCitySlowpokeText::
-	text "Name: SLOWPOKE"
+	text "Name: YADON"
 
 	para "Friendly and very"
 	line "slow moving."
 	prompt
 
 _FuchsiaCityLaprasText::
-	text "Name: LAPRAS"
+	text "Name: LAPLACE"
 
 	para "A.K.A. the king"
 	line "of the seas."
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "Name: OMANYTE"
+	text "Name: OMNITE"
 
 	para "A #MON that"
 	line "was resurrected"

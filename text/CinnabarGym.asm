@@ -58,7 +58,7 @@ _TM38ExplanationText::
 	para "Teach it to fire-"
 	line "type #MON!"
 
-	para "CHARMELEON or"
+	para "LIZARDO or"
 	line "PONYTA would be"
 	cont "good bets!"
 	done
@@ -172,7 +172,7 @@ _CinnabarGymText_75a6d::
 _CinnabarGymText_75a72::
 	text "Us fire #MON"
 	line "fans like PONYTA"
-	cont "and NINETALES!"
+	cont "and KYUKON!"
 	done
 
 _CinnabarGymText_75a9d::

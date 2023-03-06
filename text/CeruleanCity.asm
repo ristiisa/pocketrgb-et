@@ -137,20 +137,20 @@ _CeruleanCityText6::
 	done
 
 _CeruleanCityText_19730::
-	text "OK! SLOWBRO!"
+	text "OK! YADORAN!"
 	line "Use SONICBOOM!"
-	cont "Come on, SLOWBRO"
+	cont "Come on, YADORAN"
 	cont "pay attention!"
 	done
 
 _CeruleanCityText_19735::
-	text "SLOWBRO punch!"
+	text "YADORAN punch!"
 	line "No! You blew it"
 	cont "again!"
 	done
 
 _CeruleanCityText_1973a::
-	text "SLOWBRO, WITHDRAW!"
+	text "YADORAN, WITHDRAW!"
 	line "No! That's wrong!"
 
 	para "It's so hard to"
@@ -163,22 +163,22 @@ _CeruleanCityText_1973a::
 	done
 
 _CeruleanCityText_1976f::
-	text "SLOWBRO took a"
+	text "YADORAN took a"
 	line "snooze..."
 	done
 
 _CeruleanCityText_19774::
-	text "SLOWBRO is"
+	text "YADORAN is"
 	line "loafing around..."
 	done
 
 _CeruleanCityText_19779::
-	text "SLOWBRO turned"
+	text "YADORAN turned"
 	line "away..."
 	done
 
 _CeruleanCityText_1977e::
-	text "SLOWBRO"
+	text "YADORAN"
 	line "ignored orders..."
 	done
 

@@ -10,7 +10,7 @@ _MeetLaprasGuyText::
 	prompt
 
 _HeresYourLaprasText::
-	text "It's LAPRAS. It's"
+	text "It's LAPLACE. It's"
 	line "very intelligent."
 
 	para "We kept it in our"
@@ -20,7 +20,7 @@ _HeresYourLaprasText::
 
 	para "I think you will"
 	line "be a good trainer"
-	cont "for LAPRAS!"
+	cont "for LAPLACE!"
 
 	para "It's a good"
 	line "swimmer. It'll"
