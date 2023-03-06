@@ -24,12 +24,12 @@ _Route4AfterBattleText1::
 	done
 
 _Route4Text5::
-	text "MT.MOON"
+	text "MT.OTSUKIMI"
 	line "Tunnel Entrance"
 	done
 
 _Route4Text6::
 	text "ROUTE 4"
-	line "MT.MOON -"
+	line "MT.OTSUKIMI -"
 	cont "HANADA CITY"
 	done

@@ -213,7 +213,7 @@ _UnusedBenchGuyText2::
 	done
 
 _UnusedBenchGuyText3::
-	text "SILPH's manager"
+	text "SYLPH's manager"
 	line "is hiding in the"
 	cont "SAFARI ZONE."
 	done
@@ -433,7 +433,7 @@ _OakLabEmailText::
 	cont "trainer!"
 
 	para "#MON LEAGUE HQ"
-	line "INDIGO PLATEAU"
+	line "SEKIEI PLATEAU"
 
 	para "PS: DR.OHKIDO,"
 	line "please visit us!"
@@ -482,7 +482,7 @@ TMNotebookText::
 	line "HMs that can be"
 	cont "used repeatedly."
 
-	para "SILPH CO.@"
+	para "SYLPH CO.@"
 	text_end
 
 _TurnPageText::
@@ -570,7 +570,7 @@ _FightingDojoText::
 	done
 
 _IndigoPlateauHQText::
-	text "INDIGO PLATEAU"
+	text "SEKIEI PLATEAU"
 	line "#MON LEAGUE HQ"
 	done
 
@@ -782,7 +782,7 @@ _DroppedHiddenCoinsText::
 	done
 
 _IndigoPlateauStatuesText1::
-	text "INDIGO PLATEAU"
+	text "SEKIEI PLATEAU"
 	prompt
 
 _IndigoPlateauStatuesText2::
@@ -1261,7 +1261,7 @@ _TrainerWantsToFightText::
 	prompt
 
 _UnveiledGhostText::
-	text "SILPH SCOPE"
+	text "SYLPH SCOPE"
 	line "unveiled the"
 	cont "GHOST's identity!"
 	prompt

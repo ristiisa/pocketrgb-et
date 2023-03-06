@@ -138,11 +138,12 @@ _Route3EndBattleText8::
 	prompt
 
 _Route3AfterBattleText8::
-	text "ROUTE 4 is at the"
-	line "foot of MT.MOON."
+	text "ROUTE 4 is at"
+	line "the foot of"
+	cont "MT.OTSUKIMI."
 	done
 
 _Route3Text10::
 	text "ROUTE 3"
-	line "MT.MOON AHEAD"
+	line "MT.OTSUKIMI AHEAD"
 	done

@@ -11,7 +11,7 @@ _PokemonTower3EndBattleText1::
 _PokemonTower3AfterBattleText1::
 	text "The GHOSTs can be"
 	line "identified by the"
-	cont "SILPH SCOPE."
+	cont "SYLPH SCOPE."
 	done
 
 _PokemonTower3BattleText2::

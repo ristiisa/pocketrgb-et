@@ -70,7 +70,7 @@ ItemNames::
 	db "COIN CASE@"
 	db "OHKIDO's PARCEL@"
 	db "ITEMFINDER@"
-	db "SILPH SCOPE@"
+	db "SYLPH SCOPE@"
 	db "POKé FLUTE@"
 	db "LIFT KEY@"
 	db "EXP.ALL@"

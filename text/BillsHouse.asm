@@ -67,7 +67,7 @@ _SSTicketNoRoomText::
 
 _BillsHouseText_1e8cb::
 	text "That cruise ship,"
-	line "S.S.ANNE, is in"
+	line "S.S.ANNU, is in"
 	cont "KUCHIBA CITY."
 	cont "Its passengers"
 	cont "are all trainers!"

@@ -5,7 +5,8 @@ _PewterCityText1::
 
 	para "They appeared "
 	line "after MOON STONE"
-	cont "fell on MT.MOON."
+	cont "fell on"
+	cont "MT.OTSUKIMI."
 	done
 
 _PewterCityText2::

@@ -44,12 +44,12 @@ _LavenderTownText4::
 	done
 
 _LavenderTownText5::
-	text "New SILPH SCOPE!"
+	text "New SYLPH SCOPE!"
 
 	para "Make the Invisible"
 	line "Plain to See!"
 
-	para "SILPH CO."
+	para "SYLPH CO."
 	done
 
 _LavenderTownText8::

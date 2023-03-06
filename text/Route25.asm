@@ -19,7 +19,7 @@ _Route25AfterBattleText1::
 _Route25BattleText2::
 	text "Dad took me to a"
 	line "great party on"
-	cont "S.S.ANNE at"
+	cont "S.S.ANNU at"
 	cont "KUCHIBA CITY!"
 	done
 
@@ -29,7 +29,7 @@ _Route25EndBattleText2::
 	prompt
 
 _Route25AfterBattleText2::
-	text "On S.S.ANNE, I"
+	text "On S.S.ANNU, I"
 	line "saw trainers from"
 	cont "around the world."
 	done
@@ -102,13 +102,13 @@ _Route25EndBattleText6::
 
 _Route25AfterBattleText6::
 	text "You came from MT."
-	line "MOON? May I have"
-	cont "a CLEFAIRY?"
+	line "OTSUKIMI? May I"
+	cont "have a CLEFAIRY?"
 	done
 
 _Route25BattleText7::
 	text "I just got down"
-	line "from MT.MOON,"
+	line "from MT.OTSUKIMI,"
 	cont "but I'm ready!"
 	done
 

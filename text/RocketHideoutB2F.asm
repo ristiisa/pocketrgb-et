@@ -1,7 +1,7 @@
 _RocketHideout2BattleText2::
 	text "BOSS said you can"
 	line "see GHOSTs with"
-	cont "the SILPH SCOPE!"
+	cont "the SYLPH SCOPE!"
 	done
 
 _RocketHideout2EndBattleText2::

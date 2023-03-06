@@ -51,7 +51,7 @@ _PokemonTower2Text2::
 	line "identify the"
 	cont "wayward GHOSTs!"
 
-	para "A SILPH SCOPE"
+	para "A SYLPH SCOPE"
 	line "might be able to"
 	cont "unmask them."
 	done
