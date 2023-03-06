@@ -1,4 +1,4 @@
-# Pocket Monsters - Red, Green, and Blue Version
+# Pocket Monsters - Red, Green, and Blue DX Version
 
 ## Translation > Localization
 **pocketrgb-en**  is a Gen 1 dissassembly, based on the japanese releases titled 'Pocket Monsters' shortended to Pokémon.
@@ -8,17 +8,19 @@ Enter **pocketrgb-en** where I have taken the time to compare videos of the intr
 
 If you have ever wanted to reexperience the joys and wonders of Gen 1 like you never have before join us in **pocketrgb-en**. Where you will relearn the names of your favorite Pokémon and Places. While fighting old rivals and gym leaders. All with new and unexpected names. Each interaction gains new life as you see the many refrences and details lost in even the localizations of names!!
 
+This Branch is a DX or DMG+Color Version of the master **pocketrgb-en** Decomp. So we can all enjoy SGB colors without SGB boarders! 
+
 
 It builds the following ROMs:
 
-* Pocket Monsters - Red Version (Canada, Japan) (SGB Enhanced).gbc 
-* Pocket Monsters - Green Version (Canada, Japan) (SGB Enhanced).gbc  
-* Pocket Monsters - Blue Version (Canada, Japan) (SGB Enhanced).gbc 
+* Pocket Monsters - Red Version DX (Canada, Japan) (SGB Enhanced).gbc 
+* Pocket Monsters - Green Version DX (Canada, Japan) (SGB Enhanced).gbc  
+* Pocket Monsters - Blue Version DX (Canada, Japan) (SGB Enhanced).gbc 
 
 As well as these with DEBUG=1:
-* pocketred_debug.gbc
-* pocketgreen_debug.gbc
-* pocketblue_debug.gbc
+* pocketred_dx_debug.gbc
+* pocketgreen_dx_debug.gbc
+* pocketblue_dx_debug.gbc
 
 ## Screenshots
 
@@ -88,6 +90,7 @@ Bug Fixes:
 ## To-do
 * Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
 * Look into the Saffron City guards detecting any object as a drink bug
+* Do DMG+Color conversion to this Branch based on [Jojobear13's shinpokered](https://github.com/jojobear13/shinpokered/commit/f4904f317c466865870e93fd65776f1a7dde6eaa)
 
 ## Why make this?
 
