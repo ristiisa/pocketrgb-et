@@ -295,8 +295,8 @@ _PushStartText::
 	done
 
 _SaveOptionText::
-	text "The SAVE option is"
-	line "on the MENU"
+	text "The REPORT option"
+	line "is on the MENU"
 	cont "screen."
 	done
 

@@ -78,6 +78,7 @@ Jp Restoration:
 * Replaced the badge names with their original color based names after seeing the connection to the JP slogans
 * Replaced Team Rocket with Rocket Gang
 * Replaced all 151 Pokémon + MissingNo. with the Trademarked / Hepburn Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#) 
+* Replaced SAVE with REPORT to match how the Japanese games refered to it as writting in your Pokémon Report
 
 Bug Fixes:
 * All Multi-Player Battle Engine and Single-Player Battle Engine Bugs (except Unexpected Counter Damage) Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)

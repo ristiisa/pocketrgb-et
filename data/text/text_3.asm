@@ -5,24 +5,26 @@ _FileDataDestroyedText::
 
 _WouldYouLikeToSaveText::
 	text "Would you like to"
-	line "SAVE the game?"
+	line "write a REPORT?"
 	done
 
 _GameSavedText::
-	text "<PLAYER> saved"
-	line "the game!"
+	text "<PLAYER> wrote"
+	line "a new REPORT!"
 	done
 
 _OlderFileWillBeErasedText::
 	text "The older file"
 	line "will be erased to"
-	cont "save. Okay?"
+	cont "write a new REPORT." 
+	cont "Okay?"
 	done
 
 _WhenYouChangeBoxText::
 	text "When you change a"
-	line "#MON BOX, data"
-	cont "will be saved."
+	line "#MON BOX, a"
+	cont "REPORT will be"
+	cont "written."
 
 	para "Is that okay?"
 	done

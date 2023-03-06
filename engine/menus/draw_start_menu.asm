@@ -69,7 +69,7 @@ StartMenuItemText:
 	db "ITEM@"
 
 StartMenuSaveText:
-	db "SAVE@"
+	db "REPORT@"
 
 StartMenuResetText:
 	db "RESET@"
