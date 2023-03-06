@@ -92,7 +92,7 @@ _MtMoon1EndBattleText7::
 _MtMoon1AfterBattleText7::
 	text "I saw them! I'm"
 	line "sure they're from"
-	cont "TEAM ROCKET!"
+	cont "ROCKET GANG!"
 	done
 
 _MtMoon1BattleText8::

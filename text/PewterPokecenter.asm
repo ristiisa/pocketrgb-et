@@ -1,7 +1,7 @@
 _PewterPokecenterText2::
 	text "What!?"
 
-	para "TEAM ROCKET is at"
+	para "ROCKET GANG is at"
 	line "MT.OTSUKIMI? Huh?"
 	cont "I'm on the phone!"
 

@@ -15,7 +15,7 @@ _SaffronCityText3::
 
 _SaffronCityText4::
 	text "YAMABUKI belongs"
-	line "to TEAM ROCKET!"
+	line "to ROCKET GANG!"
 	done
 
 _SaffronCityText5::
@@ -36,13 +36,13 @@ _SaffronCityText7::
 	done
 
 _SaffronCityText8::
-	text "You beat TEAM"
-	line "ROCKET all alone?"
+	text "You beat ROCKET"
+	line "GANG all alone?"
 	cont "That's amazing!"
 	done
 
 _SaffronCityText9::
-	text "Yeah! TEAM ROCKET"
+	text "Yeah! ROCKET GANG"
 	line "is gone!"
 	cont "It's safe to go"
 	cont "out again!"

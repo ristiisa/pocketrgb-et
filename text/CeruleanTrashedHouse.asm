@@ -24,13 +24,13 @@ _CeruleanTrashedText_1d6b0::
 	done
 
 _CeruleanHouseTrashedText2::
-	text "TEAM ROCKET must"
+	text "ROCKET GANG must"
 	line "be trying to DIG"
 	cont "their way into no"
 	cont "good!"
 	done
 
 _CeruleanHouseTrashedText3::
-	text "TEAM ROCKET left"
+	text "ROCKET GANG left"
 	line "a way out!"
 	done

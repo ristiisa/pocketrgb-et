@@ -9,7 +9,7 @@ _UGPathRoute7EntranceUnusedText_5d773::
 	done
 
 _UGPathRoute7EntranceUnusedText_5d778::
-	text "TEAM ROCKET had a"
+	text "ROCKET GANG had a"
 	line "secret hideout in"
 	cont "TAMAMUSHI CITY?"
 	done

@@ -26,8 +26,8 @@ _SilphCo3AfterBattleText1::
 	done
 
 _SilphCo3BattleText2::
-	text "I support TEAM"
-	line "ROCKET more than"
+	text "I support ROCKET"
+	line "GANG more than"
 	cont "I support SYLPH!"
 	done
 
@@ -39,7 +39,7 @@ _SilphCo3EndBattleText2::
 _SilphCo3AfterBattleText2::
 	text "Humph..."
 
-	para "TEAM ROCKET said"
+	para "ROCKET GANG said"
 	line "that if I helped"
 	cont "them, they'd let"
 	cont "me study #MON!"
