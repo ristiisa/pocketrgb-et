@@ -87,6 +87,7 @@ Bug Fixes:
 * The save system has also been adjusted to handle mid-save shutoff corrupted saves
 
 ## To-do
+* Replace [Moves](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Moves_introduced_in_Generation_I) and [Items](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Items_introduced_in_Generation_I) that in the localization lost part of their original meaning
 * Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
 * Look into the Saffron City guards detecting any object as a drink bug
 
