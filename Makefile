@@ -1,14 +1,14 @@
 roms := \
-pocketred-dx.gbc \
-pocketblue-dx.gbc \
-pocketgreen-dx.gbc
+pocketred_dx.gbc \
+pocketblue_dx.gbc \
+pocketgreen_dx.gbc
 
 # Create debug roms if `make` is run with `DEBUG=1`
 ifeq ($(DEBUG),1)
 roms += \
-pocketred-dx_debug.gbc \
-pocketblue-dx_debug.gbc \
-pocketgreen-dx_debug.gbc
+pocketred_dx_debug.gbc \
+pocketblue_dx_debug.gbc \
+pocketgreen_dx_debug.gbc
 endif
 
 
@@ -23,14 +23,14 @@ gfx/pics.o \
 gfx/sprites.o \
 gfx/tilesets.o
 
-pocketred_obj        := $(rom_obj:.o=_red.o)
-pocketblue_obj       := $(rom_obj:.o=_blue.o)
-pocketgreen_obj 	   := $(rom_obj:.o=_green.o)
+pocketred_dx_obj        := $(rom_obj:.o=_red.o)
+pocketblue_dx_obj       := $(rom_obj:.o=_blue.o)
+pocketgreen_dx_obj 	   := $(rom_obj:.o=_green.o)
 
 ifeq ($(DEBUG),1)
-pocketred_debug_obj  := $(rom_obj:.o=_red_debug.o)
-pocketblue_debug_obj := $(rom_obj:.o=_blue_debug.o)
-pocketgreen_debug_obj := $(rom_obj:.o=_green_debug.o)
+pocketred_dx_debug_obj  := $(rom_obj:.o=_red_debug.o)
+pocketblue_dx_debug_obj := $(rom_obj:.o=_blue_debug.o)
+pocketgreen_dx_debug_obj := $(rom_obj:.o=_green_debug.o)
 endif
 
 ### Build tools
@@ -57,14 +57,14 @@ RGBLINK ?= $(RGBDS)rgblink
 .PHONY: all red blue green clean tidy compare tools
 
 all: $(roms)
-red:         pocketred-dx.gbc
-blue:        pocketblue-dx.gbc
-green: 		 pocketgreen-dx.gbc
+red:         pocketred_dx.gbc
+blue:        pocketblue_dx.gbc
+green: 		 pocketgreen_dx.gbc
 
 ifeq ($(DEBUG),1)
-red_debug:	 pocketred-dx_debug.gbc
-blue_debug:  pocketblue-dx_debug.gbc
-green_debug: pocketgreen-dx_debug.gbc
+red_debug:	 pocketred_dx_debug.gbc
+blue_debug:  pocketblue_dx_debug.gbc
+green_debug: pocketgreen_dx_debug.gbc
 endif
 
 clean: tidy
@@ -72,9 +72,9 @@ clean: tidy
 
 tidy:
 ifeq ($(DEBUG),1)
-	rm -f $(roms) $(pocketred_obj) $(pocketblue_obj) $(pocketgreen_obj) $(pocketblue_debug_obj) $(pocketred_debug_obj) $(pocketgreen_debug_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
+	rm -f $(roms) $(pocketred_dx_obj) $(pocketblue_dx_obj) $(pocketgreen_dx_obj) $(pocketblue_dx_debug_obj) $(pocketred_dx_debug_obj) $(pocketgreen_dx_debug_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
 else
-	rm -f $(roms) $(pocketred_obj) $(pocketblue_obj) $(pocketgreen_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
+	rm -f $(roms) $(pocketred_dx_obj) $(pocketblue_dx_obj) $(pocketgreen_dx_obj) $(roms:.gbc=.map) $(roms:.gbc=.sym) rgbdscheck.o
 endif
 	$(MAKE) clean -C tools/
 
@@ -91,12 +91,12 @@ ifeq ($(DEBUG),1)
 RGBASMFLAGS += -E
 endif
 
-$(pocketred_obj):        RGBASMFLAGS += -D _RED
-$(pocketblue_obj):       RGBASMFLAGS += -D _BLUE
-$(pocketgreen_obj): 	   RGBASMFLAGS += -D _GREEN
-$(pocketred_debug_obj):  RGBASMFLAGS += -D _RED -D _DEBUG
-$(pocketblue_debug_obj): RGBASMFLAGS += -D _BLUE -D _DEBUG
-$(pocketgreen_debug_obj): RGBASMFLAGS += -D _GREEN -D _DEBUG
+$(pocketred_dx_obj):        RGBASMFLAGS += -D _RED
+$(pocketblue_dx_obj):       RGBASMFLAGS += -D _BLUE
+$(pocketgreen_dx_obj): 	   RGBASMFLAGS += -D _GREEN
+$(pocketred_dx_debug_obj):  RGBASMFLAGS += -D _RED -D _DEBUG
+$(pocketblue_dx_debug_obj): RGBASMFLAGS += -D _BLUE -D _DEBUG
+$(pocketgreen_dx_debug_obj): RGBASMFLAGS += -D _GREEN -D _DEBUG
 
 rgbdscheck.o: rgbdscheck.asm
 	$(RGBASM) -o $@ $<
@@ -116,13 +116,13 @@ ifeq (,$(filter clean tidy tools,$(MAKECMDGOALS)))
 $(info $(shell $(MAKE) -C tools))
 
 # Dependencies for objects (drop _red and _blue from asm file basenames)
-$(foreach obj, $(pocketred_obj), $(eval $(call DEP,$(obj),$(obj:_red.o=.asm))))
-$(foreach obj, $(pocketblue_obj), $(eval $(call DEP,$(obj),$(obj:_blue.o=.asm))))
-$(foreach obj, $(pocketgreen_obj), $(eval $(call DEP,$(obj),$(obj:_green.o=.asm))))
+$(foreach obj, $(pocketred_dx_obj), $(eval $(call DEP,$(obj),$(obj:_red.o=.asm))))
+$(foreach obj, $(pocketblue_dx_obj), $(eval $(call DEP,$(obj),$(obj:_blue.o=.asm))))
+$(foreach obj, $(pocketgreen_dx_obj), $(eval $(call DEP,$(obj),$(obj:_green.o=.asm))))
 ifeq ($(DEBUG),1)
-$(foreach obj, $(pocketred_debug_obj), $(eval $(call DEP,$(obj),$(obj:_red_debug.o=.asm))))
-$(foreach obj, $(pocketblue_debug_obj), $(eval $(call DEP,$(obj),$(obj:_blue_debug.o=.asm))))
-$(foreach obj, $(pocketgreen_debug_obj), $(eval $(call DEP,$(obj),$(obj:_green_debug.o=.asm))))
+$(foreach obj, $(pocketred_dx_debug_obj), $(eval $(call DEP,$(obj),$(obj:_red_debug.o=.asm))))
+$(foreach obj, $(pocketblue_dx_debug_obj), $(eval $(call DEP,$(obj),$(obj:_blue_debug.o=.asm))))
+$(foreach obj, $(pocketgreen_dx_debug_obj), $(eval $(call DEP,$(obj),$(obj:_green_debug.o=.asm))))
 endif
 endif
 
@@ -130,23 +130,23 @@ endif
 %.asm: ;
 
 
-pocketred_pad        = 0x00
-pocketblue_pad       = 0x00
-pocketgreen_pad 	   = 0x00
+pocketred_dx_pad        = 0x00
+pocketblue_dx_pad       = 0x00
+pocketgreen_dx_pad 	   = 0x00
 ifeq ($(DEBUG),1)
-pocketred_debug_pad  = 0xff
-pocketblue_debug_pad = 0xff
-pocketgreen_debug_pad = 0xff
+pocketred_dx_debug_pad  = 0xff
+pocketblue_dx_debug_pad = 0xff
+pocketgreen_dx_debug_pad = 0xff
 endif
 
 #gbcnote - use cjsv to compile as GBC+DMG rom
-pocketred_opt        = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
-pocketblue_opt       = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
-pocketgreen_opt 	   = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
+pocketred_dx_opt        = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
+pocketblue_dx_opt       = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
+pocketgreen_dx_opt 	   = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
 ifeq ($(DEBUG),1)
-pocketred_debug_opt  = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
-pocketblue_debug_opt = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
-pocketgreen_debug_opt = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
+pocketred_dx_debug_opt  = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
+pocketblue_dx_debug_opt = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
+pocketgreen_dx_debug_opt = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
 endif
 
 %.gbc: $$(%_obj) layout.link

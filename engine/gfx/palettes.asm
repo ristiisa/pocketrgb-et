@@ -613,8 +613,8 @@ InitGBCPalettes:	;gbcnote - updating this to work with the Yellow code
 	jp z, TranslatePalPacketToBGMapAttributes	;jump if so
 	;otherwise hl points to a different pal packet or wPalPacket
 	inc hl
-	index = 0
-	REPT NUM_ACTIVE_PALS
+
+	FOR index, NUM_ACTIVE_PALS
 		IF index > 0
 			pop hl
 		ENDC
@@ -646,8 +646,8 @@ InitGBCPalettes:	;gbcnote - updating this to work with the Yellow code
 		call DMGPalToGBCPal
 		ld a, index + 4
 		call TransferCurOBPData
-index = index + 1
 	ENDR
+
 	ret
 
 GetGBCBasePalAddress:: ;gbcnote - new function
@@ -691,8 +691,7 @@ and a
 	ld [wLastOBP1], a
 .convert
 ;"A" now holds the palette data
-color_index = 0
-	REPT NUM_COLORS
+	FOR color_index, NUM_PAL_COLORS
 		ld b, a	;"B" now holds the palette data
 		and %11	;"A" now has just the value for the shade of palette color 0
 		call .GetColorAddress
@@ -708,7 +707,6 @@ color_index = 0
 			rrca
 			rrca
 		ENDC
-color_index = color_index + 1
 	ENDR
 	ret
 .GetColorAddress:
@@ -847,8 +845,7 @@ TransferPalColorLCDDisabled:
 	ret
 	
 _UpdateGBCPal_BGP::
-index = 0
-	REPT NUM_ACTIVE_PALS
+	FOR index, NUM_ACTIVE_PALS
 		ld a, [wGBCBasePalPointers + index * 2]
 		ld e, a
 		ld a, [wGBCBasePalPointers + index * 2 + 1]
@@ -857,8 +854,8 @@ index = 0
 		call DMGPalToGBCPal
 		ld a, index
 		call BufferBGPPal	; Copy wGBCPal to palette indexed in wBGPPalsBuffer.
-index = index + 1
 	ENDR
+
 	call TransferBGPPals	;Transfer wBGPPalsBuffer contents to rBGPD
 	ret
 
@@ -866,8 +863,7 @@ _UpdateGBCPal_OBP::
 ; d then c = CONVERT_OBP0 or CONVERT_OBP1
 	ld a, d
 	ld c, a
-index = 0
-	REPT NUM_ACTIVE_PALS
+	FOR index, NUM_ACTIVE_PALS
 		ld a, [wGBCBasePalPointers + index * 2]
 		ld e, a
 		ld a, [wGBCBasePalPointers + index * 2 + 1]
@@ -889,7 +885,6 @@ index = 0
 		;OBP0: a = 0, 1, 2, or 3
 		;OBP1: a = 4, 5, 6, or 7
 		call TransferCurOBPData
-index = index + 1
 	ENDR
 	ret
 	
@@ -931,7 +926,7 @@ TranslatePalPacketToBGMapAttributes::
 ;gbcnote - pointers from pokemon yellow
 PalPacketPointers::
 	db (palPacketPointersEnd - palPacketPointers) / 2
-palPacketPointers
+palPacketPointers:
 	dw BlkPacket_WholeScreen
 	dw BlkPacket_Battle
 	dw BlkPacket_StatusScreen
@@ -944,7 +939,7 @@ palPacketPointers
 	dw BlkPacket_GameFreakIntro
 	dw wPalPacket
 	dw UnknownPacket_72751
-palPacketPointersEnd
+palPacketPointersEnd:
 
 CopySGBBorderTiles:
 ; SGB tile data is stored in a 4BPP planar format.
