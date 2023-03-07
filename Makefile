@@ -1,14 +1,14 @@
 roms := \
-pocketred.gbc \
-pocketblue.gbc \
-pocketgreen.gbc
+pocketred-dx.gbc \
+pocketblue-dx.gbc \
+pocketgreen-dx.gbc
 
 # Create debug roms if `make` is run with `DEBUG=1`
 ifeq ($(DEBUG),1)
 roms += \
-pocketred_debug.gbc \
-pocketblue_debug.gbc \
-pocketgreen_debug.gbc
+pocketred-dx_debug.gbc \
+pocketblue-dx_debug.gbc \
+pocketgreen-dx_debug.gbc
 endif
 
 
@@ -57,14 +57,14 @@ RGBLINK ?= $(RGBDS)rgblink
 .PHONY: all red blue green clean tidy compare tools
 
 all: $(roms)
-red:         pocketred.gbc
-blue:        pocketblue.gbc
-green: 		 pocketgreen.gbc
+red:         pocketred-dx.gbc
+blue:        pocketblue-dx.gbc
+green: 		 pocketgreen-dx.gbc
 
 ifeq ($(DEBUG),1)
-red_debug:	 pocketred_debug.gbc
-blue_debug:  pocketblue_debug.gbc
-green_debug: pocketgreen_debug.gbc
+red_debug:	 pocketred-dx_debug.gbc
+blue_debug:  pocketblue-dx_debug.gbc
+green_debug: pocketgreen-dx_debug.gbc
 endif
 
 clean: tidy
@@ -139,13 +139,14 @@ pocketblue_debug_pad = 0xff
 pocketgreen_debug_pad = 0xff
 endif
 
-pocketred_opt        = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
-pocketblue_opt       = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
-pocketgreen_opt 	   = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
+#gbcnote - use cjsv to compile as GBC+DMG rom
+pocketred_opt        = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
+pocketblue_opt       = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
+pocketgreen_opt 	   = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
 ifeq ($(DEBUG),1)
-pocketred_debug_opt  = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
-pocketblue_debug_opt = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
-pocketgreen_debug_opt = -jsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
+pocketred_debug_opt  = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON RED"
+pocketblue_debug_opt = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON BLUE"
+pocketgreen_debug_opt = -cjsv -n 0 -k 01 -l 0x33 -m 0x13 -r 03 -t "POKEMON GREEN"
 endif
 
 %.gbc: $$(%_obj) layout.link
