@@ -360,15 +360,15 @@ INCLUDE "engine/overworld/elevator.asm"
 INCLUDE "engine/items/tm_prices.asm"
 
 ;note - This is a known empty bank.
-SECTION "bank2D", ROMX
+SECTION "bank2D", ROMX, BANK[$2D]
 
+INCLUDE "bank2D/overworld_bank2D.asm"
 INCLUDE "engine/battle/stats_functions.asm"	
 
-SECTION "bank2E",ROMX,BANK[$2E]	
+SECTION "bank2E", ROMX, BANK[$2E]
 ;gbcnote - This bank will hold the bg map attributes for the gameboy color among other things
 
 ;include the bgmap files from pokemon yellow
 INCLUDE "data/bg_map_attributes.asm"
 INCLUDE "engine/bg_map_attributes.asm"
-
 INCLUDE "engine/movie/splash.asm"	;gbcnote - moved here to make space

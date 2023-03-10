@@ -54,7 +54,7 @@ rLCDC_DEFAULT EQU %11100011
 	call ClearVram
 
 	ld hl, HRAM_Begin
-	ld bc, $fffe - HRAM_Begin ;gbcnote - don't clear hGBC
+	ld bc, hGBC - HRAM_Begin ;gbcnote - don't clear hGBC
 	call FillMemory
 
 	call ClearSprites
