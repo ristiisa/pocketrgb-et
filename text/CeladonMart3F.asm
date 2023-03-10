@@ -66,7 +66,7 @@ _CeladonMart3Text5::
 	done
 
 _CeladonMart3Text6::
-	text "It's an SNES!"
+	text "It's a FAMICOM!"
 	done
 
 _CeladonMart3Text7::

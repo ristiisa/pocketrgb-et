@@ -15,8 +15,8 @@ _GameSavedText::
 
 _OlderFileWillBeErasedText::
 	text "The older file"
-	line "will be erased to"
-	cont "write a new REPORT." 
+	line "will be overwriten"
+	cont "by a new REPORT." 
 	cont "Okay?"
 	done
 

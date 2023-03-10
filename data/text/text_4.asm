@@ -202,8 +202,8 @@ _CableClubNPCPleaseApplyHereHaveToSaveText::
 	text "Please apply here."
 
 	para "Before opening"
-	line "the link, we have"
-	cont "to save the game."
+	line "the link, you have"
+	cont "to write a REPORT."
 	done
 
 _CableClubNPCPleaseWaitText::
