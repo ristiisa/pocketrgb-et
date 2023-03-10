@@ -180,6 +180,7 @@ OverworldLoopLessDelay::
 	ld [wPlayerDirection], a ; new direction
 	callba Determine180degreeMove	;note - moved to overworld_bank2D.asm to save space
 	jr c, .noDirectionChange
+	
 	call NewBattle
 	jp c, .battleOccurred
 	jp OverworldLoop
@@ -507,6 +508,7 @@ CheckMapConnections::	;note - these routines moved to overworld_bank2D.asm to sa
 	;jr z, .loadNewMap
 
 	;callba CheckSouthMap
+	jr nz, .didNotEnterConnectedMap
 
 .loadNewMap ; load the connected map that was entered
 	call LoadMapHeader
