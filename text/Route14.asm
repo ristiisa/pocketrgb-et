@@ -81,7 +81,7 @@ _Route14EndBattleText5::
 _Route14AfterBattleText5::
 	text "The 3 legendary"
 	line "#MON are all"
-	cont "birds of prey."
+	cont "birds."
 	done
 
 _Route14BattleText6::
