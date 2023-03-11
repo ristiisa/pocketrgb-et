@@ -53,9 +53,9 @@ _VoltorbDexEntry::
 	next "power plants."
 	next "Easily mistaken"
 
-	page "for a # BALL,"
-	next "they have zapped"
-	next "many people"
+	page "for a MONSTER"
+	next "BALL, they have"
+	next "zapped many people"
 	dex
 
 _NidokingDexEntry::

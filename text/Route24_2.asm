@@ -70,7 +70,7 @@ _Route24AfterBattleText5::
 	done
 
 _Route24BattleText6::
-	text "This is NUGGET"
+	text "This is GOLD ORB"
 	line "BRIDGE! Beat us 5"
 	cont "trainers and win"
 	cont "a fabulous prize!"

@@ -500,7 +500,7 @@ _ViridianSchoolNotebookText1::
 
 	para "First page..."
 
-	para "# BALLs are"
+	para "MONSTER BALLs are"
 	line "used to catch"
 	cont "#MON."
 
@@ -1195,7 +1195,7 @@ _BuildingRageText::
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
+	text "The PARROT MIMICRY"
 	next "failed!"
 	prompt
 

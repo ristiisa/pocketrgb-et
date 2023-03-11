@@ -45,7 +45,8 @@ _SpearowDexEntry::
 
 	page "is frail, it can"
 	next "be a tough foe"
-	next "with MIRROR MOVE"
+	next "with PARROT"
+	next "MIMICRY"
 	dex
 
 _VoltorbDexEntry::

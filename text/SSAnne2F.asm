@@ -49,14 +49,16 @@ _SSAnneRivalWonText::
 
 _SSAnneRivalCaptainText::
 	text "<RIVAL>: I heard"
-	line "there was a CUT"
-	cont "master on board."
+	line "there was a IAI"
+	cont "CUT master on"
+	cont "board."
 
 	para "But, he was just a"
 	line "seasick, old man!"
 
-	para "But, CUT itself is"
-	line "really useful!"
+	para "But, IAI CUT"
+	line "itself is"
+	cont "really useful!"
 
 	para "You should go see"
 	line "him! Smell ya!"

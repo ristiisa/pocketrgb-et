@@ -1,5 +1,5 @@
 FieldMoveNames:
-	db "CUT@"
+	db "IAI CUT@"
 	db "FLY@"
 	db "@"
 	db "SURF@"

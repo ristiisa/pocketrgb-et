@@ -6,7 +6,7 @@ _CeladonMartRoofText_484ee::
 _CeladonMartRoofText_484f3::
 	text "Yay!"
 
-	para "FRESH WATER!"
+	para "DELICIOUS WATER!"
 
 	para "Thank you!"
 
@@ -36,7 +36,7 @@ _CeladonMartRoofText_484fe::
 _CeladonMartRoofText_48504::
 	text "Yay!"
 
-	para "SODA POP!"
+	para "PSYCHO SODA!"
 
 	para "Thank you!"
 
@@ -66,7 +66,7 @@ _CeladonMartRoofText_4850f::
 _CeladonMartRoofText_48515::
 	text "Yay!"
 
-	para "LEMONADE!"
+	para "MIX AU LAIT!"
 
 	para "Thank you!"
 

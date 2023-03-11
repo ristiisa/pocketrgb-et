@@ -34,12 +34,12 @@ _CeruleanGymText_5c7c8::
 	line "even outsiders!"
 
 	para "There's more, you"
-	line "can now use CUT"
-	cont "any time!"
+	line "can now use IAI"
+	cont "CUT any time!"
 
-	para "You can CUT down"
-	line "small bushes to"
-	cont "open new paths!"
+	para "You can IAI CUT"
+	line "down small bushes"
+	cont "to open new paths!"
 
 	para "You can also have"
 	line "my favorite TM!"

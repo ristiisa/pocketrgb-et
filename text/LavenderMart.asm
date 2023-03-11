@@ -21,7 +21,7 @@ _LavenderMartReviveText::
 	done
 
 _LavenderMartNuggetText::
-	text "I found a NUGGET"
+	text "I found a GOLD ORB"
 	line "in the mountains."
 
 	para "I thought it was"
