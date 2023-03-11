@@ -1,4 +1,4 @@
-SuperPalettes:
+GBCBasePalettes:
 ; entries correspond to PAL_* constants
 ;		 Color 0   Color 1 	 Color 2   Color 3
 ;		BG White   Primary	  Shadow    Black
@@ -111,7 +111,7 @@ ELSE
 ENDC
 
 ;gbcnote - added from yellow tweaked to match SGB JP pallets
-IF DEF(_GREEN)
+IF DEF(_GREEN) ;SGB Shades to match JP sgb to gbc palettes
 	RGB 30,31,29, 31,30,22, 23,27,31, 03,02,02 ; PAL_25
 	RGB 30,31,29, 28,23,09, 18,14,10, 03,02,02 ; PAL_26
 	RGB 30,31,29, 16,16,16, 31,25,09, 03,02,02 ; PAL_27
@@ -120,3 +120,13 @@ ELSE
 	RGB 31,29,31, 28,23,09, 18,14,10, 03,02,02 ; PAL_26
 	RGB 31,29,31, 16,16,16, 31,25,09, 03,02,02 ; PAL_27
 ENDC
+
+;IF DEF(_GREEN)   ;Over Saturated GBC shades - Ideal if attempting to run on original gbc screens
+;	RGB 30,31,29, 31,31,00, 11,23,31, 03,02,02 ; PAL_25
+;	RGB 30,31,29, 31,18,00, 19,07,01, 03,02,02 ; PAL_26
+;	RGB 30,31,29, 09,09,09, 31,21,00, 03,02,02 ; PAL_27
+;ELSE
+;	RGB 31,29,31, 31,31,00, 11,23,31, 03,02,02 ; PAL_25
+;	RGB 31,29,31, 31,18,00, 19,07,01, 03,02,02 ; PAL_26
+;	RGB 31,29,31, 09,09,09, 31,21,00, 03,02,02 ; PAL_27
+;ENDC

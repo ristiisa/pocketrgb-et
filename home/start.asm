@@ -4,7 +4,7 @@ _Start::
 	xor a
 	jr .ok
 .gbc
-	ld a, 0
+	ld a, 1 ;gbcnote - set the marker for being in gbc mode
 .ok
-	ld [wGBC], a
+	ld [hGBC], a
 	jp Init
