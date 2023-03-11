@@ -81,7 +81,7 @@ Jp Restoration:
 * Replaced Team Rocket with Rocket Gang
 * Replaced all 151 Pokémon + MissingNo. with the Trademarked / Hepburn Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#) 
 * Replaced SAVE with REPORT to match how the Japanese games refered to it as writting in your Pokémon Report
-* * Replaced [Move](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Moves_introduced_in_Generation_I) and [Item](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Items_introduced_in_Generation_I) names that lost part of their original meaning in localization 
+* Replaced [Move](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Moves_introduced_in_Generation_I) and [Item](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Items_introduced_in_Generation_I) names that lost part of their original meaning in localization 
 * Do DMG+Color conversion to this Branch based on [Jojobear13's shinpokered](https://github.com/jojobear13/shinpokered/commit/f4904f317c466865870e93fd65776f1a7dde6eaa)
 
 
