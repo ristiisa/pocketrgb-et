@@ -79,6 +79,7 @@ Jp Restoration:
 * Replaced Team Rocket with Rocket Gang
 * Replaced all 151 Pokémon + MissingNo. with the Trademarked / Hepburn Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#) 
 * Replaced SAVE with REPORT to match how the Japanese games refered to it as writting in your Pokémon Report
+* Do DMG+Color conversion to this Branch based on [Jojobear13's shinpokered](https://github.com/jojobear13/shinpokered/commit/f4904f317c466865870e93fd65776f1a7dde6eaa)
 
 Bug Fixes:
 * All Multi-Player Battle Engine and Single-Player Battle Engine Bugs (except Unexpected Counter Damage) Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
@@ -91,7 +92,6 @@ Bug Fixes:
 ## To-do
 * Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
 * Look into the Saffron City guards detecting any object as a drink bug
-* Do DMG+Color conversion to this Branch based on [Jojobear13's shinpokered](https://github.com/jojobear13/shinpokered/commit/f4904f317c466865870e93fd65776f1a7dde6eaa)
 
 ## Why make this?
 
