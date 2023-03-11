@@ -16,7 +16,7 @@ _SSAnne9Text_61c01::
 	done
 
 _SSAnne9Text_61c10::
-	text "#MON can CUT"
+	text "#MON can IAI CUT"
 	line "down small bushes."
 	done
 

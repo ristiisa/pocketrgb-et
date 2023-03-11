@@ -41,8 +41,8 @@ _CeruleanHouse2Text_74e9b::
 	line "become unruly!"
 
 	para "It also lets you"
-	line "use CUT outside"
-	cont "of battle."
+	line "use IAI CUT out-"
+	cont "side of battle."
 	prompt
 
 _CeruleanHouse2Text_74ea0::

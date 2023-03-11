@@ -1195,7 +1195,7 @@ _BuildingRageText::
 	prompt
 
 _MirrorMoveFailedText::
-	text "The MIRROR MOVE"
+	text "The PARROT MIMICRY"
 	next "failed!"
 	prompt
 

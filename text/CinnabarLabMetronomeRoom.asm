@@ -15,8 +15,8 @@ _ReceivedTM35Text::
 
 _TM35ExplanationText::
 	text "Tch-tch-tch!"
-	line "That's the sound"
-	cont "of a METRONOME!"
+	line "WAG FINGER which"
+	cont "move to pick!"
 
 	para "It tweaks your"
 	line "#MON's brain"
