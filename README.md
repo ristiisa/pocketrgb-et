@@ -26,7 +26,7 @@ As well as these with DEBUG=1:
 
 **Pocket Monsters - Red Version**
 
-![red-title](screenshots/red-title.bmp)
+![red-title](https://i.imgur.com/7xdX6ft.gif)
 ![red-overworld](screenshots/red-overworld.bmp)
 ![red-wild](screenshots/red-wild.bmp)
 ![red-trade](screenshots/red-trade.bmp)
@@ -34,17 +34,19 @@ As well as these with DEBUG=1:
 
 **Pocket Monsters - Green Version**
 
-![green-title](https://i.imgur.com/RWYHTME.gif)
+![green-title](https://i.imgur.com/E81dsbW.gif)
 ![green-slots](screenshots/green-slots.bmp)
 ![green-ceruleancave](screenshots/green-ceruleancave.bmp)
 ![green-card](screenshots/green-card.bmp)
+![green-shop](screenshots/green-shop.bmp)
 
 **Pocket Monsters - Blue Version**
 
-![blue-title](https://i.imgur.com/fFypeSC.gif)
+![blue-title](https://i.imgur.com/kppyAMk.gif)
 ![blue-prizes](screenshots/blue-prizes.bmp)
 ![blue-wild](screenshots/blue-wild.bmp)
 ![blue-green](screenshots/blue-green.bmp)
+![blue-report](screenshots/blue-report.bmp)
 
 ## What's changed?
 
