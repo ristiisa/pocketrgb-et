@@ -30,7 +30,7 @@ ROM0
 	; $0061
 	"High Home"
 	org $100
-	"Header" 
+	"Header"
 	org $150
 	"Home"
 ROMX $1
@@ -177,10 +177,6 @@ ROMX $2B
 	"Pokédex Text"
 ROMX $2C
 	"Move Names"
-ROMX $2D
-	"bank2D"
-ROMX $2E
-	"bank2E"
 WRAM0
 	"WRAM"
 	org $c100

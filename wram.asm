@@ -496,8 +496,6 @@ wDexRatingNumMonsOwned::
 	ds 1
 
 wDexRatingText::
-wTrainerCardBadgeAttributes:: ; cc5d
-;gbcnote - modified to match yellow
 	ds 1
 
 wSlotMachineSavedROMBank::
@@ -1309,8 +1307,7 @@ wScriptedNPCWalkCounter::
 
 	ds 1
 
-;gbcnote - moved to hram
-;wGBC:: ; cf1a
+wGBC::
 	ds 1
 
 wOnSGB::
@@ -1349,10 +1346,7 @@ wPalPacket::
 
 wPartyMenuBlkPacket::
 ; $30 bytes
-	ds 9
-;gbcnote - modified to match yellow
-wPartyHPBarAttributes:: ; cf36
-	ds 20
+	ds 29
 
 wExpAmountGained::
 ; 2-byte big-endian number
@@ -2810,20 +2804,7 @@ wRoute18Gate1FCurScript::
 	ds 78
 wGameProgressFlagsEnd::
 
-wGBCBasePalPointers:: 
-	ds NUM_ACTIVE_PALS * 2 ; 8 bytes
-wGBCPal:: 
-	ds PAL_SIZE ; 8 bytes
-wLastBGP:: 
-	ds 1
-wLastOBP0:: 
-	ds 1
-wLastOBP1:: 
-	ds 1 
-wBGPPalsBuffer:: 
-	ds NUM_ACTIVE_PALS * PAL_SIZE ;32 bytes
-	
-	ds 5
+	ds 56
 
 wObtainedHiddenItemsFlags::
 	ds 14

@@ -7,7 +7,6 @@ AnimateBoulderDust:
 	ld [wUpdateSpritesEnabled], a
 	ld a, %11100100
 	ldh [rOBP1], a
-	call UpdateGBCPal_OBP1
 	call LoadSmokeTileFourTimes
 	farcall WriteCutOrBoulderDustAnimationOAMBlock
 	ld c, 8 ; number of steps in animation
@@ -22,7 +21,6 @@ AnimateBoulderDust:
 	ldh a, [rOBP1]
 	xor %01100100
 	ldh [rOBP1], a
-	call UpdateGBCPal_OBP1
 	call Delay3
 	pop bc
 	dec c

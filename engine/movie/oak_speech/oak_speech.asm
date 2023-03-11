@@ -46,8 +46,6 @@ OakSpeech:
 	call LoadTextBoxTilePatterns
 	call SetDefaultNames
 	predef InitPlayerData2
-	call RunDefaultPaletteCommand	;gbcnote - reinitialize the default palette in case the pointers got cleared
-	call ClearScreen
 	ld hl, wNumBoxItems
 	ld a, POTION
 	ld [wcf91], a
@@ -76,27 +74,7 @@ OakSpeech:
 	call GetMonHeader
 	hlcoord 6, 4
 	call LoadFlippedFrontSpriteByMonIndex
-	;call MovePicLeft
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-	;gbcnote - Nidorino needs its pal
-	ld a, %11100100
-	ld [rBGP], a
-	call UpdateGBCPal_BGP
-	
-	push af
-	push bc
-	push hl
-	push de
-	ld d, CONVERT_BGP
-	ld e, 0
-	callba TransferMonPal 
-	pop de
-	pop hl
-	pop bc
-	pop af
-	
-	call MovePicLeft_NoPalUpdate
-	;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+	call MovePicLeft
 	ld hl, OakSpeechText2
 	call PrintText
 	call GBFadeOutToWhite
@@ -202,7 +180,6 @@ FadeInIntroPic:
 .next
 	ld a, [hli]
 	ldh [rBGP], a
-	call UpdateGBCPal_BGP
 	ld c, 10
 	call DelayFrames
 	dec b
@@ -218,13 +195,12 @@ IntroFadePalettes:
 	db %11100100
 
 MovePicLeft:
-	ld a, %11100100
-	ldh [rBGP], a
-	call UpdateGBCPal_BGP
-MovePicLeft_NoPalUpdate: ;gbcnote - need the option to skip updating if needed
 	ld a, 119
 	ldh [rWX], a
 	call DelayFrame
+
+	ld a, %11100100
+	ldh [rBGP], a
 .next
 	call DelayFrame
 	ldh a, [rWX]

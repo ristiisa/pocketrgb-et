@@ -1,10 +1,5 @@
 SuperPalettes:
 ; entries correspond to PAL_* constants
-;		 Color 0   Color 1 	 Color 2   Color 3
-;		BG White   Primary	  Shadow    Black
-;	RGB 30,31,29, 18,25,12, 09,20,11, 03,02,02 ; (Super Game Boy) PAL_GREENMON JP Green       
-;	RGB 31,31,31, 17,31,11, 01,22,06, 03,03,03 ; (Game Boy Color) PAL_GREENMON Pokémon Yellow
-
 IF DEF(_GREEN)
 	RGB 30,31,29, 21,28,11, 20,26,31, 03,02,02 ; PAL_ROUTE
 	RGB 30,31,29, 25,24,29, 20,26,31, 03,02,02 ; PAL_PALLET
@@ -108,15 +103,4 @@ ELSE
 	RGB 31,29,31, 30,22,17, 11,15,23, 03,02,02 ; PAL_BADGE
 	RGB 31,29,31, 21,14,09, 18,24,22, 03,02,02 ; PAL_CAVE
 	RGB 31,29,31, 31,28,14, 24,20,10, 03,02,02 ; PAL_GAMEFREAK
-ENDC
-
-;gbcnote - added from yellow tweaked to match SGB JP pallets
-IF DEF(_GREEN)
-	RGB 30,31,29, 31,30,22, 23,27,31, 03,02,02 ; PAL_25
-	RGB 30,31,29, 28,23,09, 18,14,10, 03,02,02 ; PAL_26
-	RGB 30,31,29, 16,16,16, 31,25,09, 03,02,02 ; PAL_27
-ELSE
-	RGB 31,29,31, 31,30,22, 23,27,31, 03,02,02 ; PAL_25
-	RGB 31,29,31, 28,23,09, 18,14,10, 03,02,02 ; PAL_26
-	RGB 31,29,31, 16,16,16, 31,25,09, 03,02,02 ; PAL_27
 ENDC

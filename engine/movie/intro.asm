@@ -33,9 +33,6 @@ PlayIntroScene:
 	ldh [rBGP], a
 	ldh [rOBP0], a
 	ldh [rOBP1], a
-	call UpdateGBCPal_BGP
-	call UpdateGBCPal_OBP0
-	call UpdateGBCPal_OBP1
 	xor a
 	ldh [hSCX], a
 	ld b, TILEMAP_GENGAR_INTRO_1
@@ -322,7 +319,6 @@ PlayShootingStar:
 	farcall LoadCopyrightAndTextBoxTiles
 	ldPal a, BLACK, DARK_GRAY, LIGHT_GRAY, WHITE
 	ldh [rBGP], a
-	call UpdateGBCPal_BGP
 	ld c, 180
 	call DelayFrames
 	call ClearScreen
