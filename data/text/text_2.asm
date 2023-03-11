@@ -500,7 +500,7 @@ _ViridianSchoolNotebookText1::
 
 	para "First page..."
 
-	para "# BALLs are"
+	para "MONSTER BALLs are"
 	line "used to catch"
 	cont "#MON."
 

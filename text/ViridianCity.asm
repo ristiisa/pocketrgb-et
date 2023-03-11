@@ -1,7 +1,8 @@
 _ViridianCityText1::
-	text "Those # BALLs"
-	line "at your waist!"
-	cont "You have #MON!"
+	text "Those MONSTER"
+	line "BALLs at your"
+	cont "waist! You have"
+	cont "#MON!"
 
 	para "It's great that"
 	line "you can carry and"

@@ -18,8 +18,8 @@ SafariZoneEntranceText_9e747::
 	line "please!"
 
 	para "We only use a"
-	line "special # BALL"
-	cont "here."
+	line "special MONSTER"
+	cont "BALL here."
 
 	para "<PLAYER> received"
 	line "30 SAFARI BALLs!@"

@@ -64,8 +64,9 @@ _Route13AfterBattleText5::
 	done
 
 _Route13BattleText6::
-	text "I found CARBOS in"
-	line "a cave once."
+	text "I found"
+	line "INDOMETACIN in a"
+	cont "cave once."
 	done
 
 _Route13EndBattleText6::
@@ -74,9 +75,9 @@ _Route13EndBattleText6::
 	prompt
 
 _Route13AfterBattleText6::
-	text "CARBOS boosted"
-	line "the SPEED of my"
-	cont "#MON."
+	text "INDOMETACIN"
+	line "boosted the SPEED"
+	cont "of my #MON."
 	done
 
 _Route13BattleText7::

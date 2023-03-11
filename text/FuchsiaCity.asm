@@ -77,7 +77,7 @@ _FuchsiaCityVoltorbText::
 	text "Name: BIRIRIDAMA"
 
 	para "The very image of"
-	line "a # BALL."
+	line "a MONSTER BALL."
 	prompt
 
 _FuchsiaCityKangaskhanText::

@@ -17,7 +17,7 @@ _CopycatsHouse2FText_5ccd4::
 
 _TM31PreReceiveText::
 	text "Oh wow!"
-	line "A # DOLL!"
+	line "A PIPPI DOLL!"
 
 	para "For me?"
 	line "Thank you!"
@@ -53,8 +53,9 @@ _TM31ExplanationText2::
 	line "that fun to mimic"
 	cont "my every move?"
 
-	para "COPYCAT: You bet!"
-	line "It's a scream!"
+	para "MIMIC GIRL: You"
+	line "bet! It's a"
+	cont "scream!"
 	done
 
 _TM31NoRoomText::

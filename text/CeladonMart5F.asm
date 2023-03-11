@@ -3,12 +3,12 @@ _CeladonMart5Text1::
 	line "enhancers can be"
 	cont "bought only here."
 
-	para "Use CALCIUM to"
+	para "Use LYSOZYME to"
 	line "increase SPECIAL"
 	cont "abilities."
 
-	para "Use CARBOS to"
-	line "increase SPEED."
+	para "Use INDOMETACIN"
+	line "to increase SPEED."
 	done
 
 _CeladonMart5Text2::
@@ -16,11 +16,11 @@ _CeladonMart5Text2::
 	line "#MON ability"
 	cont "enhancers."
 
-	para "PROTEIN increases"
+	para "TAURINE increases"
 	line "ATTACK power."
 
-	para "IRON increases"
-	line "DEFENSE!"
+	para "BROMHEXINE"
+	line "increases DEFENSE!"
 	done
 
 _CeladonMart5Text5::
