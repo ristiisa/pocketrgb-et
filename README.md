@@ -36,6 +36,7 @@ As well as these with DEBUG=1:
 ![green-slots](screenshots/green-slots.bmp)
 ![green-ceruleancave](screenshots/green-ceruleancave.bmp)
 ![green-card](screenshots/green-card.bmp)
+![green-shop](screenshots/green-shop.bmp)
 
 **Pocket Monsters - Blue Version**
 
@@ -43,6 +44,7 @@ As well as these with DEBUG=1:
 ![blue-prizes](screenshots/blue-prizes.bmp)
 ![blue-wild](screenshots/blue-wild.bmp)
 ![blue-green](screenshots/blue-green.bmp)
+![blue-report](screenshots/blue-report.bmp)
 
 ## What's changed?
 
@@ -77,6 +79,7 @@ Jp Restoration:
 * Replaced Team Rocket with Rocket Gang
 * Replaced all 151 Pokémon + MissingNo. with the Trademarked / Hepburn Japanese names (https://docs.google.com/spreadsheets/u/0/d/18NN_FWd8pZBRk7cZPjj-pN17jDVKyMSgfPf_fbfyBIo/htmlview#)
 * Replaced SAVE with REPORT to match how the Japanese games refered to it as writting in your Pokémon Report
+* Replaced [Move](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Moves_introduced_in_Generation_I) and [Item](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Items_introduced_in_Generation_I) names that lost part of their original meaning in localization 
 
 Bug Fixes:
 * All Multi-Player Battle Engine and Single-Player Battle Engine Bugs (except Unexpected Counter Damage) Listed under pokered's Bugs and Glitches List are fixed (https://github.com/pret/pokered/wiki/Bugs-and-Glitches)
@@ -87,7 +90,6 @@ Bug Fixes:
 * The save system has also been adjusted to handle mid-save shutoff corrupted saves
 
 ## To-do
-* Replace [Moves](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Moves_introduced_in_Generation_I) and [Items](https://bulbapedia.bulbagarden.net/wiki/List_of_localization_changes_in_the_Pok%C3%A9mon_games#Items_introduced_in_Generation_I) that in the localization lost part of their original meaning
 * Look into Unexpected Counter Damage Bug further to see if I can propperly port Jojobear13's fix without build errors
 * Look into the Saffron City guards detecting any object as a drink bug
 
