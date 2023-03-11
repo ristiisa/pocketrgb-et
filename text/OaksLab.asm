@@ -105,8 +105,8 @@ _OaksLabDeliverParcelText1::
 _OaksLabDeliverParcelText2::
 	text_start
 	para "Ah! This is the"
-	line "custom # BALL"
-	cont "I ordered!"
+	line "custom MONSTER"
+	cont "BALL I ordered!"
 	cont "Thank you!"
 	done
 
@@ -128,7 +128,7 @@ _OaksLabGivePokeballsText1::
 	cont "#MON."
 
 	para "<PLAYER> got 5"
-	line "# BALLs!@"
+	line "MONSTER BALLs!@"
 	text_end
 
 _OaksLabGivePokeballsText2::
@@ -208,7 +208,7 @@ _OaksLabChooseMonText::
 	para "Haha!"
 
 	para "They are inside"
-	line "the # BALLs."
+	line "the MONSTER BALLs."
 
 	para "When I was young,"
 	line "I was a serious"

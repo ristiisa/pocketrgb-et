@@ -200,11 +200,12 @@ _AfterTrade3Text::
 
 _NothingToCutText::
 	text "There isn't"
-	line "anything to CUT!"
+	line "anything to"
+	cont "IAI CUT!"
 	prompt
 
 _UsedCutText::
 	text_ram wcd6d
 	text " hacked"
-	line "away with CUT!"
+	line "away with IAI CUT!"
 	prompt

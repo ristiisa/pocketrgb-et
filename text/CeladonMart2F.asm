@@ -1,10 +1,11 @@
 _CeladonMart2Text3::
-	text "SUPER REPEL keeps"
+	text "SILVER SPRAY keeps"
 	line "weak #MON at"
 	cont "bay..."
 
-	para "Hmm, it's a more"
-	line "powerful REPEL!"
+	para "Hmm, it's a"
+	line "more powerful"
+	cont "REPELLENT SPRAY!"
 	done
 
 _CeladonMart2Text4::

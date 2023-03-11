@@ -21,7 +21,7 @@ _Route1Text_1cae8::
 
 _Route1Text_1caee::
 	text "We also carry"
-	line "# BALLs for"
+	line "MONSTER BALLs for"
 	cont "catching #MON!"
 	done
 

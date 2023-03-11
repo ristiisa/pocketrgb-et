@@ -171,7 +171,8 @@ SaveSAV:
 	jp DelayFrames
 
 NowSavingString:
-	db "<PLAYER> is<LF>writing...@"
+	db "<PLAYER> is"
+	next "writing...@"
 
 SaveSAVConfirm:
 	call PrintText

@@ -12,9 +12,9 @@ _SaffronHouse1Text2::
 	text_end
 
 _SaffronHouse1Text3::
-	text "The COPYCAT is"
+	text "The MIMIC GIRL is"
 	line "cute! I'm getting"
-	cont "her a # DOLL!"
+	cont "her a PIPPI DOLL!"
 	done
 
 _SaffronHouse1Text4::

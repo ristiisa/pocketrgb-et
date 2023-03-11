@@ -1,6 +1,7 @@
 _MtMoonPokecenterText1::
-	text "I've 6 # BALLs"
-	line "set in my belt."
+	text "I've 6 MONSTER"
+	line "BALLs set in"
+	cont "my belt."
 
 	para "At most, you can"
 	line "carry 6 #MON."

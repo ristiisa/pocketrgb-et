@@ -17,7 +17,8 @@ _ReceivingHM01Text::
 	cont "feel much better!"
 
 	para "You want to see"
-	line "my CUT technique?"
+	line "my IAI CUT"
+	cont "technique?"
 
 	para "I could show you"
 	line "if I wasn't ill..."
@@ -27,8 +28,8 @@ _ReceivingHM01Text::
 
 	para "Teach it to your"
 	line "#MON and you"
-	cont "can see it CUT"
-	cont "any time!"
+	cont "can see it IAI"
+	cont "CUT any time!"
 	prompt
 
 _ReceivedHM01Text::

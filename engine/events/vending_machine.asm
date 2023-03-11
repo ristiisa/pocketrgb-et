@@ -85,9 +85,9 @@ VendingMachineText1:
 	text_end
 
 DrinkText:
-	db   "FRESH WATER"
-	next "SODA POP"
-	next "LEMONADE"
+	db   "DELICIOUS WATER"
+	next "PSYCHO SODA"
+	next "MIX AU LAIT"
 	next "CANCEL@"
 
 DrinkPriceText:

@@ -1,7 +1,7 @@
 _CeruleanMartText2::
-	text "Use REPEL to keep"
-	line "bugs and weak"
-	cont "#MON away."
+	text "Use REPELLENT SPRAY"
+	line "to keep bugs and"
+	cont "weak #MON away."
 
 	para "Put your strongest"
 	line "#MON at the"

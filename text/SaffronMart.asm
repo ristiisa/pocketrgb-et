@@ -1,7 +1,7 @@
 _SaffronMartText2::
-	text "MAX REPEL lasts"
-	line "longer than SUPER"
-	cont "REPEL for keeping"
+	text "GOLD SPRAY lasts"
+	line "longer than SILVER"
+	cont "SPRAY for keeping"
 	cont "weaker #MON"
 	cont "away!"
 	done
