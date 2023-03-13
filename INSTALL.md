@@ -1,6 +1,6 @@
 # Instructions
 
-These instructions explain how to set up the tools required to build **pocketrgb-en**, including [**rgbds**](https://github.com/gbdev/rgbds), which assembles the source files into a ROM.
+These instructions explain how to set up the tools required to build **pocketrgb-dx**, including [**rgbds**](https://github.com/gbdev/rgbds), which assembles the source files into a ROM.
 
 If you run into trouble, ask for help on IRC or Discord (see [README.md](README.md)).
 
@@ -58,7 +58,7 @@ cd /cygdrive/c/Users/<user>/Desktop
 
 (The Windows `C:\` drive is called `/cygdrive/c/` in Cygwin. Replace *\<user>* in the example path with your username.)
 
-Now you're ready to [build **pocketrgb-en**](#build-pocketrgb-en).
+Now you're ready to [build **pocketrgb-dx**](#build-pocketrgb-dx).
 
 
 ## macOS
@@ -69,7 +69,7 @@ Open **Terminal** and prepare to enter commands.
 
 Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#pre-built) for macOS to install **rgbds 0.6.1**.
 
-Now you're ready to [build **pocketrgb-en**](#build-pocketrgb-en).
+Now you're ready to [build **pocketrgb-dx**](#build-pocketrgb-dx).
 
 
 ## Linux
@@ -78,7 +78,7 @@ Open **Terminal** and enter the following commands, depending on which distro yo
 
 ### Debian or Ubuntu
 
-To install the software required for **pocketrgb-en**:
+To install the software required for **pocketrgb-dx**:
 
 ```bash
 sudo apt-get install make gcc git
@@ -88,7 +88,7 @@ Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building
 
 ### OpenSUSE
 
-To install the software required for **pocketrgb-en**:
+To install the software required for **pocketrgb-dx**:
 
 ```bash
 sudo zypper install make gcc git
@@ -98,7 +98,7 @@ Then follow the [**rgbds** instructions](https://rgbds.gbdev.io/install#building
 
 ### Arch Linux
 
-To install the software required for **pocketrgb-en**:
+To install the software required for **pocketrgb-dx**:
 
 ```bash
 sudo pacman -S make gcc git
@@ -110,7 +110,7 @@ If you want to compile and install **rgbds** yourself instead, then follow the [
 
 ### Termux
 
-To install the software required for **pocketrgb-en**:
+To install the software required for **pocketrgb-dx**:
 
 ```bash
 sudo apt install make clang git sed
@@ -138,7 +138,7 @@ If `rgbds` is not available, you'll need to follow the [**rgbds** instructions](
 Now you're ready to [build **pokered**](#build-pokered).
 
 
-## Build pocketrgb-en
+## Build pocketrgb-dx
 
 To download the **pocketrgb-en** source files:
 

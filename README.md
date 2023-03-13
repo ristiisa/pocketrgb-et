@@ -122,18 +122,18 @@ This will be the closest thing to a "translation", with a side of bug fixes, tha
 * Jojobear13 for the trainer card restoration code, the R/G Shooting Star SFX code, Counter shenanigans Fix and Exp All Fixes
 
 
-## Downloading and playing - No Current Patch
-In the case of simply wanting to play generation 1 as it was released in Japan, download the .bps patch files from the [patches](patches) folder, and use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch to the correct ROM.
+## Downloading and playing
+In the case of simply wanting to play generation 1 as it was released in Japan, download the .bps patch files from the [patches](patches) folder or the Releases, and use a tool like [Lunar IPS](http://fusoya.eludevisibility.org/lips/) (for Windows), [Rompatcher.js](https://www.marcrobledo.com/RomPatcher.js/), [MultiPatch](http://projects.sappharad.com/tools/multipatch.html) (for OS X), or [UniPatcher](https://play.google.com/store/apps/details?id=org.emunix.unipatcher&hl=en) (for Android) to apply the patch to the correct ROM.
 
 These are the roms you should use for each version:
 
 **Red**
-- Pokémon Red (UE) [S][!].gb `sha1: ea9bcae617fdf159b045185467ae58b2e4a48b9a`
+- Pokemon - Red Version (USA, Europe) (SGB Enhanced) `sha1: EA9BCAE617FDF159B045185467AE58B2E4A48B9A`
 
 **Green and Blue**
-- Pokémon Blue (UE) [S][!].gb `sha1: d7037c83e1ae5b39bde3c30787637ba1d4c48ce2`
+- Pokemon - Blue Version (USA, Europe) (SGB Enhanced) `sha1: D7037C83E1AE5B39BDE3C30787637BA1D4C48CE2`
 
-They're based off of the ones made by the [pokered](https://github.com/pret/pokered) project.
+Or the ROMs made by the [pokered](https://github.com/pret/pokered) project as they have the same sha1.
 
 ## Setting up your own
 
