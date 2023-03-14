@@ -44,9 +44,8 @@ _SpearowDexEntry::
 	next "there. Even if it"
 
 	page "is frail, it can"
-	next "be a tough foe"
-	next "with PARROT"
-	next "MIMICRY"
+	next "be a tough foe with"
+	next "PARROT MIMICRY"
 	dex
 
 _VoltorbDexEntry::
