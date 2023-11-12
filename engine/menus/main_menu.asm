@@ -330,18 +330,18 @@ SpecialEnterMap::
 	jp EnterMap
 
 ContinueText:
-	db "CONTINUE"
+	db "Jätka"
 	next ""
 	; fallthrough
 
 NewGameText:
-	db   "NEW GAME"
-	next "OPTION@"
+	db   "Uus mäng"
+	next "Sätted@"
 
 CableClubOptionsText:
-	db   "TRADE CENTER"
+	db   "VAHETUS KESKUS"
 	next "COLOSSEUM"
-	next "CANCEL@"
+	next "TAGASI@"
 
 DisplayContinueGameInfo:
 	xor a
@@ -424,10 +424,10 @@ PrintPlayTime:
 	jp PrintNumber
 
 SaveScreenInfoText:
-	db   "PLAYER"
-	next "BADGES    "
+	db   "MÄNGIJA"
+	next "MÄRGID    "
 	next "#DEX    "
-	next "TIME@"
+	next "AEG @"
 
 DisplayOptionMenu:
 	hlcoord 0, 0
@@ -582,19 +582,19 @@ DisplayOptionMenu:
 	jp .eraseOldMenuCursor
 
 TextSpeedOptionText:
-	db   "TEXT SPEED"
-	next " FAST  MEDIUM SLOW@"
+	db   "Jutu Kiirus"
+	next " 3     2      1@"
 
 BattleAnimationOptionText:
-	db   "BATTLE ANIMATION"
-	next " ON       OFF@"
+	db   "Lahingu animatsioon"
+	next " Jah       Ei@"
 
 BattleStyleOptionText:
-	db   "BATTLE STYLE"
-	next " SHIFT    SET@"
+	db   "Lahingu viis"
+	next " Vaheta    Lukus@"
 
 OptionMenuCancelText:
-	db "CANCEL@"
+	db "Tagasi@"
 
 ; sets the options variable according to the current placement of the menu cursors in the options menu
 SetOptionsFromCursorPositions:

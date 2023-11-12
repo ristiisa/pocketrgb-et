@@ -1,206 +1,206 @@
 _ItemUseBallText00::
-	text "It dodged the"
-	line "thrown BALL!"
+	text "Ta põikles visa-"
+	line "tud palli eest!"
 
-	para "This #MON"
-	line "can't be caught!"
+	para "Seda #MONi"
+	line "ei saa püüda!"
 	prompt
 
 _ItemUseBallText01::
-	text "You missed the"
-	line "#MON!"
+	text "Viskasid #-"
+	line "MONist mööda!"
 	prompt
 
 _ItemUseBallText02::
-	text "Darn! The #MON"
-	line "broke free!"
+	text "Jamps! #MON"
+	line "rabeles lahti!"
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! It appeared"
-	line "to be caught! "
+	text "Aww! Ta ilmus, et"
+	line "teda saaks püüda!"
 	prompt
 
 _ItemUseBallText04::
-	text "Shoot! It was so"
-	line "close too!"
+	text "Näh! Ääre pealt o-"
+	line "leks kätte saand!"
 	prompt
 
 _ItemUseBallText05::
-	text "All right!"
+	text "Nonii!"
 	line "@"
 	text_ram wEnemyMonNick
-	text " was"
-	cont "caught!@"
+	text " on"
+	cont "kinni püütud!@"
 	text_end
 
 _ItemUseBallText07::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "MASAKI's PC!"
+	text " "
+	line "liigutati MASAKI"
+	cont "arvutisse!"
 	prompt
 
 _ItemUseBallText08::
 	text_ram wBoxMonNicks
-	text " was"
-	line "transferred to"
-	cont "someone's PC!"
+	text " "
+	line "liigutati kellegi"
+	cont "arvutisse!"
 	prompt
 
 _ItemUseBallText06::
-	text "New #DEX data"
-	line "will be added for"
+	text "Uus #DEX info"
+	line "lisatakse"
 	cont "@"
 	text_ram wEnemyMonNick
-	text "!@"
+	text "kohta!@"
 	text_end
 
 _SurfingGotOnText::
-	text "<PLAYER> got on"
+	text "<PLAYER> ronis"
 	line "@"
 	text_ram wcd6d
-	text "!"
+	text "peale!"
 	prompt
 
 _SurfingNoPlaceToGetOffText::
-	text "There's no place"
-	line "to get off!"
+	text "Siin ei saa maha1"
+	line "tulla!"
 	prompt
 
 _VitaminStatRoseText::
 	text_ram wcd6d
-	text "'s"
+	text ""
 	line "@"
 	text_ram wcf4b
-	text " rose."
+	text " kasvas."
 	prompt
 
 _VitaminNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Sellel pole mingit"
+	line "mõju."
 	prompt
 
 _ThrewBaitText::
-	text "<PLAYER> threw"
-	line "some BAIT."
+	text "<PLAYER> heitis"
+	line "natuke SÖÖTa."
 	done
 
 _ThrewRockText::
-	text "<PLAYER> threw a"
-	line "ROCK."
+	text "<PLAYER> viskas"
+	line "KIVI."
 	done
 
 _PlayedFluteNoEffectText::
-	text "Played the #"
-	line "FLUTE."
+	text "Mängis"
+	line "# VILEt"
 
-	para "Now, that's a"
-	line "catchy tune!"
+	para "Ilus viisike!"
+	line "Kisub tantsule!"
 	prompt
 
 _FluteWokeUpText::
-	text "All sleeping"
-	line "#MON woke up."
+	text "Kõik magavavad"
+	line "#MONid tõusid"
 	prompt
 
 _PlayedFluteHadEffectText::
-	text "<PLAYER> played the"
-	line "# FLUTE.@"
+	text "<PLAYER> mängis"
+	line "# VILEt.@"
 	text_end
 
 _CoinCaseNumCoinsText::
-	text "Coins"
+	text "Mündid"
 	line "@"
 	text_bcd wPlayerCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text " "
 	prompt
 
 _ItemfinderFoundItemText::
-	text "Yes! ITEMFINDER"
-	line "indicates there's"
-	cont "an item nearby."
+	text "JAH! ASJAOTSIJA"
+	line "näitab, et ligi-"
+	cont "duses on asi."
 	prompt
 
 _ItemfinderFoundNothingText::
-	text "Nope! ITEMFINDER"
-	line "isn't responding."
+	text "Eip! ASJAOTSIJA"
+	line "ei reageeri."
 	prompt
 
 _RaisePPWhichTechniqueText::
-	text "Raise PP of which"
-	line "technique?"
+	text "Tõstame millise"
+	line "võtte PP?"
 	done
 
 _RestorePPWhichTechniqueText::
-	text "Restore PP of"
-	line "which technique?"
+	text "Taastame millise"
+	line "tõtte PP?"
 	done
 
 _PPMaxedOutText::
 	text_ram wcf4b
-	text "'s PP"
-	line "is maxed out."
+	text " PP"
+	line "on põhjas."
 	prompt
 
 _PPIncreasedText::
 	text_ram wcf4b
-	text "'s PP"
-	line "increased."
+	text "PP"
+	line "tõusis."
 	prompt
 
 _PPRestoredText::
-	text "PP was restored."
+	text "PP taastus."
 	prompt
 
 _BootedUpTMText::
-	text "Booted up a TM!"
+	text "TM käivitati!"
 	prompt
 
 _BootedUpHMText::
-	text "Booted up an HM!"
+	text "HM käivitati!"
 	prompt
 
 _TeachMachineMoveText::
-	text "It contained"
+	text "Seal oli"
 	line "@"
 	text_ram wcf4b
 	text "!"
 
-	para "Teach @"
+	para "Õpeta @"
 	text_ram wcf4b
 	text_start
-	line "to a #MON?"
+	line "#MONile?"
 	done
 
 _MonCannotLearnMachineMoveText::
 	text_ram wcd6d
-	text " is not"
-	line "compatible with"
+	text " ei ole"
+	line "ühilduv"
 	cont "@"
 	text_ram wcf4b
 	text "."
 
-	para "It can't learn"
+	para "Ei saa"
 	line "@"
 	text_ram wcf4b
-	text "."
+	text "õppida."
 	prompt
 
 _ItemUseNotTimeText::
 	text "OHKIDO: <PLAYER>!"
-	line "This isn't the"
-	cont "time to use that! "
+	line "Praegu pole õige"
+	cont "aeg selle jaoks! "
 	prompt
 
 _ItemUseNotYoursToUseText::
-	text "This isn't yours"
-	line "to use!"
+	text "See pole sinu oma,"
+	line "ei saa kasutada!"
 	prompt
 
 _ItemUseNoEffectText::
-	text "It won't have any"
-	line "effect."
+	text "Sel pole mingit"
+	line "mõju."
 	prompt
 
 _ThrowBallAtTrainerMonText1::
@@ -209,23 +209,24 @@ _ThrowBallAtTrainerMonText1::
 	prompt
 
 _ThrowBallAtTrainerMonText2::
-	text "Don't be a thief!"
+	text "Varastada pole"
+	line "ilus!"
 	prompt
 
 _NoCyclingAllowedHereText::
-	text "No cycling"
-	next "allowed here."
+	text "Rattaga sõitmine"
+	next "keelatud."
 	prompt
 
 _NoSurfingHereText::
-	text "No SURFing on"
+	text "SURF"
 	line "@"
 	text_ram wcd6d
-	text " here!"
+	text "pole lubatud!"
 	prompt
 
 _BoxFullCannotThrowBallText::
-	text "The #MON BOX"
-	line "is full! Can't"
-	cont "use that item!"
+	text "#MONi KAST on"
+	line "täis! Seda asja"
+	cont "ei saa kasutada!"
 	prompt

@@ -1,31 +1,32 @@
 _CeladonMart1Text1::
-	text "Hello! Welcome to"
-	line "TAMAMUSHI DEPT."
-	cont "STORE."
+	text "Tere tulemast"
+	line "TAMAMUSHI kauba-"
+	cont "majja!"
 
-	para "The board on the"
-	line "right describes"
-	cont "the store layout."
+	para "Paremal olevalt"
+	line "tahvlil on maja-"
+	cont "juht"
 	done
 
 _CeladonMart1Text2::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1K: TEENINDUS-"
+	line "    LETT"
 
-	para "2F: TRAINER'S"
-	line "    MARKET"
+	para "2F: TREENERITE"
+	line "    TURG"
 
-	para "3F: TV GAME SHOP"
+	para "3F: TELEKAMäNGUDE"
+	line "    POOD"
 
-	para "4F: WISEMAN GIFTS"
+	para "4F: KINGIPOOD"
 
-	para "5F: DRUG STORE"
+	para "5F: APTEEK"
 
-	para "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	para "KATUSETERASS:"
+	line "MäNGUAUTOMAADID"
 	done
 
 _CeladonMart1Text3::
-	text "1F: SERVICE"
-	line "    COUNTER"
+	text "1F: TEENINDUS-"
+	line "    LETT"
 	done

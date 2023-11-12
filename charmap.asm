@@ -1,7 +1,7 @@
 ; $00-$17 are TX_* constants (see macros/scripts/text.asm)
 
 ; Control characters (see home/text.asm)
-	
+
 	charmap "<LF>",		 $1f
 
 	charmap "<NULL>",    $00
@@ -159,7 +159,14 @@
 	charmap "'s",        $bd
 	charmap "'t",        $be
 	charmap "'v",        $bf
-	
+
+	charmap "õ",         $c0
+	charmap "Õ",         $c0
+	charmap "ž",         $c1
+	charmap "Ž",         $c1
+	charmap "š",         $c2
+	charmap "Š",         $c2
+
 	charmap "<UPDN>",	 $df
 
 	charmap "'",         $e0
@@ -174,9 +181,12 @@
 	charmap "!",         $e7
 	charmap ".",         $e8
 
-	charmap "ァ",         $e9 ; katakana small a, unused
-	charmap "ゥ",         $ea ; katakana small u, unused
-	charmap "ェ",         $eb ; katakana small e, unused
+	charmap "ä",         $e9 ; katakana small a, unused
+	charmap "Ä",         $e9 ; katakana small a, unused
+	charmap "ü",         $ea ; katakana small u, unused
+	charmap "Ü",         $ea ; katakana small u, unused
+	charmap "ö",         $eb ; katakana small e, unused
+	charmap "Ö",         $eb ; katakana small e, unused
 
 	charmap "▷",         $ec
 	charmap "▶",         $ed

@@ -1,104 +1,106 @@
 _CableClubNPCPleaseComeAgainText::
-	text "Please come again!"
+	text "Tulge meile jälle!"
 	done
 
 _CableClubNPCMakingPreparationsText::
-	text "We're making"
-	line "preparations."
-	cont "Please wait."
+	text "Me teeme etteval-"
+	line "mistusi."
+	cont "Üks hetk."
 	done
 
 _UsedStrengthText::
 	text_ram wcd6d
-	text " used"
-	line "STRENGTH.@"
+	text " kasutas"
+	line "JÕUDu.@"
 	text_end
 
 _CanMoveBouldersText::
 	text_ram wcd6d
-	text " can"
-	line "move boulders."
+	text " saab"
+	line "liigutada rahne."
 	prompt
 
 _CurrentTooFastText::
-	text "The current is"
-	line "much too fast!"
+	text "Hoovus on liiga"
+	line "kiire!"
 	prompt
 
 _CyclingIsFunText::
-	text "Cycling is fun!"
-	line "Forget SURFing!"
+	text "Rattasõit on äge!"
+	line "Unusta SURF ära!"
 	prompt
 
 _FlashLightsAreaText::
-	text "A blinding FLASH"
-	line "lights the area!"
+	text "Pimestav VÄLK"
+	line "valgustab ümbruse"
 	prompt
 
 _WarpToLastPokemonCenterText::
-	text "Warp to the last"
-	line "#MON CENTER."
+	text "Hüppa viimasesse"
+	line "#MONi KESKUSESSE."
 	done
 
 _CannotUseTeleportNowText::
 	text_ram wcd6d
-	text " can't"
-	line "use TELEPORT now."
+	text " ei"
+	line "saa praegu kasu-"
+	cont "tada TELEPORTi."
 	prompt
 
 _CannotFlyHereText::
 	text_ram wcd6d
-	text " can't"
-	line "FLY here."
+	text " ei"
+	line "saa siin LENNATA."
 	prompt
 
 _NotHealthyEnoughText::
-	text "Not healthy"
-	line "enough."
+	text "Pole piisavalt"
+	line "elusid."
 	prompt
 
 _NewBadgeRequiredText::
-	text "No! A new BADGE"
-	line "is required."
+	text "Ei! Vaja on uut"
+	line "MÄRKi."
 	prompt
 
 _CannotUseItemsHereText::
-	text "You can't use items"
-	line "here."
+	text "Siin ei saa asju"
+	line "kasutada."
 	prompt
 
 _CannotGetOffHereText::
-	text "You can't get off"
-	line "here."
+	text "Siin ei saa"
+	line "maha minna."
 	prompt
 
 _GotMonText::
-	text "<PLAYER> got"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcd6d
 	text "!@"
 	text_end
 
 _SentToBoxText::
-	text "There's no more"
-	line "room for #MON!"
+	text "#MONide jaoks"
+	line "pole rohkem ruumi!"
 	cont "@"
 	text_ram wBoxMonNicks
-	text " was"
-	cont "sent to #MON"
-	cont "BOX @"
+	text " läks"
+	cont "#MONi KASTI"
+	cont "@"
 	text_ram wcf4b
-	text " on PC!"
+	text " arvutis!"
 	done
 
 _BoxIsFullText::
-	text "There's no more"
-	line "room for #MON!"
+	text "#MONide jaoks"
+	line "pole rohkem ruumi!"
 
-	para "The #MON BOX"
-	line "is full and can't"
-	cont "accept any more!"
+	para "#MON KAST on"
+	line "täis ja sinna ei"
+	cont "mahu rohkem!"
 
-	para "Change the BOX at"
-	line "a #MON CENTER!"
+	para "Võta uus kast"
+	line "#MONi KESKU-"
+	cont "SEST."
 	done

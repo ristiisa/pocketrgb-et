@@ -1,110 +1,112 @@
 _PokemartGreetingText::
-	text "Hi there!"
-	next "May I help you?"
+	text "Tere päevast!"
+	next "Kas ma saan sind"
+	cont "kuidagi aidata?"
 	done
 
 _PokemonFaintedText::
 	text_ram wcd6d
 	text_start
-	line "fainted!"
+	line "minestas!"
 	done
 
 _PlayerBlackedOutText::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> ei oma"
+	line "enam kasutatavaid"
+	cont "#MONe!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER>"
+	line "minestas!"
 	prompt
 
 _RepelWoreOffText::
-	text "REPEL's effect"
-	line "wore off."
+	text "#KAITSE"
+	line "mõju lahtus."
 	done
 
 _PokemartBuyingGreetingText::
-	text "Take your time."
+	text "Kiiret pole."
 	done
 
 _PokemartTellBuyPriceText::
 	text_ram wcf4b
 	text "?"
-	line "That will be"
-	cont "¥@"
+	line "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text ". OK?"
+	text " RAHA. OK?"
 	done
 
 _PokemartBoughtItemText::
-	text "Here you are!"
-	line "Thank you!"
+	text "Siin on su asjad!"
+	line "Nägemist!"
 	prompt
 
 _PokemartNotEnoughMoneyText::
-	text "You don't have"
-	line "enough money."
+	text "Aga sul pole ju"
+	line "selleks raha."
 	prompt
 
 _PokemartItemBagFullText::
-	text "You can't carry"
-	line "any more items."
+	text "Sa ei saa rohkem"
+	line "asju kanda."
 	prompt
 
 _PokemonSellingGreetingText::
-	text "What would you"
-	line "like to sell?"
+	text "Mida sa müüa"
+	line "tahad?"
 	done
 
 _PokemartTellSellPriceText::
-	text "I can pay you"
+	text "Maksan sulle"
 	line "¥@"
 	text_bcd hMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
-	text " for that."
+	text "."
 	done
 
 _PokemartItemBagEmptyText::
-	text "You don't have"
-	line "anything to sell."
+	text "Aga sul pole ju"
+	line "midagi müüa."
 	prompt
 
 _PokemartUnsellableItemText::
-	text "I can't put a"
-	line "price on that."
+	text "Ma ei oska arvata"
+	line "palju se maksab."
 	prompt
 
 _PokemartThankYouText::
-	text "Thank you!"
+	text "Aitäh!"
 	done
 
 _PokemartAnythingElseText::
-	text "Is there anything"
-	line "else I can do?"
+	text "Kas ma saan veel"
+	line "kasulik olla?"
 	done
 
 _LearnedMove1Text::
 	text_ram wLearnMoveMonName
-	text " learned"
+	text " õppis"
 	line "@"
 	text_ram wcf4b
 	text "!@"
 	text_end
 
 _WhichMoveToForgetText::
-	text "Which move should"
-	next "be forgotten?"
+	text "Millise võtte"
+	next "unustame?"
 	done
 
 _AbandonLearningText::
-	text "Abandon learning"
+	text "Kas lõpetame"
 	line "@"
 	text_ram wcf4b
-	text "?"
+	text ""
+	cont "õppimise?"
 	done
 
 _DidNotLearnText::
 	text_ram wLearnMoveMonName
 	text_start
-	line "did not learn"
+	line "ei saanud õpitud"
 	cont "@"
 	text_ram wcf4b
 	text "!"
@@ -112,110 +114,111 @@ _DidNotLearnText::
 
 _TryingToLearnText::
 	text_ram wLearnMoveMonName
-	text " is"
-	line "trying to learn"
+	text ""
+	line "üritab õppida"
 	cont "@"
 	text_ram wcf4b
 	text "!"
 
-	para "But, @"
+	para "Aga, @"
 	text_ram wLearnMoveMonName
 	text_start
-	line "can't learn more"
-	cont "than 4 moves!"
+	line "rohkem kui 4 võt-"
+	cont "tet õppida ei saa"
 
-	para "Delete an older"
-	line "move to make room"
-	cont "for @"
+	para "Unusta vanem võte,"
+	line "et teha ruumi"
+	cont "@"
 	text_ram wcf4b
 	text "?"
 	done
 
 _OneTwoAndText::
-	text "1, 2 and...@"
+	text "1, 2 ja ...@"
 	text_end
 
 _PoofText::
-	text " Poof!@"
+	text " Hopsti!@"
 	text_end
 
 _ForgotAndText::
 	text_start
 	para "@"
 	text_ram wLearnMoveMonName
-	text " forgot"
+	text " unustas"
 	line "@"
 	text_ram wcd6d
 	text "!"
 
-	para "And..."
+	para "Ja..."
 	prompt
 
 _HMCantDeleteText::
-	text "HM techniques"
-	line "can't be deleted!"
+	text "HM võtteid ei saa"
+	line "unustada!"
 	prompt
 
 _PokemonCenterWelcomeText::
-	text "Welcome to our"
-	line "#MON CENTER!"
+	text "Tere tulemast meie"
+	line "#MONi KESKU-"
+	cont "SESSE!"
 
-	para "We heal your"
-	line "#MON back to"
-	cont "perfect health!"
+	para "Elustame ja ravime"
+	line "#MONe!"
 	prompt
 
 _ShallWeHealYourPokemonText::
-	text "Shall we heal your"
-	line "#MON?"
+	text "Kas ravime ka sinu"
+	line "#MONe?"
 	done
 
 _NeedYourPokemonText::
-	text "OK. We'll need"
-	line "your #MON."
+	text "OK. Anna meile oma"
+	line "#MONid..."
 	done
 
 _PokemonFightingFitText::
-	text "Thank you!"
-	line "Your #MON are"
-	cont "fighting fit!"
+	text "Aitäh!"
+	line "Sinu #MONid on"
+	cont "võitlusvalmis!"
 	prompt
 
 _PokemonCenterFarewellText::
-	text "We hope to see"
-	line "you again!"
+	text "Külastage meid"
+	line "jälle!"
 	done
 
 _CableClubNPCAreaReservedFor2FriendsLinkedByCableText::
-	text "This area is"
-	line "reserved for 2"
-	cont "friends who are"
-	cont "linked by cable."
+	text "See ala siin on"
+	line "reserveeritud ka-"
+	cont "hele kaabliga"
+	cont "ühenduses olevale"
+	cont "sõbrale!"
 	done
 
 _CableClubNPCWelcomeText::
-	text "Welcome to the"
-	line "Cable Club!"
+	text "Tere tulemast"
+	line "Kaabli Klubisse!"
 	done
 
 _CableClubNPCPleaseApplyHereHaveToSaveText::
-	text "Please apply here."
+	text "Palun võtke järje-"
+	cont "korda."
 
-	para "Before opening"
-	line "the link, you have"
-	cont "to write a REPORT."
+	para "Enne ühendamist"
+	line "kaabliga, pead"
+	cont "kirjutama RAPORTi"
 	done
 
 _CableClubNPCPleaseWaitText::
-	text "Please wait.@"
+	text "Üks hetk.@"
 	text_end
 
 _CableClubNPCLinkClosedBecauseOfInactivityText::
-	text "The link has been"
-	line "closed because of"
-	cont "inactivity."
+	text "Ühendus aegus"
+	line "sest keegi ei tei-"
+	cont "nud midagi."
 
-	para "Please contact"
-	line "your friend and"
-	cont "come again!"
+	para "Võta sõber kaasa"
+	line "ja tulge jälle!"
 	done

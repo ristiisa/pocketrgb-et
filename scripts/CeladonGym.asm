@@ -17,7 +17,7 @@ CeladonGym_Script:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "TAMAMUSHI CITY@"
+	db "TAMAMUSHI LINN@"
 
 .LeaderName:
 	db "ERIKA@"

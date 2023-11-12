@@ -1,8 +1,8 @@
 LowerCaseAlphabet:
 	db "abcdefghi"
 	db "jklmnopqr"
-	db "stuvwxyz "
-	db "×():;[]<PK><MN>"
+	db "stuvwõäöü"
+	db "xyz×():; "
 	db "-?!♂♀/<DOT>,<ED>"
 	db "UPPER CASE@"
 

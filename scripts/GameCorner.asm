@@ -508,10 +508,10 @@ CeladonGameCornerScript_48f1e:
 	ret
 
 GameCornerMoneyText:
-	db "MONEY@"
+	db "RAHA@"
 
 GameCornerCoinText:
-	db "COIN@"
+	db "MÜNDID@"
 
 GameCornerBlankText1:
 	db "       @"

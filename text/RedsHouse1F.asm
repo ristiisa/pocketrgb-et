@@ -1,37 +1,39 @@
 _MomWakeUpText::
-	text "MOM: Right."
-	line "All boys leave"
-	cont "home some day."
-	cont "It said so on TV."
+	text "Ema: Nojah."
+	line "Kõik poisid pea-"
+	cont "vad kunagi kodust"
+	cont "lahkuma..."
+	cont "Sellest räägiti"
+	cont "telekas."
 
-	para "DR.OHKIDO, next"
-	line "door, is looking"
-	cont "for you."
+	para "DR.OHKIDO, ta"
+	line "ootab sind kõr-"
+	cont "valmajas."
 	done
 
 _MomHealText1::
-	text "MOM: <PLAYER>!"
-	line "You should take a"
-	cont "quick rest."
+	text "Ema: <PLAYER>!"
+	line "Sa peaks natuke"
+	cont "puhkama."
 	prompt
 
 _MomHealText2::
-	text "MOM: Oh good!"
-	line "You and your"
-	cont "#MON are"
-	cont "looking great!"
-	cont "Take care now!"
+	text "Ema: Tore!"
+	line "Sul ja sinu"
+	cont "#MONil läheb"
+	cont "hästi!"
+	cont "Ole siis tubli!"
 	done
 
 _StandByMeText::
-	text "There's a movie"
-	line "on TV. Four boys"
-	cont "are walking on"
-	cont "railroad tracks."
+	text "Telekas käib film."
+	line "Neli poissi kõn-"
+	cont "nivad raudteel..."
 
-	para "I better go too."
+	para "Ma peaks nüüd mi-"
+	line "nema hakkama!"
 	done
 
 _TVWrongSideText::
-	text "Oops, wrong side."
+	text "Oih, vale külg."
 	done

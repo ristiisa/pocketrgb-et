@@ -12,7 +12,7 @@ _KangaskhanDexEntry::
 	text "The female raises"
 	next "its offspring in a"
     next "pouch on its"
-	
+
     page "belly. It is very"
 	next "skilled at using"
 	next "COMET PUNCH"
@@ -142,7 +142,7 @@ _NidoranFDexEntry::
 	text "Though small, it"
 	next "must be treated"
 	next "with caution"
-	
+
 	page "because of its"
 	next "toxic barbs. It"
 	next "has small horns"
@@ -152,7 +152,7 @@ _NidoqueenDexEntry::
 	text "It's covered in"
 	next "stiff needle-like"
 	next "scales. If it"
-	
+
 	page "becomes excited,"
 	next "the needles will"
 	next "bristle outwards"
@@ -172,7 +172,7 @@ _RhyhornDexEntry::
 	text "Strong, but not"
 	next "too bright, this"
 	next "#MON can"
-	
+
 	page "shatter even a"
 	next "skyscrapper with"
 	next "its TACKLES."
@@ -242,7 +242,7 @@ _GastlyDexEntry::
 	text "A being that"
 	next "exists as a thin"
 	next "gas. It can topple"
-	
+
 	page "an Indian elephant"
 	next "by enveloping its"
 	next "prey in 2 seconds"
@@ -252,7 +252,7 @@ _ScytherDexEntry::
 	text "It tears and"
 	next "shreds prey with"
 	next "its wickedly sharp"
-	
+
 	page "scythes. It very"
 	next "rarely spreads its"
 	next "wings to fly"
@@ -312,7 +312,7 @@ _OnixDexEntry::
 	text "It usually lives"
 	next "underground. It"
 	next "searches for food"
-	
+
 	page "while boring its"
 	next "way through the"
 	next "ground at 80 KPH"
@@ -322,7 +322,7 @@ _FearowDexEntry::
 	text "Its huge and very"
 	next "magnificent wings"
 	next "can keep it aloft"
-	
+
 	page "in the sky. It can"
 	next "fly a whole day"
 	next "without landing"
@@ -372,7 +372,7 @@ _ChanseyDexEntry::
 	text "It lays several"
 	next "eggs a day. These"
 	next "are apparently"
-	
+
 	page "rich in nutrients"
 	next "and extremely"
 	next "delicious"
@@ -382,7 +382,7 @@ _MachokeDexEntry::
 	text "Its formidable"
 	next "body never gets"
 	next "tired. It helps"
-	
+
 	page "people with work"
 	next "such as moving"
 	next "heavy goods"
@@ -442,7 +442,7 @@ _PsyduckDexEntry::
 	text "It is constantly"
 	next "wracked by a"
 	next "headache. When it"
-	
+
 	page "turns intense, it"
 	next "begins using a"
 	next "mysterious power"
@@ -452,7 +452,7 @@ _DrowzeeDexEntry::
 	text "Descendant of the"
 	next "legendary animal"
 	next "baku which is said"
-	
+
 	page "to eat dreams. It"
 	next "is skilled in the"
 	next "use of hypnotism"
@@ -472,7 +472,7 @@ _MagmarDexEntry::
 	text "Found near mouths"
 	next "of volcanos. This"
 	next "fire-breather's"
-	
+
 	page "body temperature"
 	next "is nearly 1,200"
 	next "degrees-C"
@@ -482,7 +482,7 @@ _ElectabuzzDexEntry::
 	text "It loves to feed"
 	next "on electricity."
 	next "It occasionally"
-	
+
 	page "appears around"
 	next "power plants and"
 	next "sub-stations"
@@ -512,7 +512,7 @@ _MankeyDexEntry::
 	text "Light and agile"
 	next "on its feet, and"
 	next "ferocious in mood."
-	
+
 	page "When angered, it"
 	next "flies into a crazy"
 	next "frenzy"
@@ -522,7 +522,7 @@ _SeelDexEntry::
 	text "Covered in light"
 	next "blue fur, its"
 	next "hide is thick and"
-	
+
 	page "tough. It's active"
 	next "even in the bitter"
 	next "cold of -40 deg-C"
@@ -532,7 +532,7 @@ _DiglettDexEntry::
 	text "It burrows through"
 	next "the ground at a"
 	next "shallow depth."
-	
+
 	page "leaving raised"
 	next "earth, making it"
 	next "easy to spot"
@@ -552,7 +552,7 @@ _FarfetchdDexEntry::
 	text "It always walks"
 	next "about with a plant"
 	next "stalk clamped in"
-	
+
 	page "its beak. It is"
 	next "used later for"
 	next "building its nest"
@@ -582,7 +582,7 @@ _DoduoDexEntry::
 	text "A two-headed"
 	next "#MON that was"
 	next "discovered as a"
-	
+
 	page "sudden mutation."
 	next "It runs at a pace"
 	next "of over 100 KPH"
@@ -592,7 +592,7 @@ _PoliwagDexEntry::
 	text "Its slick black"
 	next "skin is thin and"
 	next "damp. Part of its"
-	
+
 	page "internal organs"
 	next "can be seen as"
 	next "a spiral pattern"
@@ -602,7 +602,7 @@ _JynxDexEntry::
 	text "It speaks using a"
 	next "language similar"
 	next "to humans."
-	
+
 	page "Research is under"
 	next "way to determine"
 	next "what it is saying"
@@ -612,7 +612,7 @@ _MoltresDexEntry::
 	text "One of the legend-"
 	next "ary bird #MON."
 	next "Those who see it"
-	
+
 	page "are overwhelmed by"
 	next "its orange wings"
 	next "that seem on fire"
@@ -622,7 +622,7 @@ _ArticunoDexEntry::
 	text "One of the legend-"
 	next "ary bird #MON."
 	next "With its long tail"
-	
+
 	page "trailing behind,"
 	next "its flying form"
 	next "is magnificent"
@@ -632,12 +632,12 @@ _ZapdosDexEntry::
 	text "One of the legend-"
 	next "ary bird #MON."
 	next "When it is flying,"
-	
+
 	page "it makes crackling"
 	next "and snapping"
 	next "sounds"
 	dex
-	
+
 _DittoDexEntry::
 	text "It can freely"
 	next "recombine its own"
@@ -692,7 +692,7 @@ _PikachuDexEntry::
 	text "It has small"
 	next "electric sacs on"
 	next "both its cheeks."
-	
+
 	page "If threatened, it"
 	next "will lose electric"
 	next "charges from them"
@@ -702,7 +702,7 @@ _RaichuDexEntry::
 	text "Its electric"
 	next "shocks can go up"
 	next "to 100,000 volts."
-	
+
 	page "Careless contact"
 	next "can cause even an"
 	next "elephant to faint"
@@ -722,7 +722,7 @@ _DragonairDexEntry::
 	text "It is said to"
 	next "live in both seas"
 	next "and lakes. Even"
-	
+
 	page "though it has no"
 	next "wings, it has been"
 	next "seen flying"
@@ -732,7 +732,7 @@ _KabutoDexEntry::
 	text "This #MON was"
 	next "regenerated from"
 	next "the fossil of an"
-	
+
 	page "ancient creature."
 	next "It protects itself"
 	next "with a hard shell"
@@ -782,7 +782,7 @@ _SandslashDexEntry::
 	text "It is adept at"
 	next "attacking with the"
 	next "spines on its back"
-	
+
 	page "and its claws"
 	next "while quickly"
 	next "scurrying about"
@@ -802,7 +802,7 @@ _OmastarDexEntry::
 	text "Its tentacles are"
 	next "highly developed"
 	next "as if they were"
-	
+
 	page "hands and feet."
 	next "It bites prey"
 	next "upon ensaring it"
@@ -822,7 +822,7 @@ _WigglytuffDexEntry::
 	text "It has extremely"
 	next "fine, dense, and"
 	next "supple fur. This"
-	
+
 	page "exquisite fur"
 	next "conveys an image"
 	next "of luxury"
@@ -842,7 +842,7 @@ _FlareonDexEntry::
 	text "It has a flame"
 	next "bag in its body."
 	next "After inhaling"
-	
+
 	page "deeply, it blows"
 	next "out flames near"
 	next "1,700 degrees-C"
@@ -852,7 +852,7 @@ _JolteonDexEntry::
 	text "If angered or"
 	next "startled, the fur"
 	next "all over its body"
-	
+
 	page "bristles like"
 	next "sharp needles that"
 	next "pierce its foes"
@@ -862,7 +862,7 @@ _VaporeonDexEntry::
 	text "Its body's cellu-"
 	next "lar structure is"
 	next "similar to that"
-	
+
 	page "of water. So it"
 	next "can invisibly"
 	next "melt in it"
@@ -872,7 +872,7 @@ _MachopDexEntry::
 	text "Its whole body is"
 	next "composed of mus-"
 	next "cles. Even though"
-	
+
 	page "it's the size of"
 	next "a child, it can"
 	next "hurl 100 adults"
@@ -892,7 +892,7 @@ _EkansDexEntry::
 	text "A common sight in"
 	next "grasslands, etc."
 	next "It flicks its"
-	
+
 	page "tongue in and out"
 	next "to sense danger in"
 	next "its surroundings"
@@ -902,7 +902,7 @@ _ParasDexEntry::
 	text "Growing out of the"
 	next "bug's back are"
 	next "mushrooms called"
-	
+
 	page "Tochukaso. The"
 	next "mushrooms grow"
 	next "with the bug host"
@@ -912,7 +912,7 @@ _PoliwhirlDexEntry::
 	text "Its two legs are"
 	next "well developed."
 	next "Even though it"
-	
+
 	page "can live on land,"
 	next "it prefers living"
 	next "in water"
@@ -932,7 +932,7 @@ _WeedleDexEntry::
 	text "Often found in"
 	next "grasslands and"
 	next "forests. It has a"
-	
+
 	page "sharp, toxic barb"
 	next "around 5 cm long"
 	next "atop its head"
@@ -962,7 +962,7 @@ _DodrioDexEntry::
 	text "An odd species"
 	next "that is rare to"
 	next "find. The three"
-	
+
 	page "heads respectively"
 	next "represent joy, an-"
 	next "ger, and sadness"
@@ -972,7 +972,7 @@ _PrimeapeDexEntry::
 	text "It is always out-"
 	next "rageously furious."
 	next "If it gives chase,"
-	
+
 	page "it will track the"
 	next "target no matter"
 	next "how far it goes"
@@ -1002,7 +1002,7 @@ _DewgongDexEntry::
 	text "Its body is"
 	next "covered with a"
 	next "pure white fur."
-	
+
 	page "The colder the"
 	next "weather, the more"
 	next "active it becomes"
@@ -1022,7 +1022,7 @@ _MetapodDexEntry::
 	text "Even though it is"
 	next "encased in a"
 	next "sturdy shell, the"
-	
+
 	page "inside is fragile."
 	next "It can't endure a"
 	next "harsh attack"
@@ -1052,7 +1052,7 @@ _GolduckDexEntry::
 	text "Its forelegs are"
 	next "webbed, helping to"
 	next "make it an adept"
-	
+
 	page "swimmer. It can be"
 	next "seen swimming in"
 	next "lakes and ponds"
@@ -1062,7 +1062,7 @@ _HypnoDexEntry::
 	text "It carries a"
 	next "pendulum. There"
 	next "once was an inci-"
-	
+
 	page "dent in which it"
 	next "took away a child"
 	next "it hypnotized"
@@ -1072,7 +1072,7 @@ _GolbatDexEntry::
 	text "It clamps down on"
 	next "its prey with"
 	next "needle-sharp"
-	
+
 	page "fangs and drains"
 	next "over 300 ccm of"
 	next "blood in one gulp"
@@ -1082,7 +1082,7 @@ _MewtwoDexEntry::
 	text "A #MON whose"
 	next "genetic code was"
 	next "repeatedly reco-"
-	
+
 	page "mbined for re-"
 	next "search.It turned"
 	next "vicious as a result"
@@ -1092,7 +1092,7 @@ _SnorlaxDexEntry::
 	text "It is not happy"
 	next "unless it eats"
 	next "400 kg of food"
-	
+
 	page "every day. When"
 	next "done, it goes"
 	next "promptly to sleep"
@@ -1112,7 +1112,7 @@ _MukDexEntry::
 	text "Usually undetect-"
 	next "able because it"
 	next "blends in with the"
-	
+
 	page "ground. Touching"
 	next "it can cause"
 	next "severe poisoning"
@@ -1122,7 +1122,7 @@ _KinglerDexEntry::
 	text "Its large and hard"
 	next "pincer has 10,000"
 	next "horsepower of"
-	
+
 	page "strength. Though,"
 	next "being so big, it"
 	next "is clumsy to move"
@@ -1132,7 +1132,7 @@ _CloysterDexEntry::
 	text "Its shell is so"
 	next "hard that not even"
 	next "a napalm bomb can"
-	
+
 	page "shatter it. The"
 	next "shell opens only"
 	next "when it attacks"
@@ -1162,7 +1162,7 @@ _WeezingDexEntry::
 	text "Very rarely, a"
 	next "sudden mutation"
 	next "can result in two"
-	
+
 	page "small DOGARS"
 	next "twins becoming a"
 	next "MATADOGAS"
@@ -1172,7 +1172,7 @@ _PersianDexEntry::
 	text "Has a vicious tem-"
 	next "perament. Beware"
 	next "if it raises its"
-	
+
 	page "tail, it is a"
 	next "signal that it is"
 	next "about to pounce"
@@ -1182,7 +1182,7 @@ _MarowakDexEntry::
 	text "It was originally"
 	next "weak. Its tempera-"
 	next "ment turned"
-	
+
 	page "ferocious when it"
 	next "began using bones"
 	next "as a weapon"
@@ -1192,7 +1192,7 @@ _HaunterDexEntry::
 	text "If you get the"
 	next "feeling of being"
 	next "watched in dark-"
-	
+
 	page "ness when nobody"
 	next "is around, HAUNTER"
 	next "is there"
@@ -1202,7 +1202,7 @@ _AbraDexEntry::
 	text "It sleeps for 18"
 	next "hours a day. It"
 	next "uses a variety of"
-	
+
 	page "psychic powers"
 	next "even while it is"
 	next "asleep"
@@ -1212,7 +1212,7 @@ _AlakazamDexEntry::
 	text "It does not like"
 	next "physical attacks."
 	next "Instead it freely"
-	
+
 	page "uses extra-sensory"
 	next "powers to defeat"
 	next "its foes"
@@ -1232,7 +1232,7 @@ _PidgeotDexEntry::
 	text "It spreads its"
 	next "gorgeous wings to"
 	next "intimidate all its"
-	
+
 	page "enemies. It races"
 	next "through the skies"
 	next "at Mach-2 speed"
@@ -1252,7 +1252,7 @@ _BulbasaurDexEntry::
 	text "There is a plant"
 	next "seed on its back"
 	next "from the day this"
-	
+
 	page "#MON is born."
 	next "The seed slowly"
 	next "grows larger"
@@ -1302,7 +1302,7 @@ _PonytaDexEntry::
 	text "Its body is light"
 	next "and its legs have"
 	next "amazing power."
-	
+
 	page "It can jump over"
 	next "Tokyo Tower with"
 	next "a single leap"
@@ -1312,7 +1312,7 @@ _RapidashDexEntry::
 	text "It can gallop at"
 	next "a top speed of "
 	next "240 KPH, and can"
-	
+
 	page "race as fast as a"
 	next "bullet train while"
 	next "being ablaze"
@@ -1332,7 +1332,7 @@ _RaticateDexEntry::
 	text "Its rear feet"
 	next "have three toes"
 	next "each. They are"
-	
+
 	page "webbed, enabling"
 	next "it to swim across"
 	next "rivers"
@@ -1352,7 +1352,7 @@ _NidorinaDexEntry::
 	text "The female has a"
 	next "a more gentle"
 	next "temperament. It"
-	
+
 	page "emits ultrasonic"
 	next "cries that can"
 	next "befuddle its foes"
@@ -1362,7 +1362,7 @@ _GeodudeDexEntry::
 	text "Its round form"
 	next "makes it easy to"
 	next "pick up. Some"
-	
+
 	page "people have used"
 	next "them in snowball"
 	next "fights"
@@ -1372,7 +1372,7 @@ _PorygonDexEntry::
 	text "Using the latest"
 	next "technologies,"
 	next "scientists"
-	
+
 	page "finally succeeded"
 	next "in making the 1st"
 	next "artificial #MON"
@@ -1382,7 +1382,7 @@ _AerodactylDexEntry::
 	text "It was regenerated"
 	next "from a dinosaur's"
 	next "genetic matter"
-	
+
 	page "that was found in"
 	next "amber. It emits a"
 	next "high-pitched cry"
@@ -1392,7 +1392,7 @@ _MagnemiteDexEntry::
 	text "It moves while"
 	next "constantly hover-"
 	next "ing. It emits"
-	
+
 	page "THUNDER WAVEs from"
 	next "the magnets at its"
 	next "sides"
@@ -1402,7 +1402,7 @@ _CharmanderDexEntry::
 	text "From the time it"
 	next "is born, a flame"
 	next "burns at the tip"
-	
+
 	page "of its tail. Its"
 	next "life would end if"
 	next "it goes out"
@@ -1422,7 +1422,7 @@ _CharmeleonDexEntry::
 	text "It lashes about"
 	next "with its tail to"
 	next "knock down its"
-	
+
 	page "opponent. It then"
 	next "tears up the foe"
 	next "with sharp claws"
@@ -1432,7 +1432,7 @@ _WartortleDexEntry::
 	text "This #MON is"
 	next "very popular as a"
 	next "pet. Its fur-"
-	
+
 	page "covered tail is a"
 	next "symbol of its "
 	next "longevity"
@@ -1442,7 +1442,7 @@ _CharizardDexEntry::
 	text "Its wings can"
 	next "carry this #MON"
 	next "close to an alti-"
-	
+
 	page "tude of 1400m. It"
 	next "blows out fire at"
 	next "high temperatures"
@@ -1452,7 +1452,7 @@ _OddishDexEntry::
 	text "Its scientific"
 	next "name is 'Oddium"
 	next "Wanderus.' At"
-	
+
 	page "night, it walks"
 	next "up to 300 m"
 	next "on its two roots"
@@ -1462,7 +1462,7 @@ _GloomDexEntry::
 	text "Its pistils exude"
 	next "an incredibly foul"
 	next "odor. The horrid"
-	
+
 	page "stench can cause"
 	next "fainting at a"
 	next "distance of 2 km"
@@ -1472,7 +1472,7 @@ _VileplumeDexEntry::
 	text "Its petals are"
 	next "the largest in the"
 	next "world. It scatters"
-	
+
 	page "allergy-causing"
 	next "pollen on purpose"
 	next "from its petals"
@@ -1482,7 +1482,7 @@ _BellsproutDexEntry::
 	text "Its bud resembles"
 	next "a human face."
 	next "Due to the bud,"
-	
+
 	page "it is rumored to"
 	next "be a type of"
 	next "mandrake plant"
@@ -1507,8 +1507,7 @@ _VictreebelDexEntry::
 	next "is melted in a"
 	next "dissolving fluid"
 	dex
-	
+
 _MissingNoDexEntry::
-	text "Comment to be"
-	next "written"
+	text "Info puudub..."
 	dex

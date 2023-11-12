@@ -11,7 +11,7 @@ ViridianGym_Script:
 	ret
 
 .CityName:
-	db "TOKIWA CITY@"
+	db "TOKIWA LINN@"
 
 .LeaderName:
 	db "SAKAKI@"

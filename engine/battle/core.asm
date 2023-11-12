@@ -291,7 +291,7 @@ MainInBattleLoop:
 	;ld a, [wUnusedC000]
 	;res 7, a	;reset the bit that causes counter to miss
 	;res 6, a	;reset the bit that specifies a leech seed effect
-	;ld [wUnusedC000], a 
+	;ld [wUnusedC000], a
 ;note - back to default flow
 	call ReadPlayerMonCurHPAndStatus
 	ld hl, wBattleMonHP
@@ -864,7 +864,7 @@ FaintEnemyPokemon:
 ;note - the GainExperience function will divide the stored exp further if multiple pkmn took part in battle
 ;therefore there is a need to undo the previous division
 	;skip all this if only a single battle participant
-	ld a, [wUnusedD155]	
+	ld a, [wUnusedD155]
 	dec a
 	jr z, .expallfix_end
 	;else continue on
@@ -2075,7 +2075,7 @@ DisplayBattleMenu::
 	ld a, $2 ; select the "ITEM" menu
 	jp .upperLeftMenuItemWasNotSelected
 .oldManName
-	db "OLD MAN@"
+	db "VANAMEES@"
 .handleBattleMenuInput
 	ld a, [wBattleAndStartSavedMenuItem]
 	ld [wCurrentMenuItem], a
@@ -2713,7 +2713,7 @@ MoveDisabledText:
 	text_end
 
 WhichTechniqueString:
-	db "WHICH TECHNIQUE?@"
+	db "MILLINE VORM?@"
 
 SelectMenuItem_CursorUp:
 	ld a, [wCurrentMenuItem]
@@ -2933,10 +2933,10 @@ PrintMenuItem:
 	jp Delay3
 
 DisabledText:
-	db "disabled!@"
+	db "kasutamatu!@"
 
 TypeText:
-	db "TYPE@"
+	db "TÜÜP@"
 
 SelectEnemyMove:
 	ld a, [wLinkState]
@@ -4523,7 +4523,7 @@ CalculateDamage:
 	ld b, 4
 	call Divide
 
-; Update wCurDamage. 
+; Update wCurDamage.
 ; Capped at MAX_NEUTRAL_DAMAGE - MIN_NEUTRAL_DAMAGE: 999 - 2 = 997.
 	ld hl, wDamage
 	ld b, [hl]

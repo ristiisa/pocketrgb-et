@@ -1,12 +1,12 @@
 IF DEF(_RED)
 DefaultNamesPlayerList:
-	db "NEW NAME@"
+	db "UUS NIMI@"
 	db "RED@"
 	db "SATOSHI@"
 	db "JACK@"
 
 DefaultNamesRivalList:
-	db "NEW NAME@"
+	db "UUS NIMI@"
 	db "GREEN@"
 	db "SHIGERU@"
 	db "JOHN@"
@@ -14,13 +14,13 @@ ENDC
 
 IF DEF(_GREEN)
 DefaultNamesPlayerList:
-	db "NEW NAME@"
+	db "UUS NIMI@"
 	db "GREEN@"
 	db "SHIGERU@"
 	db "JOHN@"
 
 DefaultNamesRivalList:
-	db "NEW NAME@"
+	db "UUS NIMI@"
 	db "RED@"
 	db "SATOSHI@"
 	db "JACK@"
@@ -28,13 +28,13 @@ ENDC
 
 IF DEF(_BLUE)
 DefaultNamesPlayerList:
-	db "NEW NAME@"
+	db "UUS NIMI@"
 	db "BLUE@"
 	db "TSUNKAZ@"
 	db "JEAN@"
 
 DefaultNamesRivalList:
-	db "NEW NAME@"
+	db "UUS NIMI@"
 	db "RED@"
 	db "GREEN@"
 	db "HIROSHI@"

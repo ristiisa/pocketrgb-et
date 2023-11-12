@@ -113,7 +113,7 @@ LeaguePCShowMon:
 	farjp HoFDisplayMonInfo
 
 HallOfFameNoText:
-	db "HALL OF FAME No   @"
+	db "KUULSUS Nr @"
 
 AccessedHoFPCText:
 	text_far _AccessedHoFPCText

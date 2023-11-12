@@ -1,143 +1,145 @@
 _FileDataDestroyedText::
-	text "The file data is"
-	line "destroyed!"
+	text "Faili andmed on"
+	line "hävitatud!"
 	prompt
 
 _WouldYouLikeToSaveText::
-	text "Would you like to"
-	line "write a REPORT?"
+	text "Kas sa soovid kir-"
+	line "juta RAPORTit?"
 	done
 
 _GameSavedText::
-	text "<PLAYER> wrote"
-	line "a new REPORT!"
+	text "<PLAYER> kirjutas"
+	line "RAPORTi!"
 	done
 
 _OlderFileWillBeErasedText::
-	text "The old file will"
-	line "be overwritten"
-	cont "by a new REPORT." 
-	cont "Okay?"
+	text "Vana fail kirju-"
+	line "tatakse üle uue"
+	cont "RAPORTi poolt"
+	cont "OK?"
 	done
 
 _WhenYouChangeBoxText::
-	text "When you change a"
-	line "#MON BOX, a"
-	cont "REPORT will be"
-	cont "written."
+	text "Kui sa vahetad"
+	line "#MONi kasti,"
+	cont "siis kirjutatakse"
+	cont "RAPORT."
 
-	para "Is that okay?"
+	para "Kas see on OK?"
 	done
 
 _ChooseABoxText::
-	text "Choose a"
-	line "<PKMN> BOX.@"
+	text "Vali üks"
+	line "<PKMN> KAST@"
 	text_end
 
 _EvolvedText::
 	text_ram wcf4b
-	text " evolved"
+	text " arenes"
 	done
 
 _IntoText::
 	text_start
-	line "into @"
+	line "@"
 	text_ram wcd6d
 	text "!"
 	done
 
 _StoppedEvolvingText::
-	text "Huh? @"
+	text "Äh? @"
 	text_ram wcf4b
 	text_start
-	line "stopped evolving!"
+	line "lõpetas arenemise"
 	prompt
 
 _IsEvolvingText::
-	text "What? @"
+	text "Mida? @"
 	text_ram wcf4b
 	text_start
-	line "is evolving!"
+	line "areneb!"
 	done
 
 _FellAsleepText::
 	text "<TARGET>"
-	line "fell asleep!"
+	line "jäi tuttu!"
 	prompt
 
 _AlreadyAsleepText::
-	text "<TARGET>'s"
-	line "already asleep!"
+	text "<TARGET>"
+	line "juba magab!"
 	prompt
 
 _PoisonedText::
 	text "<TARGET>"
-	line "was poisoned!"
+	line "mürgitati!"
 	prompt
 
 _BadlyPoisonedText::
-	text "<TARGET>'s"
-	line "badly poisoned!"
+	text "<TARGET>"
+	line "mürgitati palju!"
 	prompt
 
 _BurnedText::
 	text "<TARGET>"
-	line "was burned!"
+	line "sai kõrvetada!"
 	prompt
 
 _FrozenText::
 	text "<TARGET>"
-	line "was frozen solid!"
+	line "jäätus kujuks!"
 	prompt
 
 _FireDefrostedText::
-	text "Fire defrosted"
+	text "Tuli sulatas"
 	line "<TARGET>!"
 	prompt
 
 _MonsStatsRoseText::
-	text "<USER>'s"
+	text "<USER>"
 	line "@"
 	text_ram wcf4b
 	text "@"
 	text_end
 
 _GreatlyRoseText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>palju@"
 	text_end
 
 _RoseText::
-	text " rose!"
+	text " tõusis!"
 	prompt
 
 _MonsStatsFellText::
-	text "<TARGET>'s"
+	text "<TARGET>"
 	line "@"
 	text_ram wcf4b
 	text "@"
 	text_end
 
 _GreatlyFellText::
-	text "<SCROLL>greatly@"
+	text "<SCROLL>palju@"
 	text_end
 
 _FellText::
-	text " fell!"
+	text " langes!"
 	prompt
 
 _RanFromBattleText::
 	text "<USER>"
-	line "ran from battle!"
+	line "jooksis lahingu-"
+	cont "väljalt ära!"
 	prompt
 
 _RanAwayScaredText::
 	text "<TARGET>"
-	line "ran away scared!"
+	line "jooksis hirmunult"
+	cont "ära!"
 	prompt
 
 _WasBlownAwayText::
 	text "<TARGET>"
-	line "was blown away!"
+	line "puhuti ära!"
 	prompt
 
 _ChargeMoveEffectText::
@@ -146,181 +148,183 @@ _ChargeMoveEffectText::
 
 _MadeWhirlwindText::
 	text_start
-	line "made a whirlwind!"
+	line "tegi keeristormi!"
 	prompt
 
 _TookInSunlightText::
 	text_start
-	line "took in sunlight!"
+	line "nautis päikest!"
 	prompt
 
 _LoweredItsHeadText::
 	text_start
-	line "lowered its head!"
+	line "tõmbas pea alla!"
 	prompt
 
 _SkyAttackGlowingText::
 	text_start
-	line "is glowing!"
+	line "hakkas särama!"
 	prompt
 
 _FlewUpHighText::
 	text_start
-	line "flew up high!"
+	line "lendas kõrgele!"
 	prompt
 
 _DugAHoleText::
 	text_start
-	line "dug a hole!"
+	line "kaevas augu!"
 	prompt
 
 _BecameConfusedText::
 	text "<TARGET>"
-	line "became confused!"
+	line "sattus segadusse!"
 	prompt
 
 _MimicLearnedMoveText::
 	text "<USER>"
-	line "learned"
+	line "õppis ära"
 	cont "@"
 	text_ram wcd6d
 	text "!"
 	prompt
 
 _MoveWasDisabledText::
-	text "<TARGET>'s"
+	text "<TARGET>"
 	line "@"
 	text_ram wcd6d
-	text " was"
-	cont "disabled!"
+	text " on"
+	cont "nüüd kasutamatu!"
 	prompt
 
 _NothingHappenedText::
-	text "Nothing happened!"
+	text "Midagi ei juhtund!"
 	prompt
 
 _NoEffectText::
-	text "No effect!"
+	text "Pole mõju!"
 	prompt
 
 _ButItFailedText::
-	text "But, it failed! "
+	text "Aga, see ebaõnn-"
+	line "estus!"
 	prompt
 
 _DidntAffectText::
-	text "It didn't affect"
+	text "See ei mõjuta"
 	line "<TARGET>!"
 	prompt
 
 _IsUnaffectedText::
 	text "<TARGET>"
-	line "is unaffected!"
+	line "on mõjuta!"
 	prompt
 
 _ParalyzedMayNotAttackText::
-	text "<TARGET>'s"
-	line "paralyzed! It may"
-	cont "not attack!"
+	text "<TARGET> on"
+	line "halvatud! Ta ei"
+	cont "pruugi rünnata!"
 	prompt
 
 _SubstituteText::
-	text "It created a"
-	line "SUBSTITUTE!"
+	text "See teegi"
+	line "ASENDUSE!"
 	prompt
 
 _HasSubstituteText::
 	text "<USER>"
-	line "has a SUBSTITUTE!"
+	line "omab ASENDUST!"
 	prompt
 
 _TooWeakSubstituteText::
-	text "Too weak to make"
-	line "a SUBSTITUTE!"
+	text "Liiga nõrk et luua"
+	line "ASENDUST!"
 	prompt
 
 _CoinsScatteredText::
-	text "Coins scattered"
-	line "everywhere!"
+	text "Mündid pudenesid"
+	line "kõikjale!"
 	prompt
 
 _GettingPumpedText::
-	text "<USER>'s"
-	line "getting pumped!"
+	text "<USER>"
+	line "kütab end üles!"
 	prompt
 
 _WasSeededText::
-	text "<TARGET>"
-	line "was seeded!"
+	text "<TARGET> juurde"
+	line "istutati seeme!"
 	prompt
 
 _EvadedAttackText::
 	text "<TARGET>"
-	line "evaded attack!"
+	line "põikles ründest!"
 	prompt
 
 _HitWithRecoilText::
-	text "<USER>'s"
-	line "hit with recoil!"
+	text "<USER> sai pihta"
+	line "tagasilöögiga!"
 	prompt
 
 _ConvertedTypeText::
-	text "Converted type to"
-	line "<TARGET>'s!"
+	text "Muutis tüübi nagu"
+	line "nagu on"
+	cont "<TARGET>!"
 	prompt
 
 _StatusChangesEliminatedText::
-	text "All STATUS changes"
-	line "are eliminated!"
+	text "Kõik hetke hädad"
+	line "on eemaldatud!"
 	prompt
 
 _StartedSleepingEffect::
 	text "<USER>"
-	line "started sleeping!"
+	line "jäi tuttu!"
 	done
 
 _FellAsleepBecameHealthyText::
 	text "<USER>"
-	line "fell asleep and"
-	cont "became healthy!"
+	line "tukastas ja"
+	cont "on jälle terve!"
 	done
 
 _RegainedHealthText::
 	text "<USER>"
-	line "regained health!"
+	line "tervenes!"
 	prompt
 
 _TransformedText::
 	text "<USER>"
-	line "transformed into"
+	line "muundus"
 	cont "@"
 	text_ram wcd6d
 	text "!"
 	prompt
 
 _LightScreenProtectedText::
-	text "<USER>'s"
-	line "protected against"
-	cont "special attacks!"
+	text "<USER> on"
+	line "kaitstud eriliste"
+	cont "rünnakute eest!"
 	prompt
 
 _ReflectGainedArmorText::
 	text "<USER>"
-	line "gained armor!"
+	line "sai rüütatud!"
 	prompt
 
 _ShroudedInMistText::
-	text "<USER>'s"
-	line "shrouded in mist!"
+	text "<USER> on"
+	line "mattunud udusse!"
 	prompt
 
 _SuckedHealthText::
-	text "Sucked health from"
-	line "<TARGET>!"
+	text "Imes <TARGET>"
+	line "elusid!"
 	prompt
 
 _DreamWasEatenText::
-	text "<TARGET>'s"
-	line "dream was eaten!"
+	text "<TARGET>"
+	line "uni sai söödud!"
 	prompt
 
 _TradeCenterText1::

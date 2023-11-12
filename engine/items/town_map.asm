@@ -132,7 +132,7 @@ LoadTownMap_Nest:
 	ret
 
 MonsNestText:
-	db "NEST@"
+	db "PESA@"
 
 LoadTownMap_Fly::
 	call ClearSprites
@@ -405,7 +405,7 @@ DisplayWildLocations:
 	jp CopyData
 
 AreaUnknownText:
-	db " AREA UNKNOWN@"
+	db " TUNDMATU ALA@"
 
 TownMapCoordsToOAMCoords:
 ; in: lower nybble of a = x, upper nybble of a = y
@@ -612,4 +612,4 @@ PlaceMapName:
 	hlcoord 0, 0
 	ld [hl], "<UPDN>"
 	inc hl
-	jp PlaceString 
+	jp PlaceString

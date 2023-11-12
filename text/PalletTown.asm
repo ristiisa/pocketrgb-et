@@ -1,58 +1,59 @@
 _OakAppearsText::
-	text "OHKIDO: Hey! Wait!"
-	line "Don't go out!@"
+	text "OHKIDO: Oota!"
+	line "ära veel lahku!@"
 	text_end
 
 _OakWalksUpText::
-	text "OHKIDO: It's"
-	line "unsafe! Wild"
-	cont "#MON live in"
-	cont "tall grass!"
+	text "OHKIDO: Seal pole"
+	line "turvaline! mets-"
+	cont "ikud #MONid"
+	cont "elutsevad kõrges"
+	cont "rohus!"
 
-	para "You need your own"
-	line "#MON for your"
-	cont "protection."
-	cont "I know!"
+	para "Enese kaitseks "
+	line "peab sul olema"
+	cont "mõni #MON"
+	cont "kaasas! Ma tean!"
 
-	para "Here, come with"
-	line "me!"
+	para "Tule minuga kaasa!"
 	done
 
 _PalletTownText2::
-	text "I'm raising"
-	line "#MON too!"
+	text "Ma kasvatan ka"
+	line "#MONe!"
 
-	para "When they get"
-	line "strong, they can"
-	cont "protect me!"
+	para "Nad kaitsevad mind"
+	line "kui nad on suur-"
+	cont "eks ja tugevaks"
+	cont "kasvanud!"
 	done
 
 _PalletTownText3::
-	text "Technology is"
-	line "incredible!"
+	text "Tehnoloogia on"
+	line "imeline!"
 
-	para "You can now store"
-	line "and recall items"
-	cont "and #MON as"
-	cont "data via PC!"
+	para "Sa saad asju ja"
+	line "#MONe arvuti-"
+	cont "sse salvestada ja"
+	cont "neid sealt uuesti"
+	cont "välja tuua!"
 	done
 
 _PalletTownText4::
-	text "OHKIDO #MON"
-	line "RESEARCH LAB"
+	text "OHKIDO #MONi"
+	line "UURIMISLABOR"
 	done
 
 _PalletTownText5::
-	text "MASARA TOWN"
-	line "is the color of"
-	cont "pure-white"
-	cont "beginnings."
+	text "MASARA LINN on"
+	line "lumi valgete al-"
+	cont "guste värvi."
 	done
 
 _PalletTownText6::
-	text "<PLAYER>'s house "
+	text "<PLAYER> kodu "
 	done
 
 _PalletTownText7::
-	text "<RIVAL>'s house "
+	text "<RIVAL> kodu "
 	done

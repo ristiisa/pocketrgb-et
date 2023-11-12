@@ -1424,11 +1424,11 @@ VitaminNoEffectText:
 	text_end
 
 VitaminText:
-	db "HEALTH@"
-	db "ATTACK@"
-	db "DEFENSE@"
-	db "SPEED@"
-	db "SPECIAL@"
+	db "ELUD@"
+	db "RÜNNAK@"
+	db "KAITSE@"
+	db "KIIRUS@"
+	db "ERILINE@"
 
 ItemUseBait:
 	ld hl, ThrewBaitText

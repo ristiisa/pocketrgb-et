@@ -1,46 +1,47 @@
 _DaisyInitialText::
-	text "Hi <PLAYER>!"
-	line "<RIVAL> is out at"
-	cont "Grandpa's lab."
+	text "Tere <PLAYER>!"
+	line "<RIVAL> on praegu"
+	cont "vanaisa laboris."
 	done
 
 _DaisyOfferMapText::
-	text "Grandpa asked you"
-	line "to run an errand?"
-	cont "Here, this will"
-	cont "help you!"
+	text "Kas vanaisa andis"
+	line "sulle ülesande?"
+	cont "Näe, see peaks"
+	cont "sind aitama!"
 	prompt
 
 _GotMapText::
-	text "<PLAYER> got a"
+	text "<PLAYER> sai "
 	line "@"
 	text_ram wcf4b
 	text "!@"
 	text_end
 
 _DaisyBagFullText::
-	text "You have too much"
-	line "stuff with you."
+	text "Sul on liiga pal-"
+	line "ju asju kotis."
 	done
 
 _DaisyUseMapText::
-	text "Use the TOWN MAP"
-	line "to find out where"
-	cont "you are."
+	text "LINNA KAARTi kasu-"
+	line "tades näed kus sa"
+	cont "oled."
 	done
 
 _BluesHouseDaisyWalkingText::
-	text "#MON are living"
-	line "things! If they"
-	cont "get tired, give"
-	cont "them a rest!"
+	text "#MONid on e-"
+	line "lus olendid! Kui"
+	cont "nad ära väsivad,"
+	cont "siis lase neil"
+	cont "puhata!"
 	done
 
 _BluesHouseTownMapText::
-	text "It's a map of"
-	line "KANTO!..."
-	
-    para "It would be great"
-    line "if she gave it to"
-    cont "me, right?"
+	text "See on KANTO"
+	line "kaart! ..."
+
+    para "Poleks ju paha"
+    line "kui ta selle mul-"
+    cont "le annaks?"
 	done

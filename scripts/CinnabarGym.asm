@@ -24,7 +24,7 @@ CinnabarGymScript_75759:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "GUREN ISLAND@"
+	db "GUREN SAAR@"
 
 .LeaderName:
 	db "KATSURA@"

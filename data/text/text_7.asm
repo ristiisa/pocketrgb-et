@@ -1,5 +1,6 @@
 _ItemUseText001::
-	text "<PLAYER> used@"
+	text "<PLAYER>"
+	line "kasutas@"
 	text_end
 
 _ItemUseText002::
@@ -8,7 +9,7 @@ _ItemUseText002::
 	done
 
 _GotOnBicycleText1::
-	text "<PLAYER> got on the@"
+	text "<PLAYER> läks@"
 	text_end
 
 _GotOnBicycleText2::
@@ -17,195 +18,198 @@ _GotOnBicycleText2::
 	prompt
 
 _GotOffBicycleText1::
-	text "<PLAYER> got off@"
+	text "<PLAYER> tuli maha@"
 	text_end
 
 _GotOffBicycleText2::
-	text "the @"
+	text "@"
 	text_ram wcf4b
 	text "."
 	prompt
 
 _ThrewAwayItemText::
-	text "Threw away"
+	text "Viskas ära"
 	line "@"
 	text_ram wcd6d
 	text "."
 	prompt
 
 _IsItOKToTossItemText::
-	text "Is it OK to toss"
+	text "Soovid ära visata"
 	line "@"
 	text_ram wcf4b
 	text "?"
 	prompt
 
 _TooImportantToTossText::
-	text "That's too impor-"
-	line "tant to toss!"
+	text "See on liiga täh-"
+	line "tis, et visata!"
 	prompt
 
 _AlreadyKnowsText::
 	text_ram wcd6d
-	text " knows"
+	text " teab"
 	line "@"
 	text_ram wcf4b
 	text "!"
 	prompt
 
 _ConnectCableText::
-	text "Okay, connect the"
-	line "cable like so!"
+	text "OK, ühenda kaabel"
+	line "sedasi!"
 	prompt
 
 _TradedForText::
-	text "<PLAYER> traded"
+	text "<PLAYER> vahetas"
 	line "@"
-	text_ram wInGameTradeGiveMonName
-	text " for"
-	cont "@"
 	text_ram wInGameTradeReceiveMonName
+	text " vastu!"
+	cont "@"
+	text_ram wInGameTradeGiveMonName
 	text "!@"
 	text_end
 
 _WannaTrade1Text::
-	text "I'm looking for"
+	text "Ma otsin"
 	line "@"
 	text_ram wInGameTradeGiveMonName
-	text "! Wanna"
+	text "! Tahad"
 
-	para "trade one for"
+	para "vahetada"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
-	text "? "
+	text "vastu? "
 	done
 
 _NoTrade1Text::
-	text "Awww!"
-	line "Oh well..."
+	text "Näh!"
+	line "Mis seal ikka..."
 	done
 
 _WrongMon1Text::
-	text "What? That's not"
+	text "Mida? See pole"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "!"
 
-	para "If you get one,"
-	line "come back here!"
+	para "Tule siis tagasi,"
+	line "kui ühe leiad!"
 	done
 
 _Thanks1Text::
-	text "Hey thanks!"
+	text "Noh aitäh siis!"
 	done
 
 _AfterTrade1Text::
-	text "Isn't my old"
+	text "Kas pole mu"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
-	text " great?"
+	text " lahe?"
 	done
 
 _WannaTrade2Text::
-	text "Hello there! Do"
-	line "you want to trade"
+	text "Terekest! Ega sa"
+	line "vahetada ei taha"
 
-	para "your @"
+	para "oma @"
 	text_ram wInGameTradeGiveMonName
 	text_start
-	line "for @"
+	line "minu @"
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text ""
+	cont "vastu?"
 	done
 
 _NoTrade2Text::
-	text "Well, if you"
-	line "don't want to..."
+	text "Mis seal siis ikka"
+	line "kui ei taha..."
 	done
 
 _WrongMon2Text::
-	text "Hmmm? This isn't"
+	text "Hm? See pole"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "Think of me when"
-	line "you get one."
+	para "Mõtle mulle kui"
+	line "mõne leiad."
 	done
 
 _Thanks2Text::
-	text "Thanks!"
+	text "Aitäh!"
 	done
 
 _AfterTrade2Text::
-	text "The @"
+	text "@"
 IF DEF(_BLUE)
 	text_ram wInGameTradeGiveMonName
-	text " you"
-	line "traded to me"
+	text " mille"
+	line "sa minuga vaheta-"
+	cont "sid..."
 
-	para "went and evolved!"
+	para "läks ja arenes!"
 	done
 ELSE
 	text_ram wInGameTradeReceiveMonName
-	text " that"
-	line "I traded you,"
+	text " mille"
+	line "ma sulle vaheta-"
+	cont "sin..."
 
-	para "has it grown"
-	line "stronger?"
+	para "On ta tugevamaks"
+	line "kasvanud?"
 	done
 ENDC
 
 _WannaTrade3Text::
-	text "Hi! Do you have"
+	text "Tere! Ega sul pole"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "?"
 
-	para "Want to trade it"
-	line "for @"
+	para "Tahad vahetada"
+	line "@"
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text ""
+	line "vastu?"
 	done
 
 _NoTrade3Text::
-	text "That's too bad."
+	text "Kahju."
 	done
 
 _WrongMon3Text::
-	text "...This is no"
+	text "...See pole"
 	line "@"
 	text_ram wInGameTradeGiveMonName
 	text "."
 
-	para "If you get one,"
-	line "trade it with me!"
+	para "Kui ühe leiad,"
+	line "siis vaheta muga!"
 	done
 
 _Thanks3Text::
-	text "Thanks pal!"
+	text "Tänud sõber!"
 	done
 
 _AfterTrade3Text::
-	text "How is my old"
+	text "Kuidas mu vanal"
 	line "@"
 	text_ram wInGameTradeReceiveMonName
-	text "?"
+	text "läheb?"
 
-	para "My @"
+	para "Mu @"
 	text_ram wInGameTradeGiveMonName
-	text " is"
-	line "doing great!"
+	text ""
+	line "läheb kenasti!"
 	done
 
 _NothingToCutText::
-	text "There isn't"
-	line "anything to"
-	cont "IAI CUT!"
+	text "Pole midagi"
+	line "LÕIGATA!"
 	prompt
 
 _UsedCutText::
 	text_ram wcd6d
-	text " hacked"
-	line "away with IAI CUT!"
+	text " raius"
+	line "KIIRE LÕIKEGA!"
 	prompt

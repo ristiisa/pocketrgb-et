@@ -1,7 +1,7 @@
 _AIBattleWithdrawText::
 	text_ram wTrainerName
-	text " with-"
-	line "drew @"
+	text " taganes"
+	line "lahingus @"
 	text_ram wEnemyMonNick
 	text "!"
 	prompt
@@ -9,32 +9,32 @@ _AIBattleWithdrawText::
 _AIBattleUseItemText::
 	text_ram wTrainerName
 	text_start
-	line "used @"
+	line "kasutas @"
 	text_ram wcd6d
 	text_start
-	cont "on @"
+	cont "@"
 	text_ram wEnemyMonNick
-	text "!"
+	text "peal!"
 	prompt
 
 _TradeWentToText::
 	text_ram wcf4b
-	text " went"
-	line "to @"
+	text " läks"
+	line "@"
 	text_ram wLinkEnemyTrainerName
 	text "."
 	done
 
 _TradeForText::
-	text "For <PLAYER>'s"
+	text "<PLAYER>"
 	line "@"
 	text_ram wcf4b
-	text ","
+	text "eest"
 	done
 
 _TradeSendsText::
 	text_ram wLinkEnemyTrainerName
-	text " sends"
+	text " saadab"
 	line "@"
 	text_ram wcd6d
 	text "."
@@ -42,838 +42,853 @@ _TradeSendsText::
 
 _TradeWavesFarewellText::
 	text_ram wLinkEnemyTrainerName
-	text " waves"
-	line "farewell as"
+	text " lehvitab"
+	line "hüvasti"
 	done
 
 _TradeTransferredText::
 	text_ram wcd6d
-	text " is"
-	line "transferred."
+	text ""
+	line "üle kantud."
 	done
 
 _TradeTakeCareText::
-	text "Take good care of"
+	text "Hoolitse hästi"
 	line "@"
 	text_ram wcd6d
-	text "."
+	text " eest."
 	done
 
 _TradeWillTradeText::
 	text_ram wLinkEnemyTrainerName
-	text " will"
-	line "trade @"
+	text ""
+	line "vahetab @"
 	text_ram wcd6d
 	text_start
 	done
 
 _TradeforText::
-	text "for <PLAYER>'s"
+	text "<PLAYER>"
 	line "@"
 	text_ram wcf4b
 	text "."
 	done
 
 _PlaySlotMachineText::
-	text "A slot machine!"
-	line "Want to play?"
+	text "Mänguautomaat!"
+	line "Mängime?"
 	done
 
 _OutOfCoinsSlotMachineText::
-	text "Darn!"
-	line "Ran out of coins!"
+	text "Jamps!"
+	line "Mündid said otsa!"
 	done
 
 _BetHowManySlotMachineText::
-	text "Bet how many"
-	line "coins?"
+	text "Mitu münti"
+	line "panustad?"
 	done
 
 _StartSlotMachineText::
-	text "Start!"
+	text "Läks!"
 	done
 
 _NotEnoughCoinsSlotMachineText::
-	text "Not enough"
-	line "coins!"
+	text "Pole piisavalt"
+	line "münte!"
 	prompt
 
 _OneMoreGoSlotMachineText::
-	text "One more "
-	line "go?"
+	text "Korra "
+	line "veel?"
 	done
 
 _LinedUpText::
-	text " lined up!"
-	line "Scored @"
+	text " on ühes reas!"
+	line "Auhinnaks @"
 	text_ram wcf4b
-	text " coins!"
+	text " münti!"
 	done
 
 _NotThisTimeText::
-	text "Not this time!"
+	text "Järgmine kord!"
 	prompt
 
 _YeahText::
-	text "Yeah!@"
+	text "Jess!@"
 	text_end
 
 _DexSeenOwnedText::
-	text "#DEX   Seen:@"
+	text "#DEX   Nähtud:@"
 	text_decimal wDexRatingNumMonsSeen, 1, 3
 	text_start
-	line "         Owned:@"
+	line "         Püütud:@"
 	text_decimal wDexRatingNumMonsOwned, 1, 3
 	text_end
 
 _DexRatingText::
-	text "#DEX Rating<COLON>"
+	text "#DEXI Hinnang<COLON>"
 	done
 
 _GymStatueText1::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "#MONIDE SAAL"
+	cont "Juht: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "Võitjad:"
 	line "<RIVAL>"
 	done
 
 _GymStatueText2::
 	text_ram wGymCityName
 	text_start
-	line "#MON GYM"
-	cont "LEADER: @"
+	line "#MONIDE SAAL"
+	cont "Juht: @"
 	text_ram wGymLeaderName
 	text_start
 
-	para "WINNING TRAINERS:"
+	para "Võitjad:"
 	line "<RIVAL>"
 	cont "<PLAYER>"
 	done
 
 _ViridianCityPokecenterGuyText::
-	text "#MON CENTERs"
-	line "heal your tired,"
-	cont "hurt or fainted"
-	cont "#MON!"
+	text "#MONI keskustes"
+	line "saad ravida väsi-"
+	cont "nud, vigastatud"
+	cont "või minestunud"
+	cont "#MONE!"
 	done
 
 _PewterCityPokecenterGuyText::
-	text "Yawn!"
+	text "[HAIGUTUS]!"
 
-	para "When PURIN"
-	line "sings, #MON"
-	cont "get drowsy..."
+	para "Siis kui PURIN"
+	line "laulab, muutuvad"
+	cont "#MONID uniseks"
 
-	para "...Me too..."
-	line "Snore..."
+	para "...Mina ka..."
+	line "[norrr]..."
 	done
 
 _CeruleanPokecenterGuyText::
-	text "MASAKI has lots of"
-	line "#MON!"
+	text "MASAKIL on palju"
+	line "#MONE!"
 
-	para "He collects rare"
-	line "ones too!"
+	para "Ta kogub ka ha-"
+	line "ruldasi!"
 	done
 
 _LavenderPokecenterGuyText::
-	text "KARAKARAs wear"
-	line "skulls, right?"
+	text "KARAKARAd kanna-"
+	line "vad kolpi, eks?"
 
-	para "People will pay a"
-	line "lot for one!"
+	para "Juba ühe eest"
+	line "makstakse palju!"
 	done
 
 _MtMoonPokecenterBenchGuyText::
-	text "If you have too"
-	line "many #MON, you"
-	cont "should store them"
-	cont "via PC!"
+	text "Kui sul on liiga"
+	line "palju #MONe,"
+	cont "siis saad neid"
+	cont "hoiustada arvut-"
+	cont "isse!"
 	done
 
 _RockTunnelPokecenterGuyText::
-	text "I heard that"
-	line "GHOSTs haunt"
-	cont "CION TOWN!"
+	text "Ma kuulsin, et"
+	line "KUMMITUSED kummi-"
+	cont "tavad CIONi"
+	cont "linna!"
 	done
 
 _UnusedBenchGuyText1::
-	text "I wish I could"
-	line "catch #MON."
+	text "Ma tahaks ka püü-"
+	line "da #MONe."
 	done
 
 _UnusedBenchGuyText2::
-	text "I'm tired from"
-	line "all the fun..."
+	text "Ma olen väsinud"
+	line "kõigest sellest"
+	cont "lõbust..."
 	done
 
 _UnusedBenchGuyText3::
-	text "SYLPH's manager"
-	line "is hiding in the"
-	cont "SAFARI ZONE."
+	text "SYLPHi juht"
+	line "peidab end"
+	cont "SAFARI ALAL."
 	done
 
 _VermilionPokecenterGuyText::
-	text "It is true that a"
-	line "higher level"
-	cont "#MON will be"
-	cont "more powerful..."
+	text "See vastab tõele,"
+	line "et kõrgema taseme"
+	cont "#MONid on tu-"
+	cont "gevamad...."
 
-	para "But, all #MON"
-	line "will have weak"
-	cont "points against"
-	cont "specific types."
+	para "Aga, kõigil #-"
+	line "MONidel on teatud"
+	cont "tüüpide vastu"
+	cont "nõrkused."
 
-	para "So, there is no"
-	line "universally"
-	cont "strong #MON."
+	para "Ehk siis, pole"
+	line "ühtselt tugevat"
+	cont "#MONi."
 	done
 
 _CeladonCityPokecenterGuyText::
-	text "If I had a BIKE,"
-	line "I would go to"
-	cont "CYCLING ROAD!"
+	text "Kui mul oleks"
+	line "RATAS, siis ma"
+	cont "läheks RATTA"
+	cont "TEELE!"
 	done
 
 _FuchsiaCityPokecenterGuyText::
-	text "If you're studying "
-	line "#MON, visit"
-	cont "the SAFARI ZONE."
+	text "Kui sa uurid "
+	line "#MONe, külasta"
+	cont "SAFARI ala."
 
-	para "It has all sorts"
-	line "of rare #MON."
+	para "Seal on palju ha-"
+	line "ruldasi MON."
 	done
 
 _CinnabarPokecenterGuyText::
-	text "#MON can still"
-	line "learn techniques"
-	cont "after canceling"
-	cont "evolution."
+	text "#MON saab ka"
+	line "peale arenemise"
+	cont "katkestamise uusi"
+	cont "võtteid õppida."
 
-	para "Evolution can wait"
-	line "until new moves"
-	cont "have been learned."
+	para "Arenemine võib"
+	line "oodata kuniks"
+	cont "uued võtted on"
+	cont "õpitud."
 	done
 
 _SaffronCityPokecenterGuyText1::
-	text "It would be great"
-	line "if the ELITE FOUR"
-	cont "came and stomped"
-	cont "ROCKET GANG!"
+	text "Väga tore oleks"
+	line "kui VÕIMAS NELIK"
+	cont "tuleks ja võidaks"
+	cont "RAKETI KAMBA!"
 	done
 
 _SaffronCityPokecenterGuyText2::
-	text "ROCKET GANG took"
-	line "off! We can go"
-	cont "out safely again!"
-	cont "That's great!"
+	text "RAKETI KAMP tegi"
+	line "sääred! Me saame"
+	cont "kartmata välja"
+	cont "minna! Tore!"
 	done
 
 _CeladonCityHotelText::
-	text "My sis brought me"
-	line "on this vacation!"
+	text "Mu õde tõi selle"
+	line "mulle oma puhkuse"
+	line "reisilt."
 	done
 
 _BookcaseText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Riiulid on täis"
+	line "#MONi raamatu-"
+	cont "id!"
 	done
 
 _NewBicycleText::
-	text "A shiny new"
-	line "BICYCLE!"
+	text "Uhiuus"
+	line "JALGRATAS!"
 	done
 
 _PushStartText::
-	text "Push START to"
-	line "open the MENU!"
+	text "Menüü avamiseks"
+	line "vajuta START!"
 	done
 
 _SaveOptionText::
-	text "The REPORT option"
-	line "is on the MENU"
-	cont "screen."
+	text "RAPORTit saad"
+	line "koostada MENÜÜ"
+	cont "ekraanilt."
 	done
 
 _StrengthsAndWeaknessesText::
-	text "All #MON types"
-	line "have strong and"
-	cont "weak points"
-	cont "against others."
+	text "Kõik #MONi"
+	line "tüübid on tugevad"
+	cont "või nõrgad mõne"
+	cont "teise tüübi vastu"
 	done
 
 _TimesUpText::
-	text "PA: Ding-dong!"
+	text "(TILL-TOLL)!"
 
-	para "Time's up!"
+	para "Aeg on läbi!"
 	prompt
 
 _GameOverText::
-	text "PA: Your SAFARI"
-	line "GAME is over!"
+	text "Sinu SAFARI"
+	line "on läbi!"
 	done
 
 _CinnabarGymQuizIntroText::
-	text "#MON Quiz!"
+	text "#MONi"
+	line "VIKTORIIN"
 
-	para "Get it right and"
-	line "the door opens to"
-	cont "the next room!"
+	para "Õigesti vastates"
+	line "avaneb uks järg-"
+	cont "misesse tuppa!"
 
-	para "Get it wrong and"
-	line "face a trainer!"
+	para "Valesti vastates"
+	line "pead võitlema!"
 
-	para "If you want to"
-	line "conserve your"
-	cont "#MON for the"
-	cont "GYM LEADER..."
+	para "Kui sa tahad hoi-"
+	line "da oma MONe"
+	cont "SAALI JUHI jaoks,"
+	cont "vasta õigesti..."
 
-	para "Then get it right!"
-	line "Here we go!"
+	para "Ära eksi!"
+	line "Läks!"
 	prompt
 
 _CinnabarQuizQuestionsText1::
-	text "CATERPIE evolves"
-	line "into BUTTERFREE?"
+	text "KAS CATERPIE are-"
+	line "ngu tulemuseks on"
+	cont "BUTTERFREE?"
 	done
 
 _CinnabarQuizQuestionsText2::
-	text "There are 9"
-	line "certified #MON"
-	cont "LEAGUE BADGEs?"
+	text "Kas kokku on 9"
+	line "ametliku #MONi"
+	cont "LIIGA MÄRKi?"
 	done
 
 _CinnabarQuizQuestionsText3::
-	text "NYOROMO evolves 3"
-	line "times?"
+	text "NYOROMO areneb 3"
+	line "korda?"
 	done
 
 _CinnabarQuizQuestionsText4::
-	text "Are thunder moves"
-	line "effective against"
-	cont "ground element-"
-	cont "type #MON?"
+	text "Kas elektri tüüpi"
+	line "võtted on tõhusad"
+	cont "MAA tüüpi"
+	cont "#MONi vastu?"
 	done
 
 _CinnabarQuizQuestionsText5::
-	text "#MON of the"
-	line "same kind and"
-	cont "level are not"
-	cont "identical?"
+	text "Kas #MON, mis"
+	line "on sama tüüpi ja"
+	cont "sama tasemega"
+	cont "võrdsed?"
 	done
 
 _CinnabarQuizQuestionsText6::
-	text "TM28 contains"
-	line "TOMBSTONER?"
+	text "Kas TM28 õpetab"
+	line "HAUAKIVI?"
 	done
 
 _CinnabarGymQuizCorrectText::
-	text "You're absolutely"
-	line "correct!"
+	text "ÕIGE VASTUS!"
 
-	para "Go on through!@"
+	para "Astu aga edasi!@"
 	text_end
 
 _CinnabarGymQuizIncorrectText::
-	text "Sorry! Bad call!"
+	text "Anna andeks aga..."
+	line "Vale vastus!"
 	prompt
 
 _MagazinesText::
-	text "#MON magazines!"
+	text "#MON ajakirjad!"
 
-	para "#MON notebooks!"
+	para "#MON märkmikud!"
 
-	para "#MON graphs!"
+	para "#MON võrdlused!"
 	done
 
 _BillsHouseMonitorText::
-	text "TELEPORTER is"
-	line "displayed on the"
-	cont "PC monitor."
+	text "Ekraanil on kirjas"
+	line "TELEPORTER"
 	done
 
 _BillsHouseInitiatedText::
-	text "<PLAYER> initiated"
-	line "TELEPORTER's Cell"
-	cont "Separator!@"
+	text "<PLAYER> käivitas"
+	line "TELEPORTERi rak-"
+	cont "kude eraldaja!@"
 	text_end
 
 _BillsHousePokemonListText1::
-	text "MASAKI's favorite"
-	line "#MON list!"
+	text "MASAKI lemmik"
+	line "#MONid!"
 	prompt
 
 _BillsHousePokemonListText2::
-	text "Which #MON do"
-	line "you want to see?"
+	text "Millist #MON"
+	line "sa näha tahaks?"
 	done
 
 _OakLabEmailText::
-	text "There's an e-mail"
-	line "message here!"
+	text "Siin on üks uus"
+	line "sõnum!"
 
 	para "..."
 
-	para "Calling all"
-	line "#MON trainers!"
+	para "Kutse kõigile"
+	line "#MONi treene-"
+	cont "ritele!"
 
-	para "The elite trainers"
-	line "of #MON LEAGUE"
-	cont "are ready to take"
-	cont "on all comers!"
+	para "#MONi liiga"
+	line "VÕIMAS NELIK"
+	cont "ootab kõiki"
+	cont "väljakutsujaid!"
 
-	para "Bring your best"
-	line "#MON and see"
-	cont "how you rate as a"
-	cont "trainer!"
+	para "Võta kaasa oma"
+	line "parimad #MONid"
+	cont "ja saa teada kui"
+	cont "osav sa oled!"
 
-	para "#MON LEAGUE HQ"
-	line "SEKIEI PLATEAU"
+	para "#MON LIIGA PK"
+	line "SEKIEI VÄLI"
 
-	para "PS: DR.OHKIDO,"
-	line "please visit us!"
+	para "Kutsume DR.OHKIDO"
 	cont "..."
 	done
 
 _GameCornerCoinCaseText::
-	text "A COIN CASE is"
-	line "required!"
+	text "Vaja on MÜNDI"
+	line "KARPi!"
 	done
 
 _GameCornerNoCoinsText::
-	text "You don't have"
-	line "any coins!"
+	text "Sul pole ühtegi"
+	line "münti!"
 	done
 
 _GameCornerOutOfOrderText::
-	text "OUT OF ORDER"
-	line "This is broken."
+	text "RIKKIS"
+	line "See on rikkis."
 	done
 
 _GameCornerOutToLunchText::
-	text "OUT TO LUNCH"
-	line "This is reserved."
+	text "LÄKSIN LÕUNALE"
+	line "Ala on kinni."
 	done
 
 _GameCornerSomeonesKeysText::
-	text "Someone's keys!"
-	line "They'll be back."
+	text "Kellegi võtmed!"
+	line "Küll nad tulevad"
+	cont "tagasi."
 	done
 
 _JustAMomentText::
-	text "Just a moment."
+	text "Üks hetk palun."
 	done
 
 TMNotebookText::
-	text "It's a pamphlet"
-	line "on TMs."
+	text "See on TMide info-"
+	line "voldik."
 
 	para "..."
 
-	para "There are 50 TMs"
-	line "in all."
+	para "Kokku on 50 TMi."
 
-	para "There are also 5"
-	line "HMs that can be"
-	cont "used repeatedly."
+	para "Lisaks on 5 HMi"
+	line "mida saab kordu-"
+	cont "valt kasutada."
 
 	para "SYLPH CO.@"
 	text_end
 
 _TurnPageText::
-	text "Turn the page?"
+	text "Keera lehte?"
 	done
 
 _ViridianSchoolNotebookText5::
-	text "GIRL: Hey! Don't"
-	line "look at my notes!@"
+	text "TÜDRUK: Hei! Ära"
+	line "vahi mu märkmeid!@"
 	text_end
 
 _ViridianSchoolNotebookText1::
-	text "Looked at the"
-	line "notebook!"
+	text "Vaatas märkmiku!"
 
-	para "First page..."
+	para "Esimene lehet..."
 
-	para "MONSTER BALLs are"
-	line "used to catch"
-	cont "#MON."
+	para "MONSTER PALLe kas-"
+	line "utatakse #MONi"
+	cont "püüdmiseks"
 
-	para "Up to 6 #MON"
-	line "can be carried."
+	para "Kokku saab kanda"
+	line "6 #MONi."
 
-	para "People who raise"
-	line "and make #MON"
-	cont "fight are called"
-	cont "#MON trainers."
+	para "Need kes #MONe"
+	line "koguvad ja nende-"
+	cont "ga võitlevad kut-"
+	cont "sutakse #MONi"
+	cont "treeneriks."
 	prompt
 
 _ViridianSchoolNotebookText2::
-	text "Second page..."
+	text "Teine leht..."
 
-	para "A healthy #MON"
-	line "may be hard to"
-	cont "catch, so weaken"
-	cont "it first!"
+	para "Tervet #MONi"
+	line "võib olla raske"
+	cont "püüda, tee ta en-"
+	cont "ne nõrgemaks!"
 
-	para "Poison, burns and"
-	line "other damage are"
-	cont "effective!"
+	para "Mürk, põletamine"
+	line "ja muud kahjusta-"
+	cont "vad võtted on"
+	cont "tõhusad!"
 	prompt
 
 _ViridianSchoolNotebookText3::
-	text "Third page..."
+	text "Kolmas leht..."
 
-	para "#MON trainers"
-	line "seek others to"
-	cont "engage in #MON"
-	cont "fights."
+	para "#MONi treene-"
+	line "rid otsivad teisi"
+	cont "treenereid, et"
+	cont "nendega võidelda."
 
-	para "Battles are"
-	line "constantly fought"
-	cont "at #MON GYMs."
+	para "#MONi saalides"
+	line "toimuvad koguaeg"
+	cont "võitlused."
 	prompt
 
 _ViridianSchoolNotebookText4::
-	text "Fourth page..."
+	text "Neljas leht..."
 
-	para "The goal for"
-	line "#MON trainers"
-	cont "is to beat the "
-	cont "top 8 #MON"
-	cont "GYM LEADERs."
+	para "Kõigi #MONi"
+	line "treenerite ees-"
+	cont "märk on kõigi 8"
+	cont "esik liiga saal-"
+	cont "ide juhtide võit-"
+	cont "mine."
 
-	para "Do so to earn the"
-	line "right to face..."
+	para "Alles peale selle"
+	line "saavutamist..."
 
-	para "The ELITE FOUR of"
-	line "#MON LEAGUE!"
+	para "Saad sa õiguse"
+	line "võidelda"
+	cont "#MONi LIIGA"
+	cont "VÕIMSA NELIKUGA!"
 	prompt
 
 _EnemiesOnEverySideText::
-	text "Enemies on every"
-	line "side!"
+	text "Vaenlased on igal"
+	line "küljel!"
 	done
 
 _WhatGoesAroundComesAroundText::
-	text "What goes around"
-	line "comes around!"
+	text "Mida külvad seda,"
+	line "lõikad!"
 	done
 
 _FightingDojoText::
-	text "FIGHTING DOJO"
+	text "VÕITLUS SAAL"
 	done
 
 _IndigoPlateauHQText::
-	text "SEKIEI PLATEAU"
-	line "#MON LEAGUE HQ"
+	text "SEKIEI VÄLI"
+	line "#MONi LIIGA"
+	cont "peakontor"
 	done
 
 _RedBedroomSNESText::
-	text "<PLAYER> is"
-	line "playing the"
-	cont "FAMICOM!"
-	cont "...Okay!"
-	cont "It's time to go!"
+	text "<PLAYER> mängib"
+	line "telekamängu!"
+	cont "...OK!"
+	cont "Aeg edasi liikuda!"
 	done
 
 _Route15UpstairsBinocularsText::
-	text "Looked into the"
-	line "binoculars..."
+	text "Vaatas läbi"
+	line "binokli..."
 
-	para "A large, shining"
-	line "bird is flying"
-	cont "toward the sea."
+	para "Suur särav lind"
+	line "lendab mere suu-"
+	cont "nas."
 	done
 
 _AerodactylFossilText::
-	text "PTERA Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "PTERA kivistis"
+	line "Algeline ja vana"
+	cont "#MON."
 	done
 
 _KabutopsFossilText::
-	text "KABUTOPS Fossil"
-	line "A primitive and"
-	cont "rare #MON."
+	text "KABUTOPS kivistis"
+	line "Algeline ja vana"
+	cont "#MON."
 	done
 
 _LinkCableHelpText1::
-	text "TRAINER TIPS"
+	text "TREENERI NIPID"
 
-	para "Using a Game Link"
-	line "Cable"
+	para "Kuidas kasutada"
+	line "Game Link kaablit"
 	prompt
 
 _LinkCableHelpText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Kumba poolt sa"
+	line "tahad lugeda?"
 	done
 
 _LinkCableInfoText1::
-	text "When you have"
-	line "linked your GAME"
-	cont "BOY with another"
-	cont "GAME BOY, talk to"
-	cont "the attendant on"
-	cont "the right in any"
-	cont "#MON CENTER."
+	text "Kui sa oled ühen-"
+	line "danud oma GAME"
+	cont "BOY teise GAME"
+	cont "BOYga, siis räägi"
+	cont "selle hooldajaga"
+	cont "kes on paremal"
+	cont "#MON KESKU-"
+	cont "SEST."
 	prompt
 
 _LinkCableInfoText2::
-	text "COLOSSEUM lets"
-	line "you play against"
-	cont "a friend."
+	text "COLOSSEUM lubab"
+	line "sul mängida sõbra"
+	cont "vasty."
 	prompt
 
 _LinkCableInfoText3::
-	text "TRADE CENTER is"
-	line "used for trading"
-	cont "#MON."
+	text "VAHETUS KESKUS on"
+	line "#MONide vahe-"
+	cont "tamiseks."
 	prompt
 
 _ViridianSchoolBlackboardText1::
-	text "The blackboard"
-	line "describes #MON"
-	cont "STATUS changes"
-	cont "during battles."
+	text "Siin tahvlil on"
+	line "kirjas #MONde"
+	cont "OLEKU muutused"
+	cont "lahingu ajal."
 	prompt
 
 _ViridianSchoolBlackboardText2::
-	text "Which heading do"
-	line "you want to read?"
+	text "Kummalt poolt sa"
+	line "tahad lugeda?"
 	done
 
 _ViridianBlackboardSleepText::
-	text "A #MON can't"
-	line "attack if it's"
-	cont "asleep!"
+	text "#MON ei saa"
+	line "rünnata kui ta"
+	cont "magab!"
 
-	para "#MON will stay"
-	line "asleep even after"
-	cont "battles."
+	para "#MON magab"
+	line "edasi ka peale"
+	cont "lahingu lõppu."
 
-	para "Use AWAKENING to"
-	line "wake them up!"
+	para "Kasuta ÄRATA, et"
+	line "neid äratada!"
 	prompt
 
 _ViridianBlackboardPoisonText::
-	text "When poisoned, a"
-	line "#MON's health"
-	cont "steadily drops."
+	text "Mürgitatud #-"
+	line "MONi elud vähene-"
+	cont "vad."
 
-	para "Poison lingers"
-	line "after battles."
+	para "Mürk jääb alles"
+	line "ka peale lahingut"
 
-	para "Use an ANTIDOTE"
-	line "to cure poison!"
+	para "Kasuta VASTUMÜRK,"
+	line "et mürki ravida!"
 	prompt
 
 _ViridianBlackboardPrlzText::
-	text "Paralysis could"
-	line "make #MON"
-	cont "moves misfire!"
+	text "Halvatud #MON"
+	line "võib kogemata"
+	cont "võttega ebaõnnes-"
+	cont "tuda!"
 
-	para "Paralysis remains"
-	line "after battles."
+	para "Halvatud olek jääb"
+	line "ka peale lahingut"
 
-	para "Use PARLYZ HEAL"
-	line "for treatment!"
+	para "Kasuta KRAMBI"
+	line "ROHI ravimiseks!"
 	prompt
 
 _ViridianBlackboardBurnText::
-	text "A burn reduces"
-	line "power and speed."
-	cont "It also causes"
-	cont "ongoing damage."
+	text "Põletus vähendab"
+	line "jõudu ja kiirust."
+	cont "Lisaks põhjustab"
+	cont "see pidevat valu"
 
-	para "Burns remain"
-	line "after battles."
+	para "Põletus jääb alles"
+	line "ka peale lahingut"
 
-	para "Use BURN HEAL to"
-	line "cure a burn!"
+	para "Kasuta KÜLMA"
+	line "KREEMi et põletu-"
+	cont "st ravida!"
 	prompt
 
 _ViridianBlackboardFrozenText::
-	text "If frozen, a"
-	line "#MON becomes"
-	cont "totally immobile!"
+	text "Jäätunud #MON"
+	line "ei saa enam lii-"
+	cont "gutatada!"
 
-	para "It stays frozen"
-	line "even after the"
-	cont "battle ends."
+	para "Jäätunud oled jääb"
+	line "ka peale lahingut"
 
-	para "Use ICE HEAL to"
-	line "thaw out #MON!"
+	para "Kasuta SOOJA"
+	line "KREEMi, et sula-"
+	cont "tada see #MON"
 	prompt
 
 _VermilionGymTrashText::
-	text "Nope, there's"
-	line "only trash here."
+	text "Eip, siin on ai-"
+	line "nult prügi."
 	done
 
 _VermilionGymTrashSuccessText1::
-	text "Hey! There's a"
-	line "switch under the"
-	cont "trash!"
-	cont "Turn it on!"
+	text "Ohoh! Selle prügi"
+	line "all on lüliti!"
+	cont "Lülita see sisse!"
 
-	para "The 1st electric"
-	line "lock opened!@"
+	para "Esimene magnet"
+	line "lukk avanes!@"
 	text_end
 
 _VermilionGymTrashSuccessText2::
-	text "Hey! There's"
-	line "another switch"
-	cont "under the trash!"
-	cont "Turn it on!"
+	text "Vahi! Selle prügi"
+	line "all on ka lüliti"
+	cont "Lülita see sisse!"
 	prompt
 
 _VermilionGymTrashSuccessText3::
-	text "The 2nd electric"
-	line "lock opened!"
+	text "Teine magnet"
+	line "lukk avanes!@"
 
-	para "The motorized door"
-	line "opened!@"
+	para "Automaatne uks"
+	line "avaneb!@"
 	text_end
 
 _VermilionGymTrashFailText::
-	text "Nope! There's"
-	line "only trash here."
-	cont "Hey! The electric"
-	cont "locks were reset!@"
+	text "Eip! Selle prügi"
+	line "all on veel prügi"
+	cont "Hei! Kõik magnet"
+	cont "lukud sulgusid!@"
 	text_end
 
 _FoundHiddenItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> leidis"
 	line "@"
 	text_ram wcd6d
 	text "!@"
 	text_end
 
 _HiddenItemBagFullText::
-	text "But, <PLAYER> has"
-	line "no more room for"
-	cont "other items!"
+	text "Aga, <PLAYER>"
+	line "kotis pole rohkem"
+	cont "ruumi!"
 	done
 
 _FoundHiddenCoinsText::
-	text "<PLAYER> found"
+	text "<PLAYER> leidis"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " münti!@"
 	text_end
 
 _FoundHiddenCoins2Text::
-	text "<PLAYER> found"
+	text "<PLAYER> leidis"
 	line "@"
 	text_bcd hCoins, 2 | LEADING_ZEROES | LEFT_ALIGN
-	text " coins!@"
+	text " münti!@"
 	text_end
 
 _DroppedHiddenCoinsText::
 	text_start
-	para "Oops! Dropped"
-	line "some coins!"
+	para "Oih! Mõned mündid"
+	line "kukkusid maha!"
 	done
 
 _IndigoPlateauStatuesText1::
-	text "SEKIEI PLATEAU"
+	text "SEKIEI VÄLI"
 	prompt
 
 _IndigoPlateauStatuesText2::
-	text "The ultimate goal"
-	line "of trainers!"
-	cont "#MON LEAGUE HQ"
+	text "Treenerite ülim"
+	line "eesmärk!"
+	cont "#MON LEAGUE PEA-"
+	cont "KONTOR"
 	done
 
 _IndigoPlateauStatuesText3::
-	text "The highest"
-	line "#MON authority"
-	cont "#MON LEAGUE HQ"
+	text "Parim #MONi"
+	line "asjadunja..."
+	cont "#MON LIIGA PEA-"
+	cont "KONTOR"
 	done
 
 _PokemonBooksText::
-	text "Crammed full of"
-	line "#MON books!"
+	text "Riiulid on täis"
+	line "#MONi raamatu-"
+	cont "id!"
 	done
 
 _DiglettSculptureText::
-	text "It's a Buddhist"
-	line "altar..."
+	text "See on pühamu..."
 	done
 
 _ElevatorText::
-	text "This is an"
-	line "elevator."
+	text "See on lift."
 	done
 
 _TownMapText::
-	text "A TOWN MAP.@"
+	text "LINNA KAART.@"
 	text_end
 
 _PokemonStuffText::
-	text "Wow! Tons of"
-	line "#MON stuff!"
+	text "Vau! Nii palju"
+	line "#MONi kraami!"
 	done
 
 _OutOfSafariBallsText::
-	text "PA: Ding-dong!"
+	text "(TILL-TOLL)!"
 
-	para "You are out of"
-	line "SAFARI BALLs!"
+	para "Su SAFARI PALLid"
+	line "said otsa!"
 	prompt
 
 _WildRanText::
-	text "Wild @"
+	text "Metsik @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "põgenes!"
 	prompt
 
 _EnemyRanText::
-	text "Enemy @"
+	text "Vastase @"
 	text_ram wEnemyMonNick
 	text_start
-	line "ran!"
+	line "põgemes!"
 	prompt
 
 _HurtByPoisonText::
-	text "<USER>'s"
-	line "hurt by poison!"
+	text "<USER>"
+	line "sai mürgist viga!"
 	prompt
 
 _HurtByBurnText::
-	text "<USER>'s"
-	line "hurt by the burn!"
+	text "<USER>"
+	line "sai põletada!"
 	prompt
 
 _HurtByLeechSeedText::
-	text "LEECH SEED saps"
-	line "<USER>!"
+	text "KURNAV SEEME kur-"
+	line "nas <USER>!"
 	prompt
 
 _EnemyMonFaintedText::
-	text "Enemy @"
+	text "Vastase @"
 	text_ram wEnemyMonNick
 	text_start
-	line "fainted!"
+	line "minestas!"
 	prompt
 
 _MoneyForWinningText::
-	text "<PLAYER> got ¥@"
+	text "<PLAYER> sai ¥@"
 	text_bcd wAmountMoneyWon, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for winning!"
+	line "võidu eest!"
 	prompt
 
 _TrainerDefeatedText::
-	text "<PLAYER> defeated"
+	text "<PLAYER> võitis"
 	line "@"
 	text_ram wTrainerName
 	text "!"
@@ -882,28 +897,29 @@ _TrainerDefeatedText::
 _PlayerMonFaintedText::
 	text_ram wBattleMonNick
 	text_start
-	line "fainted!"
+	line "minestas!"
 	prompt
 
 _UseNextMonText::
-	text "Use next #MON?"
+	text "Kas kasutad järg-"
+	text "mist #MONi?"
 	done
 
 _Sony1WinText::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Jess! Kas"
+	line "ma pole mitte äge?"
 	prompt
 
 _PlayerBlackedOutText2::
-	text "<PLAYER> is out of"
-	line "useable #MON!"
+	text "<PLAYER> #MONid"
+	line "said otsa!"
 
-	para "<PLAYER> blacked"
-	line "out!"
+	para "<PLAYER>"
+	line "minestas!"
 	prompt
 
 _LinkBattleLostText::
-	text "<PLAYER> lost to"
+	text "<PLAYER> kaotas"
 	line "@"
 	text_ram wTrainerName
 	text "!"
@@ -911,169 +927,172 @@ _LinkBattleLostText::
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " is"
-	line "about to use"
+	text " hakkab"
+	line "kasutama"
 	cont"@"
 	text_ram wEnemyMonNick
 	text "!"
 
-	para "Will <PLAYER>"
-	line "change #MON?"
+	para "Kas <PLAYER>"
+	line "vahetab #MONi?"
 	done
 
 _TrainerSentOutText::
 	text_ram wTrainerName
-	text " sent"
-	line "out @"
+	text " saadab"
+	line "pallist @"
 	text_ram wEnemyMonNick
 	text "!"
 	done
 
 _NoWillText::
-	text "There's no will"
-	line "to fight!"
+	text "Pole mingit võit-"
+	line "lus janu!"
 	prompt
 
 _CantEscapeText::
-	text "Can't escape!"
+	text "Ei saa põgeneda!"
 	prompt
 
 _NoRunningText::
-	text "No! There's no"
-	line "running from a"
-	cont "trainer battle!"
+	text "Ei! Sellest võit-"
+	line "lusest ei saa põ-"
+	cont "geneda!"
 	prompt
 
 _GotAwayText::
-	text "Got away safely!"
+	text "Põgenesime turva-"
+	line "liselt!"
 	prompt
 
 _ItemsCantBeUsedHereText::
-	text "Items can't be"
-	line "used here."
+	text "Siin ei saa asju"
+	line "kasutada."
 	prompt
 
 _AlreadyOutText::
 	text_ram wBattleMonNick
-	text " is"
-	line "already out!"
+	text " on"
+	line "juba väljas!"
 	prompt
 
 _MoveNoPPText::
-	text "No PP left for"
-	line "this move!"
+	text "Pole rohkem PP,"
+	line "et seda võtet"
+	cont "kasutada!"
 	prompt
 
 _MoveDisabledText::
-	text "The move is"
-	line "disabled!"
+	text "See võte on"
+	line "keelatud!"
 	prompt
 
 _NoMovesLeftText::
 	text_ram wBattleMonNick
-	text " has no"
-	line "moves left!"
+	text " ei oma"
+	line "rohkem võtteid!"
 	done
 
 _MultiHitText::
-	text "Hit the enemy"
+	text "Ründas vastast"
 	line "@"
 	text_decimal wPlayerNumHits, 1, 1
-	text " times!"
+	text " korda!"
 	prompt
 
 _ScaredText::
 	text_ram wBattleMonNick
-	text " is too"
-	line "scared to move!"
+	text " on liiga"
+	line "hirmul, et liigu-"
+	cont "tada!"
 	prompt
 
 _GetOutText::
-	text "GHOST: Get out..."
-	line "Get out..."
+	text "KUMMITUS: Mine..."
+	line "Mine ära..."
 	prompt
 
 _FastAsleepText::
 	text "<USER>"
-	line "is fast asleep!"
+	line "magab sügavalt!"
 	prompt
 
 _WokeUpText::
 	text "<USER>"
-	line "woke up!"
+	line "ärkas!"
 	prompt
 
 _IsFrozenText::
 	text "<USER>"
-	line "is frozen solid!"
+	line "on jäätunud!"
 	prompt
 
 _FullyParalyzedText::
-	text "<USER>'s"
-	line "fully paralyzed!"
+	text "<USER>"
+	line "on halvatud!"
 	prompt
 
 _FlinchedText::
 	text "<USER>"
-	line "flinched!"
+	line "võpatas!"
 	prompt
 
 _MustRechargeText::
 	text "<USER>"
-	line "must recharge!"
+	line "peab taastuma!"
 	prompt
 
 _DisabledNoMoreText::
-	text "<USER>'s"
-	line "disabled no more!"
+	text "<USER> pole"
+	line "enam lukus!"
 	prompt
 
 _IsConfusedText::
 	text "<USER>"
-	line "is confused!"
+	line "on segaduses!"
 	prompt
 
 _HurtItselfText::
-	text "It hurt itself in"
-	line "its confusion!"
+	text "Tegi endale sega-"
+	line "duses haiget!"
 	prompt
 
 _ConfusedNoMoreText::
-	text "<USER>'s"
-	line "confused no more!"
+	text "<USER> pole"
+	line "enam segaduses!"
 	prompt
 
 _SavingEnergyText::
 	text "<USER>"
-	line "is saving energy!"
+	line "kogub energiat!"
 	prompt
 
 _UnleashedEnergyText::
-	text "<USER>"
-	line "unleashed energy!"
+	text "<USER> lasi"
+	line "energia vabaks!"
 	prompt
 
 _ThrashingAboutText::
-	text "<USER>'s"
-	line "thrashing about!"
+	text "<USER>"
+	line "rahmeldab!"
 	done
 
 _AttackContinuesText::
-	text "<USER>'s"
-	line "attack continues!"
+	text "<USER>"
+	line "rünnak jätkub!"
 	done
 
 _CantMoveText::
 	text "<USER>"
-	line "can't move!"
+	line "ei saa liigutada!"
 	prompt
 
 _MoveIsDisabledText::
-	text "<USER>'s"
+	text "<USER>"
 	line "@"
 	text_ram wcd6d
-	text " is"
-	cont "disabled!"
+	text " on"
+	cont "keelatud!"
 	prompt
 
 _MonName1Text::
@@ -1082,16 +1101,16 @@ _MonName1Text::
 
 _Used1Text::
 	text_start
-	line "used @"
+	line "kasutas @"
 	text_end
 
 _Used2Text::
 	text_start
-	line "used @"
+	line "kasutas @"
 	text_end
 
 _InsteadText::
-	text "instead,"
+	text "asemel"
 	cont "@"
 	text_end
 
@@ -1120,173 +1139,175 @@ _ExclamationPoint5Text::
 	done
 
 _AttackMissedText::
-	text "<USER>'s"
-	line "attack missed!"
+	text "<USER> rünne"
+	line "ebaõnnestus!"
 	prompt
 
 _KeptGoingAndCrashedText::
 	text "<USER>"
-	line "kept going and"
-	cont "crashed!"
+	line "jätkas ja pani"
+	cont "matsu!"
 	prompt
 
 _UnaffectedText::
-	text "<TARGET>'s"
-	line "unaffected!"
+	text "<TARGET>"
+	line "jäi mõjutamata!"
 	prompt
 
 _DoesntAffectMonText::
-	text "It doesn't affect"
+	text "See ei mõjuta"
 	line "<TARGET>!"
 	prompt
 
 _CriticalHitText::
-	text "Critical hit!"
+	text "Täpne löök!"
 	prompt
 
 _OHKOText::
-	text "One-hit KO!"
+	text "Ühe löögiga!"
 	prompt
 
 _LoafingAroundText::
 	text_ram wBattleMonNick
-	text " is"
-	line "loafing around."
+	text ""
+	line "tatsab ringi."
 	prompt
 
 _BeganToNapText::
 	text_ram wBattleMonNick
-	text " began"
-	line "to nap!"
+	text ""
+	line "alustas uinakut!"
 	prompt
 
 _WontObeyText::
 	text_ram wBattleMonNick
-	text " won't"
-	line "obey!"
+	text ""
+	line "ei kuuletu!"
 	prompt
 
 _TurnedAwayText::
 	text_ram wBattleMonNick
-	text " turned"
-	line "away!"
+	text ""
+	line "pööras ära!"
 	prompt
 
 _IgnoredOrdersText::
 	text_ram wBattleMonNick
 	text_start
-	line "ignored orders!"
+	line "ei kuuletunud!"
 	prompt
 
 _SubstituteTookDamageText::
-	text "The SUBSTITUTE"
-	line "took damage for"
-	cont "<TARGET>!"
+	text "ASENDUS päästis"
+	line "<TARGET>"
+	cont "hädast!"
 	prompt
 
 _SubstituteBrokeText::
-	text "<TARGET>'s"
-	line "SUBSTITUTE broke!"
+	text "<TARGET>"
+	line "ASENDUS hävis!"
 	prompt
 
 _BuildingRageText::
-	text "<USER>'s"
-	line "RAGE is building!"
+	text "<USER>"
+	line "VIHA kasvab!"
 	prompt
 
 _MirrorMoveFailedText::
-	text "The PARROT MIMICRY"
-	next "failed!"
+	text "AHVI"
+	next "ebaõnnestus!"
 	prompt
 
 _HitXTimesText::
-	text "Hit @"
+	text "Lõi @"
 	text_decimal wEnemyNumHits, 1, 1
-	text " times!"
+	text " korda!"
 	prompt
 
 _GainedText::
 	text_ram wcd6d
-	text " gained"
+	text " sai"
 	line "@"
 	text_end
 
 _WithExpAllText::
-	text "with EXP.ALL,"
+	text "KOGEMUSJAGURiga,"
 	cont "@"
 	text_end
 
 _BoostedText::
-	text "a boosted"
+	text "võimendatud"
 	cont "@"
 	text_end
 
 _ExpPointsText::
 	text_decimal wExpAmountGained, 2, 4
-	text " EXP. Points!"
+	text " kogemuspunkti!"
 	prompt
 
 _GrewLevelText::
 	text_ram wcd6d
-	text " grew"
-	line "to level @"
+	text " kasvas"
+	line "tasemele @"
 	text_decimal wCurEnemyLVL, 1, 3
 	text "!@"
 	text_end
 
 _WildMonAppearedText::
-	text "Wild @"
-	text_ram wEnemyMonNick
-	text_start
-	line "appeared!"
-	prompt
-
-_HookedMonAttackedText::
-	text "The hooked"
+	text "Ilmus metsik"
 	line "@"
 	text_ram wEnemyMonNick
 	text_start
-	cont "attacked!"
+	prompt
+
+_HookedMonAttackedText::
+	text "Naelutatud"
+	line "@"
+	text_ram wEnemyMonNick
+	text_start
+	cont "ründas!"
 	prompt
 
 _EnemyAppearedText::
 	text_ram wEnemyMonNick
 	text_start
-	line "appeared!"
+	line "ilmus!"
 	prompt
 
 _TrainerWantsToFightText::
 	text_ram wTrainerName
 	text ""
-	line "challenged you!"
+	line "kutsub sind võit-"
+	cont "lusele!"
 	prompt
 
 _UnveiledGhostText::
-	text "SYLPH SCOPE"
-	line "unveiled the"
-	cont "GHOST's identity!"
+	text "KUMMITUSPRILLID"
+	line "tuvastasid KUMM-"
+	cont "TUSe olemuse!"
 	prompt
 
 _GhostCantBeIDdText::
-	text "Darn! The GHOST"
-	line "can't be ID'd!"
+	text "Jamps! Seda KUMM-"
+	line "ITUSt ei saa tuv-"
+	cont "vastada!"
 	prompt
 
 _GoText::
-	text "Go! @"
+	text "Mine! @"
 	text_end
 
 _DoItText::
-	text "Do it! @"
+	text "Läks! @"
 	text_end
 
 _GetmText::
-	text "Get'm! @"
+	text "Võta! @"
 	text_end
 
 _EnemysWeakText::
-	text "The enemy's weak!"
-	line "Get'm! @"
+	text "Vastane on nõrk!"
+	line "Võta! @"
 	text_end
 
 _PlayerMon1Text::
@@ -1300,7 +1321,7 @@ _PlayerMon2Text::
 	text_end
 
 _EnoughText::
-	text "enough!@"
+	text "aitab!@"
 	text_end
 
 _OKExclamationText::
@@ -1308,78 +1329,79 @@ _OKExclamationText::
 	text_end
 
 _GoodText::
-	text "good!@"
+	text "tore!@"
 	text_end
 
 _ComeBackText::
 	text_start
-	line "Come back!"
+	line "Tule tagasi!"
 	done
 
 _SuperEffectiveText::
-	text "It's super"
-	line "effective!"
+	text "See on väga"
+	line "tõhus!"
 	prompt
 
 _NotVeryEffectiveText::
-	text "It's not very"
-	line "effective..."
+	text "See pole väga"
+	line "tõhus!"
 	prompt
 
 _SafariZoneEatingText::
-	text "Wild @"
+	text "Metsik @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is eating!"
+	line "sööb!"
 	prompt
 
 _SafariZoneAngryText::
-	text "Wild @"
+	text "Metsik @"
 	text_ram wEnemyMonNick
 	text_start
-	line "is angry!"
+	line "on vihane!"
 	prompt
 
 ; money related
 _PickUpPayDayMoneyText::
-	text "<PLAYER> picked up"
+	text "<PLAYER> leidis"
 	line "¥@"
 	text_bcd wTotalPayDayMoney, 3 | LEADING_ZEROES | LEFT_ALIGN
 	text "!"
 	prompt
 
 _ClearSaveDataText::
-	text "Clear all saved"
-	line "data?"
+	text "Puhasta kogu sal-"
+	line "vestus?"
 	done
 
 _WhichFloorText::
-	text "Which floor do"
-	line "you want? "
+	text "Kuhu korrusele"
+	line "läheme? "
 	done
 
 _PartyMenuNormalText::
-	text "Choose a #MON."
+	text "Vali #MON."
 	done
 
 _PartyMenuItemUseText::
-	text "Use item on which"
-	line "#MON?"
+	text "Millisel MONil"
+	line "tahad seda kasu-"
+	cont "tada?"
 	done
 
 _PartyMenuBattleText::
-	text "Bring out which"
+	text "Võta välja milline"
 	line "#MON?"
 	done
 
 _PartyMenuUseTMText::
-	text "Use TM on which"
-	line "#MON?"
+	text "Kasuta TM millisel"
+	line "#MONil?"
 	done
 
 _PartyMenuSwapMonText::
-	text "Move #MON"
-	line "where?"
+	text "Liiguta #MON"
+	line "kuhu?"
 	done
 
 _PotionText::
@@ -1392,231 +1414,236 @@ _PotionText::
 
 _AntidoteText::
 	text_ram wcd6d
-	text " was"
-	line "cured of poison!"
+	text " raviti"
+	line "mürgist!"
 	done
 
 _ParlyzHealText::
 	text_ram wcd6d
-	text "'s"
-	line "rid of paralysis!"
+	text " pole"
+	line "enam halvatud!"
 	done
 
 _BurnHealText::
 	text_ram wcd6d
-	text "'s"
-	line "burn was healed!"
+	text " ter-"
+	line "venes põletusest!"
 	done
 
 _IceHealText::
 	text_ram wcd6d
-	text " was"
-	line "defrosted!"
+	text ""
+	line "sulas üles!"
 	done
 
 _AwakeningText::
 	text_ram wcd6d
 	text_start
-	line "woke up!"
+	line "ärkas!"
 	done
 
 _FullHealText::
 	text_ram wcd6d
-	text "'s"
-	line "health returned!"
+	text ""
+	line "elud täitusid!"
 	done
 
 _ReviveText::
 	text_ram wcd6d
 	text_start
-	line "is revitalized!"
+	line "on elustatud!"
 	done
 
 _RareCandyText::
 	text_ram wcd6d
-	text " grew"
-	line "to level @"
+	text " kasvas"
+	line "tasemele @"
 	text_decimal wCurEnemyLVL, 1, 3
 	text "!@"
 	text_end
 
 _TurnedOnPC1Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> pani"
+	line "arvuti tööle."
 	prompt
 
 _AccessedBillsPCText::
-	text "Accessed MASAKI's"
-	line "PC."
+	text "Kasutas MASAKI's"
+	line "arvutit."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Kasutas #MON"
+	line "hoiustamist."
 	prompt
 
 _AccessedSomeonesPCText::
-	text "Accessed someone's"
-	line "PC."
+	text "Kasutas kellegi"
+	line "arvutit."
 
-	para "Accessed #MON"
-	line "Storage System."
+	para "Kasutas #MON"
+	line "hoiustamist."
 	prompt
 
 _AccessedMyPCText::
-	text "Accessed my PC."
+	text "Kasutas oma"
+	line "arvutit."
 
-	para "Accessed Item"
-	line "Storage System."
+	para "Kasutas asjade"
+	line "hoiustamist."
 	prompt
 
 _TurnedOnPC2Text::
-	text "<PLAYER> turned on"
-	line "the PC."
+	text "<PLAYER> pani"
+	line "arvuti tööle."
 	prompt
 
 _WhatDoYouWantText::
-	text "What do you want"
-	line "to do?"
+	text "Mida sa teha"
+	line "soovid?"
 	done
 
 _WhatToDepositText::
-	text "What do you want"
-	line "to deposit?"
+	text "Mida sa hoiustada"
+	line "tahad?"
 	done
 
 _DepositHowManyText::
-	text "How many?"
+	text "Kui palju?"
 	done
 
 _ItemWasStoredText::
 	text_ram wcd6d
-	text " was"
-	line "stored via PC."
+	text " hoius-"
+	line "tati arvutisse"
 	prompt
 
 _NothingToDepositText::
-	text "You have nothing"
-	line "to deposit."
+	text "Sul pole midagi"
+	line "võtta."
 	prompt
 
 _NoRoomToStoreText::
-	text "No room left to"
-	line "store items."
+	text "Pole ruumi, et"
+	line "asju hoiustada."
 	prompt
 
 _WhatToWithdrawText::
-	text "What do you want"
-	line "to withdraw?"
+	text "Mida sa soovid"
+	line "välja võtta?"
 	done
 
 _WithdrawHowManyText::
-	text "How many?"
+	text "Kui palju?"
 	done
 
 _WithdrewItemText::
-	text "Withdrew"
+	text "Võetud välja"
 	line "@"
 	text_ram wcd6d
 	text "."
 	prompt
 
 _NothingStoredText::
-	text "There is nothing"
-	line "stored."
+	text "Pole midagi"
+	line "hoiustatud."
 	prompt
 
 _CantCarryMoreText::
-	text "You can't carry"
-	line "any more items."
+	text "Sa ei saa rohkem"
+	line "asju kanda."
 	prompt
 
 _WhatToTossText::
-	text "What do you want"
-	line "to toss away?"
+	text "Mida sa soovid"
+	line "ära visata?"
 	done
 
 _TossHowManyText::
-	text "How many?"
+	text "Kui palju?"
 	done
 
 _AccessedHoFPCText::
-	text "Accessed #MON"
-	line "LEAGUE's site."
+	text "Külastas #MONi"
+	line "LIIGA kodulehte."
 
-	para "Accessed the HALL"
-	line "OF FAME List."
+	para "Vaatas KUULSUSTE"
+	line "NIMEKIRJA."
 	prompt
 
 _SwitchOnText::
-	text "Switch on!"
+	text "Sisse lülitatud!"
 	prompt
 
 _WhatText::
-	text "What?"
+	text "Mida?"
 	done
 
 _DepositWhichMonText::
-	text "Deposit which"
-	line "#MON?"
+	text "Millise #MONi"
+	line "hoiustame?"
 	done
 
 _MonWasStoredText::
 	text_ram wcf4b
-	text " was"
-	line "stored in Box @"
+	text " hoi-"
+	line "ustatud Kastis @"
 	text_ram wBoxNumString
 	text "."
 	prompt
 
 _CantDepositLastMonText::
-	text "You can't deposit"
-	line "the last #MON!"
+	text "Hoiustada saad"
+	line "viimast #MONi!"
 	prompt
 
 _BoxFullText::
-	text "Oops! This Box is"
-	line "full of #MON."
+	text "Oih! See kast on"
+	line "juba #MONe"
+	cont "täis!"
 	prompt
 
 _MonIsTakenOutText::
 	text_ram wcf4b
-	text " is"
-	line "taken out."
-	cont "Got @"
+	text " võ-"
+	line "ti välja."
+	cont "Sai @"
 	text_ram wcf4b
 	text "."
 	prompt
 
 _NoMonText::
-	text "What? There are"
-	line "no #MON here!"
+	text "Mis? #MONe"
+	line "siin enam pole!"
 	prompt
 
 _CantTakeMonText::
-	text "You can't take"
-	line "any more #MON."
+	text "Sa ei saa rohkem"
+	line "#MONe välja"
+	cont "võtta"
 
-	para "Deposit #MON"
-	line "first."
+	para "Hoiusta enne mõni"
+	line "#MON."
 	prompt
 
 _ReleaseWhichMonText::
-	text "Release which"
-	line "#MON?"
+	text "Millise #MONi"
+	line "vabastad?"
 	done
 
 _OnceReleasedText::
-	text "Once released,"
+	text "Peale vabastamist,"
 	line "@"
 	text_ram wcf4b
-	text " is"
-	cont "gone forever. OK?"
+	text " on"
+	cont "igaveseks läinud"
+	cont "OK?"
 	done
 
 _MonWasReleasedText::
 	text_ram wcf4b
-	text " was"
-	line "released outside."
-	cont "Bye @"
+	text ""
+	line "lasti vabaks."
+	cont "Nägemist!"
+	cont "@"
 
 _CF4BExclamationText::
 	text_ram wcf4b
@@ -1624,168 +1651,174 @@ _CF4BExclamationText::
 	prompt
 
 _RequireCoinCaseText::
-	text "A COIN CASE is"
-	line "required!@"
+	text "Vajalik on MÜNDI"
+	line "KAST!@"
 	text_end
 
 _ExchangeCoinsForPrizesText::
-	text "We exchange your"
-	line "coins for prizes."
+	text "Me vahetame sinu"
+	line "mündid auhindade"
+	cont "vastu."
 	prompt
 
 _WhichPrizeText::
-	text "Which prize do"
-	line "you want?"
+	text "Millist auhinda"
+	line "soovid?"
 	done
 
 _HereYouGoText::
-	text "Here you go!@"
+	text "Palun!@"
 	text_end
 
 _SoYouWantPrizeText::
-	text "So, you want"
+	text "Niisis, sa soovid"
 	line "@"
 	text_ram wcd6d
 	text "?"
 	done
 
 _SorryNeedMoreCoinsText::
-	text "Sorry, you need"
-	line "more coins.@"
+	text "Anna andeks, aga"
+	line "sul on rohkem"
+	cont "münte vaja."
 	text_end
 
 _OopsYouDontHaveEnoughRoomText::
-	text "Oops! You don't"
-	line "have enough room.@"
+	text "Oih! Sul pole roh-"
+	line "kem ruumi.@"
 	text_end
 
 _OhFineThenText::
-	text "Oh, fine then.@"
+	text "No olgu.@"
 	text_end
 
 _GetDexRatedText::
-	text "Want to get your"
-	line "#DEX rated?"
+	text "Tahad, et hindaks"
+	line "sinu #DEXi?"
 	done
 
 _ClosedOaksPCText::
-	text "Closed link to"
-	line "DR.OHKIDO's PC.@"
+	text "Ühendus katkes"
+	line "DR.OHKIDO"
+	line "arvutiga.@"
 	text_end
 
 _AccessedOaksPCText::
-	text "Accessed DR."
-	line "OHKIDO's PC."
+	text "DR.OHKIDO arvuti"
+	line "avatud."
 
-	para "Accessed #DEX"
-	line "Rating System."
+	para "#DEX hinnangu"
+	line "süsteem avatud."
 	prompt
 
 _WhereWouldYouLikeText::
-	text "Where would you"
-	line "like to go?"
+	text "Kuhu sa minna"
+	line "sooviksid?"
 	done
 
 _PleaseWaitText::
-	text "OK, please wait"
-	line "just a moment."
+	text "OK, palun oota"
+	line "natuke."
 	done
 
 _LinkCanceledText::
-	text "The link was"
-	line "canceled."
+	text "Ühendus"
+	line "tühistati."
 	done
 
 _OakSpeechText1::
-	text "Hello there!"
-	line "Welcome to the"
-	cont "world of #MON!"
+	text "Tere tulemast"
+	line "#MONIDE maail-"
+	cont "ma."
 
-	para "My name is OHKIDO!"
-	line "People call me"
-	cont "the #MON DR!"
+	para "Mina olen OHKIDO!"
+	line "Aga mind kutsu-"
+	cont "takse DR #MON!"
 	prompt
 
 _OakSpeechText2A::
-	text "This world is"
-	line "inhabited by"
-	cont "creatures called"
-	cont "#MON!@"
+	text "Siin maailmas"
+	line "elavad elukad ni-"
+	cont "mega #MONid!@"
 	text_end
 
 _OakSpeechText2B::
 	text_start
 
-	para "For some people,"
-	line "#MON are"
-	cont "pets. Others use"
-	cont "them for fights."
+	para "Osade jaoks on"
+	line "#MONid lemmik-"
+	cont "loomad..."
+	cont "Teised jälle ka-"
+	cont "sutavad neid oma-"
+	cont "vahelisteks võit-"
+	cont "lusteks."
 
-	para "Myself..."
+	para "Aga mina..."
 
-	para "I study #MON"
-	line "as a profession."
+	para "Mina olen valinud"
+	line "#MONide uurija"
+	cont "ameti..."
 	prompt
 
 _IntroducePlayerText::
-	text "First, what is"
-	line "your name?"
+	text "Kuid kõigepealt"
+	line "mis on sinu nimi?"
 	prompt
 
 _IntroduceRivalText::
-	text "This is my grand-"
-	line "son. He's been"
-	cont "your rival since"
-	cont "you were a baby."
+	text "See siin on minu"
+	line "lapselaps. Te o-"
+	cont "lete lapsest pea-"
+	cont "le rinda pistnud."
 
-	para "...Erm, what is"
-	line "his name again?"
+	para "...See suur, et"
+	line "mis ta nimi nüüd"
+	cont "oligi?"
 	prompt
 
 _OakSpeechText3::
 	text "<PLAYER>!"
 
-	para "Your very own"
-	line "#MON legend is"
-	cont "about to unfold!"
+	para "Sinu päris oma"
+	line "#MONi seiklus"
+	cont "on algamas!"
 
-	para "A world of dreams"
-	line "and adventures"
-	cont "with #MON"
-	cont "awaits! Let's go!"
+	para "Imeline seikluste"
+	line "ja unistuste maa-"
+	cont "ilm #MONidega"
+	cont "ootab! Läki!"
 	done
 
 _DoYouWantToNicknameText::
-	text "Do you want to"
-	line "give a nickname"
-	cont "to @"
 	text_ram wcd6d
-	text "?"
+	text ""
+	line "Kas sa tahad tal-"
+	cont "le nime anda?"
 	done
 
 _YourNameIsText::
-	text "Right! So your"
-	line "name is <PLAYER>!"
+	text "Nonii! Niiet sinu"
+	line "nimi on <PLAYER>!"
 	prompt
 
 _HisNameIsText::
-	text "That's right! I"
-	line "remember now! His"
-	cont "name is <RIVAL>!"
+	text "Just nii! Nüüd"
+	line "mäletan! Ta nimi"
+	cont "on <RIVAL>!"
 	prompt
 
 _WillBeTradedText::
 	text_ram wNameOfPlayerMonToBeTraded
-	text " and"
+	text " ja"
 	line "@"
 	text_ram wcd6d
-	text " will"
-	cont "be traded."
+	text " "
+	cont "vahetatakse."
 	done
 
 _TextIDErrorText::
 	text_decimal hSpriteIndexOrTextID, 1, 2
-	text " ERROR."
+	text " VIGA."
 	done
 
 _ContCharText::

@@ -1,13 +1,13 @@
 IF DEF(_RED)
 DefaultNamesPlayer:
-	db   "NEW NAME"
+	db   "UUS NIMI"
 	next "RED"
 	next "SATOSHI"
 	next "JACK"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NEW NAME"
+	db   "UUS NIMI"
 	next "GREEN"
 	next "SHIGERU"
 	next "JOHN"
@@ -16,14 +16,14 @@ ENDC
 
 IF DEF(_GREEN)
 DefaultNamesPlayer:
-	db   "NEW NAME"
+	db   "UUS NIMI"
 	next "GREEN"
 	next "SHIGERU"
 	next "JOHN"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NEW NAME"
+	db   "UUS NIMI"
 	next "RED"
 	next "SATOSHI"
 	next "JACK"
@@ -32,14 +32,14 @@ ENDC
 
 IF DEF(_BLUE)
 DefaultNamesPlayer:
-	db   "NEW NAME"
+	db   "UUS NIMI"
 	next "BLUE"
 	next "TSUNKAZ"
 	next "JEAN"
 	db   "@"
 
 DefaultNamesRival:
-	db   "NEW NAME"
+	db   "UUS NIMI"
 	next "RED"
 	next "GREEN"
 	next "HIROSHI"

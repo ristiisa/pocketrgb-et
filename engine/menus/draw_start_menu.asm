@@ -66,19 +66,19 @@ StartMenuPokemonText:
 	db "POKéMON@"
 
 StartMenuItemText:
-	db "ITEM@"
+	db "ASJAD@"
 
 StartMenuSaveText:
-	db "REPORT@"
+	db "RAPORT@"
 
 StartMenuResetText:
 	db "RESET@"
 
 StartMenuExitText:
-	db "EXIT@"
+	db "TAGASI@"
 
 StartMenuOptionText:
-	db "OPTION@"
+	db "VALIKUD@"
 
 PrintStartMenuItem:
 	push hl

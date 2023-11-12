@@ -1,7 +1,7 @@
 StatsTextStrings:
-	db "ATTACK@"
-	db "DEFENSE@"
-	db "SPEED@"
-	db "SPECIAL@"
-	db "ACCURACY@"
-	db "EVADE@"
+	db "RÜNNAK@"
+	db "KAITSE@"
+	db "KIIRUS@"
+	db "ERILINE@"
+	db "TÄPSUS@"
+	db "PÕIKAMINE@"

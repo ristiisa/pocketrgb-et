@@ -25,40 +25,39 @@ _TM35ExplanationText::
 	done
 
 _TM35NoRoomText::
-	text "Your pack is"
-	line "crammed full!"
+	text "Su seljkott on"
+	line "pilgeni täis!"
 	done
 
 _Lab3Text2::
-	text "EIEVUI can evolve"
-	line "into 1 of 3 kinds"
-	cont "of #MON."
+	text "EEVEE  võib are-"
+	line "neda üheks 3est"
+	cont "#MONist."
 	done
 
 _Lab3Text3::
-	text "There's an e-mail"
-	line "message!"
+	text "Ekraanil on sõnum!"
+	line "..."
 
-	para "..."
+	para "3 kuulsat"
+	line "lind #MONi"
+	cont "on ARTICUNO"
+	cont "ZAPDOS ja MOLTRES"
 
-	para "The 3 legendary"
-	line "bird #MON are"
-	cont "FREEZER, THUNDER"
-	cont "and FIRE."
+	para "Keegi ei tea kust"
+	line "neid võib leida."
 
-	para "Their whereabouts"
-	line "are unknown."
+	para "Meil on plaanis"
+	line "HANADA ligiduses"
+	cont "olevaid koopaid"
+	cont "uurida."
 
-	para "We plan to explore"
-	line "the cavern close"
-	cont "to HANADA."
-
-	para "From: #MON"
-	line "RESEARCH TEAM"
+	para "#MONi UURIMIS"
+	line "MEESKOND"
 
 	para "..."
 	done
 
 _Lab3Text5::
-	text "An amber pipe!"
+	text "Merevaigust piip!"
 	done

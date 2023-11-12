@@ -1,175 +1,182 @@
 _OaksLabGaryText1::
-	text "<RIVAL>: Yo"
-	line "<PLAYER>! Gramps"
-	cont "isn't around!"
+	text "<RIVAL>: Kuule"
+	line "<PLAYER>! Papit"
+	cont "pole praegu siin!"
 	done
 
 _OaksLabText40::
-	text "<RIVAL>: Heh, I'm"
-	line "an adult so I"
-    cont "don't need to be"
-	cont "greedy like you!"
+	text "<RIVAL>: Häh, ma"
+	line "ma olen juba tä-"
+    cont "iskasvanud ja ma"
+	cont "ei pea nii ahne"
+	cont "nagu sina olema!"
 
-	para "Go ahead and"
-	line "choose first, <PLAYER>!"
+	para "Aga palun, <PLAYER>!"
+	line "Vali esimesena!"
 	done
 
 _OaksLabText41::
-	text "<RIVAL>: My"
-	line "#MON looks a"
-	cont "lot stronger."
+	text "<RIVAL>: Minu"
+	line "#MON tundub"
+	cont "oluliselt tugevam"
 	done
 
 _OaksLabText39::
-	text "Those are #"
-	line "BALLs. They"
-	cont "contain #MON!"
+	text "Need on #PALLid"
+	line "#MONid elavad"
+	cont "nende sees!"
 	done
 
 _OaksLabCharmanderText::
-	text "So! You want the"
-	line "fire #MON,"
-	cont "HITOKAGE?"
+	text "Noh! sa tahad"
+	line "tule #MONi,"
+	cont "CHARMANDER?"
 	done
 
 _OaksLabSquirtleText::
-	text "So! You want the"
-	line "water #MON,"
-	cont "ZENIGAME?"
+	text "Noh! sa tahad"
+	line "vee #MON,"
+	cont "SQUIRTLE?"
 	done
 
 _OaksLabBulbasaurText::
-	text "So! You want the"
-	line "plant #MON,"
-	cont "FUSHIGIDANE?"
+	text "Noh! sa tahad"
+	line "taime #MON,"
+	cont "BULBASAUR?"
 	done
 
 _OaksLabMonEnergeticText::
-	text "This #MON is"
-	line "really energetic!"
+	text "See #MON on"
+	line "tõesti energiline!"
 	prompt
 
 _OaksLabReceivedMonText::
-	text "<PLAYER> received"
-	line "a @"
+	text "<PLAYER> sai"
+	line "endale @"
 	text_ram wcd6d
 	text "!@"
 	text_end
 
 _OaksLabLastMonText::
-	text "That's DR.OHKIDO's"
-	line "last #MON!"
+	text "See on DR.OHKIDO"
+	line "viimane #MON!"
 	done
 
 _OaksLabText_1d2f0::
-	text "OHKIDO: Now,"
-	line "<PLAYER>, which"
-	cont "#MON do you want?"
+	text "OHKIDO: Nii,"
+	line "<PLAYER>, millist"
+	cont "#MONi sa soo-"
+	cont "vid?"
 	done
 
 _OaksLabText_1d2f5::
-	text "OHKIDO: If a wild"
-	line "#MON appears,"
-	cont "your #MON can"
-	cont "fight against it!"
+	text "OHKIDO: kui ilmub"
+	line "metsik #MON,"
+	cont "siis sinu #-"
+	cont "MON saab temaga"
+	cont "võidelda!"
 	done
 
 _OaksLabText_1d2fa::
 	text "OHKIDO: <PLAYER>,"
-	line "raise your young"
-	cont "#MON by making"
-	cont "it fight!"
+	line "sinu #MONid"
+	cont "muutuvad tugeva-"
+	cont "maks kui kasutad"
+	cont "neid võitlustel!"
 	done
 
 _OaksLabDeliverParcelText1::
-	text "OHKIDO: Oh,"
+	text "OHKIDO: Ahjaa,"
 	line "<PLAYER>!"
 
-	para "How is my old"
+	para "Kui vana on mu"
 	line "#MON?"
 
-	para "Well, it seems to"
-	line "like you a lot."
+	para "Tundub, et ta on"
+	line "väga sinu moodi."
 
-	para "You must be"
-	line "talented as a"
-	cont "#MON trainer!"
+	para "Sa tundub olema"
+	line "väga tubli #-"
+	cont "MONi treener!"
 
-	para "What? You have"
-	line "something for me?"
+	para "Mida? Kas sul on"
+	line "mulle midagi?"
 
-	para "<PLAYER> delivered"
-	line "OHKIDO's PARCEL.@"
+	para "<PLAYER> andis üle"
+	line "OHKIDO PAKI.@"
 	text_end
 
 _OaksLabDeliverParcelText2::
 	text_start
-	para "Ah! This is the"
-	line "custom MONSTER"
-	cont "BALL I ordered!"
-	cont "Thank you!"
+	para "Ahaa! See ongi see"
+	line "eriline KOLLI"
+	cont "BALL mis ma tel-"
+	cont "lisin! Aitäh!"
 	done
 
 _OaksLabAroundWorldText::
-	text "#MON around the"
-	line "world wait for"
-	cont "you, <PLAYER>!"
+	text "#MONid üle"
+	line "maailma ootavad "
+	cont "sind, <PLAYER>!"
 	done
 
 _OaksLabGivePokeballsText1::
-	text "OHKIDO: You can't"
-	line "get detailed data"
-	cont "on #MON by just"
-	cont "seeing them."
+	text "OHKIDO: Ainult"
+	line "#MONi vahtides"
+	cont "nende kohta palju"
+	cont "teada ei saa."
 
-	para "You must catch"
-	line "them! Use these"
-	cont "to capture wild"
-	cont "#MON."
+	para "Sa pead neid kinni"
+	line "püüdma! Palun!"
+	cont "Kasuta neid #-"
+	cont "MONide püüdmiseks"
 
-	para "<PLAYER> got 5"
-	line "MONSTER BALLs!@"
+	para "<PLAYER> sai 5"
+	line "KOLLI PALLI!@"
 	text_end
 
 _OaksLabGivePokeballsText2::
 	text_start
-	para "When a wild"
-	line "#MON appears,"
-	cont "it's fair game."
+	para "Kui metsik #-"
+	line "MON välja hüppab,"
+	cont "on kõik aus."
 
-	para "Just throw a #"
-	line "BALL at it and"
-	cont "try to catch it!"
+	para "Lihtsalt viska"
+	line "# PALL tema"
+	cont "suunas ja püüa ta"
+	cont "kinni püüda!"
 
-	para "This won't always"
-	line "work, though."
+	para "Iga kord see ei"
+	line "tööta."
 
-	para "A healthy #MON"
-	line "could escape. You"
-	cont "have to be lucky!"
+	para "Täie tervise juu-"
+	line "res olev #MON"
+	cont "Võib põgeneda,"
+	cont "sul peab olema"
+	cont "õnne!"
 	done
 
 _OaksLabPleaseVisitText::
-	text "OHKIDO: Come see"
-	line "me sometimes."
+	text "OHKIDO: Eks astu"
+	line "siis vahel siit"
+	cont "ka läbi."
 
-	para "I want to know how"
-	line "your #DEX is"
-	cont "coming along."
+	para "Tore oleks näha,"
+	line "kuidas su #DEX"
+	cont "edeneb."
 	done
 
 _OaksLabText_1d31d::
-	text "OHKIDO: Good to"
-	line "see you! How is"
-	cont "your #DEX coming?"
-	cont "Here, let me take"
-	cont "a look!"
+	text "OHKIDO: Terekest!"
+	line "Kuidas su #DEX"
+	cont "edeneb? Luba ma"
+	cont "vaatan!"
 	prompt
 
 _OaksLabText_1d32c::
-	text "It's encyclopedia-"
-	line "like, but the"
-	cont "pages are blank!"
+	text "See on nagu entsü-"
+	line "klopeedia aga le-"
+	cont "hed on tühjad!"
 	done
 
 _OaksLabText8::
@@ -177,309 +184,327 @@ _OaksLabText8::
 	done
 
 _OaksLabText_1d340::
-	text "DR.OHKIDO is the"
-	line "authority on"
-	cont "#MON!"
+	text "DR.OHKIDO on"
+	line "#MONide alal"
+	cont "ekspert!"
 
-	para "Many #MON"
-	line "trainers hold him"
-	cont "in high regard!"
+	para "Paljude #MONi"
+	line "treenerite jaoks"
+	cont "suureks eesku-"
+	cont "juks!"
 	done
 
 _OaksLabRivalWaitingText::
-	text "<RIVAL>: Gramps!"
-	line "I'm fed up with"
-	cont "waiting!"
+	text "<RIVAL>: Papi!"
+	line "Mul on ootamisest"
+	cont "kopp ees!"
 	done
 
 _OaksLabChooseMonText::
 	text "OHKIDO: <RIVAL>?"
-	line "Let me think..."
+	line "üks hetk..."
 
-	para "Oh, that's right,"
-	line "I told you to"
-	cont "come! Just wait!"
+	para "Ahjaa! Ma ju ise"
+	line "kutsusin su siia!"
+	cont "üks hetk palun!"
 
-	para "Here, <PLAYER>!"
+	para "Nonii, <PLAYER>!"
 
-	para "There are 3"
-	line "#MON here!"
+	para "Siin on kolm"
+	line "#MONi!"
 
-	para "Haha!"
+	para "Aha!"
 
-	para "They are inside"
-	line "the MONSTER BALLs."
+	para "Nad on siin KOLLI"
+	line "PALLide sees."
 
-	para "When I was young,"
-	line "I was a serious"
-	cont "#MON trainer!"
+	para "Oma nooruses olin"
+	line "ma päris arvesta-"
+	cont "tav #MONi"
+	cont "treener!"
 
-	para "In my old age, I"
-	line "have only 3 left,"
-	cont "but you can have"
-	cont "one! Choose!"
+	para "Nüüd aga, vanas"
+	line "eas on mul ainult"
+	cont "kolm alles. Aga"
+	cont "sa võid ühe enda-"
+	cont "le saada! Palun,"
+	cont "millist sa soo-"
+	cont "vid?"
 	done
 
 _OaksLabRivalInterjectionText::
-	text "<RIVAL>: Hey!"
-	line "Gramps! What"
-	cont "about me?"
+	text "<RIVAL>: Kuule!"
+	line "Papi! Kas sa mi-"
+	cont "nule ei mõtlegi?"
 	done
 
 _OaksLabBePatientText::
-	text "OHKIDO: Be"
-	line "patient! <RIVAL>,"
-	cont "you can have"
-	cont "one too!"
+	text "OHKIDO: Kannatust!"
+	line "<RIVAL>, sa võid"
+	cont "ka ühe saada!"
 	done
 
 _OaksLabLeavingText::
-	text "OHKIDO: Hey! Don't"
-	line "go away yet!"
+	text "OHKIDO: üks hetk!"
+	line "ära veel lahku!"
 	done
 
 _OaksLabRivalPickingMonText::
-	text "<RIVAL>: I'll take"
-	line "this one, then!"
+	text "<RIVAL>: Ma siis"
+	line "võtan selle!"
 	done
 
 _OaksLabRivalReceivedMonText::
-	text "<RIVAL> received"
-	line "a @"
+	text "<RIVAL> valis en-"
+	line "dale @"
 	text_ram wcd6d
 	text "!@"
 	text_end
 
 _OaksLabRivalChallengeText::
-	text "<RIVAL>: Wait"
+	text "<RIVAL>: Oota"
 	line "<PLAYER>!"
-	cont "Let's check out"
-	cont "our #MON!"
+	cont "Vaatame millised"
+	cont "me #MONid on!"
 
-	para "Come on, I'll take"
-	line "you on!"
+	para "Tule, vaatame kas"
+	line "sinust on mulle"
+	cont "vastast!"
 	done
 
 _OaksLabText_1d3be::
-	text "WHAT?"
-	line "Unbelievable!"
-	cont "I picked the"
-	cont "wrong #MON!"
+	text "MIDA?"
+	line "Ei või olla!"
+	cont "Ma valisin vale"
+	cont "#MONi!"
 	prompt
 
 _OaksLabText_1d3c3::
-	text "<RIVAL>: Yeah! Am"
-	line "I great or what?"
+	text "<RIVAL>: Noh! Kas"
+	line "ma pole mitte"
+	line "võimas?"
 	prompt
 
 _OaksLabRivalToughenUpText::
-	text "<RIVAL>: Okay!"
-	line "I'll make my"
-	cont "#MON fight to"
-	cont "toughen it up!"
+	text "<RIVAL>: Olgu!"
+	line "Ma lasen oma #-"
+	cont "MONil võidelda,"
+	cont "et ta tugevamaks"
+	cont "saaks!"
 
-	para "<PLAYER>! Gramps!"
-	line "Smell you later!"
+	para "<PLAYER>! Pärast"
+	line "näeme, papi!"
 	done
 
 _OaksLabText21::
-	text "<RIVAL>: Gramps!"
+	text "<RIVAL>: Papi!"
 	done
 
 _OaksLabText22::
-	text "<RIVAL>: What did"
-	line "you call me for?"
+	text "<RIVAL>: Mis pä-"
+	line "rast ma siia pi-"
+	cont "din tulema?"
 	done
 
 _OaksLabText23::
-	text "OHKIDO: Oh right!"
-	line "I have a request"
-	cont "of you two."
+	text "OHKIDO: Ja-jah!"
+	line "Mul on teile ka-"
+	cont "hele üks palve."
 	done
 
 _OaksLabText24::
-	text "On the desk there"
-	line "is my invention,"
+	text "Vaadake, laual on"
+	line "üks mu leiutis..."
 	cont "#DEX!"
 
-	para "It automatically"
-	line "records data on"
-	cont "#MON you've"
-	cont "seen or caught!"
+	para "See automaatselt"
+	line "jäädvustab kogu"
+	cont "info nende #-"
+	cont "MONide kohta keda"
+	cont "olete kohanud või"
+	cont "kinni püüdnud!"
 
-	para "It's a hi-tech"
-	line "encyclopedia!"
+	para "See on väga kõrg-"
+	line "tehnoloogiline"
+	cont "entsüklopeedia!"
 	done
 
 _OaksLabText25::
 	text "OHKIDO: <PLAYER>"
-	line "and <RIVAL>! Take"
-	cont "these with you!"
+	line "ja <RIVAL>! Võtke"
+	cont "see seadeldis en-"
+	cont "daga kaasa!"
 
-	para "<PLAYER> got"
-	line "#DEX from OHKIDO!@"
+	text "<PLAYER> sai"
+	line "#DEX DR.OHKIDO"
+	cont "käest!"
 	text_end
 
 _OaksLabText26::
-	text "To make a complete"
-	line "guide on all the"
-	cont "#MON in the"
-	cont "world..."
+	text "Minu unistus oli"
+	line "avastada kõik"
+	cont "maailma #MONid"
 
-	para "That was my dream!"
+	para "Aga, ma olen liiga"
+	line "vanaks jäänud!"
 
-	para "But, I'm too old!"
-	line "I can't do it!"
+	para "Nii siis palun ai-"
+	line "dake mul mu unis-"
+	cont "tus täie viia!"
 
-	para "So, I want you two"
-	line "to fulfill my"
-	cont "dream for me!"
+	para "Teie kaks!"
+	line "Marss teele!"
 
-	para "Get moving, you"
-	line "two!"
-
-	para "This is a great"
-	line "undertaking in"
-	cont "#MON history!"
+	para "Kogu #MON"
+	line "ajaloos on see"
+	cont "suurim ettevõtmi-"
+	cont "ne!"
 	done
 
 _OaksLabText27::
-	text "<RIVAL>: Alright"
-	line "Gramps! Leave it"
-	cont "all to me!"
+	text "<RIVAL>: Nonii"
+	line "Papi! Jäta see"
+	cont "kõik minu hoo-"
+	cont "leks!"
 
-	para "<PLAYER>, I hate to"
-	line "say it, but I"
-	cont "don't need you!"
+	para "<PLAYER>, Ma ei"
+	line "tahaks nii öelda"
+	cont "aga mul pole sind"
+	cont "tarvis!"
 
-	para "I know! I'll"
-	line "borrow a TOWN MAP"
-	cont "from my sis!"
+	para "Ma tean! Ma laenan"
+	line "LINNA KAARDI oma"
+	cont "õelt!"
 
-	para "I'll tell her not"
-	line "to lend you one,"
-	cont "<PLAYER>! Hahaha!"
+	para "Ning ma ütlen, et"
+	line "ta sulle ei lae-"
+	cont "naks! Hahaha!"
 	done
 
 _OaksLabText_1d405::
-	text "I study #MON as"
-	line "DR.OHKIDO's AIDE."
+	text "Ma olen DR.OHKIDO"
+	line "abiline, ma uurin"
+	cont "ka #MONe"
 	done
 
 _OaksLabText_441cc::
-	text "#DEX comp-"
-	line "letion is:"
+	text "#DEX on täi-"
+	line "detud:"
 
 	para "@"
 	text_decimal hDexRatingNumMonsSeen, 1, 3
-	text " #MON seen"
+	text " #MON nähtu"
 	line "@"
 	text_decimal hDexRatingNumMonsOwned, 1, 3
-	text " #MON owned"
+	text " #MON omatud"
 
-	para "DR.OHKIDO's"
-	line "Rating:"
+	para "DR.OHKIDO"
+	line "Hinnang:"
 	prompt
 
 _OaksLabText_44201::
-	text "You still have"
-	line "lots to do."
-	cont "Look for #MON"
-	cont "in grassy areas!"
+	text "Sul on veel palju"
+	line "asju teha."
+	cont "Otsi #MONe"
+	cont "kõrgest rohust!"
 	done
 
 _OaksLabText_44206::
-	text "You're on the"
-	line "right track! "
-	cont "Get a FLASH HM"
-	cont "from my AIDE!"
+	text "Sa oled õigel"
+	line "teel! Võta mu"
+	cont "abilise käest"
+	cont "FLASH HM!"
 	done
 
 _OaksLabText_4420b::
-	text "You still need"
-	line "more #MON!"
-	cont "Try to catch"
-	cont "other species!"
+	text "Sul on vaja rohkem"
+	line "#MONe!"
+	cont "Proovi püüda ka"
+	cont "teisi liike!"
 	done
 
 _OaksLabText_44210::
-	text "Good, you're"
-	line "trying hard!"
-	cont "Get an ITEMFINDER"
-	cont "from my AIDE!"
+	text "Väga hea, ma näen,"
+	line "et pingutad!"
+	cont "Mu abilise käest"
+	cont "ASJADE OTSIJA!"
 	done
 
 _OaksLabText_44215::
-	text "Looking good!"
-	line "Go find my AIDE"
-	cont "when you get 50!"
+	text "Oled õigel teel!"
+	line "Mine mu abilise"
+	cont "juurde kui saad"
+	cont "kokku 50!"
 	done
 
 _OaksLabText_4421a::
-	text "You finally got at"
-	line "least 50 species!"
-	cont "Be sure to get"
-	cont "EXP.ALL from my"
-	cont "AIDE!"
+	text "Lõpuks sa kogusid"
+	line "vähemalt 50 liiki"
+	cont "mu abilise käest"
+	cont "võta kingiks"
+	cont "KOGEMUSJAGUR!"
 	done
 
 _OaksLabText_4421f::
-	text "Ho! This is geting"
-	line "even better!"
+	text "Hei! Juba läheb!"
+	line ""
 	done
 
 _OaksLabText_44224::
-	text "Very good!"
-	line "Go fish for some"
-	cont "marine #MON!"
+	text "Väga tubli!"
+	line "Mine püüa veel"
+	cont "mere #MONe!"
 	done
 
 _OaksLabText_44229::
-	text "Wonderful!"
-	line "Do you like to"
-	cont "collect things?"
+	text "Suurepärane!"
+	line "Ka sulle meeldib"
+	cont "asju koguda?"
 	done
 
 _OaksLabText_4422e::
-	text "I'm impressed!"
-	line "It must have been"
-	cont "difficult to do!"
+	text "Muljetavaldav!"
+	line "Seda polnud kind-"
+	cont "lasti kerge teha!"
 	done
 
 _OaksLabText_44233::
-	text "You finally got at"
-	line "least 100 species!"
-	cont "I can't believe"
-	cont "how good you are!"
+	text "Lõpuks! Sul on"
+	line "nüüd vähemalt 100"
+	cont " erinevat liiki!"
+	cont "Ma ei suuda usku-"
+	cont "da kui tubli sa"
+	cont "oled!"
 	done
 
 _OaksLabText_44238::
-	text "You even have the"
-	line "evolved forms of"
-	cont "#MON! Super!"
+	text "Sul on isegi"
+	line "#MONi arenenud"
+	cont "vormid! Suure-"
+	cont "pärane!"
 	done
 
 _OaksLabText_4423d::
-	text "Excellent! Trade"
-	line "with friends to"
-	cont "get some more!"
+	text "Imeline! Vaheta"
+	line "sõpradega, et"
+	cont "rohkem saada!"
 	done
 
 _OaksLabText_44242::
-	text "Outstanding!"
-	line "You've become a"
-	cont "real pro at this!"
+	text "Muljetavaldav!"
+	line "Sa oled juba sel-"
+	cont "les päris tuus!"
 	done
 
 _OaksLabText_44247::
-	text "I have nothing"
-	line "left to say!"
-	cont "You're the"
-	cont "authority now!"
+	text "Mul pole enam mi-"
+	line "dagi öelda Sina"
+	cont "oledki nüüd asja-"
+	cont "tundja!"
 	done
 
 _OaksLabText_4424c::
-	text "Your #DEX is"
-	line "entirely complete!"
-	cont "Congratulations!"
+	text "Sinu #DEX on"
+	line "täiesti täidetud!"
+	cont "õnnitlused!"
 	done

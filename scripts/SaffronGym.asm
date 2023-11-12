@@ -17,7 +17,7 @@ SaffronGym_Script:
 	jp LoadGymLeaderAndCityName
 
 .CityName:
-	db "YAMABUKI CITY@"
+	db "YAMABUKI LINN@"
 
 .LeaderName:
 	db "NATSUME@"

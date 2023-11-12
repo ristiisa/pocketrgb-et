@@ -4,13 +4,14 @@ _CardKeySuccessText1::
 
 _CardKeySuccessText2::
 	text_start
-	line "The CARD KEY"
-	cont "opened the door!"
+	line "VõTME KAART"
+	cont "avas ukse!"
 	done
 
 _CardKeyFailText::
-	text "Darn! It needs a"
-	line "CARD KEY!"
+	text "Jamps! Avamiseks "
+	line "on vajalik VõTME"
+	line "KAART!"
 	done
 
 _TrainerNameText::
@@ -19,17 +20,17 @@ _TrainerNameText::
 	text_end
 
 _NoNibbleText::
-	text "Not even a nibble!"
+	text "Isegi ei nokkind!"
 	prompt
 
 _NothingHereText::
-	text "Looks like there's"
-	line "nothing here."
+	text "Siin ei paista"
+	line "midagi olema."
 	prompt
 
 _ItsABiteText::
 	text "Oh!"
-	line "It's a bite!"
+	line "Näkkas!"
 	prompt
 
 _ExclamationText::
@@ -37,112 +38,112 @@ _ExclamationText::
 	done
 
 _GroundRoseText::
-	text "Ground rose up"
-	line "somewhere!"
+	text "Kuskil maa tõu-"
+	line "sis!"
 	done
 
 _BoulderText::
-	text "This requires"
-	line "STRENGTH to move!"
+	text "Selle liigutami-"
+	line "seks on vaja"
+	cont "JõUDU!"
 	done
 
 _MartSignText::
-	text "All your item"
-	line "needs fulfilled!"
-	cont "#MON MART"
+	text "Kõik asjad siit!"
+	line "#MONI POOD"
 	done
 
 _PokeCenterSignText::
-	text "Heal Your #MON!"
-	line "#MON CENTER"
+	text "Tervenda #MONE!"
+	line "#MONI KESKUS"
 	done
 
 _FoundItemText::
-	text "<PLAYER> found"
+	text "<PLAYER> leidis"
 	line "@"
 	text_ram wcf4b
 	text "!@"
 	text_end
 
 _NoMoreRoomForItemText::
-	text "No more room for"
-	line "items!"
+	text "Asjade jaoks pole"
+	line "rohkem ruumi!"
 	done
 
 _OaksAideHiText::
-	text "Hi! Remember me?"
-	line "I'm DR.OHKIDO's"
-	cont "AIDE!"
+	text "Tere! Kas sa mi-?"
+	line "nd mäletad? Ma o-"
+	cont "len I'm DR OHKIDO"
+	cont "abi"
 
-	para "If you caught @"
+	para "Kui sa püüdnud @"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds of #MON,"
-	cont "I'm supposed to"
-	cont "give you an"
+	line "sorti #MONE"
+	cont "Peaksin ma sulle"
+	cont "andma"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "!"
 
-	para "So, <PLAYER>! Have"
-	line "you caught at"
-	cont "least @"
+	para "Nonii, <PLAYER>!"
+	line "Kas sa oled püüd-"
+	cont "nud vähemalt @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds of"
-	cont "#MON?"
+	text " sorti #MONE?"
 	done
 
 _OaksAideUhOhText::
-	text "Let's see..."
-	line "Uh-oh! You have"
-	cont "caught only @"
+	text "No vaatame..."
+	line "Oi ei! Sa oled"
+	cont "püüdnud ainult @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
 	text_start
-	cont "kinds of #MON!"
+	cont "sorti #MONE!"
 
-	para "You need @"
+	para "Pead püüdma @"
 	text_decimal hOaksAideRequirement, 1, 3
-	text " kinds"
-	line "if you want the"
+	text " sorti"
+	line "kui tahad saada"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
 
 _OaksAideComeBackText::
-	text "Oh. I see."
+	text "Või nii..."
 
-	para "When you get @"
+	para "Tule siis tagasi"
+	cont "kui sul on@"
 	text_decimal hOaksAideRequirement, 1, 3
 	text_start
-	line "kinds, come back"
-	cont "for @"
+	line "sorti@"
 	text_ram wOaksAideRewardItemName
 	text "."
 	done
 
 _OaksAideHereYouGoText::
-	text "Great! You have"
-	line "caught @"
+	text "Tore! Sa oled"
+	line "püüdnud @"
 	text_decimal hOaksAideNumMonsOwned, 1, 3
-	text " kinds "
-	cont "of #MON!"
-	cont "Congratulations!"
+	text " sorti #MONE!"
+	cont "Palju õnne!"
 
-	para "Here you go!"
+	para "See on sulle!"
 	prompt
 
 _OaksAideGotItemText::
-	text "<PLAYER> got the"
+	text "<PLAYER>"
+	cont "sai endale"
 	line "@"
 	text_ram wOaksAideRewardItemName
 	text "!@"
 	text_end
 
 _OaksAideNoRoomText::
-	text "Oh! I see you"
-	line "don't have any"
-	cont "room for the"
+	text "Oih! Sul pole "
+	line "kotis ruumi"
+	cont "järgneva jaoks"
 	cont "@"
 	text_ram wOaksAideRewardItemName
 	text "."
