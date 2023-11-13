@@ -1,31 +1,33 @@
 _ViridianMartText1::
-	text "Okay! Say hi to"
-	line "DR.OHKIDO for me!"
+	text "OK! Tervita minu"
+	line "poolt DR.OHKIDOt!"
 	done
 
 _ViridianMartText4::
-	text "Hey! You came from"
-	line "MASARA TOWN?"
+	text "Kuule! Kas sa tu-"
+	line "lid just MASARA"
+	cont "KÜLAst?"
 	done
 
 ViridianMartParcelQuestText::
-	text "You know DR."
-	line "OHKIDO, right?"
+	text "Sa vist tead DR."
+	line "OHKIDOt?"
 
-	para "His order came in."
-	line "Will you take it"
-	cont "to him?"
+	para "Ta pakk on kohale"
+	line "jõudnud. Kas viid"
+	cont "selle talle?"
 
-	para "<PLAYER> got"
-	line "OHKIDO's PARCEL!@"
+	para "<PLAYER> sai"
+	line "OHKIDO PAKKi!@"
 	text_end
 
 _ViridianMartText2::
-	text "This shop sells"
-	line "many ANTIDOTEs."
+	text "Meie poes on müü-"
+	line "gil palju VASTU-"
+	cont "MÜRKe."
 	done
 
 _ViridianMartText3::
-	text "No! MEDICINEs are"
-	line "all sold out."
+	text "Ei! Kõik ROHUD on"
+	line "otsas."
 	done

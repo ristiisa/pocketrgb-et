@@ -1,6 +1,9 @@
 _Route2HouseText1::
-	text "A fainted #MON"
-	line "can't fight. But, "
-	cont "it can still use "
-	cont "moves like CUT!"
+	text "Ära minestunud"
+	line "#MON ei saa"
+	cont "küll võidelda."
+	cont "Aga saab siiski"
+	cont "kasutada võtteid"
+	cont "nagu näiteks"
+	cont "KIIRE LÕIGE!"
 	done

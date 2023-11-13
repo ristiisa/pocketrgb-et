@@ -1,13 +1,14 @@
 _SchoolText1::
-	text "Whew! I'm trying"
-	line "to memorize all"
-	cont "my notes."
+	text "Huuh! Ma üritan"
+	line "oma märkmeid pähe"
+	cont "õppida."
 	done
 
 _SchoolText2::
-	text "Okay!"
+	text "Sedapsi!"
 
-	para "Be sure to read"
-	line "the blackboard"
-	cont "carefully!"
+	para "Ära unusta hooli-"
+	line "kalt lugeda seda"
+	cont "mis tahvlil on"
+	cont "kirjas!"
 	done

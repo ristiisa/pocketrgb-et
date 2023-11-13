@@ -1,50 +1,55 @@
 _Route1ViridianMartSampleText::
-	text "Hi! I work at a"
-	line "#MON MART."
+	text "Tere! Ma töötan"
+	line "# POES."
 
-	para "It's a convenient"
-	line "shop, so please"
-	cont "visit us in"
-	cont "TOKIWA CITY."
+	para "See pood on väga"
+	line "mõnus! astuge kin-"
+	cont "dlasti läbi kui"
+	cont "satute TOKIWA"
+	cont "LINNa."
 
-	para "I know, I'll give"
-	line "you a sample!"
-	cont "Here you go!"
+	para "Palun siin on sul-"
+	line "e kingitus! Astu-"
+	cont "ge ka poest läbi!"
 	prompt
 
 _Route1Text_1cae8::
-	text "<PLAYER> got"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcf4b
 	text "!@"
 	text_end
 
 _Route1Text_1caee::
-	text "We also carry"
-	line "MONSTER BALLs for"
-	cont "catching #MON!"
+	text "Poes on müügil ka"
+	line "KOLLI PALLId"
+	cont "#MONide püüdmi-"
+	cont "seks!"
 	done
 
 _Route1Text_1caf3::
-	text "You have too much"
-	line "stuff with you!"
+	text "Sul on liiga palju"
+	line "asju!"
 	done
 
 _Route1Text2::
-	text "See those ledges"
-	line "along the road?"
+	text "Kas näed neid kal-"
+	line "daid seal tee ko-"
+	line "hal?"
 
-	para "It's a bit scary,"
-	line "but you can jump"
-	cont "from them."
+	para "Eks see natuke"
+	line "hirmus ole aga"
+	cont "sealt on võimalik"
+	cont "turvaliselt alla"
+	cont "hüpata."
 
-	para "You can get back"
-	line "to MASARA TOWN"
-	cont "quicker that way."
+	para "Sedasi saad kii-"
+	line "remini tagasi"
+	cont "MASARA KÜLLA."
 	done
 
 _Route1Text3::
-	text "ROUTE 1"
-	line "MASARA TOWN -"
-	cont "TOKIWA CITY"
+	text "TEE 1"
+	line "MASARA KÜLA -"
+	cont "TOKIWA LINN"
 	done

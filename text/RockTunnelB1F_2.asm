@@ -1,20 +1,24 @@
 _RockTunnel2AfterBattleText8::
-	text "I'll raise my"
-	line "#MON to beat"
-	cont "yours, kid!"
+	text "Kaotus sulle moti-"
+	line "veerib mind mu"
+	cont "#MONe tugeva-"
+	cont "maks kasvatama!"
 	done
 
 _RockTunnel2BattleText9::
-	text "I draw #MON"
-	line "when I'm home."
+	text "Koju jõudes joo-"
+	line "nistan ma"
+	cont "#MONe."
 	done
 
 _RockTunnel2EndBattleText9::
-	text "Whew!"
-	line "I'm exhausted!"
+	text "Huuh! Ma olen"
+	line "täitsa läbi!"
 	prompt
 
 _RockTunnel2AfterBattleText9::
-	text "I'm an artist,"
-	line "not a fighter."
+	text "Päeva lõpuks ma"
+	line "olen siiski kun-"
+	cont "stnik, mitte või-"
+	cont "tleja!"
 	done

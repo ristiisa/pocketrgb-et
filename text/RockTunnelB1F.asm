@@ -1,108 +1,117 @@
 _RockTunnel2BattleText2::
-	text "Scouts leave twigs"
-	line "as trail markers."
+	text "Skaudid poetavad"
+	line "raja märkimiseks"
+	cont "maha oksaraage."
 	done
 
 _RockTunnel2EndBattleText2::
-	text "Ohhh!"
-	line "I did my best!"
+	text "Nojah! Ma andsin"
+	line "endast parima!"
 	prompt
 
 _RockTunnel2AfterBattleText2::
-	text "I want to go "
-	line "home!"
+	text "Ma tahan"
+	line "koju!"
 	done
 
 _RockTunnel2BattleText3::
-	text "Hahaha! Can you"
-	line "beat my power?"
+	text "Hahaha! Kas suu-"
+	line "dad saada mu väe"
+	cont "vastu?"
 	done
 
 _RockTunnel2EndBattleText3::
-	text "Oops!"
-	line "Out-muscled!"
+	text "Oih! Ma olen"
+	line "siiski nõrgem!"
 	prompt
 
 _RockTunnel2AfterBattleText3::
-	text "I go for power"
-	line "because I hate"
-	cont "thinking!"
+	text "Ma lähenen jõuga,"
+	line "sest ma ei viitsi"
+	cont "mõelda!"
 	done
 
 _RockTunnel2BattleText4::
-	text "You have a"
-	line "#DEX?"
-	cont "I want one too!"
+	text "Sul on tõesti"
+	line "#DEX? Ma tah-"
+	cont "an endale ka!"
 	done
 
 _RockTunnel2EndBattleText4::
-	text "Shoot!"
-	line "I'm so jealous!"
+	text "Jamps! Nüüd olen"
+	line "ma kade!"
 	prompt
 
 _RockTunnel2AfterBattleText4::
-	text "When you finish"
-	line "your #DEX, can"
-	cont "I have it?"
+	text "Kui sa enam oma"
+	line "#DEXi ei kas-"
+	cont "uta, soos kas ma"
+	cont "võin selle endale"
+	cont "saada?"
 	done
 
 _RockTunnel2BattleText5::
-	text "Do you know about"
-	line "costume players?"
+	text "Kas sa oled koha-"
+	line "nud maskeeritud"
+	cont "treenereid?"
 	done
 
 _RockTunnel2EndBattleText5::
-	text "Well,"
-	line "that's that."
+	text "Noh midagi erilist"
+	line "seal pole."
 	prompt
 
 _RockTunnel2AfterBattleText5::
-	text "Costume players"
-	line "dress up as"
-	cont "#MON for fun."
+	text "Maskeeritud tree-"
+	line "nerid panevad"
+	cont "nalja pärast sel-"
+	cont "ga #MONi rii-"
+	cont "ded."
 	done
 
 _RockTunnel2BattleText6::
-	text "My #MON"
-	line "techniques will"
-	cont "leave you crying!"
+	text "Minu #MONi"
+	line "võtted panevad"
+	cont "sind nutma!"
 	done
 
 _RockTunnel2EndBattleText6::
-	text "I give!"
-	line "You're a better"
-	cont "technician!"
+	text "Ma annan alla! Sa"
+	line "oled parem võtete"
+	cont "kasutaja!"
 	prompt
 
 _RockTunnel2AfterBattleText6::
-	text "In mountains,"
-	line "you'll often find"
-	cont "rock-type #MON."
+	text "Mägedest leiad"
+	line "tihti kivi tüüpi"
+	cont "#MONe."
 	done
 
 _RockTunnel2BattleText7::
-	text "I don't often"
-	line "come here, but I"
-	cont "will fight you."
+	text "Kuigi ma siia tih-"
+	line "ti ei satu, siis"
+	cont "võin ma siiski"
+	cont "sinuga võidelda."
 	done
 
 _RockTunnel2EndBattleText7::
-	text "Oh!"
-	line "I lost!"
+	text "Või nii!"
+	line "Ma kaotasin!"
 	prompt
 
 _RockTunnel2AfterBattleText7::
-	text "I like tiny"
-	line "#MON, big ones"
-	cont "are too scary!"
+	text "Mu lemmikud on vä-"
+	line "ikesed #MONid"
+	cont "suured on liiga"
+	cont "hirmsad."
 	done
 
 _RockTunnel2BattleText8::
-	text "Hit me with your"
-	line "best shot!"
+	text "Anna endast"
+	line "parim!"
 	done
 
 _RockTunnel2EndBattleText8::
-	text "Fired"
-	line "away!"
+	text "Väga"
+	line "elevil!"
 	prompt

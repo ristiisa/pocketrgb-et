@@ -1,9 +1,9 @@
 _Route2Text3::
-	text "ROUTE 2"
-	line "TOKIWA CITY -"
-	cont "NIBI CITY"
+	text "TEE 2"
+	line "TOKIWA LINN -"
+	cont "NIBI LINN"
 	done
 
 _Route2Text4::
-	text "DIGDA's CAVE"
+	text "DIGDA KOOBAS"
 	done

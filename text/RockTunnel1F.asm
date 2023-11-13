@@ -1,115 +1,119 @@
 _RockTunnel1BattleText1::
-	text "This tunnel goes"
-	line "a long way, kid!"
+	text "See tunnel on väga"
+	line "pikk!"
 	done
 
 _RockTunnel1EndBattleText1::
-	text "Doh!"
-	line "You win!"
+	text "Äh!"
+	line "Sinu võit!"
 	prompt
 
 _RockTunnel1AfterBattleText1::
-	text "Watch for IWARK!"
-	line "It can put the"
-	cont "squeeze on you!"
+    text "ONIX võib sind"
+	line "korralikult pigi-"
+	cont "stada! Ole ette-"
+	cont "vaatlik!"
 	done
 
 _RockTunnel1BattleText2::
-	text "Hmm. Maybe I'm"
-	line "lost in here..."
+	text "Hmm. Äkki ma olen"
+	line "siiski eksinud..."
 	done
 
 _RockTunnel1EndBattleText2::
-	text "Ease up!"
-	line "What am I doing?"
-	cont "Which way is out?"
+	text "Rahulikumalt!"
+	line "Mis asja ma teen?"
+	cont "Kuidas siit välja"
+	cont "saab?"
 	prompt
 
 _RockTunnel1AfterBattleText2::
-	text "That sleeping"
-	line "#MON on ROUTE"
-	cont "12 forced me to"
-	cont "take this detour."
+	text "TEE 12 peal magav"
+	line "#MONi pärast"
+	cont "ma siia tulingi."
 	done
 
 _RockTunnel1BattleText3::
-	text "Outsiders like"
-	line "you need to show"
-	cont "me some respect!"
+	text "Mitte kohalikud"
+	line "nagu sina võiks"
+	cont "mulle natuke aus-"
+	cont "tust näidata!"
 	done
 
 _RockTunnel1EndBattleText3::
-	text "I give!"
+	text "Ma annan alla!"
 	prompt
 
 _RockTunnel1AfterBattleText3::
-	text "You're talented"
-	line "enough to hike!"
+	text "Matkamine tuleb ju"
+	line "sul hästi välja!"
 	done
 
 _RockTunnel1BattleText4::
-	text "#MON fight!"
-	line "Ready, go!"
+	text "#MONid rünnak!"
+	line "Valmis, LÄKS!"
 	done
 
 _RockTunnel1EndBattleText4::
-	text "Game"
-	line "over!"
+	text "Mäng"
+	line "läbi!"
 	prompt
 
 _RockTunnel1AfterBattleText4::
-	text "Oh well, I'll get"
-	line "a ZUBAT as I go!"
+	text "Nojah, ma kraban"
+	line "endale teel välja"
+	cont "ühe ZUBATi!"
 	done
 
 _RockTunnel1BattleText5::
-	text "Eek! Don't try"
-	line "anything funny in"
-	cont "the dark!"
+	text "Iik! Ära pimedas"
+	line "küll lollita!"
 	done
 
 _RockTunnel1EndBattleText5::
-	text "It"
-	line "was too dark!"
+	text "Seal oli liiga"
+	line "pime!"
 	prompt
 
 _RockTunnel1AfterBattleText5::
-	text "I saw a WANRIKY"
-	line "in this tunnel!"
+	text "Ma olen siin tun-"
+	line "nelis näinud"
+	cont "MACHOPi!"
 	done
 
 _RockTunnel1BattleText6::
-	text "I came this far"
-	line "for #MON!"
+	text "#MONide pärast"
+	line "ma olen siiani"
+	cont "tulnud!"
 	done
 
 _RockTunnel1EndBattleText6::
-	text "I'm"
-	line "out of #MON!"
+	text "Mul pole rohkem"
+	line "#MONe!"
 	prompt
 
 _RockTunnel1AfterBattleText6::
-	text "You looked cute"
-	line "and harmless!"
+	text "Sa nägid välja nii"
+	line "nunnu ja ohutu!"
 	done
 
 _RockTunnel1BattleText7::
-	text "You have #MON!"
-	line "Let's start!"
+	text "Sul on #MONe!"
+	line "Hakkame pihta!"
 	done
 
 _RockTunnel1EndBattleText7::
-	text "You"
-	line "play hard!"
+	text "Sina juba ei"
+	line "halasta!"
 	prompt
 
 _RockTunnel1AfterBattleText7::
-	text "Whew! I'm all"
-	line "sweaty now!"
+	text "Huuh! võttis lausa"
+	line "higiseks!"
 	done
 
 _RockTunnel1Text8::
-	text "ROCK TUNNEL"
-	line "HANADA CITY -"
-	cont "CION TOWN"
+	text "KIVI TUNNEL"
+	line "HANADA LINN -"
+	cont "CION KÜLA"
 	done

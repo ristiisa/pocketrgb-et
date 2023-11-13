@@ -1,14 +1,12 @@
 _RockTunnelPokecenterText2::
-	text "The element types"
-	line "of #MON make"
-	cont "them stronger"
-	cont "than some types"
-	cont "and weaker than"
-	cont "others!"
+	text "Osa #MONid on"
+	line "on osade vastu"
+	cont "tugevad ja teiste"
+	cont "vastu jälle mitte"
 	done
 
 _RockTunnelPokecenterText3::
-	text "I sold a useless"
-	line "GOLD ORB for"
-	cont "¥5000!"
+	text "Ma müüsin kasutu"
+	line "KULD KERA ¥5000"
+	cont "eest!"
 	done
