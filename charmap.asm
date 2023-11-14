@@ -163,9 +163,9 @@
 	charmap "õ",         $c0
 	charmap "Õ",         $c0
 	charmap "ž",         $c1
-	charmap "Ž",         $c1
+	charmap "Ž",         $c1 ; points to lowercase due to the "accent" not fitting on top of the letter
 	charmap "š",         $c2
-	charmap "Š",         $c2
+	charmap "Š",         $c2 ; points to lowercase due to the "accent" not fitting on top of the letter
 
 	charmap "<UPDN>",	 $df
 
@@ -181,12 +181,12 @@
 	charmap "!",         $e7
 	charmap ".",         $e8
 
-	charmap "ä",         $e9 ; katakana small a, unused
-	charmap "Ä",         $e9 ; katakana small a, unused
-	charmap "ü",         $ea ; katakana small u, unused
-	charmap "Ü",         $ea ; katakana small u, unused
-	charmap "ö",         $eb ; katakana small e, unused
-	charmap "Ö",         $eb ; katakana small e, unused
+	charmap "ä",         $e9
+	charmap "Ä",         $e9 ; points to lowercase due to the "accent" not fitting on top of the letter
+	charmap "ü",         $ea
+	charmap "Ü",         $ea ; points to lowercase due to the "accent" not fitting on top of the letter
+	charmap "ö",         $eb
+	charmap "Ö",         $eb ; points to lowercase due to the "accent" not fitting on top of the letter
 
 	charmap "▷",         $ec
 	charmap "▶",         $ed

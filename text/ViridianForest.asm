@@ -1,123 +1,124 @@
 _ViridianForestText1::
-	text "I came here with"
-	line "some friends!"
+	text "Ma tulin siia koos"
+	line "sõpradega!"
 
-	para "They're out for"
-	line "#MON fights!"
+	para "Nad läksid"
+	line "#MONidega ma-"
+	cont "distama!"
 	done
 
 _ViridianForestBattleText1::
-	text "Hey! You have"
-	line "#MON! Come on!"
-	cont "Let's battle'em!"
+	text "Hei! Sul on"
+	line "#MON! Tule!"
+	cont "Võitleme nendega!"
 	done
 
 _ViridianForestEndBattleText1::
-	text "No!"
-	line "CATERPIE can't"
-	cont "cut it!"
+	text "Ei! CATERPIE ei"
+	line "saa seda lõigata!"
 	prompt
 
 _ViridianFrstAfterBattleText1::
-	text "Ssh! You'll scare"
-	line "the bugs away!"
+	text "Tss! Sa hirmutad"
+	line "putukad ära!"
 	done
 
 _ViridianForestBattleText2::
-	text "Yo! You can't jam"
-	line "out if you're a"
-	cont "#MON trainer!"
+	text "Yo! Sa ei saa jäm-"
+	line "mida kui oled"
+	cont "#MONi treener!"
 	done
 
 _ViridianForestEndBattleText2::
-	text "Huh?"
-	line "I ran out of"
-	cont "#MON!"
+	text "Mis? Mul said"
+	line "#MONid otsa!"
 	prompt
 
 _ViridianFrstAfterBattleText2::
-	text "Darn! I'm going"
-	line "to catch some"
-	cont "stronger ones!"
+	text "Tõesti! Ma lähen"
+	line "ja püüan endale"
+	cont "mõned tugevamad!"
 	done
 
 _ViridianForestBattleText3::
-	text "Hey, wait up!"
-	line "What's the hurry?"
+	text "Kuule, oota mind!"
+	line "Kuhu sul kiire?"
 	done
 
 _ViridianForestEndBattleText3::
-	text "I"
-	line "give! You're good"
-	cont "at this!"
+	text "Ma annan alla! Sa"
+	line "oled ikka osav!"
 	prompt
 
 _ViridianFrstAfterBattleText3::
-	text "Sometimes, you"
-	line "can find stuff on"
-	cont "the ground!"
+	text "Vahel leiab maast"
+	line "asju!"
 
-	para "I'm looking for"
-	line "the stuff I"
-	cont "dropped!"
+	para "Praegu ma otsin"
+	line "neid asju mille"
+	cont "ma ära kaotasin!"
 	done
 
 _ViridianForestText8::
-	text "I ran out of #"
-	line "BALLs to catch"
-	cont "#MON with!"
+	text "Mul said"
+	line "#PALLid otsa"
+	cont "millega #MONe"
+	cont "püüda!"
 
-	para "You should carry"
-	line "extras!"
+	para "Sa peaks alati roh-"
+	line "kem kaasas kandma"
+	cont "kui sul vaja on!"
 	done
 
 _ViridianForestText9::
-	text "TRAINER TIPS"
+	text "NIPID TREENERITELE"
 
-	para "If you want to"
-	line "avoid battles,"
-	cont "stay away from"
-	cont "grassy areas!"
+	para "Kui sa tahad madi-"
+	line "nast hoiduda, ära"
+	cont "mine kõrge rohu"
+	cont "sisse!"
 	done
 
 _ViridianForestText10::
-	text "For poison, use"
-	line "ANTIDOTE! Get it"
-	cont "at #MON MARTs!"
+	text "Mürgi vastu kasuta"
+	line "VASTU MÜRKI! Seda"
+	cont "müüakse #POES!"
 	done
 
 _ViridianForestText11::
-	text "TRAINER TIPS"
+	text "NIPID TREENERITELE"
 
-	para "Contact DR.OHKIDO"
-	line "via PC to get"
-	cont "your #DEX"
-	cont "evaluated!"
+	para "Saad oma #DEXi"
+	line "DR.OHKIDO poolt"
+	cont "hinnata lasta ka"
+	cont "arvuti kaudu!"
 	done
 
 _ViridianForestText12::
-	text "TRAINER TIPS"
+	text "NIPID TREENERITELE"
 
-	para "No stealing of"
-	line "#MON from"
-	cont "other trainers!"
-	cont "Catch only wild"
-	cont "#MON!"
+	para "Teiste treenerite"
+	line "#MONe varasta-"
+	cont "da ei tohi! Püüa"
+	cont "ainult metsikuid"
+	cont "#MONe!"
 	done
 
 _ViridianForestText13::
-	text "TRAINER TIPS"
+	text "NIPID TREENERITELE"
 
-	para "Weaken #MON"
-	line "before attempting"
-	cont "capture!"
+	para "Enne #MONi püüd-"
+	line "mist, proovi teda"
+	cont "väsitada!"
 
-	para "When healthy,"
-	line "they may escape!"
+	para "Täie tervise juu-"
+	line "res on tal piisa-"
+	cont "valt jõudu, et põ-"
+	cont "geneda!"
 	done
 
 _ViridianForestText14::
-	text "LEAVING"
-	line "TOKIWA FOREST"
-	cont "NIBI CITY AHEAD"
+	text "LAHKUTE"
+	line "TOKIWA METSAS"
+	cont "NIBI LINN EES"
 	done
