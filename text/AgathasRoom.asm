@@ -1,44 +1,49 @@
 _AgathaBeforeBattleText::
-	text "I am KIKUKO of"
-	line "the ELITE FOUR!"
+	text "Minu nimi on KIKU-"
+	line "KO, ma olen üks"
+	cont "võimsast nelikust"
 
-	para "OHKIDO's taken a"
-	line "lot of interest in"
-	cont "you, child!"
+	para "Lapsuke, OHKIDO"
+	line "näeb sinul suurt"
+	cont "tuleviku!"
 
-	para "That old duff was"
-	line "once tough and"
-	cont "handsome! That"
-	cont "was decades ago!"
+	para "See vana kõbi oli"
+	line "kunagi sitke ja"
+	cont "nägus! See oli"
+	cont "muidugi aastaid"
+	cont "tagasi!"
 
-	para "Now he just wants"
-	line "to fiddle with"
-	cont "his #DEX! He's"
-	cont "wrong! #MON"
-	cont "are for fighting!"
+	para "Nüüd ta ainult no-"
+	line "kitseb oma"
+	cont "#DEXi kallal."
+	cont "Aga ta eksib!"
+	cont "#MONid on võt-"
+	cont "lemiseks!"
 
-	para "<PLAYER>! I'll show"
-	line "you how a real"
-	cont "trainer fights!"
+	para "<PLAYER>! Luba ma"
+	line "näitan sulle kui-"
+	cont "das tõeline tree-"
+	cont "ner võitleb!"
 	done
 
 _AgathaEndBattleText::
-	text "Oh ho!"
-	line "You're something"
-	cont "special, child!"
+	text "Oi ei! Tundub, et"
+	line "sinus on midagi"
+	cont "erilist, lapsuke!"
 	prompt
 
 _AgathaAfterBattleText::
-	text "You win! I see"
-	line "what the old duff"
-	cont "sees in you now!"
+	text "Sinu võit! Ma saan"
+	line "aru mida see vana"
+	cont "kõbi sinus näeb!"
 
-	para "I have nothing"
-	line "else to say! Run"
-	cont "along now, child!"
+	para "Mul pole rohkem mi-"
+	line "dagi lisada! Jook-"
+	cont "se nüüd edasi,"
+	cont "lapsuke!"
 	done
 
 _AgathaDontRunAwayText::
-	text "Someone's voice:"
-	line "Don't run away!"
+	text "Kellegile hääl:"
+	line "Ära jookse ära!"
 	done
