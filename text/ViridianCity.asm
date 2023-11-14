@@ -1,191 +1,192 @@
 _ViridianCityText1::
-	text "Those MONSTER"
-	line "BALLs at your"
-	cont "waist! You have"
-	cont "#MON!"
+	text "Need KOLLI PALLid,"
+	line "mis sul vööl on!"
+	cont "Sul on #MONe!"
 
-	para "It's great that"
-	line "you can carry and"
-	cont "use #MON any"
-	cont "time, anywhere!"
+	para "Tore, et sul on v-"
+	line "õimalik #MONe"
+	cont "kaasaskanda ja"
+	cont "suvalisel hetkel"
+	cont "kasutada!"
 	done
 
 _ViridianCityText_19122::
-	text "This #MON GYM"
-	line "is always closed."
+	text "See #MONi SAAL"
+	line "on alati suletud."
 
-	para "I wonder who the"
-	line "LEADER is?"
+	para "Huvitav kes selle"
+	line "saali JUHT on?"
 	done
 
 _ViridianCityText_19127::
-	text "TOKIWA GYM's"
-	line "LEADER returned!"
+	text "TOKIWA SAALi JUHT"
+	line "on tagasi!"
 	done
 
 _ViridianCityText_1914d::
-	text "You want to know"
-	line "about the 2 kinds"
-	cont "of caterpillar"
-	cont "#MON?"
+	text "Kas sa sooviksid"
+	line "teada kahest tõu-"
+	cont "gulaadsest"
+	cont "#MONist?"
 	done
 
 _ViridianCityText_19152::
-	text "Oh, OK then!"
+	text "Või nii, egas siis"
+	line "midagi!"
 	done
 
 _ViridianCityText_19157::
-	text "CATERPIE has no"
-	line "poison, but"
-	cont "BEEDLE does."
+	text "CATERPIE pole mür-"
+	line "gine, kuid"
+	cont "BEEDLE on."
 
-	para "Watch out for its"
-	line "POISON STING!"
+	para "Ole ettevaatlik"
+	line "tema MÜRGI"
+	cont "TORKEGA!"
 	done
 
 _ViridianCityText_19175::
-	text "Oh Grandpa!"
-	line "How did you fall"
-	cont "asleep here, of"
-    cont "all places!"
-	
-	para "We have no other"
-	line "choice than to"
-    cont "wait until he"
-    cont "sobers up..."
+	text "Vanaisa! Kuidas sa"
+	line "siis nüüd siia"
+	cont "magama jäid!"
+
+	para "Meil pole muud võ-"
+	line "imalus, kui ooda-"
+    cont "ta, et ta ärkaks."
 	done
 
 _ViridianCityText_1917a::
-	text "When I go shop in"
-	line "NIBI CITY, I"
-	cont "have to take the"
-	cont "winding trail in"
-	cont "TOKIWA FOREST."
+	text "Kui ma soovin min-"
+	line "na NIBI LINNa"
+	cont "poodi, pean mi-"
+	cont "nema läbi käänu-"
+	cont "lise TOKIWA METSa"
 	done
 
 _ViridianCityText_19191::
-	text "Aww... Hiccup..."
-	line "Wait a minute!"
-	cont "Lissen to what"
-	cont "I'm going to tell"
-    cont "you!..."
+	text "Nonii... (hõkk)..."
+	line "Otand nüüd! Pane"
+	cont "nüüd tähele, mis"
+	cont "sulle... ütlen..."
 
-	para "Hey!"
-	line "Don't go away,"
-    cont "I said!"
+	para "Kuule! Ma ju ütle-"
+	line "sin, et ära mine"
+    cont "ära!"
 	done
 
 _ViridianCityText_191ca::
-	text "Yawn!"
-	line "I must have dozed"
-	cont "off in the sun."
+	text "(haigutus) Ma vist"
+	line "jäin päikse kätte"
+	cont "magama."
 
-	para "I had this dream"
-	line "about a SLEEP"
-	cont "eating my dream."
-	cont "What's this?"
-	cont "Where did this TM"
-	cont "come from?"
+	para "Ma nägin sellist"
+	line "und kus UNI sõi"
+	cont "ära mu unenäo."
 
-	para "This is spooky!"
-	line "Here, you can"
-	cont "have this TM."
+	para "Mida see tähendab?"
+	line "Kust selline TM"
+	cont "välja ilmus?"
+
+	para "Päris hirmus!"
+	line "Palun sa võid"
+	cont "selle TMi endale"
+	cont "saada."
 	prompt
 
 _ReceivedTM42Text::
-	text "<PLAYER> received"
-	line "TM42!@"
+	text "<PLAYER> sai enda-"
+	line "le TM42!@@"
 	text_end
 
 _TM42Explanation::
-	text "TM42 contains"
-	line "DREAM EATER..."
-	cont "...Snore..."
+	text "TM42 sisaldas"
+	line "UNE SÖÖJA..."
+	cont "(haigutus)..."
 	done
 
 _TM42NoRoomText::
-	text "You have too much"
-	line "stuff already."
+	text "Sul on juba liiga"
+	line "palju asju."
 	done
 
 _ViridianCityText_1920a::
-	text "Ugh..."
-	line "Seems like I"
-	cont "was drunk!"
+	text "Oeh... Tundub, et"
+	line "ma olin natuke"
+	cont "purjakil!"
 
-	para "My head hurts..."
+	para "Mu pea valutab..."
 
-	para "By the way,"
-    line "are you in a"
-	cont "hurry?"
+	para "Muide, ega sul"
+    line "ometi kiire pole?"
 	done
 
 _ViridianCityText_1920f::
-	text "I see you're using"
-	line "a #DEX."
+	text "Ma näen, et kasu-"
+	line "tad #DEXi."
 
-	para "When you catch a"
-	line "#MON, #DEX"
-	cont "is automatically"
-	cont "updated."
+	para "Kui sa püüad kinni"
+	line "#MONi, siis"
+	cont "#DEX uueneb"
+	cont "automaatselt."
 
-	para "What? Don't you"
-	line "know how to catch"
-	cont "#MON?"
+	para "Mida? Sa ei tea"
+	line "kuidas #MONe"
+	cont "püüda?"
 
-	para "I'll show you"
-	line "how to then."
+	para "Olgu, ma siis"
+	line "näitan."
 	done
 
 _ViridianCityText_19214::
-	text "Time is money..."
-	line "Go along then."
+	text "Aeg on raha..."
+	line "niiet hakka juba"
+	cont "astuma."
 	done
 
 _ViridianCityText_19219::
-	text "First, you need"
-	line "to weaken the"
-	cont "target #MON."
+	text "Kõigepealt pead sa"
+	line "#MONi ära"
+	cont "väsitama."
 	done
 
 _ViridianCityText8::
-	text "TOKIWA CITY "
-	line "is the color of"
-	cont "green eternally."
+	text "TOKIWA LINN on ro-"
+	line "helise igaviku"
+	cont "värvi."
 	done
 
 _ViridianCityText9::
-	text "TRAINER TIPS"
+	text "NIPID TREENERITELE"
 
-	para "Catch #MON"
-	line "and expand your"
-	cont "collection!"
+	para "Püüa #MONe ja lai-"
+	line "enda oma kollekt-"
+	cont "siooni!"
 
-	para "The more you have,"
-	line "the easier it is"
-	cont "to fight!"
+	para "Mida rohkem sul"
+	line "neid on seda li-"
+	cont "htsam sul on"
+	cont "võitlusel!"
 	done
 
 _ViridianCityText10::
-	text "TRAINER TIPS"
+	text "NIPID TREENERITELE"
 
-	para "The battle moves"
-	line "of #MON are"
-	cont "limited by their"
-	cont "POWER POINTs, PP."
+	para "#MONid on võt-"
+	line "ete kasutamisel"
+	cont "piiratud PP kogu-"
+	cont "sega."
 
-	para "To replenish PP,"
-	line "rest your tired"
-	cont "#MON at a"
-	cont "#MON CENTER!"
+	para "Et PP uuesti täis"
+	line "saada, külasta"
+	cont "#MONi KESKUSt"
 	done
 
 _ViridianCityText13::
-	text "TOKIWA CITY"
-	line "#MON GYM"
+	text "TOKIWA LINN"
+	line "#MONi SAAL"
 	done
 
 _ViridianCityText14::
-	text "The GYM's doors"
-	line "are locked..."
+	text "Saali uksed on"
+	line "lukus..."
 	done

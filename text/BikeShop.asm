@@ -1,71 +1,76 @@
 _BikeShopText_1d810::
-	text "Hi! Welcome to"
-	line "MIRACLE-CYCLE."
+	text "Tere tulemast meie"
+	line " rattapoodi!."
 
-	para "Have we got just"
-	line "the BIKE for you!"
+	para "Meil on sulle just"
+	line "üks sobilik RATAS"
 	prompt
 
 _BikeShopText_1d815::
-	text "It's a cool BIKE!"
-	line "Do you want it?"
+	text "See on väga lahe"
+	line "RATAS! Soovid sa"
+	cont "seda endale?"
 	done
 
 _BikeShopCantAffordText::
-	text "Sorry! You can't"
-	line "afford it!"
+	text "Oi kui kahju! Aga"
+	line "sa ei saa seda ju"
+	cont "endale lubada!"
 	prompt
 
 _BikeShopText_1d81f::
-	text "Oh, that's..."
+	text "Ah nii..."
+	line "või sul on..."
 
-	para "A BIKE VOUCHER!"
+	para "RATTA KUPONG!"
 
-	para "OK! Here you go!"
+	para "No olgu! Palun!"
 	prompt
 
 _BikeShopText_1d824::
-	text "<PLAYER> exchanged"
-	line "the BIKE VOUCHER"
-	cont "for a BICYCLE.@"
+	text "<PLAYER> vahetas"
+	line "RATTA KUPONGI"
+	cont "RATTA vastu.@"
 	text_end
 
 _BikeShopComeAgainText::
-	text "Come back again"
-	line "some time!"
+	text "Külastage meid"
+	line "varsti jälle!"
 	done
 
 _BikeShopText_1d82f::
-	text "How do you like"
-	line "your new BICYCLE?"
+	text "Kuidas sulle su"
+	line "uus JALG RATAS"
+	cont "meeldib?"
 
-	para "You can take it"
-	line "on CYCLING ROAD"
-	cont "and in caves!"
+	para "Sellega saad nii"
+	line "koobastes kui"
+	cont "RATTA TEEL sõita!"
 	done
 
 _BikeShopText_1d834::
-	text "You better make"
-	line "room for this!"
+	text "Parem oleks kui sa"
+	line "sellele ruumi"
+	cont "teeksid!"
 	done
 
 _BikeShopText_1d843::
-	text "A plain city BIKE"
-	line "is good enough"
-	cont "for me!"
+	text "Tavaline linna"
+	line "RATAS on minule"
+	cont "täitsa piisav!"
 
-	para "You can't put a"
-	line "shopping basket"
-	cont "on an MTB!"
+	para "Pealegi sa ei saa"
+	line "mägirattale ostu-"
+	cont "korvi külge panna!"
 	done
 
 _BikeShopText_1d85c::
-	text "These BIKEs are"
-	line "cool, but they're"
-	cont "way expensive!"
+	text "Need RATTAD on la-"
+	line "hedad aga liiga"
+	cont "kallid!"
 	done
 
 _BikeShopText_1d861::
-	text "Wow. Your BIKE is"
-	line "really cool!"
+	text "Vau! Su RATAS on"
+	line "väga lahe!"
 	done
