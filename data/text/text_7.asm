@@ -1,6 +1,5 @@
 _ItemUseText001::
-	text "<PLAYER>"
-	line "kasutas@"
+	text "<PLAYER> kasutas@"
 	text_end
 
 _ItemUseText002::
