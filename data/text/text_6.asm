@@ -17,8 +17,8 @@ _ItemUseBallText02::
 	prompt
 
 _ItemUseBallText03::
-	text "Aww! Ta ilmus, et"
-	line "teda saaks püüda!"
+	text "Aww! Tundus nagu"
+	line "ta juba oli käes!"
 	prompt
 
 _ItemUseBallText04::
@@ -49,11 +49,11 @@ _ItemUseBallText08::
 	prompt
 
 _ItemUseBallText06::
-	text "Uus #DEX info"
-	line "lisatakse"
+	text "#DEXi lisatakse"
+	line "info #MONi"
 	cont "@"
 	text_ram wEnemyMonNick
-	text "kohta!@"
+	text " kohta!@"
 	text_end
 
 _SurfingGotOnText::

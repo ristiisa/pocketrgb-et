@@ -366,13 +366,13 @@ PokedexOwnText:
 	db "OMAB@"
 
 PokedexContentsText:
-	db "HÕLMAB@"
+	db "SISUS@"
 
 PokedexMenuItemsText:
-	db   "DATA"
-	next "CRY"
-	next "AREA"
-	next "TAGASI@"
+	db   "INFO"
+	next "HÄÄL"
+	next "ALA"
+	next "VÄLJA@"
 
 ; tests if a pokemon's bit is set in the seen or owned pokemon bit fields
 ; INPUT:

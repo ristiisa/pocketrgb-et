@@ -44,8 +44,8 @@ BuySellQuitText:
 	db "@" ; unused
 
 UseTossText:
-	db   "KASUTA"
-	next "VISKA äRA@"
+	db   "VÕTA"
+	next "JÄTA@"
 
 JapaneseSaveMessageText:
 	db   "きろく"

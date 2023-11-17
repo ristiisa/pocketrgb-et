@@ -2,7 +2,7 @@ MoveNames::
 	db "LÖÖK@"
 	db "KARATE LÖÖL@"
 	db "TOPPELT LAKS@"
-	db "MITMIK LÖÖK@"
+	db "KOMEEDI PAUK@"
 	db "MEGA LÖÖK@"
 	db "PALGA PÄEV@"
 	db "TULE LÖÖK@"

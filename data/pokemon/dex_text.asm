@@ -1,1511 +1,1497 @@
 _RhydonDexEntry::
-	text "It begins walking"
-	next "on its hind legs"
-	next "after evolution."
+	text "Ta pärast evolut-"
+	next "siooni hakkab ta"
+	next "kõndima tagajalga-"
 
-	page "It can punch holes"
-	next "through boulders"
-	next "with its horn"
+	page "del. Ta suudab oma"
+	next "sarvega läbi kivi-"
+	next "sid purustada."
 	dex
 
 _KangaskhanDexEntry::
-	text "The female raises"
-	next "its offspring in a"
-    next "pouch on its"
+	text "Emane kasvatab oma"
+	next "järglasi kõhuko-"
+	next "tis. Ta oskab väga"
 
-    page "belly. It is very"
-	next "skilled at using"
-	next "COMET PUNCH"
+	page "osavalt kasutada"
+	next "KOMEEDI PAUKU."
 	dex
 
 _NidoranMDexEntry::
-	text "Its large ears are"
-	next "flapped like wings"
-	next "when listening to"
+	text "Kuuldes kaugeid he-"
+	next "lisid, lehtivtab"
+	next "ta oma suuri kõrvu"
 
-	page "distant sounds. If"
-	next "it is angered, it"
-	next "extends its barbs"
+	page "nagu tiibu. Kui ta"
+	next "vihastab, siis si-"
+	next "rutab ta välja oma"
+
+	page "ogad."
 	dex
 
 _ClefairyDexEntry::
-	text "Its adorable"
-	next "apperance makes"
-	next "it a popular pet."
+	text "Tema armas välimus"
+	next "muudab ta populaar-"
+	next "seks lemmikloomak-"
 
-	page "However, it is"
-	next "very rare and"
-	next "difficult to find"
+	page "s. Siiski on ta vä-"
+	next "ga haruldane ja"
+	next "raskesti leitav."
 	dex
 
 _SpearowDexEntry::
-	text "It busily flits"
-	next "around here and"
-	next "there. Even if it"
+	text "Ta lendleb siin ja"
+	next "seal kiiresti. Ise-"
+	next "gi kui tq on nõrk,"
 
-	page "is frail, it can"
-	next "be a tough foe due"
-	next "to PARROT MIMICRY"
+	page "võib tq olla või-"
+	next "mas vastane tänu"
+	next "AHVI võttele."
 	dex
 
 _VoltorbDexEntry::
-	text "A life form whose"
-	next "identity is un-"
-	next "known. It is said"
+	text "Tundmatu identi-"
+	next "teediga eluvorm."
+	next "Öeldakse, et ta"
 
-	page "to SCREECH"
-	next "or suddenly"
-	next "SELFDESTRUCT"
+	page "KRIISKAB või ENESE-"
+	next "HÄVITAB end äkit-"
+	next "selt."
 	dex
 
 _NidokingDexEntry::
-	text "It is recognized"
-	next "by its rock-hard"
-	next "hide and extended"
+	text "Teda tunnustatakse"
+	next "kõva kooriku ja pi-"
+	next "kendatud sarve poo-"
 
-	page "horn. Be careful"
-	next "with the horn, as"
-	next "it contains venom"
+	page "lest. Olge sarvega"
+	next "ettevaatlik, kuna"
+	next "see sisaldab mür-"
+
+	page "ki."
 	dex
 
 _SlowbroDexEntry::
-	text "When a YADON"
-	next "went hunting, its"
-	next "tail was bitten by"
+	text "Kui SLOWBRO läks"
+	next "jahti pidama, ham-"
+	next "mustas SHELLDER te-"
 
-	page "a SHELLDER. That"
-	next "made it evolve"
-	next "into YADORAN"
+	page "ma saba. See põh-"
+	next "justas SLOWPOKEiks"
+	next "arenmise."
 	dex
 
 _IvysaurDexEntry::
-	text "There is a plant"
-	next "bulb on its back."
-	next "When it absorbs"
+	text "Tema seljal on tai-"
+	next "mepung. Kui see"
+	next "imendab toitainei-"
 
-	page "nutrients, the"
-	next "bulb is said to"
-	next "blossom"
+	page "d, siis see pung"
+	next "hakkab õitsema."
 	dex
 
 _ExeggutorDexEntry::
-	text "It is called 'The"
-	next "Walking Tropical"
-	next "Rainforest'. Each"
+	text "Teda kutsutakse"
+	next "'Kõndivaks troopi-"
+	next "liseks vihmametsak-"
 
-	page "of the nuts has"
-	next "a face and will"
-	next "of its own"
+	page "s'. Igal pähklil"
+	next "on oma nägu ja ta-"
+	next "he."
 	dex
 
 _LickitungDexEntry::
-	text "Its tongue is"
-	next "twice the length"
-	next "of its body. It"
+	text "Tema keel on kaks"
+	next "korda pikem kui te-"
+	next "ma keha. Ta saab"
 
-	page "can be moved like"
-	next "an arm to grab"
-	next "food and attack"
+	page "seda liigutada na-"
+	next "gu kätt toidu haa-"
+	next "ramiseks ja vastas-"
+
+	page "te ründamiseks."
 	dex
 
 _ExeggcuteDexEntry::
-	text "Even though it"
-	next "appears to be eggs"
-	next "of some sort, it"
+	text "Kuigi välimuse jär-"
+	next "gi tundub, nagu te-"
+	next "gemist on mingi"
 
-	page "was discovered to"
-	next "be a life form"
-	next "more like seeds"
+	page "tüüpi munadega,"
+	next "siis pigem on tegu"
+	next "seemnetega."
 	dex
 
 _GrimerDexEntry::
-	text "Sludge exposed to"
-	next "X rays from the"
-	next "Moon transformed"
+	text "Kuu röntgenkiirgu-"
+	next "se tagajärjel muu-"
+	next "tus löga GRIMERik-"
 
-	page "into BETBETER. It"
-	next "loves feeding on"
-	next "filthy things"
+	page "s. Talle meeldib"
+	next "toituda räpastest"
+	next "asjadest."
 	dex
 
 _GengarDexEntry::
-	text "It is said to"
-	next "emerge from the"
-	next "darkness to steal"
+	text "Öeldakse, et ta il-"
+	next "mub pimedusest, et"
+	next "varastada neid"
 
-	page "the lives of those"
-	next "who become lost in"
-	next "the mountains"
+	page "elusid, kes on ek-"
+	next "sinud mägedes."
 	dex
 
 _NidoranFDexEntry::
-	text "Though small, it"
-	next "must be treated"
-	next "with caution"
+	text "Kuigi väike, tuleb"
+	next "mürgiste ogade tõt-"
+	next "tu ettevaatlik ol-"
 
-	page "because of its"
-	next "toxic barbs. It"
-	next "has small horns"
+	page "la. Tal on väike-"
+	next "sed sarved."
 	dex
 
 _NidoqueenDexEntry::
-	text "It's covered in"
-	next "stiff needle-like"
-	next "scales. If it"
+	text "Ta on kaetud kõva-"
+	next "de nõela-sarnaste"
+	next "soomustega. Kui ta"
 
-	page "becomes excited,"
-	next "the needles will"
-	next "bristle outwards"
+	page "erutub, tõusevad"
+	next "nõelad välja."
 	dex
 
 _CuboneDexEntry::
-	text "It wears the skull"
-	next "of its dead mother"
-	next "on its head. When"
+	text "Ta kannab oma sur-"
+	next "nud ema koljut oma"
+	next "peas. Kui ta muu-"
 
-	page "it becomes lone-"
-	next "some, it is said"
-	next "to cry loudly"
+	page "tub üksildaseks,"
+	next "siis ta nutab val-"
+	next "jult."
 	dex
 
 _RhyhornDexEntry::
-	text "Strong, but not"
-	next "too bright, this"
-	next "#MON can"
+	text "Ta on tugev, kuid"
+	next "mitte liiga tera-"
+	next "ne. See #MON"
 
-	page "shatter even a"
-	next "skyscrapper with"
-	next "its TACKLES."
+	page "võib oma HAARANGU-"
+	next "TEGA purustada ise-"
+	next "gi pilvelõhkuja."
 	dex
 
 _LaprasDexEntry::
-	text "Its high intelli-"
-	next "gence enables it"
-	next "to understand"
+	text "Tema kõrge intelli-"
+	next "gentsus võimaldab"
+	next "tal mõista inimkõ-"
 
-	page "human speech. It"
-	next "likes to ferry"
-	next "people"
+	page "net. Talle meeldib"
+	next "inimesi sõidutada."
 	dex
 
 _ArcanineDexEntry::
-	text "A #MON that is"
-	next "described in"
-	next "Chinese legends."
+	text "#MON, mida kir-"
+	next "jeldatakse Hiina"
+	next "legendides. Öeldak-"
 
-	page "It is said to run"
-	next "at a unbelievable"
-	next "speed"
+	page "se, et ta jookseb"
+	next "uskumatul kiiru-"
+	next "sel."
 	dex
 
 _MewDexEntry::
-	text "A #MON of South"
-	next "America that was"
-	next "thought to be"
+	text "Lõuna-Ameerika"
+	next "#MON, mida pee-"
+	next "ti väljasurnuks."
 
-	page "extinct. It's very"
-	next "intelligent and"
-	next "learns any move"
+	page "Ta on väga intelli-"
+	next "gentne ja õpib iga"
+	next "võtte."
 	dex
 
 _GyaradosDexEntry::
-	text "With an extremely"
-	next "agressive nature,"
-	next "the HYPER BEAM it"
+	text "Äärmiselt agres-"
+	next "siivse loomusega,"
+	next "HÜPER KIIR, mida"
 
-	page "shoots from its"
-	next "mouth incinerates"
-	next "all its foes"
+	page "ta suust tulistab,"
+	next "põletab kõik tema"
+	next "vaenlased."
 	dex
 
 _ShellderDexEntry::
-	text "It is encased in"
-	next "a shell that is"
-	next "harder than a"
+	text "Ta on kaetud koore-"
+	next "ga, mis on kõvem"
+	next "kui teemant. Seest"
 
-	page "diamond. Inside,"
-	next "however, it is"
-	next "very tender"
+	page "on ta aga väga õr-"
+	next "n."
 	dex
 
 _TentacoolDexEntry::
-	text "Its eyes are as"
-	next "transparent as"
-	next "crystals. From"
+	text "Tema silmad on nii"
+	next "läbipaistvad kui"
+	next "kristallid. Neist"
 
-	page "them, it shoots"
-	next "mysterious beams"
-	next "of light"
+	page "tulistab ta salapä-"
+	next "raseid valguskii-"
+	next "ri."
 	dex
 
 _GastlyDexEntry::
-	text "A being that"
-	next "exists as a thin"
-	next "gas. It can topple"
+	text "Olend, kes eksis-"
+	next "teerib kui õhuke"
+	next "gaas. Ta võib ümb-"
 
-	page "an Indian elephant"
-	next "by enveloping its"
-	next "prey in 2 seconds"
+	page "ritseda oma saagi"
+	next "2 sekundiga ja pik-"
+	next "kali panna ka In-"
+
+	page "dia elevandi."
 	dex
 
 _ScytherDexEntry::
-	text "It tears and"
-	next "shreds prey with"
-	next "its wickedly sharp"
+	text "Rebib ja lõhub saa-"
+	next "ki oma kurjakuulu-"
+	next "tavalt teravate"
 
-	page "scythes. It very"
-	next "rarely spreads its"
-	next "wings to fly"
+	page "sirpidega. Harva"
+	next "sirutab ta tiibu"
+	next "lendamiseks."
 	dex
 
 _StaryuDexEntry::
-	text "It appears in"
-	next "large numbers by"
-	next "seahores. At"
+	text "Ilmub suurtes ko-"
+	next "gustes mereranda-"
+	next "del. Öösel vilgub"
 
-	page "night, its central"
-	next "core flashes with"
-	next "a red light"
+	page "tema keskne tuum"
+	next "punaselt."
 	dex
 
 _BlastoiseDexEntry::
-	text "It crushes its"
-	next "foe under his body"
-	next "to cause fainting."
+	text "Ta purustab oma"
+	next "vastase enda alla"
+	next "surudes, põhjusta-"
 
-	page "In a pinch, it"
-	next "will withdraw"
-	next "inside its shell"
+	page "des minestamist."
+	next "Hädaolukorras taan-"
+	next "dub ta oma koore"
+
+	page "sisse."
 	dex
 
 _PinsirDexEntry::
-	text "Its two long"
-	next "pincer horns are"
-	next "powerful. Once"
+	text "Tal on kaks pikka"
+	next "näpitsa kujulist"
+	next "võimsat sarve. Kui"
 
-	page "they grip an enemy"
-	next "they won't release"
-	next "it until its torn"
+	page "need haaravad kin-"
+	next "ni vastasest, ei"
+	next "vabasta ta neid en-"
+
+	page "ne, kui need on"
+	next "küljest rebitud."
 	dex
 
 _TangelaDexEntry::
-	text "Blue plant vines"
-	next "cloak the #MONs"
-	next "identity in a"
+	text "Sinised taimevää-"
+	next "did varjavad"
+	next "#MONi sassipunt-"
 
-	page "tangled mass. It"
-	next "entangles anything"
-	next "that gets close"
+	page "raga. Ta põimib en-"
+	next "dasse kõik, mis"
+	next "talle lähedale sa-"
+
+	page "tuvad."
 	dex
 
 _GrowlitheDexEntry::
-	text "Very friendly and"
-	next "faithful to people"
-	next "it will try to"
+	text "Väga sõbralik ja"
+	next "truu inimestele,"
+	next "ta püüab kõiki"
 
-	page "repel all enemies"
-	next "by barking and"
-	next "biting"
+	page "vaenlasi peletada"
+	next "haukumise ja ham-"
+	next "mustamisega."
 	dex
 
 _OnixDexEntry::
-	text "It usually lives"
-	next "underground. It"
-	next "searches for food"
+	text "Ta elab tavaliselt"
+	next "maa all. Ta otsib"
+	next "toitu, uuristades"
 
-	page "while boring its"
-	next "way through the"
-	next "ground at 80 KPH"
+	page "maad kiirusel 80"
+	next "km/h."
 	dex
 
 _FearowDexEntry::
-	text "Its huge and very"
-	next "magnificent wings"
-	next "can keep it aloft"
+	text "Tema hiiglaslikud"
+	next "ja väga uhked"
+	next "tiivad suudavad te-"
 
-	page "in the sky. It can"
-	next "fly a whole day"
-	next "without landing"
+	page "da kaua õhus hoi-"
+	next "da. Ta võib lenna-"
+	next "ta terve päeva il-"
+
+	page "ma maandumata."
 	dex
 
 _PidgeyDexEntry::
-	text "Does not like to"
-	next "fight. It hides"
-	next "in tall grass and"
+	text "Ei armasta võidel-"
+	next "da. Ta peidab end"
+	next "kõrge rohu sees ja"
 
-	page "so on, foraging"
-	next "for food such as"
-	next "small bugs"
+	page "otsib toitu, näi-"
+	next "teks väikeseid pu-"
+	next "tukaid."
 	dex
 
 _SlowpokeDexEntry::
-	text "It is always lost"
-	next "in thought, but no"
-	next "one knows what it"
+	text "Ta on alati süga-"
+	next "valt mõtetes, kuid"
+	next "keegi ei tea,"
 
-	page "is thinking about."
-	next "It fishes well"
-	next "with its tail"
+	page "millele ta mõtleb."
+	next "Ta püüab oma saba-"
+	next "ga hästi kala."
 	dex
 
 _KadabraDexEntry::
-	text "It happened one"
-	next "morning - a boy"
-	next "with extrasensory"
+	text "Ühel hommikul är-"
+	next "kas üks poiss, kel-"
+	next "lel olid üleinimli-"
 
-	page "powers awoke in"
-	next "bed transformed"
-	next "into YUNGERER"
+	page "kud võimed, oma"
+	next "voodis, muutununa"
+	next "KADABRAKS."
 	dex
 
 _GravelerDexEntry::
-	text "Be careful while"
-	next "hiking on mountain"
-	next "trails. GOLONE"
+	text "Olge mägiradadel"
+	next "matkates ettevaat-"
+	next "lik. GRAVELER võib"
 
-	page "may come rolling"
-	next "down the path"
-	next "without slowing"
+	page "teele veereda ilma"
+	next "aeglustumata."
 	dex
 
 _ChanseyDexEntry::
-	text "It lays several"
-	next "eggs a day. These"
-	next "are apparently"
+	text "Ta muneb mitu muna"
+	next "päevas. Tuleb väl-"
+	next "ja, et need on"
 
-	page "rich in nutrients"
-	next "and extremely"
-	next "delicious"
+	page "toitaineterikkad"
+	next "ja väga maitsvad."
 	dex
 
 _MachokeDexEntry::
-	text "Its formidable"
-	next "body never gets"
-	next "tired. It helps"
+	text "Tema võimas keha"
+	next "ei väsi kunagi. Ta"
+	next "aitab inimesi ras-"
 
-	page "people with work"
-	next "such as moving"
-	next "heavy goods"
+	page "kete esemete, näi-"
+	next "teks mööbli liigu-"
+	next "tamisel."
 	dex
 
 _MrMimeDexEntry::
-	text "It is adept at"
-	next "conning people."
-	next "It is said to"
+	text "Ta on osav inimes-"
+	next "te petmises. Öel-"
+	next "dakse, et ta suu-"
 
-	page "be able to create"
-	next "walls out of thin"
-	next "air by miming"
+	page "dab selgest õhust"
+	next "seinad võluda."
 	dex
 
 _HitmonleeDexEntry::
-	text "Its legs freely"
-	next "contract and"
-	next "stretch. The"
+	text "Ta suudab oma jal-"
+	next "gu pikemaks ja lü-"
+	next "hemaks teha. Veni-"
 
-	page "stretchy legs"
-	next "allow it to hit at"
-	next "distant foes"
+	page "tavad jalad võimal-"
+	next "davad tal lüüa kau-"
+	next "gel olevaid vasta-"
+
+	page "seid."
 	dex
 
 _HitmonchanDexEntry::
-	text "The spirit of a"
-	next "pro boxer has in-"
-	next "fused this #MON."
+	text "Selle #MONi"
+	next "sees on profi pok-"
+	next "sija vaim. Tema"
 
-	page "It's punches are"
-	next "faster than a"
-	next "bullet train"
+	page "löögid on kiiremad"
+	next "kui kiirrong."
 	dex
 
 _ArbokDexEntry::
-	text "The pattern on its"
-	next "belly appears to"
-	next "be a frightening"
+	text "Tema kõhul oleval"
+	next "mustril on näha"
+	next "hirmutav nägu. Nõr-"
 
-	page "face. Weak foes"
-	next "will flee at the"
-	next "sight of it"
+	page "gad vastased põge-"
+	next "nevad ainiti selle"
+	next "nägemisest."
 	dex
 
 _ParasectDexEntry::
-	text "It scatters toxic"
-	next "spores from the"
-	next "mushroom cap. In"
+	text "Ta lennutab oma"
+	next "seenekübarast tok-"
+	next "silisi eoseid. Hii-"
 
-	page "China, the spores"
-	next "are used as herbal"
-	next "medicine"
+	page "nas kasutatakse eo-"
+	next "seid ravimtaimena."
 	dex
 
 _PsyduckDexEntry::
-	text "It is constantly"
-	next "wracked by a"
-	next "headache. When it"
+	text "Teda vaevab pidev"
+	next "peavalu. Kui see"
+	next "muutub väljakanna-"
 
-	page "turns intense, it"
-	next "begins using a"
-	next "mysterious power"
+	page "tamatuks, hakkab"
+	next "ta kasutama salapä-"
+	next "rast võimet."
 	dex
 
 _DrowzeeDexEntry::
-	text "Descendant of the"
-	next "legendary animal"
-	next "baku which is said"
+	text "Legendaarse ünenä-"
+	next "gude sööja, Baku"
+	next "järeltulija. Ta on"
 
-	page "to eat dreams. It"
-	next "is skilled in the"
-	next "use of hypnotism"
+	page "väga osav hüpnotee-"
+	next "rija."
 	dex
 
 _GolemDexEntry::
-	text "It is enclosed in"
-	next "a hard shell that"
-	next "is as rugged as"
+	text "Ta on kaetud kesta-"
+	next "ga, mis on kõva"
+	next "kui kalju. Ta vahe-"
 
-	page "slabs of rock. It"
-	next "sheds skin yearly"
-	next "to grow larger"
+	page "tab kesta iga aas-"
+	next "ta, et kasvada suu-"
+	next "remaks."
 	dex
 
 _MagmarDexEntry::
-	text "Found near mouths"
-	next "of volcanos. This"
-	next "fire-breather's"
+	text "Teda leidub vulkaa-"
+	next "nide suudme lähe-"
+	next "duses. Selle tule-"
 
-	page "body temperature"
-	next "is nearly 1,200"
-	next "degrees-C"
+	page "purskaja kehatempe-"
+	next "ratuur on peaaegu"
+	next "1200C."
 	dex
 
 _ElectabuzzDexEntry::
-	text "It loves to feed"
-	next "on electricity."
-	next "It occasionally"
+	text "Armastab toituda"
+	next "elektrist. Ilmub"
+	next "aeg-ajalt elektri-"
 
-	page "appears around"
-	next "power plants and"
-	next "sub-stations"
+	page "jaamade ja ala-"
+	next "jaamade ümber."
 	dex
 
 _MagnetonDexEntry::
-	text "A linked cluster"
-	next "formed of several"
-	next "COIL. It"
+	text "Mitmest poolist"
+	next "koosnev seotud pun-"
+	next "dar. Väljutab võim-"
 
-	page "discharges power-"
-	next "ful magnetic waves"
-	next "at high voltage"
+	page "said magnetlaineid"
+	next "kõrgel pingel."
 	dex
 
 _KoffingDexEntry::
-	text "Its balloon-like"
-	next "body is inflated"
-	next "by horribly toxic"
+	text "Tema õhupallitaoli-"
+	next "ne keha on täis ko-"
+	next "hutavalt mürgiseid"
 
-	page "gases. It reeks"
-	next "when there is one"
-	next "nearby"
+	page "gaase. Tema lähe-"
+	next "duses haiseb."
 	dex
 
 _MankeyDexEntry::
-	text "Light and agile"
-	next "on its feet, and"
-	next "ferocious in mood."
+	text "Kerge ja nobe jal-"
+	next "ge, ning metsik"
+	next "meeleolult. Vihase-"
 
-	page "When angered, it"
-	next "flies into a crazy"
-	next "frenzy"
+	page "na ta raevub."
 	dex
 
 _SeelDexEntry::
-	text "Covered in light"
-	next "blue fur, its"
-	next "hide is thick and"
+	text "Kaetud helesinise"
+	next "karvaga, nahk on"
+	next "paks ja vastupida-"
 
-	page "tough. It's active"
-	next "even in the bitter"
-	next "cold of -40 deg-C"
+	page "v. Aktiivne isegi"
+	next "-40 kraadise külma"
+	next "korral."
 	dex
 
 _DiglettDexEntry::
-	text "It burrows through"
-	next "the ground at a"
-	next "shallow depth."
+	text "Kaevub maa alla ma-"
+	next "dalal sügavusel,"
+	next "jättes endast maha"
 
-	page "leaving raised"
-	next "earth, making it"
-	next "easy to spot"
+	page "kõrgendatud maapin-"
+	next "na, mis teeb ta"
+	next "kergesti märgata-"
+
+	page "vaks."
 	dex
 
 _TaurosDexEntry::
-	text "When it is about"
-	next "to TACKLE, it"
-	next "whips its body"
+	text "Kui ta on valmis"
+	next "HAARAMA, piitsutab"
+	next "korduvalt oma kol-"
 
-	page "repeatedly with"
-	next "its three long"
-	next "tails"
+	page "me pika sabaga."
 	dex
 
 _FarfetchdDexEntry::
-	text "It always walks"
-	next "about with a plant"
-	next "stalk clamped in"
+	text "Kõnnib alati ringi"
+	next "taimevars nokas."
+	next "Ta kasutab seda"
 
-	page "its beak. It is"
-	next "used later for"
-	next "building its nest"
+	page "hiljem pesa ehita-"
+	next "miseks."
 	dex
 
 _VenonatDexEntry::
-	text "Its eyes act as a"
-	next "radar, enabling it"
-	next "to be active in"
+	text "Tema silmad toi-"
+	next "mivad nagu radar,"
+	next "võimaldades tal ol-"
 
-	page "the dark. The eyes"
-	next "can also shoot"
-	next "powerful beams"
+	page "la aktiivne pime-"
+	next "duses. Silmadest"
+	next "saab ta tulistada"
+
+	page "võimsaid kiir."
 	dex
 
 _DragoniteDexEntry::
-	text "It can fly even"
-	next "with its big and"
-	next "bulky physique,"
+	text "Ta suudab lennata"
+	next "sõltumata oma suu-"
+	next "rest ja kohmakast"
 
-	page "and circles the"
-	next "the globe in just"
-	next "16 hours"
+	page "kehast, tehes tii-"
+	next "ru ümber maakera"
+	next "vaid 16 tunniga."
 	dex
 
 _DoduoDexEntry::
-	text "A two-headed"
-	next "#MON that was"
-	next "discovered as a"
+	text "Kahe peaga"
+	next "#MON, mis"
+	next "avastati ootamatu"
 
-	page "sudden mutation."
-	next "It runs at a pace"
-	next "of over 100 KPH"
+	page "mutatsioonina."
+	next "Jookseb kiirusega"
+	next "üle 100 km/h."
 	dex
 
 _PoliwagDexEntry::
-	text "Its slick black"
-	next "skin is thin and"
-	next "damp. Part of its"
+	text "Tema sile must"
+	next "nahk on õhuke ja"
+	next "niiske. Osa tema"
 
-	page "internal organs"
-	next "can be seen as"
-	next "a spiral pattern"
+	page "siseorganeid on"
+	next "nähtavad spiraalse-"
+	next "te mustrina."
 	dex
 
 _JynxDexEntry::
-	text "It speaks using a"
-	next "language similar"
-	next "to humans."
+	text "Ta räägib keeles,"
+	next "mis on sarnane"
+	next "inimkeelele. Uuri-"
 
-	page "Research is under"
-	next "way to determine"
-	next "what it is saying"
+	page "mustöö selgitamaks"
+	next "välja, mida öelda"
+	next "tahab, veel kesta-"
+
+	page "b."
 	dex
 
 _MoltresDexEntry::
-	text "One of the legend-"
-	next "ary bird #MON."
-	next "Those who see it"
+	text "Üks legendaarse-"
+	next "test"
+	next "lind-#MONidest."
 
-	page "are overwhelmed by"
-	next "its orange wings"
-	next "that seem on fire"
+	page "Neid, kes teda näe-"
+	next "vad, võluvad tema"
+	next "oranžid tiivad,"
+
+	page "mis näivad kui põ-"
+	next "levad."
 	dex
 
 _ArticunoDexEntry::
-	text "One of the legend-"
-	next "ary bird #MON."
-	next "With its long tail"
+	text "Üks legendaarse-"
+	next "test"
+	next "lind-#MONidest."
 
-	page "trailing behind,"
-	next "its flying form"
-	next "is magnificent"
+	page "Tema lennuvorm on"
+	next "suurepärane, lenna-"
+	next "tes ringi oma pikk"
+
+	page "sabaga järel liuel-"
+	next "des."
 	dex
 
 _ZapdosDexEntry::
-	text "One of the legend-"
-	next "ary bird #MON."
-	next "When it is flying,"
+	text "Üks legendaarse-"
+	next "test"
+	next "lind-#MONidest."
 
-	page "it makes crackling"
-	next "and snapping"
-	next "sounds"
+	page "Lennates tekitab"
+	next "ta praginat ja prõ-"
+	next "ginat."
 	dex
 
 _DittoDexEntry::
-	text "It can freely"
-	next "recombine its own"
-	next "cellular structure"
+	text "Võib vabalt ümber"
+	next "kombineerida oma"
+	next "rakustruktuuri, et"
 
-	page "to transform into"
-	next "any other type of"
-	next "life form"
+	page "muunduda mis tahes"
+	next "tüüpi eluvormiks."
 	dex
 
 _MeowthDexEntry::
-	text "All it does during"
-	next "the day is sleep."
-	next "At night, its eyes"
+	text "Päeval magab ta ai-"
+	next "nult. Öösel patrul-"
+	next "lib, silmad helen-"
 
-	page "are aglow while it"
-	next "patrols its"
-	next "territory"
+	page "damas, oma terri-"
+	next "tooriumit."
 	dex
 
 _KrabbyDexEntry::
-	text "It can be found"
-	next "near the sea. The"
-	next "large pincers grow"
+	text "Teda võib leida me-"
+	next "re lähedalt. Suu-"
+	next "red küünised kasva-"
 
-	page "back if they are"
-	next "torn out of their"
-	next "sockets"
+	page "vad tagasi, kui"
+	next "need on välja kis-"
+	next "tud."
 	dex
 
 _VulpixDexEntry::
-	text "While young, it"
-	next "has six gorgeous"
-	next "tails. When it"
+	text "Noorena on tal"
+	next "kuus uhket saba."
+	next "Kasvades kasvab"
 
-	page "grows, several"
-	next "new tails spout"
-	next "forth"
+	page "talle mitu uut sa-"
+	next "ba juurde."
 	dex
 
 _NinetalesDexEntry::
-	text "It has nine long"
-	next "tails and fur that"
-	next "gleams gold."
+	text "Tal on üheksa pik-"
+	next "ka saba ja sädelev"
+	next "kuldkarv. Arvatak-"
 
-	page "It is said to be"
-	next "capable of living"
-	next "for a 1,000 years"
+	page "se, et võib elada"
+	next "1000 aastat."
 	dex
 
 _PikachuDexEntry::
-	text "It has small"
-	next "electric sacs on"
-	next "both its cheeks."
+	text "Mõlemal põsel on"
+	next "tal väikesed elekt-"
+	next "rikotid. Ohu kor-"
 
-	page "If threatened, it"
-	next "will lose electric"
-	next "charges from them"
+	page "ral paiskab nen-"
+	next "dest elektrilaengu-"
+	next "id."
 	dex
 
 _RaichuDexEntry::
-	text "Its electric"
-	next "shocks can go up"
-	next "to 100,000 volts."
+	text "Tema elektrilöögid"
+	next "võivad ulatuda"
+	next "kuni 100kV. Hoole-"
 
-	page "Careless contact"
-	next "can cause even an"
-	next "elephant to faint"
+	page "tu kokkupuude võib"
+	next "isegi elevandi mi-"
+	next "nestama panna."
 	dex
 
 _DratiniDexEntry::
-	text "Even the young can"
-	next "exceed 2 meters"
-	next "in length."
+	text "Isegi noored isen-"
+	next "did võivad pikku-"
+	next "ses ületada 2 meet-"
 
-	page "It grows larger"
-	next "by repeatedly"
-	next "shedding its skin"
+	page "rit. Kasvab suure-"
+	next "maks korduvalt nah-"
+	next "ka vahetades."
 	dex
 
 _DragonairDexEntry::
-	text "It is said to"
-	next "live in both seas"
-	next "and lakes. Even"
+	text "Elab nii meredes"
+	next "kui järvedes. Kui-"
+	next "gi tal pole tiibu,"
 
-	page "though it has no"
-	next "wings, it has been"
-	next "seen flying"
+	page "on teda lendamas"
+	next "nähtud."
 	dex
 
 _KabutoDexEntry::
-	text "This #MON was"
-	next "regenerated from"
-	next "the fossil of an"
+	text "See #MON taasta-"
+	next "ti iidse olendi ki-"
+	next "vistisest. Ta kait-"
 
-	page "ancient creature."
-	next "It protects itself"
-	next "with a hard shell"
+	page "seb end kõva kesta-"
+	next "ga."
 	dex
 
 _KabutopsDexEntry::
-	text "It swims freely"
-	next "through water. It"
-	next "catches prey with"
+	text "Ujub vabalt vees."
+	next "Püüab saaki oma"
+	next "sirbi-kujuliste kä-"
 
-	page "its scythe-like"
-	next "arms and drains"
-	next "their fluids"
+	page "tega ja imeb neist"
+	next "vedelikud välja."
 	dex
 
 _HorseaDexEntry::
-	text "It maintains"
-	next "balance using its"
-	next "tail, which is"
+	text "Ta hoiab tasakaalu"
+	next "oma kokku keritud"
+	next "saba abil. Tema"
 
-	page "wound up like a"
-	next "coil. Its mouth"
-	next "can spray ink"
+	page "suus võib pritsida"
+	next "tinti."
 	dex
 
 _SeadraDexEntry::
-	text "Its body bristles"
-	next "with sharp spikes."
-	next "Carelessly trying"
+	text "Keha on kaetud te-"
+	next "ravate okastega."
+	next "Tema hooletu puudu-"
 
-	page "to touch it could"
-	next "cause fainting"
-	next "from the spikes"
+	page "tamine võib põhjus-"
+	next "tada minestamist"
+	next "okaste tõttu."
 	dex
 
 _SandshrewDexEntry::
-	text "It burrows and"
-	next "lives underground."
-	next "If threatened, it"
+	text "Kaevub ja elab maa"
+	next "all. Ohu korral"
+	next "rullib end palliks"
 
-	page "curls itself up"
-	next "into a ball for"
-	next "protection"
+	page "kaitseks."
 	dex
 
 _SandslashDexEntry::
-	text "It is adept at"
-	next "attacking with the"
-	next "spines on its back"
+	text "Oskab rünnata sel-"
+	next "jal olevate okaste-"
+	next "ga ja küünistega"
 
-	page "and its claws"
-	next "while quickly"
-	next "scurrying about"
+	page "kiiresti liikudes."
 	dex
 
 _OmanyteDexEntry::
-	text "A prehistoric"
-	next "#MON that lived"
-	next "in the primordial"
+	text "Eelajalooline"
+	next "#MON, mis elas"
+	next "ürgmere vetes, uju-"
 
-	page "sea, it swims by"
-	next "twisting its 10"
-	next "tentacles about"
+	page "b, keerutades oma"
+	next "10 kombitsat."
 	dex
 
 _OmastarDexEntry::
-	text "Its tentacles are"
-	next "highly developed"
-	next "as if they were"
+	text "Selle kombitsad on"
+	next "hästi arenenud,"
+	next "justkui oleksid"
 
-	page "hands and feet."
-	next "It bites prey"
-	next "upon ensaring it"
+	page "need käed ja jala-"
+	next "d. Hammustab saaki"
+	next "pärast selle püüd-"
+
+	page "mist."
 	dex
 
 _JigglypuffDexEntry::
-	text "It captivates foes"
-	next "with its huge"
-	next "round eyes. Then"
+	text "Vangistab vaenlasi"
+	next "oma suurte ümarate"
+	next "silmadega. Seejä-"
 
-	page "lulls them to"
-	next "sleep singing a"
-	next "soothing melody"
+	page "rel uinutab neid"
+	next "lauldes rahustavat"
+	next "meloodiat."
 	dex
 
 _WigglytuffDexEntry::
-	text "It has extremely"
-	next "fine, dense, and"
-	next "supple fur. This"
+	text "Tal on erakordselt"
+	next "peen, tihe ja peh-"
+	next "me karvkate. See"
 
-	page "exquisite fur"
-	next "conveys an image"
-	next "of luxury"
+	page "peen karvastik an-"
+	next "nab talle luksusli-"
+	next "ku moe."
 	dex
 
 _EeveeDexEntry::
-	text "An extremely rare"
-	next "#MON that may"
-	next "evolve in a number"
+	text "Äärmiselt harulda-"
+	next "ne #MON, mis"
+	next "võib areneda mit-"
 
-	page "of different ways"
-	next "depending on the"
-	next "stimuli"
+	page "mel erineval vii-"
+	next "sil, sõltuvalt si-"
+	next "sendist."
 	dex
 
 _FlareonDexEntry::
-	text "It has a flame"
-	next "bag in its body."
-	next "After inhaling"
+	text "Tema kehas on lee-"
+	next "gikott. Sügavalt"
+	next "sisse hingates pu-"
 
-	page "deeply, it blows"
-	next "out flames near"
-	next "1,700 degrees-C"
+	page "hub ta välja leegi-"
+	next "d, mis ulatuvad"
+	next "peaaegu 1700C."
 	dex
 
 _JolteonDexEntry::
-	text "If angered or"
-	next "startled, the fur"
-	next "all over its body"
+	text "Kui ta on ärrita-"
+	next "tud või ehmunud,"
+	next "turritab kogu tema"
 
-	page "bristles like"
-	next "sharp needles that"
-	next "pierce its foes"
+	page "kehakarv nagu tera-"
+	next "vad nõelad, mis lä-"
+	next "bistavad vaenlase."
 	dex
 
 _VaporeonDexEntry::
-	text "Its body's cellu-"
-	next "lar structure is"
-	next "similar to that"
+	text "Tema keha rakust-"
+	next "ruktuur on sarnane"
+	next "veega. Seetõttu"
 
-	page "of water. So it"
-	next "can invisibly"
-	next "melt in it"
+	page "võib see vees näh-"
+	next "tamatuks sulandu-"
+	next "da."
 	dex
 
 _MachopDexEntry::
-	text "Its whole body is"
-	next "composed of mus-"
-	next "cles. Even though"
+	text "Terve tema keha"
+	next "koosneb lihastest."
+	next "Kuigi ta on lapse"
 
-	page "it's the size of"
-	next "a child, it can"
-	next "hurl 100 adults"
+	page "suurune, suudab ta"
+	next "visata 100 täiskas-"
+	next "vanut."
 	dex
 
 _ZubatDexEntry::
-	text "It has no eyes."
-	next "Instead, it relies"
-	next "on its ultrasonic"
+	text "Tal pole silmi."
+	next "Selle asemel kasu-"
+	next "tab ta pimeduses"
 
-	page "cries for echo"
-	next "location to flit"
-	next "about in darkness"
+	page "liikumiseks oma"
+	next "ultraheli häälitsu-"
+	next "si."
 	dex
 
 _EkansDexEntry::
-	text "A common sight in"
-	next "grasslands, etc."
-	next "It flicks its"
+	text "Tavaline vaatepilt"
+	next "rohumaadel ja mu-"
+	next "jal. Vilgutab sis-"
 
-	page "tongue in and out"
-	next "to sense danger in"
-	next "its surroundings"
+	page "se ja välja oma"
+	next "keelt, et tunda oh-"
+	next "tu ümbruses."
 	dex
 
 _ParasDexEntry::
-	text "Growing out of the"
-	next "bug's back are"
-	next "mushrooms called"
+	text "Putuka seljas kas-"
+	next "vavad seened nime-"
+	next "ga Tochukaso. See-"
 
-	page "Tochukaso. The"
-	next "mushrooms grow"
-	next "with the bug host"
+	page "ned kasvavad koos"
+	next "peremeesorganismiga."
 	dex
 
 _PoliwhirlDexEntry::
-	text "Its two legs are"
-	next "well developed."
-	next "Even though it"
+	text "Tal on hästi arene-"
+	next "nud kaks jalga."
+	next "Kuigi ta võib ela-"
 
-	page "can live on land,"
-	next "it prefers living"
-	next "in water"
+	page "da maal, eelistab"
+	next "ta elada vees."
 	dex
 
 _PoliwrathDexEntry::
-	text "An adept swimmer,"
-	next "it knows the front"
-	next "crawl, butterfly,"
+	text "Oskuslik ujuja, ta"
+	next "oskab ujuda kroo-"
+	next "li, liblikat ja"
 
-	page "and more. It is"
-	next "faster than the"
-	next "best human"
+	page "muud. On kiirem"
+	next "kui parim inimuju-"
+	next "ja."
 	dex
 
 _WeedleDexEntry::
-	text "Often found in"
-	next "grasslands and"
-	next "forests. It has a"
+	text "Tihti leidub rohu-"
+	next "maal ja metsades."
+	next "Tal on pea peal"
 
-	page "sharp, toxic barb"
-	next "around 5 cm long"
-	next "atop its head"
+	page "umbes 5 cm pikkune"
+	next "terav, mürgine as-"
+	next "tel."
 	dex
 
 _KakunaDexEntry::
-	text "This #MON is in"
-	next "a temporary stage"
-	next "while making its"
+	text "See #MON on aju-"
+	next "tises staadiumis,"
+	next "sellal kui ta ehi-"
 
-	page "body. It is almost"
-	next "completely unable"
-	next "to move by itself"
+	page "tab oma keha. Pea-"
+	next "aegu ei suuda ise"
+	next "liikuda."
 	dex
 
 _BeedrillDexEntry::
-	text "May appear in a"
-	next "swarm. Flies at"
-	next "violent speeds,"
+	text "Võib ilmuda parve-"
+	next "na. Lendab vägi-"
+	next "valdsete kiiruste-"
 
-	page "and stabs with the"
-	next "toxic stinger on"
-	next "its rear"
+	page "ga ja torgib oma"
+	next "mürgise astlaga,"
+	next "mis asub ta keha"
+
+	page "tagaosas."
 	dex
 
 _DodrioDexEntry::
-	text "An odd species"
-	next "that is rare to"
-	next "find. The three"
+	text "Haruldane liik, mi-"
+	next "da on harva leida."
+	next "Kolm pead esinda-"
 
-	page "heads respectively"
-	next "represent joy, an-"
-	next "ger, and sadness"
+	page "vad vastavalt rõõ-"
+	next "mu, viha ja kurbus-"
+	next "t."
 	dex
 
 _PrimeapeDexEntry::
-	text "It is always out-"
-	next "rageously furious."
-	next "If it gives chase,"
+	text "On alati meeletult"
+	next "vihane. Kui ta"
+	next "sihtmärki jälitama"
 
-	page "it will track the"
-	next "target no matter"
-	next "how far it goes"
+	page "hakkab, järgib ta"
+	next "sihtmärki ükskõik"
+	next "kui kaugele."
 	dex
 
 _DugtrioDexEntry::
-	text "In battle, it"
-	next "digs through the"
-	next "ground to strike"
+	text "Lahingus kaevub ta"
+	next "maa alla, et rünna-"
+	next "ta ootamatult vas-"
 
-	page "unsuspecting foes"
-	next "from unexpected"
-	next "directions"
+	page "taseid erinevatest"
+	next "suundadest."
 	dex
 
 _VenomothDexEntry::
-	text "The wings are cov-"
-	next "ered in dustlike"
-	next "scales. Every time"
+	text "Tema tiivad on kae-"
+	next "tud tolmulaadsete"
+	next "soomustega. Iga"
 
-	page "it flaps its wings"
-	next "it looses highly"
-	next "toxic dust"
+	page "tiivalöögiga pais-"
+	next "kab ta välja väga"
+	next "mürgist tolmu."
 	dex
 
 _DewgongDexEntry::
-	text "Its body is"
-	next "covered with a"
-	next "pure white fur."
+	text "Tema keha on kae-"
+	next "tud puhta valge"
+	next "karvaga. Mida kül-"
 
-	page "The colder the"
-	next "weather, the more"
-	next "active it becomes"
+	page "mem ilm, seda ak-"
+	next "tiivsemaks ta muu-"
+	next "tub."
 	dex
 
 _CaterpieDexEntry::
-	text "It is covered with"
-	next "a green skin. When"
-	next "it grows, it sheds"
+	text "On kaetud rohelise"
+	next "nahaga. Kasvades"
+	next "heidab naha, katub"
 
-	page "skin, covers it-"
-	next "self with silk and"
-	next "becomes a cocoon"
+	page "siidiga ja muutub"
+	next "kookoniks."
 	dex
 
 _MetapodDexEntry::
-	text "Even though it is"
-	next "encased in a"
-	next "sturdy shell, the"
+	text "Kuigi on kaetud tu-"
+	next "geva kestaga, on"
+	next "sisemuses habras."
 
-	page "inside is fragile."
-	next "It can't endure a"
-	next "harsh attack"
+	page "Ei talu rasket rün-"
+	next "nakut."
 	dex
 
 _ButterfreeDexEntry::
-	text "The wings are"
-	next "protected by a rain-"
-	next "repellent dust."
+	text "Tema tiivad on"
+	next "kaitstud vihma tõr-"
+	next "juva tolmuga. See-"
 
-	page "As a result, this"
-	next "#MON can fly"
-	next "even in rain"
+	page "tõttu suudab see"
+	next "#MON lennata"
+	next "isegi vihmas."
 	dex
 
 _MachampDexEntry::
-	text "Its four ruggedly"
-	next "developed arms can"
-	next "launch a flurry"
+	text "Tema neli robust-"
+	next "selt arenenud kätt"
+	next "suudavad anda"
 
-	page "of about 1,000"
-	next "punches in just"
-	next "two seconds"
+	page "umbes 1000 lööki"
+	next "vaid kahe sekundi"
+	next "jooksul."
 	dex
 
 _GolduckDexEntry::
-	text "Its forelegs are"
-	next "webbed, helping to"
-	next "make it an adept"
+	text "Tema esijalad on"
+	next "ujulestad, mis ai-"
+	next "tavad tal olla"
 
-	page "swimmer. It can be"
-	next "seen swimming in"
-	next "lakes and ponds"
+	page "osav ujuja. Teda"
+	next "võib näha ujumas"
+	next "järvedes ja tiiki-"
+
+	page "des."
 	dex
 
 _HypnoDexEntry::
-	text "It carries a"
-	next "pendulum. There"
-	next "once was an inci-"
+	text "Kasutab pendlit."
+	next "Kunagi oli juhtum,"
+	next "kus ta viis ära"
 
-	page "dent in which it"
-	next "took away a child"
-	next "it hypnotized"
+	page "lapse, kelle ta"
+	next "oli hüpnotiseeri-"
+	next "nud."
 	dex
 
 _GolbatDexEntry::
-	text "It clamps down on"
-	next "its prey with"
-	next "needle-sharp"
+	text "Kinnitab oma saagi-"
+	next "le nõelteravad kih-"
+	next "vad ja imeb ühe"
 
-	page "fangs and drains"
-	next "over 300 ccm of"
-	next "blood in one gulp"
+	page "sõõmuga välja üle"
+	next "300 cm3 verd."
 	dex
 
 _MewtwoDexEntry::
-	text "A #MON whose"
-	next "genetic code was"
-	next "repeatedly reco-"
+	text "#MON, kelle ge-"
+	next "neetilist koodi"
+	next "kombineeriti kordu-"
 
-	page "mbined for re-"
-	next "search.It turned"
-	next "vicious as a result"
+	page "valt uuesti. Selle"
+	next "tulemusena muutus"
+	next "ta vägivaldseks."
 	dex
 
 _SnorlaxDexEntry::
-	text "It is not happy"
-	next "unless it eats"
-	next "400 kg of food"
+	text "Ta ei ole õnnelik,"
+	next "kui ei söö päevas"
+	next "400 kg toitu. Pä-"
 
-	page "every day. When"
-	next "done, it goes"
-	next "promptly to sleep"
+	page "rast söömist läheb"
+	next "kohe magama."
 	dex
 
 _MagikarpDexEntry::
-	text "It is virtually"
-	next "worthless in terms"
-	next "of both power and"
+	text "Peaaegu väärtusetu"
+	next "nii võimsuse kui"
+	next "kiiruse poolest."
 
-	page "speed. It is the"
-	next "most pathetic #MON"
-	next "in the world"
+	page "Maailma kõige ha-"
+	next "letsusväärsem"
+	next "#MON."
 	dex
 
 _MukDexEntry::
-	text "Usually undetect-"
-	next "able because it"
-	next "blends in with the"
+	text "Tavaliselt märkama-"
+	next "tu, kuna sulandub"
+	next "maapinnaga. Tema"
 
-	page "ground. Touching"
-	next "it can cause"
-	next "severe poisoning"
+	page "puudutamine võib"
+	next "põhjustada tugevat"
+	next "mürgitust."
 	dex
 
 _KinglerDexEntry::
-	text "Its large and hard"
-	next "pincer has 10,000"
-	next "horsepower of"
+	text "Tema suur ja kõva"
+	next "küünisel on 10 000"
+	next "hobujõudu tugevus."
 
-	page "strength. Though,"
-	next "being so big, it"
-	next "is clumsy to move"
+	page "Kuigi ta on nii"
+	next "suur, on ta liigu-"
+	next "tamisdes kohmakas."
 	dex
 
 _CloysterDexEntry::
-	text "Its shell is so"
-	next "hard that not even"
-	next "a napalm bomb can"
+	text "Tema kest on nii"
+	next "kõva, et isegi na-"
+	next "palmipomm ei suuda"
 
-	page "shatter it. The"
-	next "shell opens only"
-	next "when it attacks"
+	page "seda purustada."
+	next "Kest avaneb ainult"
+	next "rünnakul."
 	dex
 
 _ElectrodeDexEntry::
-	text "It explodes in"
-	next "response to even"
-	next "minor stimuli."
+	text "Plahvatab isegi"
+	next "väikseimate ärri-"
+	next "tuste peale. Tema"
 
-	page "It is feared, with"
-	next "the nickname of"
-	next "'The Bomb Ball'"
+	page "hüüdni on 'Pommi-"
+	next "pall'."
 	dex
 
 _ClefableDexEntry::
-	text "It has an acute"
-	next "sense of hearing."
-	next "It can easily hear"
+	text "Ta kuulmine on vä-"
+	next "ga terav. Suudab"
+	next "kergesti kuulda"
 
-	page "the sound of a"
-	next "pin being dropped"
-	next "a kilometer away"
+	page "nööpnõela kukku-"
+	next "mist kilomeetri"
+	next "kauguselt."
 	dex
 
 _WeezingDexEntry::
-	text "Very rarely, a"
-	next "sudden mutation"
-	next "can result in two"
+	text "Väga harva võib"
+	next "äkiline mutatsioon"
+	next "põhjustada kahe"
 
-	page "small DOGARS"
-	next "twins becoming a"
-	next "MATADOGAS"
+	page "väikese KOFFINGu"
+	next "kaksikute muutu-"
+	next "mist WEEZINGUks."
 	dex
 
 _PersianDexEntry::
-	text "Has a vicious tem-"
-	next "perament. Beware"
-	next "if it raises its"
+	text "On kurja iseloomu-"
+	next "ga. Ettevaatust,"
+	next "kui ta tõstab oma"
 
-	page "tail, it is a"
-	next "signal that it is"
-	next "about to pounce"
+	page "saba, see on märk,"
+	next "et ta on valmis"
+	next "ründama."
 	dex
 
 _MarowakDexEntry::
-	text "It was originally"
-	next "weak. Its tempera-"
-	next "ment turned"
+	text "Algselt oli ta nõr-"
+	next "k. Tema iseloom"
+	next "muutus raevukaks,"
 
-	page "ferocious when it"
-	next "began using bones"
-	next "as a weapon"
+	page "peale seda kui ta"
+	next "hakkas kasutama"
+	next "luid relvana."
 	dex
 
 _HaunterDexEntry::
-	text "If you get the"
-	next "feeling of being"
-	next "watched in dark-"
+	text "Kui tunned pime-"
+	next "das, et keegi sind"
+	next "jägib isegi, kui"
 
-	page "ness when nobody"
-	next "is around, HAUNTER"
-	next "is there"
+	page "kedagi pole ümber,"
+	next "on HAUNTER ligi-"
+	next "duses."
 	dex
 
 _AbraDexEntry::
-	text "It sleeps for 18"
-	next "hours a day. It"
-	next "uses a variety of"
+	text "Magab 18 tundi päe-"
+	next "vas. Kasutab mitme-"
+	next "suguseid psüühili-"
 
-	page "psychic powers"
-	next "even while it is"
-	next "asleep"
+	page "si võimeid, isegi"
+	next "magades."
 	dex
 
 _AlakazamDexEntry::
-	text "It does not like"
-	next "physical attacks."
-	next "Instead it freely"
+	text "Ei armasta füüsili-"
+	next "si rünnakuid. Sel-"
+	next "le asemel kasutab"
 
-	page "uses extra-sensory"
-	next "powers to defeat"
-	next "its foes"
+	page "vabalt vaenlaste"
+	next "võitmiseks ülemee-"
+	next "likke psüühilisi"
+
+	page "võimeid."
 	dex
 
 _PidgeottoDexEntry::
-	text "The claws on its"
-	next "feet are well"
-	next "developed. It can"
+	text "Tama jalgadel ole-"
+	next "vad küünised on"
+	next "hästi arenenud."
 
-	page "carry an TAMATAMA"
-	next "to its nest over"
-	next "100 km away"
+	page "Suudab kanda"
+	next "EXEGGCUTE oma pe-"
+	next "sasse üle 100 km"
+
+	page "kauguselt."
 	dex
 
 _PidgeotDexEntry::
-	text "It spreads its"
-	next "gorgeous wings to"
-	next "intimidate all its"
+	text "Laotab oma uhked"
+	next "tiivad, et hirmuta-"
+	next "da kõiki oma vaen-"
 
-	page "enemies. It races"
-	next "through the skies"
-	next "at Mach-2 speed"
+	page "lasi. Ta kihutab"
+	next "taevas Mach-2 kii-"
+	next "rusega."
 	dex
 
 _StarmieDexEntry::
-	text "This #MON has"
-	next "a geometric body."
-	next "Because of it,"
+	text "Sellel #MONil"
+	next "on geomeetriline"
+	next "keha. Selle tõttu"
 
-	page "the locals suspect"
-	next "that it is an"
-	next "alien creature"
+	page "kahtlustavad koha-"
+	next "likud, et ta on"
+	next "tulnukas."
 	dex
 
 _BulbasaurDexEntry::
-	text "There is a plant"
-	next "seed on its back"
-	next "from the day this"
+	text "Sellel #MONil"
+	next "on seljas sündimi-"
+	next "sest saati suur"
 
-	page "#MON is born."
-	next "The seed slowly"
-	next "grows larger"
+	page "pung. See pung kas-"
+	next "vab aeglaselt suu-"
+	next "remaks."
 	dex
 
 _VenusaurDexEntry::
-	text "A bewitching"
-	next "aroma wafts from"
-	next "its flower. The"
+	text "Tema on lillest õh-"
+	next "kub lummav aroom."
+	next "Lõhn rahustab nei-"
 
-	page "fragance becalms"
-	next "those engaged in"
-	next "a battle"
+	page "d, kes on lahin-"
+	next "gus."
 	dex
 
 _TentacruelDexEntry::
-	text "It has 80 tenta-"
-	next "cles that move"
-	next "about freely. They"
+	text "Tal on 80 vabalt"
+	next "liikuvat kombitsa-"
+	next "t. Need võivad nõe-"
 
-	page "can sting, causing"
-	next "poisoning and a"
-	next "stabbing pain"
+	page "lata, põhjustades"
+	next "mürgitust ja torke-"
+	next "valu."
 	dex
 
 _GoldeenDexEntry::
-	text "Its dorsal and"
-	next "pectoral fins are"
-	next "strongly developed"
+	text "Tema selja- ja rin-"
+	next "nauimed on tuge-"
+	next "valt arenenud nagu"
 
-	page "like muscles. It"
-	next "can swim at a"
-	next "speed of 5 knots"
+	page "lihased. Suudab"
+	next "ujuda kiirusega 5"
+	next "sõlme."
 	dex
 
 _SeakingDexEntry::
-	text "The horn on its"
-	next "head is sharp"
-	next "like a drill."
+	text "Tema pea peal olev"
+	next "sarv on terav nagu"
+	next "puur. Puurib kivi"
 
-	page "It bores a hole"
-	next "in a boulder to"
-	next "make its nest"
+	page "sisse augu, et te-"
+	next "ha sinna oma pesa."
 	dex
 
 _PonytaDexEntry::
-	text "Its body is light"
-	next "and its legs have"
-	next "amazing power."
+	text "Tema keha on kerge"
+	next "ja jalad on uskuma-"
+	next "tult võimsad. Suu-"
 
-	page "It can jump over"
-	next "Tokyo Tower with"
-	next "a single leap"
+	page "dab hüpata üle"
+	next "Tokyo Torni ühe"
+	next "hüppega."
 	dex
 
 _RapidashDexEntry::
-	text "It can gallop at"
-	next "a top speed of "
-	next "240 KPH, and can"
+	text "Suudab kapata tipp-"
+	next "kiirusega 240"
+	next "km/h, võisteldes"
 
-	page "race as fast as a"
-	next "bullet train while"
-	next "being ablaze"
+	page "ka kiirrongida."
 	dex
 
 _RattataDexEntry::
-	text "Its long fangs"
-	next "are very sharp."
-	next "They continuously"
+	text "Tema pikad kihvad"
+	next "on väga teravad."
+	next "Need kasvavad pide-"
 
-	page "grow, so it gnaws"
-	next "on hard things to"
-	next "whittle them down"
+	page "valt, nii et ta nä-"
+	next "rib kõvasid asju,"
+	next "et neid kärpida."
 	dex
 
 _RaticateDexEntry::
-	text "Its rear feet"
-	next "have three toes"
-	next "each. They are"
+	text "Tema tagajalad on"
+	next "kolme varbaga."
+	next "Need on ujulestade-"
 
-	page "webbed, enabling"
-	next "it to swim across"
-	next "rivers"
+	page "ga, võimaldades"
+	next "tal ujuda üle jõge-"
+	next "de."
 	dex
 
 _NidorinoDexEntry::
-	text "It is easily an-"
-	next "gered. By swinging"
-	next "its well-developed"
+	text "Ta ärritub kerges-"
+	next "ti. Võimsalt vehki-"
+	next "des oma hästiarene-"
 
-	page "horn wildly, it"
-	next "can even punch"
-	next "through diamond"
+	page "nud sarvega, suu-"
+	next "dab ta isegi tee-"
+	next "mandi purustada."
 	dex
 
 _NidorinaDexEntry::
-	text "The female has a"
-	next "a more gentle"
-	next "temperament. It"
+	text "Emane on rahuliku-"
+	next "ma loomuga. Eral-"
+	next "dab ultrahelikar-"
 
-	page "emits ultrasonic"
-	next "cries that can"
-	next "befuddle its foes"
+	page "jeid, mis võivad"
+	next "vaenlasi segadusse"
+	next "ajada."
 	dex
 
 _GeodudeDexEntry::
-	text "Its round form"
-	next "makes it easy to"
-	next "pick up. Some"
+	text "Tema ümar kuju"
+	next "teeb ta kergesti"
+	next "ülesvõetavaks. Mõ-"
 
-	page "people have used"
-	next "them in snowball"
-	next "fights"
+	page "ned inimesed on ka-"
+	next "sutanud neid isegi"
+	next "lumepallilahingutes."
 	dex
 
 _PorygonDexEntry::
-	text "Using the latest"
-	next "technologies,"
-	next "scientists"
+	text "Uusimate tehnoloo-"
+	next "giate abil õnnes-"
+	next "tus teadlastel lõ-"
 
-	page "finally succeeded"
-	next "in making the 1st"
-	next "artificial #MON"
+	page "puks luua esimene"
+	next "kunstlik #MON."
 	dex
 
 _AerodactylDexEntry::
-	text "It was regenerated"
-	next "from a dinosaur's"
-	next "genetic matter"
+	text "Ta taastati mere-"
+	next "vaigust leitud di-"
+	next "nosauruse geneeti-"
 
-	page "that was found in"
-	next "amber. It emits a"
-	next "high-pitched cry"
+	page "lisest materjalis-"
+	next "t. Tekitab kõrgeid"
+	next "helisid."
 	dex
 
 _MagnemiteDexEntry::
-	text "It moves while"
-	next "constantly hover-"
-	next "ing. It emits"
+	text "Liigub pidevalt"
+	next "hõljudes. Väljutab"
+	next "oma külgmistest"
 
-	page "THUNDER WAVEs from"
-	next "the magnets at its"
-	next "sides"
+	page "magnetitest KÕUE"
+	next "LAINEid."
 	dex
 
 _CharmanderDexEntry::
-	text "From the time it"
-	next "is born, a flame"
-	next "burns at the tip"
+	text "Alates sünnist põ-"
+	next "leb tema saba ot-"
+	next "sas leek. Kui see"
 
-	page "of its tail. Its"
-	next "life would end if"
-	next "it goes out"
+	page "kustub, siis lõpeb"
+	next "tema elu."
 	dex
 
 _SquirtleDexEntry::
-	text "When it retracts"
-	next "its long neck into"
-	next "its shell, it"
+	text "Kui ta tõmbab oma"
+	next "pika kaela kesta"
+	next "sisse, pritsib ta"
 
-	page "squirts out water"
-	next "with an extremely"
-	next "vigorous force"
+	page "vett välja erakord-"
+	next "selt tugeva jõuga."
 	dex
 
 _CharmeleonDexEntry::
-	text "It lashes about"
-	next "with its tail to"
-	next "knock down its"
+	text "Ta vehib oma saba-"
+	next "ga, et vastast ma-"
+	next "ha tõmmata. Seejä-"
 
-	page "opponent. It then"
-	next "tears up the foe"
-	next "with sharp claws"
+	page "rel rebib ta vaen-"
+	next "lase katki terava-"
+	next "te küünistega."
 	dex
 
 _WartortleDexEntry::
-	text "This #MON is"
-	next "very popular as a"
-	next "pet. Its fur-"
+	text "See #MON on lem-"
+	next "mikloomana väga po-"
+	next "pulaarne. Tema kar-"
 
-	page "covered tail is a"
-	next "symbol of its "
-	next "longevity"
+	page "vaga kaetud saba"
+	next "on pikaealisuse"
+	next "sümbol."
 	dex
 
 _CharizardDexEntry::
-	text "Its wings can"
-	next "carry this #MON"
-	next "close to an alti-"
+	text "Tema tiivad kanna-"
+	next "vad seda #MONi"
+	next "kuni 1400 meetri"
 
-	page "tude of 1400m. It"
-	next "blows out fire at"
-	next "high temperatures"
+	page "kõrgusele. Purskab"
+	next "tuld, mis on kõr-"
+	next "gel temperatuuril"
 	dex
 
 _OddishDexEntry::
-	text "Its scientific"
-	next "name is 'Oddium"
-	next "Wanderus.' At"
+	text "Tema teaduslik ni-"
+	next "mi on 'Oddium Wan-"
+	next "derus'. Öösiti"
 
-	page "night, it walks"
-	next "up to 300 m"
-	next "on its two roots"
+	page "käib ta, omal"
+	next "kahel juurel, kuni"
+	next "300 m."
 	dex
 
 _GloomDexEntry::
-	text "Its pistils exude"
-	next "an incredibly foul"
-	next "odor. The horrid"
+	text "Tema tolmupead eri-"
+	next "tavad uskumatult"
+	next "halba lõhna. Õudne"
 
-	page "stench can cause"
-	next "fainting at a"
-	next "distance of 2 km"
+	page "lehk võib põhjusta-"
+	next "da minestust 2 km"
+	next "kaugusel."
 	dex
 
 _VileplumeDexEntry::
-	text "Its petals are"
-	next "the largest in the"
-	next "world. It scatters"
+	text "Tema kroonlehed on"
+	next "maailma suurimad."
+	next "Levitab meelega"
 
-	page "allergy-causing"
-	next "pollen on purpose"
-	next "from its petals"
+	page "õietolmu, mis põh-"
+	next "justab allergiaid."
 	dex
 
 _BellsproutDexEntry::
-	text "Its bud resembles"
-	next "a human face."
-	next "Due to the bud,"
+	text "Tema pung sarnaneb"
+	next "inimese näoga. Pun-"
+	next "ga tõttu arvatak-"
 
-	page "it is rumored to"
-	next "be a type of"
-	next "mandrake plant"
+	page "se, et ta võib ol-"
+	next "la alrauni liigis-"
+	next "t."
 	dex
 
 _WeepinbellDexEntry::
-	text "The leafy parts"
-	next "acts as blades for"
-	next "slashing foes. It"
+	text "Tema lehtjad osad"
+	next "käituvad lõiketera-"
+	next "dena vaenlaste rün-"
 
-	page "spits a fluid that"
-	next "dissolves every-"
-	next "thing it touches"
+	page "damiseks. Ta süli-"
+	next "tab vedelikku, mis"
+	next "lahustab kõike."
 	dex
 
 _VictreebelDexEntry::
-	text "Lures prey into"
-	next "its mouth with a"
-	next "honeylike aroma."
+	text "Meelitab saaki oma"
+	next "suhu meeldiva aroo-"
+	next "miga. Abitu saak"
 
-	page "The helpless prey"
-	next "is melted in a"
-	next "dissolving fluid"
+	page "sulab lahustavas"
+	next "vedelikus."
 	dex
 
 _MissingNoDexEntry::

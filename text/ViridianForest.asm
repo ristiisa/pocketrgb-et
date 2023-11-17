@@ -14,8 +14,9 @@ _ViridianForestBattleText1::
 	done
 
 _ViridianForestEndBattleText1::
-	text "Ei! CATERPIE ei"
-	line "saa seda lõigata!"
+	text "Ei!"
+	line "CATERPIE selleks"
+	cont "ei piisa!"
 	prompt
 
 _ViridianFrstAfterBattleText1::
@@ -30,8 +31,9 @@ _ViridianForestBattleText2::
 	done
 
 _ViridianForestEndBattleText2::
-	text "Mis? Mul said"
-	line "#MONid otsa!"
+	text "Mis?"
+	line "Mul said kõik"
+	cont "#MONid otsa!"
 	prompt
 
 _ViridianFrstAfterBattleText2::
@@ -65,9 +67,10 @@ _ViridianForestText8::
 	cont "millega #MONe"
 	cont "püüda!"
 
-	para "Sa peaks alati roh-"
-	line "kem kaasas kandma"
-	cont "kui sul vaja on!"
+	para "Sa peaks alati"
+	line "rohkem kaasas"
+	cont "kandmakui sul"
+	cont "vaja on!"
 	done
 
 _ViridianForestText9::
@@ -107,14 +110,14 @@ _ViridianForestText12::
 _ViridianForestText13::
 	text "NIPID TREENERITELE"
 
-	para "Enne #MONi püüd-"
-	line "mist, proovi teda"
-	cont "väsitada!"
+	para "Enne #MONi pü-"
+	line "üdmist, proovi"
+	cont "teda väsitada!"
 
 	para "Täie tervise juu-"
 	line "res on tal piisa-"
-	cont "valt jõudu, et põ-"
-	cont "geneda!"
+	cont "valt jõudu, et"
+	cont "põgeneda!"
 	done
 
 _ViridianForestText14::

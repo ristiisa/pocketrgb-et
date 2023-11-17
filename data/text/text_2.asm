@@ -34,7 +34,7 @@ _TradeForText::
 
 _TradeSendsText::
 	text_ram wLinkEnemyTrainerName
-	text " saadab"
+	text " võtab"
 	line "@"
 	text_ram wcd6d
 	text "."
@@ -902,7 +902,7 @@ _PlayerMonFaintedText::
 
 _UseNextMonText::
 	text "Kas kasutad järg-"
-	text "mist #MONi?"
+	line "mist #MONi?"
 	done
 
 _Sony1WinText::
@@ -927,8 +927,8 @@ _LinkBattleLostText::
 
 _TrainerAboutToUseText::
 	text_ram wTrainerName
-	text " hakkab"
-	line "kasutama"
+	text ""
+	line "hakkab kasutama"
 	cont"@"
 	text_ram wEnemyMonNick
 	text "!"
@@ -939,7 +939,7 @@ _TrainerAboutToUseText::
 
 _TrainerSentOutText::
 	text_ram wTrainerName
-	text " saadab"
+	text " võtab"
 	line "pallist @"
 	text_ram wEnemyMonNick
 	text "!"
@@ -1101,12 +1101,14 @@ _MonName1Text::
 
 _Used1Text::
 	text_start
-	line "kasutas @"
+	line "kasutas"
+	cont "@"
 	text_end
 
 _Used2Text::
 	text_start
-	line "kasutas @"
+	line "kasutas"
+	cont "@"
 	text_end
 
 _InsteadText::
@@ -1139,8 +1141,8 @@ _ExclamationPoint5Text::
 	done
 
 _AttackMissedText::
-	text "<USER> rünne"
-	line "ebaõnnestus!"
+	text "<USER>"
+	line "võte ebaõnnestus!"
 	prompt
 
 _KeptGoingAndCrashedText::
