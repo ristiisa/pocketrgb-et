@@ -1,8 +1,10 @@
 _PewterCityText1::
+;;Rääkitakse, et CLEFAIRY tuli kuu pealt!
 	text "It's rumored that"
 	line "PIPPIs came"
 	cont "from the moon!"
 
+;;Neid nähti vahetult peale seda kui KUU KIVI kukkus OTSUKIMI mäele
 	para "They appeared "
 	line "after MOON STONE"
 	cont "fell on"
@@ -10,10 +12,12 @@ _PewterCityText1::
 	done
 
 _PewterCityText2::
+;;Siin pole just palju tõsiselt võetavaid #MON treenereid!
 	text "There aren't many"
 	line "serious #MON"
 	cont "trainers here!"
 
+;;Kõik püüvavad ainult PUTUKAID aga NIBI saali juht, TAKESHI, on hingega asja juures!
 	para "They're all like"
 	line "BUG CATCHERs,"
 	cont "but NIBI GYM's"
@@ -22,23 +26,27 @@ _PewterCityText2::
 	done
 
 _PewterCityText_193f1::
+;;Kas sa MUUSEUMis oled juba käinud?
 	text "Did you check out"
 	line "the MUSEUM?"
 	done
 
 _PewterCityText_193f6::
+;;Kas need MOON mäelt pärit kivistised pole mitte imelised?
 	text "Weren't those"
 	line "fossils from MT."
 	cont "MOON amazing?"
 	done
 
 _PewterCityText_193fb::
+;;Tõesti? No siis sa pead kindlasti minema!
 	text "Really?"
 	line "You absolutely"
 	cont "have to go!"
 	done
 
 _PewterCityText13::
+;;See on siin samas! Kuigi sissepääs on tasuline, on see seda väärt! Nägemist!
 	text "It's right here!"
 	line "You have to pay"
 	cont "to get in, but"
@@ -47,17 +55,20 @@ _PewterCityText13::
 	done
 
 _PewterCityText_19427::
+;;Tsss! Kas sa tead mida ma teen?
 	text "Psssst!"
 	line "Do you know what"
 	cont "I'm doing?"
 	done
 
 _PewterCityText_1942c::
+;;Täpselt! See on raske töö!
 	text "That's right!"
 	line "It's hard work!"
 	done
 
 _PewterCityText_19431::
+;;Ma pritsin #TÕRJET, et #MON mu aiast eemal hoida!
 	text "I'm spraying"
 	line "REPELLENT SPRAY to"
 	cont "keep #MON out of"
@@ -65,6 +76,7 @@ _PewterCityText_19431::
 	done
 
 _PewterCityText_1945d::
+;;Sa oled ju treener? Eks? TAKESHI otsib uusi väljakutsujaid! Tule minuga kaasa!
 	text "You're a trainer"
 	line "right? TAKESHI's"
 	cont "looking for new"
@@ -73,14 +85,16 @@ _PewterCityText_1945d::
 	done
 
 _PewterCityText14::
+;;Kohe kui sul on õige kraam, mine ja vaata TAKESHI üle!
 	text "If you have the"
 	line "right stuff, go"
 	cont "take on TAKESHI!"
 	done
 
 _PewterCityText6::
-	text "TRAINER TIPS"
+	text "NIPID TREENERITELE"
 
+;;Kõik #MONid kes lahingus, vahet pole kui vähest aega, osalevad, saavad kogemuspunkte!
 	para "Any #MON that"
 	line "takes part in"
 	cont "battle, however"
@@ -88,8 +102,9 @@ _PewterCityText6::
 	done
 
 _PewterCityText7::
-	text "NOTICE!"
+	text "TEADE!"
 
+;;MOON mäelt on viimasel ajal varastatud #MONi kivistisi! Info olemasolul, võtke ühendust NIBI politseiga!
 	para "Thieves have been"
 	line "stealing #MON"
 	cont "fossils at MT."
@@ -99,21 +114,21 @@ _PewterCityText7::
 	done
 
 _PewterCityText10::
-	text "NIBI MUSEUM"
-	line "OF SCIENCE"
+	text "NIBI TEADUS"
+	line "MUUSEUM"
 	done
 
 _PewterCityText11::
-	text "NIBI CITY"
-	line "#MON GYM"
-	cont "LEADER: TAKESHI"
+	text "NIBI LINN"
+	line "#MON SAAL"
+	cont "JUHT: TAKESHI"
 
-	para "The Rock Solid"
-	line "#MON Trainer!"
+	para "Kaljukindel"
+	line "#MON Treener!"
 	done
 
 _PewterCityText12::
-	text "NIBI CITY"
-	line "is the color of"
-	cont "gray stone."
+	text "NIBI LINN"
+	line "on halli kivi-"
+	cont "karva."
 	done

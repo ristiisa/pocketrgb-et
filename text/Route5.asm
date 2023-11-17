@@ -1,5 +1,5 @@
 _Route5Text1::
-	text "UNDERGROUND PATH"
-	line "HANADA CITY -"
-	cont "KUCHIBA CITY"
+	text "MAAALUNE TEE"
+	line "HANADA LINN -"
+	cont "KUCHIBA LINN"
 	done
