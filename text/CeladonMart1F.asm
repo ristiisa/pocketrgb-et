@@ -12,15 +12,15 @@ _CeladonMart1Text2::
 	text "1K: TEENINDUS-"
 	line "    LETT"
 
-	para "2F: TREENERITE"
+	para "2K: TREENERITE"
 	line "    TURG"
 
-	para "3F: TELEKAMäNGUDE"
+	para "3K: TELEKAMäNGUDE"
 	line "    POOD"
 
-	para "4F: KINGIPOOD"
+	para "4K: KINGIPOOD"
 
-	para "5F: APTEEK"
+	para "5K: APTEEK"
 
 	para "KATUSETERASS:"
 	line "MäNGUAUTOMAADID"

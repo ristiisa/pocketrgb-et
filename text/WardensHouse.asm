@@ -1,5 +1,5 @@
 _WardenGibberishText1::
-	text "WARDEN: Hif fuff"
+	text "VALVUR: Hif fuff"
 	line "hefifoo!"
 
 	para "Ha lof ha feef ee"
@@ -18,19 +18,20 @@ _WardenGibberishText3::
 	done
 
 _WardenTeethText1::
-	text "<PLAYER> gave the"
-	line "GOLD TEETH to the"
-	cont "WARDEN!@"
+	text "<PLAYER> andis"
+	line "KULD HAMBAD"
+	cont "VALVURILE!@"
 	text_end
 
 _WardenTeethText2::
 	text_start
 
-	para "The WARDEN popped"
-	line "in his teeth!"
+	para "WARDEN pani"
+	line "hambad suhu!"
 	prompt
 
 _WardenThankYouText::
+;;VALVUR: Aitäh! Keegi ei saanud muidu aru mida ma rääkisin.
 	text "WARDEN: Thanks,"
 	line "kid! No one could"
 	cont "understand a word"
@@ -44,43 +45,50 @@ _WardenThankYouText::
 	prompt
 
 _ReceivedHM04Text::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcf4b
 	text "!@"
 	text_end
 
 _HM04ExplanationText::
-	text "WARDEN: HM04"
-	line "teaches STRENGTH!"
+	text "VALVUR: HM04"
+	line "õpetab JÕUD!"
 
+;;Selle abil saavad #MONid rahne liigutada... seda võitluse väliselt muidugi.
 	para "It lets #MON"
 	line "move boulders"
 	cont "when you're out-"
 	cont "side of battle."
 
+;;Ahjaa, kas sa leidsid üles SALA MAJA SAFARI ALAS?
 	para "Oh yes, did you"
 	line "find SECRET HOUSE"
 	cont "in SAFARI ZONE?"
 
+;;Kui leiad, siis on sul võimalus võita HM!
 	para "If you do, you"
 	line "win an HM!"
 
+;;Ma kuulsin, et see on haruldane HM SURF.
 	para "I hear it's the"
 	line "rare SURF HM."
 	done
 
 _HM04NoRoomText::
+;;Su kott on täis!
 	text "Your pack is"
 	line "stuffed full!"
 	done
 
+;;#MON pildid ja kivistised.
 _FuchsiaHouse2Text_75176::
 	text "#MON photos"
 	line "and fossils."
 	done
 
 _FuchsiaHouse2Text_7517b::
+;;Vana #MONide kaup.
 	text "Old #MON"
 	line "merchandise."
 	done

@@ -1,21 +1,22 @@
 _CeladonMartRoofText_484ee::
+;;Mida küll talle juua anda?
 	text "Give her which"
 	line "drink?"
 	done
 
 _CeladonMartRoofText_484f3::
-	text "Yay!"
+	text "Jee!"
 
-	para "DELICIOUS WATER!"
+	para "MAITSEV VESI!"
 
-	para "Thank you!"
+	para "Aitäh!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Palun võta see!"
+	line "@"
 	text_end
 
 _CeladonMartRoofText_484f9::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcf4b
 	text "!@"
@@ -26,26 +27,26 @@ _CeladonMartRoofText_484fe::
 
 	para "@"
 	text_ram wcf4b
-	text " contains"
-	line "ICE BEAM!"
+	text " sisaldab"
+	line "JÄÄ KIIR!"
 
-	para "It can freeze the"
-	line "target sometimes!@"
+	para "Vahel see jäätab"
+	line "sihtmärgi!@"
 	text_end
 
 _CeladonMartRoofText_48504::
-	text "Yay!"
+	text "Jess!"
 
-	para "PSYCHO SODA!"
+	para "LIMONAAD!"
 
-	para "Thank you!"
+	para "Aitäh!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Sa võid selle en-"
+	line "dale saada!@"
 	text_end
 
 _CeladonMartRoofText_4850a::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcf4b
 	text "!@"
@@ -56,82 +57,90 @@ _CeladonMartRoofText_4850f::
 
 	para "@"
 	text_ram wcf4b
-	text " contains"
-	line "ROCK SLIDE!"
+	text " sisaldab"
+	line "KIVIVARING!"
 
-	para "It can spook the"
-	line "target sometimes!@"
+	para "Vahel võib see eh-"
+	line "matada sihtmärki!"
+	cont "@"
 	text_end
 
 _CeladonMartRoofText_48515::
-	text "Yay!"
+	text "Jess!"
 
-	para "MIX AU LAIT!"
+	para "MAGUS PIIM@!"
 
-	para "Thank you!"
+	para "Aitäh!"
 
-	para "You can have this"
-	line "from me!@"
+	para "Ma saan sulle sel-"
+	line "le anda!@"
 	text_end
 
 _ReceivedTM49Text::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "TM49!@"
 	text_end
 
 _CeladonMartRoofText_48520::
 	text_start
 
-	para "TM49 contains"
-	line "TRI ATTACK!@"
+	para "TM49 sisaldab"
+	line "KOLMIKRÜNNAK!@"
 	text_end
 
 _CeladonMartRoofText_48526::
-	text "You don't have"
-	line "space for this!@"
+	text "Sul pole selle"
+	line "jaoks ruumi!@"
 	text_end
 
 _CeladonMartRoofText_4852c::
-	text "No thank you!"
-	line "I'm not thirsty"
-	cont "after all!@"
+	text "Aitäh aga ma pole"
+	line "siiski janune!"
+	cont "@"
 	text_end
 
 _CeladonMartRoofText1::
+;;Minu õde on treener, usu või mitte.
 	text "My sister is a"
 	line "trainer, believe"
 	cont "it or not."
 
+;;Aga ta on nii lapsik, et ajab mind hulluks!
 	para "But, she's so"
 	line "immature, she"
 	cont "drives me nuts!"
 	done
 
 _CeladonMartRoofText_48598::
+;;Ma olen janune! Ma tahaks midagi juua!
 	text "I'm thirsty!"
 	line "I want something"
 	cont "to drink!"
 	done
 
 _CeladonMartRoofText4::
+;;Ma olen janune! Ma tahaks midagi juua!
 	text "I'm thirsty!"
 	line "I want something"
 	cont "to drink!"
 
+;;Kas anname talle jooki?
 	para "Give her a drink?"
 	done
 
 _CeladonMartRoofText6::
-	text "ROOFTOP SQUARE:"
-	line "VENDING MACHINES"
+	text "KATUSETERASS:"
+	line "MÄNGUAUTOMAADID"
 	done
 
 _VendingMachineText1::
-	text "A vending machine!"
-	line "Here's the menu!"
+	text "Mänguautomaat!"
+	line "Meil on järgnevad"
+	cont "valikud!"
 	prompt
 
 _VendingMachineText4::
+;;Oih, pole piisavalt raha!
 	text "Oops, not enough"
 	line "money!"
 	done
@@ -139,14 +148,14 @@ _VendingMachineText4::
 _VendingMachineText5::
 	text_ram wcf4b
 	text_start
-	line "popped out!"
+	line "hüppas välja!"
 	done
 
 _VendingMachineText6::
-	text "There's no more"
-	line "room for stuff!"
+	text "Pole rohkem ruumi"
+	line "asjade jaoks!"
 	done
 
 _VendingMachineText7::
-	text "Not thirsty!"
+	text "Pole janune!"
 	done
