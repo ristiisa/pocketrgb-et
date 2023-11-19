@@ -23,7 +23,7 @@ _CeruleanTrashedText_1d6b0::
 	text "I figure what's"
 	line "lost is lost!"
 
-;;Ma otustasin DIGLETTile kaevamist õpetada ilma TMita!
+;;Ma otsutasin DIGLETTile kaevamist õpetada ilma TMita!
 	para "I decided to teach"
 	line "DIGDA how to"
 	cont "DIG without a TM!"

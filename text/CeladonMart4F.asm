@@ -18,7 +18,7 @@ _CeladonMart4Text3::
 	done
 
 _CeladonMart4Text4::
-;;Väljenda end kingidega!
+;;Väljenda end kinkidega!
 	text "Express yourself"
 	line "with gifts!"
 

@@ -17,7 +17,7 @@ _AgathaBeforeBattleText::
 	line "kitseb oma"
 	cont "#DEXi kallal."
 	cont "Aga ta eksib!"
-	cont "#MONid on võt-"
+	cont "#MONid on võit-"
 	cont "lemiseks!"
 
 	para "<PLAYER>! Luba ma"

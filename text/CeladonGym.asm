@@ -204,7 +204,7 @@ _CeladonGymAfterBattleText6::
 	done
 
 _CeladonGymBattleText7::
-;;Meeldiv sinuga tuvuda. Mu hobiks on #MONide treenimine.
+;;Meeldiv sinuga tutvuda. Mu hobiks on #MONide treenimine.
 	text "Pleased to meet"
 	line "you. My hobby is"
 	cont "#MON training."

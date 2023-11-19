@@ -8,7 +8,7 @@ _CeruleanHouse2Text_74e77::
 	para "I see you have"
 	line "at least one."
 
-;;Tendes MÄRKides on peidus imelised saladused!
+;;Nendes MÄRKides on peidus imelised saladused!
 	para "Those BADGEs have"
 	line "amazing secrets!"
 	prompt
@@ -16,7 +16,7 @@ _CeruleanHouse2Text_74e77::
 _CeruleanHouse2Text_74e7c::
 	text "Nüüd siis..."
 
-;;Millist 8sast MÄRGIST sa soovidkid, et ma sulle kirjeldaksin?
+;;Millist 8sast MÄRGIST sa soovidki, et ma sulle kirjeldaksin?
 	para "Which of the 8"
 	line "BADGEs should I"
 	cont "describe?"
@@ -34,7 +34,7 @@ _CeruleanHouse2Text_74e96::
 	line "#MON increases"
 	cont "a little bit."
 
-;;Sa saad ka suvalisel hetkel kautada VÄLGUTA.
+;;Sa saad ka suvalisel hetkel kasutada VÄLGUTA.
 	para "It also lets you"
 	line "use FLASH any"
 	cont "time you desire."
@@ -88,7 +88,7 @@ _CeruleanHouse2Text_74eaa::
 	line "#MON increases"
 	cont "a little bit."
 
-;;Selle abils aad kasutada SURFA väljaspool võitlusi.
+;;Selle abil saad kasutada SURFA väljaspool võitlusi.
 	para "It also lets you"
 	line "use SURF outside"
 	cont "of battle."

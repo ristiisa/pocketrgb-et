@@ -44,7 +44,7 @@ _CeruleanGymText_5c7c8::
 	line "can now use IAI"
 	cont "CUT any time!"
 
-;;Sa saad väikseid põõsaid lõiga KIIRET LÕIGET kasutades!
+;;Sa saad väikseid põõsaid lõigata KIIRET LÕIGET kasutades!
 	para "You can IAI CUT"
 	line "down small bushes"
 	cont "to open new paths!"

@@ -11,7 +11,7 @@ _Route3Text1::
 	done
 
 _Route3BattleText1::
-;;Kuule! Ma kohtasin sind TOKINAWA METSas!
+;;Kuule! Ma kohtasin sind ju TOKINAWA METSas!
 	text "Hey! I met you in"
 	line "TOKIWA FOREST!"
 	done

@@ -81,8 +81,8 @@ _HM04NoRoomText::
 	line "stuffed full!"
 	done
 
-;;#MON pildid ja kivistised.
 _FuchsiaHouse2Text_75176::
+;;#MON pildid ja kivistised.
 	text "#MON photos"
 	line "and fossils."
 	done

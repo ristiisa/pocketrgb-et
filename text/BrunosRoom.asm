@@ -16,7 +16,7 @@ _BrunoBeforeBattleText::
 
 	para "<PLAYER>!"
 
-;;Me kulutame su ära, meie ülevoolava jõuda!
+;;Me jahvatame su tolmuks, meie ülevoolava jõuga!
 	para "We will grind you"
 	line "down with our"
 	cont "superior power!"

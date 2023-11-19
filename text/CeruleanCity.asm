@@ -101,8 +101,8 @@ _TM28NoRoomText::
 	done
 
 _CeruleanCityText_196ee::
-;;Stop!|Ma annan alla ja lahkun tülitegemata!
 	text "Stop!"
+;;Ma annan alla ja lahkun tülitegemata!
 	line "I give up! I'll"
 	cont "leave quietly!"
 	prompt
@@ -151,7 +151,7 @@ _CeruleanCityText6::
 	cont "behind this most"
 	cont "heinous crime!"
 
-;;Isegi meie politsei jõududel on raskusi selle kambada!
+;;Isegi meie politsei jõududel on raskusi selle kambaga!
 	para "Even our POLICE"
 	line "force has trouble"
 	cont "with the ROCKETs!"
@@ -207,7 +207,7 @@ _CeruleanCityText_19779::
 	done
 
 _CeruleanCityText_1977e::
-;SLOBRO eirab käsklusi
+;;SLOBRO eirab käsklusi
 	text "YADORAN"
 	line "ignored orders..."
 	done

@@ -9,7 +9,7 @@ _CeladonHotelText1::
 	done
 
 _CeladonHotelText2::
-;;Ma olen puhkusreisil oma venna ja poissõbraga
+;;Ma olen puhkusreisil oma venna ja poiss sõbraga
 	text "I'm on vacation"
 	line "with my brother"
 	cont "and boy friend."
@@ -20,7 +20,7 @@ _CeladonHotelText2::
 	done
 
 _CeladonHotelText3::
-;Miks ta küll oma venna kaasa võttis?
+;;Miks ta küll oma venna kaasa võttis?
 	text "Why did she bring"
 	line "her brother?"
 	done

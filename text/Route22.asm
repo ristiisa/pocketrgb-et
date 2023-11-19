@@ -54,8 +54,8 @@ _Route22Text_511bc::
 	prompt
 
 _Route22RivalBeforeBattleText2::
-;;<RIVAL>: What?|<PLAYER>! Milline üllatus sind siin näha!
-	text "<RIVAL>: What?"
+	text "<RIVAL>: Mida?"
+;;<PLAYER>! Milline üllatus sind siin näha!
 	line "<PLAYER>! What a"
 	cont "surprise to see"
 	cont "you here!"
@@ -103,8 +103,8 @@ _Route22RivalDefeatedText2::
 	prompt
 
 _Route22Text_511d0::
-;;<RIVAL>: Hahaha!|<PLAYER>!, kas see on tõesti parim mida sa suudad? Sa pole isegi ligilähedal minule!
 	text "<RIVAL>: Hahaha!"
+;;<PLAYER>!, kas see on tõesti parim mida sa suudad? Sa pole isegi ligilähedal minule!
 	line "<PLAYER>! That's"
 	cont "your best? You're"
 	cont "nowhere near as"

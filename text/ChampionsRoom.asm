@@ -1,5 +1,5 @@
 _GaryChampionIntroText::
-	text "<RIVAL>: Hey!"
+	text "<RIVAL>: Hei!"
 
 	para "I was looking"
 	line "forward to seeing"
