@@ -146,7 +146,7 @@ _GaryText_76125::
 	cont "#MON with"
 	cont "trust and love!"
 
-;;Ilma nendeta ei saa sa kunagi enam tšemptioniks!
+;;Ilma nendeta ei saa sa kunagi enam tšempioniks!
 	para "Without them, you"
 	line "will never become"
 	cont "a champ again!"

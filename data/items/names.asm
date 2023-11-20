@@ -36,7 +36,7 @@ ItemNames::
 	db "ELUD ÜLES@"
 	db "PROTEIIN@"
 	db "RAUD@"
-	db "KOFFEIIN@"
+	db "KOFEIIN@"
 	db "KALTSIUM@"
 	db "VÕLU KOMM@"
 	db "KARBI KIVISTIS@"

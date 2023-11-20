@@ -9,7 +9,7 @@ _CeladonMart5Text1::
 	line "increase SPECIAL"
 	cont "abilities."
 
-;;Kasuta KOFFEIINi, et tõsta kiirust.
+;;Kasuta KOFEIINi, et tõsta kiirust.
 	para "Use INDOMETACIN"
 	line "to increase SPEED."
 	done
