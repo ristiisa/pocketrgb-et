@@ -67,7 +67,7 @@ ItemNames::
 	db "KAITSE ÜLES@"
 	db "KIIRUS ÜLES@"
 	db "ERIJÕuD2@"
-	db "MÜNDIKARP@"
+	db "MÜNDI TASKU@"
 	db "OHKIDO PAKK@"
 	db "ASJAOTSIJA@"
 	db "KUMMITUSPRILLID@"

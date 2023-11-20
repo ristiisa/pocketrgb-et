@@ -24,13 +24,13 @@ _FightingDojoText_5ce98::
 	text "Indeed, I have"
 	line "lost!"
 
-;;Aga ma annan sulle valida. Kui sa ei võta meie MÄRKI...
+;;Aga ma anun sind, et sa ei võtaks meie MÄRKI.
 	para "But, I beseech"
 	line "you, do not take"
 	cont "our emblem as"
 	cont "your trophy!"
 
-;;siis ma annan sulle hinnalise võitlus #MONi!
+;;Selle asemel ma annan sulle hinnalise võitlus #MONi!
 	para "In return, I will"
 	line "give you a prized"
 	cont "fighting #MON!"
@@ -130,7 +130,7 @@ _FightingDojoAfterBattleText4::
 	done
 
 _WantHitmonleeText::
-;;Kas sa tahad raudseid jalalööke jagavat HITMONLEEd?
+;;Kas sa tahad raudseid jalalööke andvat HITMONLEEd?
 	text "You want the"
 	line "hard kicking"
 	cont "SAWAMULAR?"

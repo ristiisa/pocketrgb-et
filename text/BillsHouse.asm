@@ -24,7 +24,7 @@ _BillsHouseText_1e865::
 	done
 
 _BillsHouseText_1e86a::
-;;Kui ma olen TELEPORTEERIMISE masinas, siis minu minu arvuti taha ja käivita Rakkude Eraldamise Programm!
+;;Kui ma olen TELEPORTEERIMISE masinas, siis mine minu arvuti taha ja käivita Rakkude Eraldamise Programm!
 	text "When I'm in the"
 	line "TELEPORTER, go to"
 	cont "my PC and run the"
