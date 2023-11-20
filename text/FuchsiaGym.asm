@@ -1,15 +1,18 @@
 _KogaBeforeBattleText::
-	text "KYO: Fwahahaha!"
+	text "KYO: Muahahahaha!"
 
+;;Laps nagu sina tõesti julged mulle vastu astuda?
 	para "A mere child like"
 	line "you dares to"
 	cont "challenge me?"
 
+;;Olgu, ninja meistrina, ma näitan sulle tõelist õudu
 	para "Very well, I"
 	line "shall show you"
 	cont "true terror as a"
 	cont "ninja master!"
 
+;;Sa saad veel tunda une ja mürgi võtete meeleheidet!
 	para "You shall feel"
 	line "the despair of"
 	cont "poison and sleep"
@@ -17,10 +20,10 @@ _KogaBeforeBattleText::
 	done
 
 _KogaAfterBattleText::
-	text "Humph!"
-	line "You have proven"
-	cont "your worth!"
+	text "Mgh!"
+	line "Oled ennast"
+	cont "tõestanud!"
 
-	para "Here! Take the"
-	line "PINKBADGE!"
+	para "Palun! Võta"
+	line "ROOSAMÄRK!"
 	prompt

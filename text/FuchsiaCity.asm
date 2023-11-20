@@ -37,57 +37,63 @@ _FuchsiaCityText5::
 	done
 
 _FuchsiaCityText11::
-	text "SEKICHIKU CITY"
-	line "is the color of"
-	cont "pink flora."
+	text "SEIKICHIKU LINN"
+	line "on roosa floora"
+	cont "värvi."
 	done
 
 _FuchsiaCityText13::
+;;Kuulus SAFARI MÄNG!
 	text "The famous"
 	line "SAFARI GAME!"
 
+;;...Püüa #MONe, nii palju kui süda ihkab.
 	para "...Catch #MON"
 	line "to your heart's"
 	cont "content."
 	done
 
 _FuchsiaCityText16::
-	text "SAFARI ZONE"
-	line "WARDEN's HOME"
+	text "SAFARI ALA"
+	line "VALVURI KODU"
 	done
 
 _FuchsiaCityText17::
-	text "#MON PARADISE"
-	line "Welcome to the"
-	cont "SAFARI ZONE!"
+	text "#MON PARADIIS"
+	line "Tere tulemast"
+	cont "SAFARI ALALE!"
 	done
 
 _FuchsiaCityText18::
-	text "SEKICHIKU CITY"
-	line "#MON GYM"
-	cont "LEADER: KYO"
+	text "SEKICHIKU LINN"
+	line "#MON SAAL"
+	cont "JUHT: KYO"
 
+;;Mürgine Ninja Meister
 	para "The Poisonous"
 	line "Ninja Master"
 	done
 
 _FuchsiaCityChanseyText::
-	text "Name: LUCKY"
+	text "Nimi: LUCKY"
 
+;;Kinni püüdmine on kõik õnne küsimus.
 	para "Catching one is"
 	line "all up to chance."
 	prompt
 
 _FuchsiaCityVoltorbText::
-	text "Name: BIRIRIDAMA"
+	text "Nimi: VOLTORB"
 
+;;Täpselt nagu KOLLI PALL
 	para "The very image of"
 	line "a MONSTER BALL."
 	prompt
 
 _FuchsiaCityKangaskhanText::
-	text "Name: GARURA"
+	text "Nimi: KANGASKHAN"
 
+;;Emalik #MON kes kasvatab oma poegi kukrus, mis on tema kõhul.
 	para "A maternal #MON"
 	line "that raises its"
 	cont "young in a pouch"
@@ -95,30 +101,33 @@ _FuchsiaCityKangaskhanText::
 	prompt
 
 _FuchsiaCitySlowpokeText::
-	text "Name: YADON"
+	text "Nimi: SLOWPOKE"
 
+;;Sõbralik ja väga aeglaselt liikuv.
 	para "Friendly and very"
 	line "slow moving."
 	prompt
 
 _FuchsiaCityLaprasText::
-	text "Name: LAPLACE"
+	text "Nimi: LAPRAS"
 
-	para "A.K.A. the king"
-	line "of the seas."
+	para "Ehk merede"
+	line "kuningas."
 	prompt
 
 _FuchsiaCityOmanyteText::
-	text "Name: OMNITE"
+	text "Nimi: OMANYTE"
 
+;;#MON, kes taastati kivistisest.
 	para "A #MON that"
 	line "was resurrected"
 	cont "from a fossil."
 	prompt
 
 _FuchsiaCityKabutoText::
-	text "Name: KABUTO"
+	text "Nimi: KABUTO"
 
+;;#MON, kes taastati kivistisest.
 	para "A #MON that"
 	line "was resurrected"
 	cont "from a fossil."
