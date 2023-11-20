@@ -8,7 +8,7 @@ et = pyphen.Pyphen(lang='et')
 
 for path, _, files in walk(sys.argv[1]):
     for name in files:
-        if not name.endswith(".asm"): pass
+        if not name.endswith(".asm"): continue
 
         out = []
         shouldWrite = False
@@ -40,14 +40,14 @@ for path, _, files in walk(sys.argv[1]):
                     # print()
                     out.extend([f'\t{m[0][0] if i == 0 else "line" if i == 1 else "cont"} "{l.replace("POKé", "#")}"\n' for i, l in enumerate(dialog)])
                     j = i + 1
-                    while j < len(lines) and len(lines[j].strip()) > 0 and not lines[j].strip().startswith("prompt") and not lines[j].strip().startswith("done"):
+                    while j < len(lines) and len(lines[j].strip()) > 0 and not list(filter(lines[j].strip().startswith, ["prompt", "done", "text_end"])):
                         j = j + 1
                     i = j
                 else:
                     out.append(line)
                     i += 1
             pass
-
+        pass
         if shouldWrite:
             with open(join(path, name), "w", encoding='utf-8', errors='ignore') as file:
                 file.writelines(out)
