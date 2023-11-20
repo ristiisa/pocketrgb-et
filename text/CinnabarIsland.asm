@@ -1,9 +1,9 @@
 _CinnabarIslandText8::
-	text "The door is"
-	line "locked..."
+	text "Uks on lukus..."
 	done
 
 _CinnabarIslandText1::
+;;GURENi SAALi KATSURA on üks kummaline mees, kes on siin juba mitukümmend aastat elanud.
 	text "GUREN GYM's"
 	line "KATSURA is an odd"
 	cont "man who has lived"
@@ -11,6 +11,7 @@ _CinnabarIslandText1::
 	done
 
 _CinnabarIslandText2::
+;;Teadusuurijad teevad selles põlenud majas katseid.
 	text "Scientists conduct"
 	line "experiments in"
 	cont "the burned out"
@@ -18,20 +19,19 @@ _CinnabarIslandText2::
 	done
 
 _CinnabarIslandText3::
-	text "GUREN's red"
-	line "is the color of"
-	cont "passion."
+	text "GURENi punane on"
+	line "kire värv."
 	done
 
 _CinnabarIslandText6::
-	text "#MON LAB"
+	text "#MON LABOR"
 	done
 
 _CinnabarIslandText7::
-	text "GUREN ISLAND"
-	line "#MON GYM"
-	cont "LEADER: KATSURA"
+	text "GUREN SAAR"
+	line "#MON SAAL"
+	cont "JUHT: KATSURA"
 
-	para "The Hot-Headed"
-	line "Quiz Master!"
+	para "Kuumavereline"
+	line "Viktoriini kutt!"
 	done

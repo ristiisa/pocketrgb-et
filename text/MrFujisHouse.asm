@@ -49,7 +49,7 @@ _LavenderHouse1Text_1d94c::
 	prompt
 
 _ReceivedFluteText::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "a @"
 	text_ram wcf4b
 	text "!@"

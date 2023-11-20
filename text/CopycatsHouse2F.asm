@@ -1,33 +1,35 @@
 _CopycatsHouse2FText_5ccd4::
-	text "<PLAYER>: Hi! Do"
-	line "you like #MON?"
+	text "<PLAYER>: Tere!"
+	line "kas sulle #MONid"
+	cont "meeldivad?"
 
-	para "<PLAYER>: Uh no, I"
-	line "just asked you."
+	para "<PLAYER>: Oi ei ma"
+	line "just küsisin sult"
 
-	para "<PLAYER>: Huh?"
-	line "You're strange!"
+	para "<PLAYER>: Mis?"
+	line "Sa oled kummaline"
 
-	para "COPYCAT: Hmm?"
-	line "Quit mimicking?"
+	para "AHV: Hmm?"
+	line "Ära ahvi?"
 
+;;Aga see on ju mu lemmik hobi!
 	para "But, that's my"
 	line "favorite hobby!"
 	prompt
 
 _TM31PreReceiveText::
-	text "Oh wow!"
-	line "A PIPPI DOLL!"
+	text "Oh lahe!"
+	line "CLEFAIRY NUKK!"
 
-	para "For me?"
-	line "Thank you!"
+	para "Mulle?"
+	line "Aitäh!"
 
-	para "You can have"
-	line "this, then!"
+	para "Sa võid siis selle"
+	line "saada!"
 	prompt
 
 _ReceivedTM31Text::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcf4b
 	text "!@"
@@ -36,36 +38,36 @@ _ReceivedTM31Text::
 _TM31ExplanationText1::
 	text_start
 
-	para "TM31 contains my"
-	line "favorite, MIMIC!"
+	para "TM31 sisaldab mu"
+	line "lemmikut, AHVI!"
 
-	para "Use it on a good"
-	line "#MON!@"
+	para "Kasuta seda hea"
+	line "#MON peal!!@"
 	text_end
 
 _TM31ExplanationText2::
-	text "<PLAYER>: Hi!"
-	line "Thanks for TM31!"
+	text "<PLAYER>: Tere!"
+	line "Aitäh TM31 eest!"
 
-	para "<PLAYER>: Pardon?"
+	para "<PLAYER>: Kuidas?"
 
-	para "<PLAYER>: Is it"
-	line "that fun to mimic"
-	cont "my every move?"
+	para "<PLAYER>: Kas on"
+	line "naljakas igat mu"
+	cont "liigutust ahvida?"
 
-	para "MIMIC GIRL: You"
-	line "bet! It's a"
-	cont "scream!"
+	para "AHVIV TÜDRUK: Jah!"
+	line "Üsna lõbus!"
 	done
 
 _TM31NoRoomText::
-	text "Don't you want"
-	line "this?@"
+	text "Kas sa tahad"
+	line "seda?@"
 	text_end
 
 _CopycatsHouse2FText2::
-	text "DODO: Giiih!"
+	text "DODO: Hiiih!"
 
+;;PEEGLIKE PEEGLIKE SEINA PEAL, KES ON KÕIGE KAUNIM MAAILMA PEAL?
 	para "MIRROR MIRROR ON"
 	line "THE WALL, WHO IS"
 	cont "THE FAIREST ONE"
@@ -73,12 +75,14 @@ _CopycatsHouse2FText2::
 	done
 
 _CopycatsHouse2FText3::
+;;Või see ongi haruldane #MON? Mis? See on ju ainult nukk!
 	text "This is a rare"
 	line "#MON! Huh?"
 	cont "It's only a doll!"
 	done
 
 _CopycatsHouse2FText6::
+;;Mäng kus MARIOl on ämber peas!
 	text "A game with MARIO"
 	line "wearing a bucket"
 	cont "on his head!"
@@ -87,15 +91,15 @@ _CopycatsHouse2FText6::
 _CopycatsHouse2FText_5cd17::
 	text "..."
 
-	para "My Secrets!"
+	para "Minu Saladused!"
 
-	para "Skill: Mimicry!"
-	line "Hobby: Collecting"
-	cont "dolls!"
-	cont "Favorite #MON:"
-	cont "PIPPI!"
+	para "Oskus: Ahvimine!"
+	line "Hobi: Nukkude"
+	cont "kogumine!"
+	cont "Lemmik #MON:"
+	cont "CLEFAIRY!"
 	done
 
 _CopycatsHouse2FText_5cd1c::
-	text "Huh? Can't see!"
+	text "Mh? Ei näe!"
 	done

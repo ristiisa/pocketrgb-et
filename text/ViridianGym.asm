@@ -62,7 +62,7 @@ _ViridianGymText12::
 	done
 
 _ReceivedTM27Text::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "TM27!@"
 	text_end
 

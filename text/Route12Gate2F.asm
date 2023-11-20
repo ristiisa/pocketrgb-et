@@ -9,7 +9,7 @@ _TM39PreReceiveText::
 	prompt
 
 _ReceivedTM39Text::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "TM39!@"
 	text_end
 

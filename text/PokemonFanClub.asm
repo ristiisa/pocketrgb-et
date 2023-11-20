@@ -83,7 +83,7 @@ FanClubChairStoryText::
 	prompt
 
 ReceivedBikeVoucherText::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "a @"
 	text_ram wcf4b
 	text "!@"

@@ -56,7 +56,7 @@ _SaffronGymText_5d173::
 	done
 
 ReceivedTM46Text::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "TM46!@"
 	text_end
 

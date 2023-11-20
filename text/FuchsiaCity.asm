@@ -1,4 +1,5 @@
 _FuchsiaCityText1::
+;;Kas sa juba proovisid SAFARI MÄNGU? See on ainus koht kus osasid #MONe leiab.
 	text "Did you try the"
 	line "SAFARI GAME? Some"
 	cont "#MON can only"
@@ -6,22 +7,26 @@ _FuchsiaCityText1::
 	done
 
 _FuchsiaCityText2::
+;;SAFARI ALA sissepääsu ees on loomaaed.
 	text "SAFARI ZONE has a"
 	line "zoo in front of"
 	cont "the entrance."
 
+;;Taamal aga #MONide püüdmise koht.
 	para "Out back is the"
 	line "SAFARI GAME for"
 	cont "catching #MON."
 	done
 
 _FuchsiaCityText3::
+;;KOJI: Kus on ATSUKO? Ma lubasin talle, et kohtun temaga siin.
 	text "KOJI: Where's"
 	line "ATSUKO? I said"
 	cont "I'd meet her here."
 	done
 
 _FuchsiaCityText4::
+;;See pall seal on tegelikult #MON.
 	text "That item ball in"
 	line "there is really a"
 	cont "#MON."
@@ -40,7 +45,7 @@ _FuchsiaCityText11::
 _FuchsiaCityText13::
 	text "The famous"
 	line "SAFARI GAME!"
-	
+
 	para "...Catch #MON"
 	line "to your heart's"
 	cont "content."

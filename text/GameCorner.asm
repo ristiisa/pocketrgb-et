@@ -64,7 +64,7 @@ _CeladonGameCornerText_48d9c::
 	prompt
 
 _Received10CoinsText::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "10 coins!@"
 	text_end
 
@@ -122,7 +122,7 @@ _CeladonGameCornerText_48e26::
 	prompt
 
 _Received20CoinsText::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "20 coins!@"
 	text_end
 
@@ -145,7 +145,7 @@ _CeladonGameCornerText_48e88::
 	prompt
 
 _CeladonGameCornerText_48e8d::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "20 coins!@"
 	text_end
 

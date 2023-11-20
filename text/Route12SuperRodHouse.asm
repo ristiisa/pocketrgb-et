@@ -16,7 +16,7 @@ _Route12HouseText_564c5::
 	para "Take this and"
 	line "fish, young one!"
 
-	para "<PLAYER> received"
+	para "<PLAYER> sai"
 	line "a @"
 	text_ram wcf4b
 	text "!@"

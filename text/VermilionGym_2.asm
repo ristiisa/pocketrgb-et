@@ -24,7 +24,7 @@ _LTSurgeThunderbadgeInfoText::
 	done
 
 _ReceivedTM24Text::
-	text "<PLAYER> received "
+	text "<PLAYER> sai "
 	line "@"
 	text_ram wcf4b
 	text "!@"

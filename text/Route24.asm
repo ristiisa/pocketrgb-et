@@ -12,7 +12,7 @@ _Route24Text_51515::
 	prompt
 
 _Route24Text_5151a::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "a @"
 	text_ram wcf4b
 	text "!@"

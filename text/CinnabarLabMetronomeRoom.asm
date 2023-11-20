@@ -1,23 +1,27 @@
 _TM35PreReceiveText::
-	text "Tch-tch-tch!"
-	line "I made a cool TM!"
+	text "Tsk-Tsk-Tsk!"
+	line "Ma tegin lahenda"
+	cont "TMi!"
 
+;;Sellega saab igast nalja teha!
 	para "It can cause all"
 	line "kinds of fun!"
 	prompt
 
 _ReceivedTM35Text::
-	text "<PLAYER> received "
+	text "<PLAYER> sai "
 	line "@"
 	text_ram wcf4b
 	text "!@"
 	text_end
 
 _TM35ExplanationText::
-	text "Tch-tch-tch!"
-	line "WAG FINGER which"
-	cont "move to pick!"
+	text "Tsk-Tsk-Tsk!"
+	line "NÄPUVIIDE sellega"
+	cont "saab võtteid va-"
+	cont "lida!"
 
+;;See muudab su #MON aju sedasi, et ta oskaks kasutada võtteid, mida ta ei tea!
 	para "It tweaks your"
 	line "#MON's brain"
 	cont "into using moves"

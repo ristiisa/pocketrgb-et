@@ -15,7 +15,7 @@ _SecretHouseText_4a350::
 	prompt
 
 _ReceivedHM03Text::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcf4b
 	text "!@"

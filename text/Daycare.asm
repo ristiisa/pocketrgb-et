@@ -1,4 +1,5 @@
 _DayCareIntroText::
+;;Ma pean siin PÄEVARÜHMA. Kas ta tahaksid, et ma kasvataksin mõnda sinu #MONi?
 	text "I run a DAYCARE."
 	line "Would you like me"
 	cont "to raise one of"
@@ -6,57 +7,61 @@ _DayCareIntroText::
 	done
 
 _DayCareWhichMonText::
+;;Millist #MONi sa sooviksid, et ma kasvataksin?
 	text "Which #MON"
 	line "should I raise?"
 	prompt
 
 _DayCareWillLookAfterMonText::
-	text "Fine, I'll look"
-	line "after @"
+	text "Olgu, ma vaatan"
+	line "@"
 	text_ram wcd6d
 	text_start
-	cont "for a while."
+	cont "järele."
 	prompt
 
 _DayCareComeSeeMeInAWhileText::
+;;Tule varsti tagasi.
 	text "Come see me in"
 	line "a while."
 	done
 
 _DayCareMonHasGrownText::
-	text "Your @"
+	text "Sinu @"
 	text_ram wcd6d
 	text_start
-	line "has grown a lot!"
+	line "on kõvasti kas-"
+	cont "vanud!"
 
-	para "By level, it's"
-	line "grown by @"
+	para "Ta on kasvanud"
+	line "tasemele @"
 	text_decimal wDayCareNumLevelsGrown, 1, 3
 	text "!"
 
-	para "Aren't I great?"
+	para "Kas ma pole mitte"
+	line "tubli?"
 	prompt
 
 _DayCareOweMoneyText::
-	text "You owe me ¥@"
+	text "Oled võlgu ¥@"
 	text_bcd wDayCareTotalCost, 2 | LEADING_ZEROES | LEFT_ALIGN
 	text_start
-	line "for the return"
-	cont "of this #MON."
+	line "selle #MON"
+	cont "eest."
 	done
 
 _DayCareGotMonBackText::
-	text "<PLAYER> got"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wDayCareMonName
-	text " back!"
+	text " tagasi!"
 	done
 
 _DayCareMonNeedsMoreTimeText::
-	text "Back already?"
-	line "Your @"
+	text "Juba tagasi?"
+	line "Sinu @"
 	text_ram wcd6d
 	text_start
-	cont "needs some more"
-	cont "time with me."
+	cont "tahab veel siin"
+	cont "olla."
 	prompt

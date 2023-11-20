@@ -9,7 +9,7 @@ _Route16HouseText3::
 	prompt
 
 _ReceivedHM02Text::
-	text "<PLAYER> received"
+	text "<PLAYER> sai"
 	line "HM02!@"
 	text_end
 

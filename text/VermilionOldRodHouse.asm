@@ -16,7 +16,7 @@ _VermilionHouse2Text_560b6::
 	para "Take this and"
 	line "fish, young one!"
 
-	para "<PLAYER> received"
+	para "<PLAYER> sai"
 	line "an @"
 	text_ram wcf4b
 	text "!@"

@@ -17,7 +17,7 @@ _FuchsiaHouse3Text_561c2::
 	para "Take this and"
 	line "fish, young one!"
 
-	para "<PLAYER> received"
+	para "<PLAYER> sai"
 	line "a @"
 	text_ram wcf4b
 	text "!@"
