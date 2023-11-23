@@ -1,10 +1,10 @@
 _SSAnne7RubText::
-;;Oaa... Ma tunnen end halvasti! Upp! Merehaigus...
+;;KAPTEN: Oaa... Ma tunnen end halvasti! Upp! Merehaigus...
 	text "CAPTAIN: Ooargh..."
 	line "I feel hideous..."
 	cont "Urrp! Seasick..."
 
-;;Hõõrutud. KAPTEN on tagasi!
+;;<PLAYER> masseeris KAPTENi selga!
 	para "<PLAYER> rubbed"
 	line "the CAPTAIN's"
 	cont "back!"
@@ -14,12 +14,12 @@ _SSAnne7RubText::
 	text_end
 
 _ReceivingHM01Text::
-;;Pfff! Aitäh! Ma tunnen end palju paremini!
+;;Huuh! Aitäh! Ma tunnen end palju paremini!
 	text "CAPTAIN: Whew!"
 	line "Thank you! I"
 	cont "feel much better!"
 
-;;Tahad näha mu KIIRE LÕIKE tehnikat?
+;;Tahad näha mu KIIRE LÕIKE võtet?
 	para "You want to see"
 	line "my IAI CUT"
 	cont "technique?"
@@ -28,11 +28,11 @@ _ReceivingHM01Text::
 	para "I could show you"
 	line "if I wasn't ill..."
 
-;;Ma tean! Võid endale jätta!
+;;Ma tean! Sa võid selle endale saada!
 	para "I know! You can"
 	line "have this!"
 
-;;Õpeta seda oma #MONile ja näed KIIRET LÕIGET igal ajal.
+;;Õpeta seda oma #MONile, kuidas ta KIIRELT LÕIKAB.
 	para "Teach it to your"
 	line "#MON and you"
 	cont "can see it IAI"
@@ -40,15 +40,14 @@ _ReceivingHM01Text::
 	prompt
 
 _ReceivedHM01Text::
-;;sain
-	text "<PLAYER> got"
+	text "<PLAYER> käes"
 	line "@"
 	text_ram wcf4b
 	text "!@"
 	text_end
 
 _SSAnne7Text_61932::
-;;Pfff!
+;;KAPTEN: Huuh!
 	text "CAPTAIN: Whew!"
 
 ;;Nüüd, mil ma pole enam haige, ma arvan, et on aeg.
@@ -64,7 +63,7 @@ _HM01NoRoomText::
 	done
 
 _SSAnne7Text2::
-;;Sa poleks pidanud vaatama!
+;;Väkk! Sa poleks pidanud vaatama!
 	text "Yuck! Shouldn't"
 	line "have looked!"
 	done

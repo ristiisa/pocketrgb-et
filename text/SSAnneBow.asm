@@ -24,38 +24,36 @@ _SSAnne5BattleText1::
 ;;Hei sõbrake!
 	text "Hey matey!"
 
-;;Lähme hüppame natukene!
+;;Lähme keerutame natukene!
 	para "Let's do a little"
 	line "jig!"
 	done
 
 _SSAnne5EndBattleText1::
-;;Sa oled hämmastav!
-	text "You're"
-	line "impressive!"
+	text "Sa oled"
+	line "hämmastav!"
 	prompt
 
 _SSAnne5AfterBattleText1::
-;;Mis Sa arvad, palju erinevaid #MONe seal on?
+;;Mis Sa arvad, kui palju erinevaid #MONe seal on?
 	text "How many kinds of"
 	line "#MON do you"
 	cont "think there are?"
 	done
 
 _SSAnne5BattleText2::
-;;Hei! Oled Sa merehaige?
+;;Hei! Ega Sa merehaige pole?
 	text "Ahoy there!"
 	line "Are you seasick?"
 	done
 
 _SSAnne5EndBattleText2::
-;;Ma olin lihtsalt hooletu!
-	text "I was"
-	line "just careless!"
+	text "Ma olin"
+	line "lihtsalt hooletu!"
 	prompt
 
 _SSAnne5AfterBattleText2::
-;;Mu isa ütles seal on 100 erinevat #MONi. Ma arvan, et on rohkem.
+;;Mu isa ütles, et on 100 erinevat #MONi. Ma arvan, et on rohkem.
 	text "My Pa said there"
 	line "are 100 kinds of"
 	cont "#MON. I think"

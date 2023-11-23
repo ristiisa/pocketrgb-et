@@ -11,9 +11,8 @@ _SSAnne10BattleText1::
 	done
 
 _SSAnne10EndBattleText1::
-;;Õige! Head ööd, kutt!
-	text "Right!"
-	line "Good fight, mate!"
+	text "Õige!"
+	line "Head ööd, kutt!"
 	prompt
 
 _SSAnne10AfterBattleText1::
@@ -29,13 +28,12 @@ _SSAnne10BattleText2::
 	done
 
 _SSAnne10EndBattleText2::
-;;Su vaim uputas mu!
-	text "Your"
-	line "spirit sank me!"
+	text "Sinu"
+	line "vaim uputas mu!"
 	prompt
 
 _SSAnne10AfterBattleText2::
-;;Nägid GURU KALAMEEST VERMILIONis?
+;;Nägid GURU KALAMEEST KUCHIBAs?
 	text "Did you see the"
 	line "FISHING GURU in"
 	cont "KUCHIBA CITY?"
@@ -48,13 +46,12 @@ _SSAnne10BattleText3::
 	done
 
 _SSAnne10EndBattleText3::
-;;OK, Sa pole halb.
-	text "OK, "
-	line "you're not bad."
+	text "OK,"
+	line "Sa pole halb."
 	prompt
 
 _SSAnne10AfterBattleText3::
-;;Me püüdsime kinni kõik oma #MONid, kui merel olime.
+;Me püüdsime kõik oma #MONid merel olles.
 	text "We caught all our"
 	line "#MON while"
 	cont "out at sea!"
@@ -67,9 +64,8 @@ _SSAnne10BattleText4::
 	text_end
 
 _SSAnne10EndBattleText4::
-;;Ai! Kaotasin ta!
-	text "Argh!"
-	line "Lost it!"
+	text "Ai!"
+	line "Kaotasin ta!"
 	prompt
 
 _SSAnne10AfterBattleText4::
@@ -80,27 +76,26 @@ _SSAnne10AfterBattleText4::
 	done
 
 _SSAnne10BattleText5::
-;;Sõbrake, Sa kõnnid plangul, kui kaotad!
+;;Sõbrake, Sa kõnnid plangule, kui kaotad!
 	text "Matey, you're"
 	line "walking the plank"
 	cont "if you lose!"
 	done
 
 _SSAnne10EndBattleText5::
-;;Ai! Sain lapse käest pähe!
-	text "Argh!"
-	line "Beaten by a kid!"
+	text "Ai!"
+	line "Sain lapse käest pähe!"
 	prompt
 
 _SSAnne10AfterBattleText5::
-;;Meduusid triivivad vahel laeva.
+;;Meduusid triivivad vastu laeva.
 	text "Jellyfish some-"
 	line "times drift into"
 	cont "the ship."
 	done
 
 _SSAnne10BattleText6::
-;;Hei võõras! Peatu ja räägi!
+;;Hei võõras! Peatu ja lobise!
 	text "Hello stranger!"
 	line "Stop and chat!"
 
@@ -110,10 +105,8 @@ _SSAnne10BattleText6::
 	done
 
 _SSAnne10EndBattleText6::
-;;Pagan! Lasin selle minema!
-	text "Darn!"
-	line "I let that one"
-	cont "get away!"
+	text "Pagan!"
+	line "Lasin selle minema"
 	prompt
 
 _SSAnne10AfterBattleText6::

@@ -8,15 +8,14 @@ _SSAnne8BattleText1::
 	text "I travel alone"
 	line "on my journeys!"
 
-;;Mu #MON on mu ainsad sõbrad!
+;;Mu #MONid on mu ainsad sõbrad!
 	para "My #MON are my"
 	line "only friends!"
 	done
 
 _SSAnne8EndBattleText1::
-;;Minu, minu sõbrad...
-	text "My, my"
-	line "friends..."
+	text "Minu,"
+	line "minu sõbrad..."
 	prompt
 
 _SSAnne8AfterBattleText1::
@@ -32,9 +31,8 @@ _SSAnne8BattleText2::
 	done
 
 _SSAnne8EndBattleText2::
-;;Mhmm! Jäme laps!
-	text "Humph!"
-	line "You rude child!"
+	text "Fui!"
+	line "Jäme laps!"
 	prompt
 
 _SSAnne8AfterBattleText2::
@@ -44,43 +42,41 @@ _SSAnne8AfterBattleText2::
 	done
 
 _SSAnne8BattleText3::
-;;Ma armastan #MON! Sina kah?
+;;Ma armastan #MONi! Sina kah?
 	text "I love #MON!"
 	line "Do you?"
 	done
 
 _SSAnne8EndBattleText3::
-;;Vau! Sa ole lahe!
-	text "Wow! "
-	line "You're great!"
+	text "Vau!"
+	line "Sa oled lahe!"
 	prompt
 
 _SSAnne8AfterBattleText3::
-;;Võin ma olla Su sõber, OK?
+;;Luba ma olen Su sõber, palun?
 	text "Let me be your"
 	line "friend, OK?"
 
-;;Siis me saame vahetada #MON!
+;;Siis me saame vahetada #MONe!
 	para "Then we can trade"
 	line "#MON!"
 	done
 
 _SSAnne8BattleText4::
-;;Ma korjasin need #MON! kokku üle maailma!
+;;Ma kogusin need #MONid! kokku üle maailma!
 	text "I collected these"
 	line "#MON from all"
 	cont "around the world!"
 	done
 
 _SSAnne8EndBattleText4::
-;;Oh ei! Ma otsisin neid kõikjalt!
-	text "Oh no!"
-	line "I went around the"
-	cont "world for these!"
+	text "Oh ei!"
+	line "Ma otsisin neid"
+	cont "kõikjalt!"
 	prompt
 
 _SSAnne8AfterBattleText4::
-;;Sa tegid haiget mu vaesele maisele #MON!
+;;Sa tegid haiget mu vaesele maisele #MONile!
 	text "You hurt my poor"
 	line "worldly #MON!"
 
@@ -98,7 +94,7 @@ _SSAnne8Text5::
 	done
 
 _SSAnne8Text6::
-;;Reis on nii elegantne ja hubane!
+;;See kruiis on nii elegantne ja hubane!
 	text "A cruise is so"
 	line "elegant yet cozy!"
 	done
@@ -120,7 +116,7 @@ _SSAnne8Text11::
 	text "Ssh! I'm a GLOBAL"
 	line "POLICE agent!"
 
-;;Ma olen ROCKET GÄNGI jälil!
+;;Ma olen RAKETI KAMBA jälil!
 	para "I'm on the trail"
 	line "of ROCKET GANG!"
 	done

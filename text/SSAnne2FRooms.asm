@@ -1,17 +1,17 @@
 _SSAnne9Text_61bf2::
-;;Ma pole ühelgi oma reisil näinud kunagi ühtegi #MONi nii magamas!
+;;Ma pole ühelgi oma kruiisil näinud kunagi ühtegi #MONi nii magamas!
 	text "In all my travels"
 	line "I've never seen"
 	cont "any #MON sleep"
 	cont "like this one!"
 
-;;See oli midagi sellist!
+;;Ta tegi midagi sellist!
 	para "It was something"
 	line "like this!"
 	prompt
 
 _SSAnne9Text_61c01::
-;;Ahjaa, ma olen näinud mõningaid #MON praami inimesi teisel pool vett!
+;;Ahjaa, ma olen näinud mõningaid #MONe ka inimesi sõidutamas üle vee!
 	text "Ah yes, I have"
 	line "seen some #MON"
 	cont "ferry people"
@@ -25,7 +25,7 @@ _SSAnne9Text_61c10::
 	done
 
 _SSAnne9Text_61c1f::
-;;Oled Sa käinud FUCHSIA LINNA SAFARI PIIRKONNAS?
+;;Oled Sa käinud FUCHSIA LINNA SAFARI ALAS?
 	text "Have you gone to"
 	line "the SAFARI ZONE"
 	cont "in SEKICHIKU CITY?"
@@ -36,14 +36,14 @@ _SSAnne9Text_61c1f::
 	done
 
 _SSAnne9Text_61c2e::
-;;Mina ja minu Isa arvame, et SAFARI PIIRKOND on äge!
+;;Mina ja minu Isa arvame, et SAFARI ALA on äge!
 	text "Me and my Daddy"
 	line "think the SAFARI"
 	cont "ZONE is awesome!"
 	done
 
 _SSAnne9Text_61c3d::
-;;KAPTEN nägi välja tõsiselt haige ja kahvatuna!
+;;KAPTEN nägi välja tõsiselt haige ja kahvatu!
 	text "The CAPTAIN looked"
 	line "really sick and"
 	cont "pale!"
@@ -63,10 +63,9 @@ _SSAnne9BattleText1::
 	done
 
 _SSAnne9EndBattleText1::
-;;Hea võitlus! Ah, ma tunnen end jälle noorena!
-	text "Good"
-	line "fight! Ah, I feel"
-	cont "young again!"
+	text "Hea"
+	line "võitlus! Ah, ma tunnen"
+	cont "end jälle noorena!"
 	prompt
 
 _SSAnne9AfterBattleText1::
@@ -82,9 +81,8 @@ _SSAnne9BattleText2::
 	done
 
 _SSAnne9EndBattleText2::
-;;Ma olen täiesti läbi!
-	text "I'm"
-	line "all out!"
+	text "Ma olen"
+	line "täiesti läbi!"
 	prompt
 
 _SSAnne9AfterBattleText2::
@@ -98,38 +96,36 @@ _SSAnne9AfterBattleText2::
 	done
 
 _SSAnne9BattleText3::
-;;Kumb Sulle meeldib, tugeb või haruldane #MON?
+;;Kumb Sulle meeldib, tugev või haruldane #MON?
 	text "Which do you like,"
 	line "a strong or a"
 	cont "rare #MON?"
 	done
 
 _SSAnne9EndBattleText3::
-;;Ma pean tervitama Sind!
-	text "I must"
-	line "salute you!"
+	text "Ma pean"
+	line "Sulle au andma!"
 	prompt
 
 _SSAnne9AfterBattleText3::
-;;Ma eelistan tugevat ja haruldast #MONi.
+;;Ma eelistan tugevaid ja haruldasi #MONe.
 	text "I prefer strong"
 	line "and rare #MON."
 	done
 
 _SSAnne9BattleText4::
-;;Ma pole Sind varem näinud peol.
+;;Ma pole varem Sind siinsetel pidudel näinud.
 	text "I never saw you"
 	line "at the party."
 	done
 
 _SSAnne9EndBattleText4::
-;;Võta rahulikult!
-	text "Take"
-	line "it easy!"
+	text "Võta"
+	line "rahulikult!"
 	prompt
 
 _SSAnne9AfterBattleText4::
-;;Oh, ma jumaldan Su tugevat #MONi!
+;;Oh, ma jumaldan Su tugevaid #MONe!
 	text "Oh, I adore your"
 	line "strong #MON!"
 	done

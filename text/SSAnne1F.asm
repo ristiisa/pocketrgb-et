@@ -1,5 +1,5 @@
 _SSAnne1Text1::
-;;Tere hommikust! Ma olen kelner siin laevas!
+;;Bonjour! Ma olen kelner siin laevas!
 	text "Bonjour!"
 	line "I am le waiter on"
 	cont "this ship!"
@@ -9,7 +9,7 @@ _SSAnne1Text1::
 	line "to serve you any-"
 	cont "thing you please!"
 
-;;Haa! Le tugev, vaikne tüüp!
+;;Haa! Le tugev, vaikne tÃ¼Ã¼p!
 	para "Ah! Le strong"
 	line "silent type!"
 	done
@@ -19,7 +19,7 @@ _SSAnne1Text2::
 	text "The passengers"
 	line "are restless!"
 
-;;Tülpinumad võivad ärritada sind.
+;;TÃ¼lpinumad vÃµivad sind Ã¤rritada.
 	para "You might be"
 	line "challenged by the"
 	cont "more bored ones!"

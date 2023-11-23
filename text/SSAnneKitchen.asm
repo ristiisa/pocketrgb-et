@@ -1,18 +1,18 @@
 _SSAnne6Text1::
-;;Sina kullake! Meil on kiire! Tule eest!
+;;Sina mon petit! Meil on kiire! Tule eest!
 	text "You, mon petit!"
 	line "We're busy here!"
 	cont "Out of the way!"
 	done
 
 _SSAnne6Text2::
-;;Ma nägin vana palli prügikastis.
+;;Ma nägin üht imelikku palli prügikastis.
 	text "I saw an odd ball"
 	line "in the trash."
 	done
 
 _SSAnne6Text3::
-;;Mul on nii kiire, ma muutun uimaseks!
+;;Mul on nii kiire, et pea käib ringi!
 	text "I'm so busy I'm"
 	line "getting dizzy!"
 	done
@@ -21,7 +21,7 @@ _SSAnne6Text4::
 	text "Hum-de-hum-de-"
 	line "ho..."
 
-;;Ma koorin kartuleid iga päev! Mhm-mhm...
+;;Ma koorin kartuleid iga päev! Tut-tut-tuu...
 	para "I peel spuds"
 	line "every day!"
 	cont "Hum-hum..."
@@ -38,36 +38,36 @@ _SSAnne6Text5::
 	done
 
 _SSAnne6Text6::
-;;Nuusuta...nuff...
+;;Nuuks...nuuks...
 	text "Snivel...Sniff..."
 
-;;Ma haistan ainult kooritud sibulaid... Nuusuta...
+;;Ma haistan ainult kooritud sibulaid... nuuks...
 	para "I only get to"
 	line "peel onions..."
 	cont "Snivel..."
 	done
 
 _SSAnne6Text_61807::
-;;Mhm! Ma tõesti olen KOKK!
+;;Mhm! Ma tõesti olen le KOKK!
 	text "Er-hem! Indeed I"
 	line "am le CHEF!"
 
-;;Pearoog on
+;;le pearoog on
 	para "Le main course is"
 	prompt
 
 _SSAnne6Text_6180c::
-;;Lõhesalat!
+;;Salat du lõhest!
 	text "Salmon du Salad!"
 
-;;Külalised võivad närida uuesti tema kala!
+;;Külalised võivad küll viriseda, et jälle kala, kuid mis parata!
 	para "Les guests may"
 	line "gripe it's fish"
 	cont "again, however!"
 	done
 
 _SSAnne6Text_61811::
-;;Angerjad grillil!
+;;Angerjad au grillil!
 	text "Eels au Barbecue!"
 
 ;;Ma kardan, et külalised hakkavad mässama.
