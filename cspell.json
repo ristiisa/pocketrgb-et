@@ -6,18 +6,25 @@
         "CStyleComment"
     ],
     "enableFiletypes": [
+        "asm-collection",
         "z80-macroasm"
     ],
     "words": [
+        "Bonjour",
         "DIGLETT",
+        "FUCHSIA",
         "GUREN",
         "HANADA",
+        "Huuh",
+        "Kutt",
         "OTSUKIMI",
         "PLAYER",
         "RIVAL",
+        "SAFARI",
         "tiim",
         "TOKINAWA",
         "TOKIWA",
-        "tšempion"
+        "tšempion",
+        "Väkk"
     ]
 }

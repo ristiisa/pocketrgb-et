@@ -1,5 +1,5 @@
 _SSAnne8Text8::
-	text "PUKURIN: Puup"
+	text "WIGGLYTUFF: Puup"
 	line "pupuu!@"
 	text_end
 
@@ -63,7 +63,7 @@ _SSAnne8AfterBattleText3::
 	done
 
 _SSAnne8BattleText4::
-;;Ma kogusin need #MONid! kokku üle maailma!
+;;Ma kogusin need #MONid kokku üle maailma!
 	text "I collected these"
 	line "#MON from all"
 	cont "around the world!"
@@ -76,11 +76,11 @@ _SSAnne8EndBattleText4::
 	prompt
 
 _SSAnne8AfterBattleText4::
-;;Sa tegid haiget mu vaesele maisele #MONile!
+;;Sa tegid haiget mu vaesele maailma näinud #MONidele!
 	text "You hurt my poor"
 	line "worldly #MON!"
 
-;;Ma nõuan, et Sa parandaksid nad #MON Keskuses!
+;;Ma nõuan, et Sa raviksid nad #MON KESKUSES!
 	para "I demand that you"
 	line "heal them at a"
 	cont "#MON CENTER!"

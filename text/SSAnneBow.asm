@@ -1,4 +1,4 @@
-_SSAnne5Text1::
+ˇ_SSAnne5Text1::
 ;;Pidu on läbi. Laev lahkub peagi.
 	text "The party's over."
 	line "The ship will be"
@@ -21,7 +21,7 @@ _SSAnne5Text3::
 	done
 
 _SSAnne5BattleText1::
-;;Hei sõbrake!
+;;Hei, sõbrake!
 	text "Hey matey!"
 
 ;;Lähme keerutame natukene!
@@ -30,12 +30,12 @@ _SSAnne5BattleText1::
 	done
 
 _SSAnne5EndBattleText1::
-	text "Sa oled"
-	line "hämmastav!"
+	text "Sa"
+	line "oled hämmastav!"
 	prompt
 
 _SSAnne5AfterBattleText1::
-;;Mis Sa arvad, kui palju erinevaid #MONe seal on?
+;;Mis Sa arvad, kui palju erinevaid #MONe on kokku?
 	text "How many kinds of"
 	line "#MON do you"
 	cont "think there are?"

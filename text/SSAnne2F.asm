@@ -59,7 +59,7 @@ _SSAnneRivalWonText::
 	prompt
 
 _SSAnneRivalCaptainText::
-;;Ma kuulsin, et KIIRE LÕIKE meister on ka pardal.
+;;<RIVAL>: Ma kuulsin, et KIIRE LÕIKE meister on ka pardal.
 	text "<RIVAL>: I heard"
 	line "there was a IAI"
 	cont "CUT master on"

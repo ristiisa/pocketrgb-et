@@ -1,5 +1,5 @@
-_SSAnne6Text1::
-;;Sina mon petit! Meil on kiire! Tule eest!
+_SSAnne6Text1:
+;;Sina mon petit! Meil on kiire! Eest ära!
 	text "You, mon petit!"
 	line "We're busy here!"
 	cont "Out of the way!"
@@ -28,7 +28,7 @@ _SSAnne6Text4::
 	done
 
 _SSAnne6Text5::
-;;Kuulsid, mida Snorlax teeb?
+;;Kuulsid, mida SNORLAX teeb?
 	text "Did you hear about"
 	line "KABIGON?"
 
@@ -52,7 +52,7 @@ _SSAnne6Text_61807::
 	text "Er-hem! Indeed I"
 	line "am le CHEF!"
 
-;;le pearoog on
+;;Le pearoog on
 	para "Le main course is"
 	prompt
 

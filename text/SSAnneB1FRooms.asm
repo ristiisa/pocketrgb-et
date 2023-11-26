@@ -1,10 +1,10 @@
 _SSAnne10Text8::
-	text "GORIKY: Gwoh!"
+	text "MACHOKE: Gwoh!"
 	line "Goggoh!@"
 	text_end
 
 _SSAnne10BattleText1::
-;;Tead, mida nad arvad meremestest ja võitlusest!
+;;Tead ju küll, mida nad arvad meremestest ja võitlusest!
 	text "You know what they"
 	line "say about sailors"
 	cont "and fighting!"
@@ -29,7 +29,8 @@ _SSAnne10BattleText2::
 
 _SSAnne10EndBattleText2::
 	text "Sinu"
-	line "vaim uputas mu!"
+	line "võitlustahe upu-"
+	cont "tas mu!"
 	prompt
 
 _SSAnne10AfterBattleText2::
@@ -65,7 +66,7 @@ _SSAnne10BattleText4::
 
 _SSAnne10EndBattleText4::
 	text "Ai!"
-	line "Kaotasin ta!"
+	line "Kaotasin!"
 	prompt
 
 _SSAnne10AfterBattleText4::
@@ -84,7 +85,8 @@ _SSAnne10BattleText5::
 
 _SSAnne10EndBattleText5::
 	text "Ai!"
-	line "Sain lapse käest pähe!"
+	line "Sain lapse"
+	cont "käest pähe!"
 	prompt
 
 _SSAnne10AfterBattleText5::
@@ -106,7 +108,7 @@ _SSAnne10BattleText6::
 
 _SSAnne10EndBattleText6::
 	text "Pagan!"
-	line "Lasin selle minema"
+	line "Lasin selle minema!"
 	prompt
 
 _SSAnne10AfterBattleText6::
@@ -117,7 +119,7 @@ _SSAnne10AfterBattleText6::
 	done
 
 _SSAnne10Text7::
-;;Mu sõps, Machoke, on väga tugev!
+;;Mu sõps, MACHOKE, on väga tugev!
 	text "My buddy, GORIKY,"
 	line "is super strong!"
 

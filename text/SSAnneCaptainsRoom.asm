@@ -9,12 +9,13 @@ _SSAnne7RubText::
 	line "the CAPTAIN's"
 	cont "back!"
 
+;;Mas-mas... Mas-mas...@
 	para "Rub-rub..."
 	line "Rub-rub...@"
 	text_end
 
 _ReceivingHM01Text::
-;;Huuh! Aitäh! Ma tunnen end palju paremini!
+;;KAPTEN: Huuh! Aitäh! Ma tunnen end palju paremini!
 	text "CAPTAIN: Whew!"
 	line "Thank you! I"
 	cont "feel much better!"
@@ -24,7 +25,7 @@ _ReceivingHM01Text::
 	line "my IAI CUT"
 	cont "technique?"
 
-;;Ma näitaks Sulle, kui ma poleks haige...
+;;Ma näitaks Sulle, kui mul poleks nii paha...
 	para "I could show you"
 	line "if I wasn't ill..."
 
@@ -32,7 +33,7 @@ _ReceivingHM01Text::
 	para "I know! You can"
 	line "have this!"
 
-;;Õpeta seda oma #MONile, kuidas ta KIIRELT LÕIKAB.
+;;Õpeta seda oma #MONile, ja näe kuidas ta KIIRELT LÕIKAB.
 	para "Teach it to your"
 	line "#MON and you"
 	cont "can see it IAI"
@@ -40,7 +41,7 @@ _ReceivingHM01Text::
 	prompt
 
 _ReceivedHM01Text::
-	text "<PLAYER> käes"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcf4b
 	text "!@"
@@ -69,7 +70,7 @@ _SSAnne7Text2::
 	done
 
 _SSAnne7Text3::
-;;Kuidas alistada merehaigus... KAPTEN loeb seda!
+;;Kapten loeb raamatut nimega "Kuidas alistada merehaigus"...
 	text "How to Conquer"
 	line "Seasickness..."
 	cont "The CAPTAIN's"

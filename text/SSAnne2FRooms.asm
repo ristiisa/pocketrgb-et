@@ -1,5 +1,5 @@
 _SSAnne9Text_61bf2::
-;;Ma pole ühelgi oma kruiisil näinud kunagi ühtegi #MONi nii magamas!
+;;Ma pole ühelgi oma reisil näinud kunagi ühtegi #MONi nii magamas!
 	text "In all my travels"
 	line "I've never seen"
 	cont "any #MON sleep"
@@ -64,8 +64,9 @@ _SSAnne9BattleText1::
 
 _SSAnne9EndBattleText1::
 	text "Hea"
-	line "võitlus! Ah, ma tunnen"
-	cont "end jälle noorena!"
+	line "võitlus! Ah, ma"
+	cont "tunnen end jälle"
+	cont "noorena!"
 	prompt
 
 _SSAnne9AfterBattleText1::
