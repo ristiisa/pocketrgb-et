@@ -1,5 +1,5 @@
 _SilphCo10Text_5a1d3::
-;;Waaaa! Ma kardan!
+;;Äh äää! Ma kardan!
 	text "Waaaaa!"
 	cont "I'm scared!"
 	done
@@ -11,7 +11,7 @@ _SilphCo10Text_5a1d8::
 	done
 
 _SilphCo10BattleText1::
-;;Teretulemas 10F-le! Nii hea, et Sa liitusid!
+;;Teretulemas 10. korrusele! Nii hea, et Sa liitusid!
 	text "Welcome to the"
 	line "10F! So good of"
 	cont "you to join me!"

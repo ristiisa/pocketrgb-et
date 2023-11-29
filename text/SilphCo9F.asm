@@ -27,14 +27,14 @@ _SilphCo9EndBattleText1::
 	prompt
 
 _SilphCo9AfterBattleText1::
-;;Sinu vanusena alustasin ma treenerina...
+;;Kui ma oleks ka Sinu vanusena treenerina alustasin...
 	text "If I had started"
 	line "as a trainer at"
 	cont "your age..."
 	done
 
 _SilphCo9BattleText2::
-;;Sinu #MONil on nõrkused! Ma saan neid parandada!
+;;Sinu #MONil on nõrkused! Ma saan neile pihta!
 	text "Your #MON have"
 	line "weak points! I"
 	cont "can nail them!"
@@ -65,7 +65,7 @@ _SilphCo9EndBattleText3::
 	prompt
 
 _SilphCo9AfterBattleText3::
-;;Mu vennad maksavad mulle kätte!
+;;Mu vennad maksavad mu eest kätte!
 	text "My brothers will"
 	line "avenge me!"
 	done

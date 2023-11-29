@@ -58,7 +58,7 @@ _SilphCo8EndBattleText3::
 	prompt
 
 _SilphCo8AfterBattleText3::
-;;Mu vennad tegelevad sellega!
+;;Mu vennad tegelevad Sinuga!
 	text "I'll leave you up"
 	line "to my brothers!"
 	done

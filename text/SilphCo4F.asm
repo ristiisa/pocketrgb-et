@@ -58,7 +58,7 @@ _SilphCo4EndBattleText4::
 	prompt
 
 _SilphCo4AfterBattleText4::
-;;Ma parem ütlen BOSSILE 11F-s!
+;;Ma parem ütlen BOSSILE 11. korrusel!
 	text "I better tell the"
 	line "BOSS on 11F!"
 	done
