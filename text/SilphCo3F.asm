@@ -6,12 +6,12 @@ _SilphCo3Text_59ff9::
 
 _SilphCo3Text_59ffe::
 	text "<PLAYER>! Sa ja"
-	line "Sinu #MON"
+	line "Sinu #MONid"
 	cont "päästsid meid!"
 	done
 
 _SilphCo3BattleText1::
-;;Lõpeta meiega jamamine!
+;;Lõpeta meiega jamamine, tatt!
 	text "Quit messing with"
 	line "us, kid!"
 	done
@@ -22,7 +22,7 @@ _SilphCo3EndBattleText1::
 	prompt
 
 _SilphCo3AfterBattleText1::
-;;Vihjet tahad? Sa võid KAARDIGA uksi avada!
+;;Vihjet tahad? Sa võid VÕTMEKAARDIGA uksi avada!
 	text "A hint? You can"
 	line "open doors with a"
 	cont "CARD KEY!"
@@ -37,13 +37,13 @@ _SilphCo3BattleText2::
 
 _SilphCo3EndBattleText2::
 	text "Sa"
-	line "said aru!"
+	line "said must jagu!"
 	prompt
 
 _SilphCo3AfterBattleText2::
-;;Huuh... RAKETI KAMP ütles, et kui ma aitan neid, lasevad nad mul uurida #MONi!
-	text "Humph..."
+	text "Ufff..."
 
+;;RAKETI KAMP ütles, et kui ma neid aitan, lasevad nad mul uurida #MONi!
 	para "ROCKET GANG said"
 	line "that if I helped"
 	cont "them, they'd let"

@@ -4,7 +4,7 @@ _CardKeySuccessText1::
 
 _CardKeySuccessText2::
 	text_start
-	line "VõTME KAART"
+	line "VÕTME KAART"
 	cont "avas ukse!"
 	done
 

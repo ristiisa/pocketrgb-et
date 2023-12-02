@@ -5,20 +5,20 @@ _SilphCo4Text_19de0::
 	done
 
 _SilphCo4Text_19de5::
-;;Huh? RAKETI KAMP läks ära?
+;;Mh? RAKETI KAMP läks ära?
 	text "Huh? ROCKET GANG"
 	line "is gone?"
 	done
 
 _SilphCo4BattleText2::
-;;RAKETI KAMP võttis SYLPH CO. juhtimise üle!
+;;RAKETI KAMP võttis SYLPHi juhtimise üle!
 	text "ROCKET GANG has"
 	line "taken command of"
 	cont "SYLPH CO.!"
 	done
 
 _SilphCo4EndBattleText2::
-	text "Aaaa!"
+	text "Ghaaa!"
 	prompt
 
 _SilphCo4AfterBattleText2::
@@ -35,7 +35,7 @@ _SilphCo4BattleText3::
 	done
 
 _SilphCo4EndBattleText3::
-	text "Pagan!"
+	text "Jamps!"
 	line "Sa nõrk #MON!"
 	prompt
 

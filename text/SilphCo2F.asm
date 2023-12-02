@@ -1,5 +1,5 @@
 _SilphCo2Text_59ded::
-;;Feek! Ei! Seis! Aita!
+;;Iik! Ei! Seis! Appi!
 	text "Eeek!"
 	line "No! Stop! Help!"
 
@@ -12,7 +12,7 @@ _SilphCo2Text_59ded::
 	prompt
 
 _ReceivedTM36Text::
-	text "<PLAYER> käes"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcf4b
 	text "!@"
@@ -23,7 +23,7 @@ _TM36ExplanationText::
 	text "TM36 is"
 	line "SELFDESTRUCT!"
 
-;;See on võimas, kuid #MON, kes seda kasutab, hääbub. Ole ettevaatlik.
+;;See on võimas, kuid #MON, kes seda kasutab, minestab. Ole ettevaatlik.
 	para "It's powerful, but"
 	line "the #MON that"
 	cont "uses it faints!"
@@ -37,7 +37,7 @@ _TM36NoRoomText::
 	done
 
 _SilphCo2BattleText1::
-;;Appi! Ma olen SYLPH töötaja.
+;;Appi! Ma olen SYLPHi töötaja.
 	text "Help! I'm a SYLPH"
 	line "employee."
 	done
@@ -49,31 +49,31 @@ _SilphCo2EndBattleText1::
 	prompt
 
 _SilphCo2AfterBattleText1::
-;;Ma töötan mõlemas, SYLPHs ja RAKETI KAMBAS!
+;;Ma töötan nii SYLPHis kui ka RAKETI KAMBAS!
 	text "I work for both"
 	line "SYLPH and ROCKET"
 	cont "GANG!"
 	done
 
 _SilphCo2BattleText2::
-;;See ületab piire! Mine koju!
+;;See on keeluala! Mine koju!
 	text "It's off limits"
 	line "here! Go home!"
 	done
 
 _SilphCo2EndBattleText2::
-	text "Sa oled"
-	line "hea."
+	text "Sa"
+	line "oled hea."
 	prompt
 
 _SilphCo2AfterBattleText2::
-;;Suudad Sa lahendada labürindi mõistatuse?
+;;Suudad Sa läbida selle labürindi?
 	text "Can you solve the"
 	line "maze in here?"
 	done
 
 _SilphCo2BattleText3::
-;;Lapesed ei ole lubatud!
+;;Lapsed ei ole siin lubatud!
 	text "No kids are"
 	line "allowed in here!"
 	done
@@ -83,7 +83,7 @@ _SilphCo2EndBattleText3::
 	prompt
 
 _SilphCo2AfterBattleText3::
-;;Teemanti kujulised plaadid on teleporti plokid!
+;;Teemanti kujulised plaadid on teleporti plaadid!
 	text "Diamond shaped"
 	line "tiles are"
 	cont "teleport blocks!"
