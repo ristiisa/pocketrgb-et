@@ -47,20 +47,20 @@ _SilphCo10Text_6231c::
 	line "#MON without"
 	cont "fail!"
 
-;;Ära hoople sellega.
+;;Ära hoople sellega, eks.
 	para "You should be"
 	line "quiet about using"
 	cont "it, though."
 	done
 
 _SilphCoMasterBallNoRoomText::
-;;Sul ei ole ruumi selleks.
+;;Sul ei ole selleks ruumi.
 	text "You have no"
 	line "room for this."
 	done
 
 _SilphCo11Text2::
-;;SECRETARY: Aitäh, et päästsid meid kõiki!
+;;SEKRETÄR: Aitäh, et päästsid meid kõiki!
 	text "SECRETARY: Thank"
 	line "you for rescuing"
 	cont "all of us!"
@@ -98,7 +98,7 @@ _SilphCo10Text_62330::
 	prompt
 
 _SilphCo10Text_62335::
-;;Viska kõik minema. Sa rikkusid meie SYLPH plaanid!
+;;Mingu ka kõik! Sa rikkusid meie plaanid SYLPHiga!
 	text "Blast it all!"
 	line "You ruined our"
 	cont "plans for SYLPH!"
@@ -107,7 +107,7 @@ _SilphCo10Text_62335::
 	para "But, ROCKET GANG"
 	line "will never fall!"
 
-;;<PLAYER>! Ära unusta, et kõik #MONid kuuletuvad RAKETI KAMBALE!
+;;<PLAYER>! Ära unusta, et kõik #MONid on olemas vaid RAKETI KAMBA jaoks!
 	para "<PLAYER>! Never"
 	line "forget that all"
 	cont "#MON exist"
@@ -148,7 +148,7 @@ _SilphCo11EndBattleText2::
 	prompt
 
 _SilphCo11AfterBattleText2::
-;;Vaata ette, my BOSSile meeldib oma #MONi visadus!
+;;Vaata ette, my BOSSile meeldivad oma visad #MONid!
 	text "Watch your step,"
 	line "my BOSS likes his"
 	cont "#MON tough!"

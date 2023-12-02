@@ -23,7 +23,7 @@ _SilphCo10EndBattleText1::
 	prompt
 
 _SilphCo10AfterBattleText1::
-;;Hea üritus, kuid koosolekuruum on korrus ülalpool!
+;;Hea üritus, kuid juhtkonnaruum on korrus ülalpool!
 	text "Nice try, but the"
 	line "boardroom is up"
 	cont "one more floor!"
@@ -36,8 +36,8 @@ _SilphCo10BattleText2::
 	done
 
 _SilphCo10EndBattleText2::
-	text "Ei"
-	line "ühtki jätkajat!"
+	text "Mäng"
+	line "läbi!"
 	prompt
 
 _SilphCo10AfterBattleText2::

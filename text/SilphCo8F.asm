@@ -29,7 +29,7 @@ _SilphCo8AfterBattleText1::
 	done
 
 _SilphCo8BattleText2::
-;;Sa oled probleem!
+;;Sa põhjustad meile häda!
 	text "You're causing us"
 	line "problems!"
 	done

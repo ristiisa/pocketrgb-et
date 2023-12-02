@@ -12,7 +12,7 @@ _SilphCo6Text_1a24f::
 	done
 
 _SilphCo6Text_1a261::
-;;Oh Jumal, oh Jumal. Palun, aita mind!
+;;Oi oi oi. Palun, aita mind!
 	text "Oh dear, oh dear."
 	line "Help me please!"
 	done

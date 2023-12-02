@@ -27,7 +27,7 @@ _SilphCo9EndBattleText1::
 	prompt
 
 _SilphCo9AfterBattleText1::
-;;Kui ma oleks ka Sinu vanusena treenerina alustasin...
+;;Kui ma oleks ka Sinu vanusena treenerina alustanud...
 	text "If I had started"
 	line "as a trainer at"
 	cont "your age..."
@@ -54,7 +54,7 @@ _SilphCo9AfterBattleText2::
 	done
 
 _SilphCo9BattleText3::
-;;Ma olen üks neiljast RAKETIVENNAST!
+;;Ma olen üks neljast RAKETIVENNAST!
 	text "I am one of the 4"
 	line "ROCKET BROTHERS!"
 	done

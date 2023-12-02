@@ -1,5 +1,5 @@
 _MeetLaprasGuyText::
-;;Oh! Tere! Sa pole RAKETT! Sa tulid päästma meid? Miks, aitäh!
+;;Oh! Tere! Sa pole RAKETT! Sa tulid päästma meid? Ei noh, aitäh!
 	text "Oh! Hi! You're"
 	line "not a ROCKET! You"
 	cont "came to save us?"
@@ -34,7 +34,7 @@ _HeresYourLaprasText::
 	done
 
 _LaprasGuyText::
-;;RAKETI KAMBA PRESIDENT läks koosolekuruumi! Kas meie PRESIDENT on OK?
+;;RAKETI KAMBA BOSS läks juhtkonnaruumi! Kas meie PRESIDENTiga on kõik hästi?
 	text "ROCKET GANG's"
 	line "BOSS went to the"
 	cont "boardroom! Is our"
@@ -48,7 +48,7 @@ _LaprasGuySavedText::
 	done
 
 _SilphCo7Text_51e00::
-;;RAKETI KAMP tuli MEISTER BALLILE järgi, mis püüab iga #MONi kinni!
+;;RAKETI KAMP jahtis MASTER PALLi, mis püüab iga #MONi kinni!
 	text "ROCKET GANG was"
 	line "after the MASTER"
 	cont "BALL which will"
@@ -56,7 +56,7 @@ _SilphCo7Text_51e00::
 	done
 
 _CanceledMasterBallText::
-;;Me lõpetasime MEISTER BALLI projekti RAKETI KAMBA pärast.
+;;Me lõpetasime MASTER PALLi projekti RAKETI KAMBA pärast.
 	text "We canceled the"
 	line "MASTER BALL"
 	cont "project because"
@@ -111,10 +111,9 @@ _SilphCo7AfterBattleText1::
 	done
 
 _SilphCo7BattleText2::
-;;Hehee!
-	text "Heheh!"
+	text "Hehehe!"
 
-;;Sa ajasid mind segamine SYLPHI töötajaga?
+;;Sa ajasid mind segamine SYLPHi töötajaga?
 	para "You mistook me for"
 	line "a SYLPH worker?"
 	done
@@ -174,7 +173,7 @@ _SilphCo7Text_51ebe::
 	done
 
 _SilphCo7Text_51ec3::
-;;<RIVAL>: Hahahaa! Ma arvasin, et Sa ärritud, kui ma ootan siin!
+;;<RIVAL>: Hahahaa! Ma arvasin, et Sa oma nägu näitad, kui ma ootan siin!
 	text "<RIVAL>: Hahaha!"
 	line "I thought you'd"
 	cont "turn up if I"
@@ -226,7 +225,7 @@ _SilphCo7Text_51ed2::
 	cont "what's strong and"
 	cont "how they evolve!"
 
-;;Ma lähen #MON LIIGASSE, et teha tuul alla ELIITNELIKULE!
+;;Ma lähen #MON LIIGASSE, et teha tuul alla VÕIMSALE NELIKULE!
 	para "I'm going to the"
 	line "#MON LEAGUE"
 	cont "to boot out the"
@@ -237,7 +236,7 @@ _SilphCo7Text_51ed2::
 	line "world's most"
 	cont "powerful trainer!"
 
-;;<PLAYER> edu Sulle. Ära siis liialt higista, haiseb väkk!
+;;<PLAYER> edu Sulle. Ära siis pabla! Nägudeni!
 	para "<PLAYER>, well"
 	line "good luck to you!"
 	cont "Don't sweat it!"
