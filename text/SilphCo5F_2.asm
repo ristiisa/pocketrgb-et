@@ -4,7 +4,7 @@ _SilphCo5EndBattleText4::
 	prompt
 
 _SilphCo5AfterBattleText4::
-;;Sa oled alles 5F-l. Sul on veel pikk tee minu BOSSINI!
+;;Sa oled alles 5. korrusel. Sul on veel pikk tee minu BOSSINI!
 	text "You're only on 5F."
 	line "It's a long way"
 	cont "to my BOSS!"
@@ -31,11 +31,11 @@ _SilphCo5AfterBattleText5::
 	done
 
 _SilphCo5Text9::
-;;See on #MON. KANNA ETTE!
+;;See on #MON RAPORT!
 	text "It's a #MON"
 	line "REPORT!"
 
-;;#MONi LAB lõi PORYGONI, esimese virtuaalreaalsuse #MONi.
+;;#MONi LABOR lõi PORYGONI, esimese virtuaalreaalsuse #MONi.
 	para "#MON LAB"
 	line "created PORYGON,"
 	cont "the first virtual"
@@ -47,18 +47,18 @@ _SilphCo5Text10::
 	text "It's a #MON"
 	line "REPORT!"
 
-;;Üle 160 #MONi tehnika on kinnitatud.
+;;Üle 160 #MONi võtte on kinnitatud.
 	para "Over 160 #MON"
 	line "techniques have"
 	cont "been confirmed."
 	done
 
 _SilphCo5Text11::
-;;See on #MON. KANNA ETTE!
+;;See on #MON RAPORT!
 	text "It's a #MON"
 	line "REPORT!"
 
-;;4 #MONi muutusid, müüdi üle link-kaabli.
+;;4 #MONi arenevad ainult kui neid vahetad üle kaabli.
 	para "4 #MON evolve"
 	line "only when traded"
 	cont "by link-cable."

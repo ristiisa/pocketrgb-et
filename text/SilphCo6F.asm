@@ -51,7 +51,7 @@ _SilphCo6Text_1a294::
 	done
 
 _SilphCo6Text_1a2a6::
-;;Nad ründasid SYLPHI Sinu #MON toote tõttu.
+;;Nad ründasid SYLPHI meie #MON toodete tõttu.
 	text "They must have"
 	line "targeted SYLPH"
 	cont "for our #MON"

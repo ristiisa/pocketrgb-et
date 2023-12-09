@@ -27,7 +27,7 @@ _HeresYourLaprasText::
 	line "be a good trainer"
 	cont "for LAPLACE!"
 
-;;Ta on hea ujuja. Ta annab Sulle hoogu!
+;;Ta on hea ujuja. Ta võib sind ringi sõidutada!
 	para "It's a good"
 	line "swimmer. It'll"
 	cont "give you a lift!"
@@ -72,7 +72,7 @@ _SilphCo7Text_51e23::
 	done
 
 _SilphCo7Text_51e28::
-;;Vau! Sa üksi ajasid ära RAKETI KAMBA?
+;;Vau! Sa üksi ajasid RAKETI KAMBA minema?
 	text "Wow! You chased"
 	line "off ROCKET GANG"
 	cont "all by yourself?"

@@ -10,7 +10,7 @@ _SilphCoPresidentText::
 	cont "us in our moment"
 	cont "of peril!"
 
-;;Ma pean Sind kuidagi tänama!
+;;Ma pean ju Sind kuidagi tänama!
 	para "I have to thank"
 	line "you in some way!"
 
@@ -25,7 +25,7 @@ _SilphCoPresidentText::
 	prompt
 
 _ReceivedSilphCoMasterBallText::
-	text "<PLAYER> sain"
+	text "<PLAYER> sai"
 	line "@"
 	text_ram wcf4b
 	text "!@"
@@ -37,12 +37,12 @@ _SilphCo10Text_6231c::
 	line "can't buy that"
 	cont "anywhere!"
 
-;;See on meie MASTER BALLi salajane prototüüp!
+;;See on meie salajane prototüüp MASTER BALL!
 	para "It's our secret"
 	line "prototype MASTER"
 	cont "BALL!"
 
-;;Ta saab alati iga #MONi kätte!
+;;Sellega püüad alati iga #MONi kätte!
 	para "It will catch any"
 	line "#MON without"
 	cont "fail!"
@@ -71,9 +71,8 @@ _SilphCo11Text2::
 	done
 
 _SilphCo11Text3::
-;;Aa <PLAYER>! Me kohtume jälle!
-	text "Ah <PLAYER>!"
-	line "So we meet again!"
+	text "Aa <PLAYER>!"
+	line "Me kohtume jälle!"
 
 ;;Ma arutan PRESIDENTiga olulisi äripakkumisi.
 	para "The PRESIDENT and"

@@ -22,7 +22,7 @@ _SilphCo3EndBattleText1::
 	prompt
 
 _SilphCo3AfterBattleText1::
-;;Vihjet tahad? Sa võid VÕTMEKAARDIGA uksi avada!
+;;Vihjet tahad? Sa võid VÕTME KAARDIGA uksi avada!
 	text "A hint? You can"
 	line "open doors with a"
 	cont "CARD KEY!"
@@ -43,7 +43,7 @@ _SilphCo3EndBattleText2::
 _SilphCo3AfterBattleText2::
 	text "Ufff..."
 
-;;RAKETI KAMP ütles, et kui ma neid aitan, lasevad nad mul uurida #MONi!
+;;RAKETI KAMP ütles, et kui ma neid aitan, lasevad nad mul uurida #MONe!
 	para "ROCKET GANG said"
 	line "that if I helped"
 	cont "them, they'd let"

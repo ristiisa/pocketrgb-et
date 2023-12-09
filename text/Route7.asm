@@ -1,5 +1,5 @@
 _Route7Text1::
-	text "UNDERGROUND PATH"
-	line "TAMAMUSHI CITY -"
-	cont "CION TOWN"
+	text "MAAALUNE TEE"
+	line "TAMAMUSHI LINN -"
+	cont "CION KÜLA"
 	done

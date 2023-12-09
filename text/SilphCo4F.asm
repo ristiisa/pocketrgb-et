@@ -40,7 +40,7 @@ _SilphCo4EndBattleText3::
 	prompt
 
 _SilphCo4AfterBattleText3::
-;;Ustel on elektrooniline lukk! KAART avab nad!
+;;Ustel on elektrooniline lukk! VÕTME KAART avab need!
 	text "The doors are"
 	line "electronically"
 	cont "locked! A CARD"

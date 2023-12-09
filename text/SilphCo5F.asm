@@ -31,7 +31,7 @@ _SilphCo5AfterBattleText2::
 	done
 
 _SilphCo5BattleText3::
-;;Me uurisime #BALL tehnoloogiat siin korrusel!
+;;Me uurisime #BALLi tehnoloogiat siin korrusel!
 	text "We study #"
 	line "BALL technology"
 	cont "on this floor!"
