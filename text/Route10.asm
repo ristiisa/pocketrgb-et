@@ -81,17 +81,20 @@ _Route10AfterBattleText5::
 	done
 
 _Route10BattleText6::
+;;Nats käib nagu pea ringi sellest raskest matkast!
 	text "I'm feeling a bit"
 	line "faint from this"
 	cont "tough hike."
 	done
 
 _Route10EndBattleText6::
-	text "I'm"
+	text "Ma"
+;;polnud selleks valmis!
 	line "not up to it!"
 	prompt
 
 _Route10AfterBattleText6::
+;;Siinsed #MONid on siin nii tüklikud! Võiks olla ka üks roosa lillelise mustriga!
 	text "The #MON here"
 	line "are so chunky!"
 	cont "There should be a"
@@ -101,9 +104,9 @@ _Route10AfterBattleText6::
 
 _Route10Text9::
 _Route10Text7::
-	text "ROCK TUNNEL"
+	text "KIVI TUNNEL"
 	done
 
 _Route10Text10::
-	text "POWER PLANT"
+	text "ELEKTRI JAAM"
 	done
