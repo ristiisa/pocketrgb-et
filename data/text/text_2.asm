@@ -504,11 +504,11 @@ _ViridianSchoolNotebookText5::
 	text_end
 
 _ViridianSchoolNotebookText1::
-	text "Vaatas märkmiku!"
+	text "Vaatab märkmiku!"
 
-	para "Esimene lehet..."
+	para "Esimene leht..."
 
-	para "MONSTER PALLe kas-"
+	para "KOLLI PALLe kas-"
 	line "utatakse #MONi"
 	cont "püüdmiseks"
 
@@ -659,8 +659,9 @@ _ViridianSchoolBlackboardText1::
 	prompt
 
 _ViridianSchoolBlackboardText2::
-	text "Kummalt poolt sa"
-	line "tahad lugeda?"
+;;Millist pealkirja sa soovid lugeda?
+	text "Which heading do"
+	line "you want to read?"
 	done
 
 _ViridianBlackboardSleepText::
@@ -869,8 +870,9 @@ _HurtByBurnText::
 	prompt
 
 _HurtByLeechSeedText::
-	text "KURNAV SEEME kur-"
-	line "nas <USER>!"
+	text "KURNAV SEEME"
+	line "kurnas"
+	cont "<USER>!"
 	prompt
 
 _EnemyMonFaintedText::

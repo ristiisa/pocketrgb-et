@@ -337,7 +337,7 @@ _OaksLabText25::
 
 	text "<PLAYER> sai"
 	line "#DEX DR.OHKIDO"
-	cont "käest!"
+	cont "käest!@"
 	text_end
 
 _OaksLabText26::

@@ -252,8 +252,9 @@ _GettingPumpedText::
 	prompt
 
 _WasSeededText::
-	text "<TARGET> juurde"
-	line "istutati seeme!"
+	text "<TARGET>"
+	line "juurde istutati"
+	cont "seeme!"
 	prompt
 
 _EvadedAttackText::
@@ -262,8 +263,9 @@ _EvadedAttackText::
 	prompt
 
 _HitWithRecoilText::
-	text "<USER> sai pihta"
-	line "tagasilöögiga!"
+	text "<USER> sai"
+	line "pihta tagasilöö-"
+	cont "giga!"
 	prompt
 
 _ConvertedTypeText::
