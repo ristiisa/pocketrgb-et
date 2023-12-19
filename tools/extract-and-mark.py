@@ -20,6 +20,8 @@ for path, _, files in walk(sys.argv[1]):
                 if line.startswith(";;"):
                     shouldWrite = True
                     m = re.findall(r'^(db|line|text|cont|next|para)\s*\"(.*)\@*\"$', lines[i + 1].strip())
+                    if len(m) < 1:
+                        print(name, line, lines[i], lines[i + 1].strip())
                     dialog = []
                     currentLine = ""
                     lineLength = lambda: 17 if len(dialog) > 0 else 18

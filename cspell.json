@@ -17,6 +17,8 @@
         "HANADA",
         "Huuh",
         "Kutt",
+        "LAPRAS",
+        "LAPRASELE",
         "OTSUKIMI",
         "PLAYER",
         "RIVAL",
@@ -26,5 +28,6 @@
         "TOKIWA",
         "tšempion",
         "Väkk"
-    ]
+    ],
+    "enabled": true
 }

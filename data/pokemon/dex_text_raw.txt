@@ -1,0 +1,152 @@
+_RhydonDexEntry::Ta pärast evolutsiooni hakkab ta kõndima tagajalgadel. Ta suudab oma sarvega läbi kivisid purustada.
+_KangaskhanDexEntry::Emane kasvatab oma järglasi kõhukotis. Ta oskab väga osavalt kasutada KOMEEDI PAUKU.
+_NidoranMDexEntry::Kuuldes kaugeid helisid, lehtivtab ta oma suuri kõrvu nagu tiibu. Kui ta vihastab, siis sirutab ta välja oma ogad.
+_ClefairyDexEntry::Tema armas välimus muudab ta populaarseks lemmikloomaks. Siiski on ta väga haruldane ja raskesti leitav.
+_SpearowDexEntry::Ta lendleb siin ja seal kiiresti. Isegi kui tq on nõrk, võib tq olla võimas vastane tänu AHVI võttele.
+_VoltorbDexEntry::Tundmatu identiteediga eluvorm. Öeldakse, et ta KRIISKAB või ENESEHÄVITAB end äkitselt.
+_NidokingDexEntry::Teda tunnustatakse kõva kooriku ja pikendatud sarve poolest. Olge sarvega ettevaatlik, kuna see sisaldab mürki.
+_SlowbroDexEntry::Kui SLOWBRO läks jahti pidama, hammustas SHELLDER tema saba. See põhjustas SLOWPOKEiks arenmise.
+_IvysaurDexEntry::Tema seljal on taimepung. Kui see imendab toitaineid, siis see pung hakkab õitsema.
+_ExeggutorDexEntry::Teda kutsutakse 'Kõndivaks troopiliseks vihmametsaks'. Igal pähklil on oma nägu ja tahe.
+_LickitungDexEntry::Tema keel on kaks korda pikem kui tema keha. Ta saab seda liigutada nagu kätt toidu haaramiseks ja vastaste ründamiseks.
+_ExeggcuteDexEntry::Kuigi välimuse järgi tundub, nagu tegemist on mingi tüüpi munadega, siis pigem on tegu seemnetega.
+_GrimerDexEntry::Kuu röntgenkiirguse tagajärjel muutus löga GRIMERiks. Talle meeldib toituda räpastest asjadest.
+_GengarDexEntry::Öeldakse, et ta ilmub pimedusest, et varastada neid elusid, kes on eksinud mägedes.
+_NidoranFDexEntry::Kuigi väike, tuleb mürgiste ogade tõttu ettevaatlik olla. Tal on väikesed sarved.
+_NidoqueenDexEntry::Ta on kaetud kõvade nõela-sarnaste soomustega. Kui ta erutub, tõusevad nõelad välja.
+_CuboneDexEntry::Ta kannab oma surnud ema koljut oma peas. Kui ta muutub üksildaseks, siis ta nutab valjult.
+_RhyhornDexEntry::Ta on tugev, kuid mitte liiga terane. See #MON võib oma HAARANGUTEGA purustada isegi pilvelõhkuja.
+_LaprasDexEntry::Tema kõrge intelligentsus võimaldab tal mõista inimkõnet. Talle meeldib inimesi sõidutada.
+_ArcanineDexEntry::#MON, mida kirjeldatakse Hiina legendides. Öeldakse, et ta jookseb uskumatul kiirusel.
+_MewDexEntry::Lõuna-Ameerika #MON, mida peeti väljasurnuks. Ta on väga intelligentne ja õpib iga võtte.
+_GyaradosDexEntry::Äärmiselt agressiivse loomusega, HÜPER KIIR, mida ta suust tulistab, põletab kõik tema vaenlased.
+_ShellderDexEntry::Ta on kaetud koorega, mis on kõvem kui teemant. Seest on ta aga väga õrn.
+_TentacoolDexEntry::Tema silmad on nii läbipaistvad kui kristallid. Neist tulistab ta salapäraseid valguskiiri.
+_GastlyDexEntry::Olend, kes eksisteerib kui õhuke gaas. Ta võib ümbritseda oma saagi 2 sekundiga ja pikkali panna ka India elevandi.
+_ScytherDexEntry::Rebib ja lõhub saaki oma kurjakuulutavalt teravate sirpidega. Harva sirutab ta tiibu lendamiseks.
+_StaryuDexEntry::Ilmub suurtes kogustes mererandadel. Öösel vilgub tema keskne tuum punaselt.
+_BlastoiseDexEntry::Ta purustab oma vastase enda alla surudes, põhjustades minestamist. Hädaolukorras taandub ta oma koore sisse.
+_PinsirDexEntry::Tal on kaks pikka näpitsa kujulist võimsat sarve. Kui need haaravad kinni vastasest, ei vabasta ta neid enne, kui need on küljest rebitud.
+_TangelaDexEntry::Sinised taimeväädid varjavad #MONi sassipuntraga. Ta põimib endasse kõik, mis talle lähedale satuvad.
+_GrowlitheDexEntry::Väga sõbralik ja truu inimestele, ta püüab kõiki vaenlasi peletada haukumise ja hammustamisega.
+_OnixDexEntry::Ta elab tavaliselt maa all. Ta otsib toitu, uuristades maad kiirusel 80 km/h.
+_FearowDexEntry::Tema hiiglaslikud ja väga uhked tiivad suudavad teda kaua õhus hoida. Ta võib lennata terve päeva ilma maandumata.
+_PidgeyDexEntry::Ei armasta võidelda. Ta peidab end kõrge rohu sees ja otsib toitu, näiteks väikeseid putukaid.
+_SlowpokeDexEntry::Ta on alati sügavalt mõtetes, kuid keegi ei tea, millele ta mõtleb. Ta püüab oma sabaga hästi kala.
+_KadabraDexEntry::Ühel hommikul ärkas üks poiss, kellel olid üleinimlikud võimed, oma voodis, muutununa KADABRAKS.
+_GravelerDexEntry::Olge mägiradadel matkates ettevaatlik. GRAVELER võib teele veereda ilma aeglustumata.
+_ChanseyDexEntry::Ta muneb mitu muna päevas. Tuleb välja, et need on toitaineterikkad ja väga maitsvad.
+_MachokeDexEntry::Tema võimas keha ei väsi kunagi. Ta aitab inimesi raskete esemete, näiteks mööbli liigutamisel.
+_MrMimeDexEntry::Ta on osav inimeste petmises. Öeldakse, et ta suudab selgest õhust seinad võluda.
+_HitmonleeDexEntry::Ta suudab oma jalgu pikemaks ja lühemaks teha. Venitavad jalad võimaldavad tal lüüa kaugel olevaid vastaseid.
+_HitmonchanDexEntry::Selle #MONi sees on profi poksija vaim. Tema löögid on kiiremad kui kiirrong.
+_ArbokDexEntry::Tema kõhul oleval mustril on näha hirmutav nägu. Nõrgad vastased põgenevad ainiti selle nägemisest.
+_ParasectDexEntry::Ta lennutab oma seenekübarast toksilisi eoseid. Hiinas kasutatakse eoseid ravimtaimena.
+_PsyduckDexEntry::Teda vaevab pidev peavalu. Kui see muutub väljakannatamatuks, hakkab ta kasutama salapärast võimet.
+_DrowzeeDexEntry::Legendaarse ünenägude sööja, Baku järeltulija. Ta on väga osav hüpnoteerija.
+_GolemDexEntry::Ta on kaetud kestaga, mis on kõva kui kalju. Ta vahetab kesta iga aasta, et kasvada suuremaks.
+_MagmarDexEntry::Teda leidub vulkaanide suudme läheduses. Selle tulepurskaja kehatemperatuur on peaaegu 1200C.
+_ElectabuzzDexEntry::Armastab toituda elektrist. Ilmub aeg-ajalt elektrijaamade ja alajaamade ümber.
+_MagnetonDexEntry::Mitmest poolist koosnev seotud pundar. Väljutab võimsaid magnetlaineid kõrgel pingel.
+_KoffingDexEntry::Tema õhupallitaoline keha on täis kohutavalt mürgiseid gaase. Tema läheduses haiseb.
+_MankeyDexEntry::Kerge ja nobe jalge, ning metsik meeleolult. Vihasena ta raevub.
+_SeelDexEntry::Kaetud helesinise karvaga, nahk on paks ja vastupidav. Aktiivne isegi -40 kraadise külma korral.
+_DiglettDexEntry::Kaevub maa alla madalal sügavusel, jättes endast maha kõrgendatud maapinna, mis teeb ta kergesti märgatavaks.
+_TaurosDexEntry::Kui ta on valmis HAARAMA, piitsutab korduvalt oma kolme pika sabaga.
+_FarfetchdDexEntry::Kõnnib alati ringi taimevars nokas. Ta kasutab seda hiljem pesa ehitamiseks.
+_VenonatDexEntry::Tema silmad toimivad nagu radar, võimaldades tal olla aktiivne pimeduses. Silmadest saab ta tulistada võimsaid kiir.
+_DragoniteDexEntry::Ta suudab lennata sõltumata oma suurest ja kohmakast kehast, tehes tiiru ümber maakera vaid 16 tunniga.
+_DoduoDexEntry::Kahe peaga #MON, mis avastati ootamatu mutatsioonina. Jookseb kiirusega üle 100 km/h.
+_PoliwagDexEntry::Tema sile must nahk on õhuke ja niiske. Osa tema siseorganeid on nähtavad spiraalsete mustrina.
+_JynxDexEntry::Ta räägib keeles, mis on sarnane inimkeelele. Uurimustöö selgitamaks välja, mida öelda tahab, veel kestab.
+_MoltresDexEntry::Üks legendaarsetest lind-#MONidest. Neid, kes teda näevad, võluvad tema oranžid tiivad, mis näivad kui põlevad.
+_ArticunoDexEntry::Üks legendaarsetest lind-#MONidest. Tema lennuvorm on suurepärane, lennates ringi oma pikk sabaga järel liueldes.
+_ZapdosDexEntry::Üks legendaarsetest lind-#MONidest. Lennates tekitab ta praginat ja prõginat.
+_DittoDexEntry::Võib vabalt ümber kombineerida oma rakustruktuuri, et muunduda mis tahes tüüpi eluvormiks.
+_MeowthDexEntry::Päeval magab ta ainult. Öösel patrullib, silmad helendamas, oma territooriumit.
+_KrabbyDexEntry::Teda võib leida mere lähedalt. Suured küünised kasvavad tagasi, kui need on välja kistud.
+_VulpixDexEntry::Noorena on tal kuus uhket saba. Kasvades kasvab talle mitu uut saba juurde.
+_NinetalesDexEntry::Tal on üheksa pikka saba ja sädelev kuldkarv. Arvatakse, et võib elada 1000 aastat.
+_PikachuDexEntry::Mõlemal põsel on tal väikesed elektrikotid. Ohu korral paiskab nendest elektrilaenguid.
+_RaichuDexEntry::Tema elektrilöögid võivad ulatuda kuni 100kV. Hooletu kokkupuude võib isegi elevandi minestama panna.
+_DratiniDexEntry::Isegi noored isendid võivad pikkuses ületada 2 meetrit. Kasvab suuremaks korduvalt nahka vahetades.
+_DragonairDexEntry::Elab nii meredes kui järvedes. Kuigi tal pole tiibu, on teda lendamas nähtud.
+_KabutoDexEntry::See #MON taastati iidse olendi kivistisest. Ta kaitseb end kõva kestaga.
+_KabutopsDexEntry::Ujub vabalt vees. Püüab saaki oma sirbi-kujuliste kätega ja imeb neist vedelikud välja.
+_HorseaDexEntry::Ta hoiab tasakaalu oma kokku keritud saba abil. Tema suus võib pritsida tinti.
+_SeadraDexEntry::Keha on kaetud teravate okastega. Tema hooletu puudutamine võib põhjustada minestamist okaste tõttu.
+_SandshrewDexEntry::Kaevub ja elab maa all. Ohu korral rullib end palliks kaitseks.
+_SandslashDexEntry::Oskab rünnata seljal olevate okastega ja küünistega kiiresti liikudes.
+_OmanyteDexEntry::Eelajalooline #MON, mis elas ürgmere vetes, ujub, keerutades oma 10 kombitsat.
+_OmastarDexEntry::Selle kombitsad on hästi arenenud, justkui oleksid need käed ja jalad. Hammustab saaki pärast selle püüdmist.
+_JigglypuffDexEntry::Vangistab vaenlasi oma suurte ümarate silmadega. Seejärel uinutab neid lauldes rahustavat meloodiat.
+_WigglytuffDexEntry::Tal on erakordselt peen, tihe ja pehme karvkate. See peen karvastik annab talle luksusliku moe.
+_EeveeDexEntry::Äärmiselt haruldane #MON, mis võib areneda mitmel erineval viisil, sõltuvalt sisendist.
+_FlareonDexEntry::Tema kehas on leegikott. Sügavalt sisse hingates puhub ta välja leegid, mis ulatuvad peaaegu 1700C.
+_JolteonDexEntry::Kui ta on ärritatud või ehmunud, turritab kogu tema kehakarv nagu teravad nõelad, mis läbistavad vaenlase.
+_VaporeonDexEntry::Tema keha rakustruktuur on sarnane veega. Seetõttu võib see vees nähtamatuks sulanduda.
+_MachopDexEntry::Terve tema keha koosneb lihastest. Kuigi ta on lapse suurune, suudab ta visata 100 täiskasvanut.
+_ZubatDexEntry::Tal pole silmi. Selle asemel kasutab ta pimeduses liikumiseks oma ultraheli häälitsusi.
+_EkansDexEntry::Tavaline vaatepilt rohumaadel ja mujal. Vilgutab sisse ja välja oma keelt, et tunda ohtu ümbruses.
+_ParasDexEntry::Putuka seljas kasvavad seened nimega Tochukaso. Seened kasvavad koos peremeesorganismiga.
+_PoliwhirlDexEntry::Tal on hästi arenenud kaks jalga. Kuigi ta võib elada maal, eelistab ta elada vees.
+_PoliwrathDexEntry::Oskuslik ujuja, ta oskab ujuda krooli, liblikat ja muud. On kiirem kui parim inimujuja.
+_WeedleDexEntry::Tihti leidub rohumaal ja metsades. Tal on pea peal umbes 5 cm pikkune terav, mürgine astel.
+_KakunaDexEntry::See #MON on ajutises staadiumis, sellal kui ta ehitab oma keha. Peaaegu ei suuda ise liikuda.
+_BeedrillDexEntry::Võib ilmuda parvena. Lendab vägivaldsete kiirustega ja torgib oma mürgise astlaga, mis asub ta keha tagaosas.
+_DodrioDexEntry::Haruldane liik, mida on harva leida. Kolm pead esindavad vastavalt rõõmu, viha ja kurbust.
+_PrimeapeDexEntry::On alati meeletult vihane. Kui ta sihtmärki jälitama hakkab, järgib ta sihtmärki ükskõik kui kaugele.
+_DugtrioDexEntry::Lahingus kaevub ta maa alla, et rünnata ootamatult vastaseid erinevatest suundadest.
+_VenomothDexEntry::Tema tiivad on kaetud tolmulaadsete soomustega. Iga tiivalöögiga paiskab ta välja väga mürgist tolmu.
+_DewgongDexEntry::Tema keha on kaetud puhta valge karvaga. Mida külmem ilm, seda aktiivsemaks ta muutub.
+_CaterpieDexEntry::On kaetud rohelise nahaga. Kasvades heidab naha, katub siidiga ja muutub kookoniks.
+_MetapodDexEntry::Kuigi on kaetud tugeva kestaga, on sisemuses habras. Ei talu rasket rünnakut.
+_ButterfreeDexEntry::Tema tiivad on kaitstud vihma tõrjuva tolmuga. Seetõttu suudab see #MON lennata isegi vihmas.
+_MachampDexEntry::Tema neli robustselt arenenud kätt suudavad anda umbes 1000 lööki vaid kahe sekundi jooksul.
+_GolduckDexEntry::Tema esijalad on ujulestad, mis aitavad tal olla osav ujuja. Teda võib näha ujumas järvedes ja tiikides.
+_HypnoDexEntry::Kasutab pendlit. Kunagi oli juhtum, kus ta viis ära lapse, kelle ta oli hüpnotiseerinud.
+_GolbatDexEntry::Kinnitab oma saagile nõelteravad kihvad ja imeb ühe sõõmuga välja üle 300 cm3 verd.
+_MewtwoDexEntry::#MON, kelle geneetilist koodi kombineeriti korduvalt uuesti. Selle tulemusena muutus ta vägivaldseks.
+_SnorlaxDexEntry::Ta ei ole õnnelik, kui ei söö päevas 400 kg toitu. Pärast söömist läheb kohe magama.
+_MagikarpDexEntry::Peaaegu väärtusetu nii võimsuse kui kiiruse poolest. Maailma kõige haletsusväärsem #MON.
+_MukDexEntry::Tavaliselt märkamatu, kuna sulandub maapinnaga. Tema puudutamine võib põhjustada tugevat mürgitust.
+_KinglerDexEntry::Tema suur ja kõva küünisel on 10 000 hobujõudu tugevus. Kuigi ta on nii suur, on ta liigutamisdes kohmakas.
+_CloysterDexEntry::Tema kest on nii kõva, et isegi napalmipomm ei suuda seda purustada. Kest avaneb ainult rünnakul.
+_ElectrodeDexEntry::Plahvatab isegi väikseimate ärrituste peale. Tema hüüdni on 'Pommipall'.
+_ClefableDexEntry::Ta kuulmine on väga terav. Suudab kergesti kuulda nööpnõela kukkumist kilomeetri kauguselt.
+_WeezingDexEntry::Väga harva võib äkiline mutatsioon põhjustada kahe väikese KOFFINGu kaksikute muutumist WEEZINGUks.
+_PersianDexEntry::On kurja iseloomuga. Ettevaatust, kui ta tõstab oma saba, see on märk, et ta on valmis ründama.
+_MarowakDexEntry::Algselt oli ta nõrk. Tema iseloom muutus raevukaks, peale seda kui ta hakkas kasutama luid relvana.
+_HaunterDexEntry::Kui tunned pimedas, et keegi sind jägib isegi, kui kedagi pole ümber, on HAUNTER ligiduses.
+_AbraDexEntry::Magab 18 tundi päevas. Kasutab mitmesuguseid psüühilisi võimeid, isegi magades.
+_AlakazamDexEntry::Ei armasta füüsilisi rünnakuid. Selle asemel kasutab vabalt vaenlaste võitmiseks ülemeelikke psüühilisi võimeid.
+_PidgeottoDexEntry::Tama jalgadel olevad küünised on hästi arenenud. Suudab kanda EXEGGCUTE oma pesasse üle 100 km kauguselt.
+_PidgeotDexEntry::Laotab oma uhked tiivad, et hirmutada kõiki oma vaenlasi. Ta kihutab taevas Mach-2 kiirusega.
+_StarmieDexEntry::Sellel #MONil on geomeetriline keha. Selle tõttu kahtlustavad kohalikud, et ta on tulnukas.
+_BulbasaurDexEntry::Sellel #MONil on seljas sündimisest saati suur pung. See pung kasvab aeglaselt suuremaks.
+_VenusaurDexEntry::Tema on lillest õhkub lummav aroom. Lõhn rahustab neid, kes on lahingus.
+_TentacruelDexEntry::Tal on 80 vabalt liikuvat kombitsat. Need võivad nõelata, põhjustades mürgitust ja torkevalu.
+_GoldeenDexEntry::Tema selja- ja rinnauimed on tugevalt arenenud nagu lihased. Suudab ujuda kiirusega 5 sõlme.
+_SeakingDexEntry::Tema pea peal olev sarv on terav nagu puur. Puurib kivi sisse augu, et teha sinna oma pesa.
+_PonytaDexEntry::Tema keha on kerge ja jalad on uskumatult võimsad. Suudab hüpata üle Tokyo Torni ühe hüppega.
+_RapidashDexEntry::Suudab kapata tippkiirusega 240 km/h, võisteldes ka kiirrongida.
+_RattataDexEntry::Tema pikad kihvad on väga teravad. Need kasvavad pidevalt, nii et ta närib kõvasid asju, et neid kärpida.
+_RaticateDexEntry::Tema tagajalad on kolme varbaga. Need on ujulestadega, võimaldades tal ujuda üle jõgede.
+_NidorinoDexEntry::Ta ärritub kergesti. Võimsalt vehkides oma hästiarenenud sarvega, suudab ta isegi teemandi purustada.
+_NidorinaDexEntry::Emane on rahulikuma loomuga. Eraldab ultrahelikarjeid, mis võivad vaenlasi segadusse ajada.
+_GeodudeDexEntry::Tema ümar kuju teeb ta kergesti ülesvõetavaks. Mõned inimesed on kasutanud neid isegi lumepallilahingutes.
+_PorygonDexEntry::Uusimate tehnoloogiate abil õnnestus teadlastel lõpuks luua esimene kunstlik #MON.
+_AerodactylDexEntry::Ta taastati merevaigust leitud dinosauruse geneetilisest materjalist. Tekitab kõrgeid helisid.
+_MagnemiteDexEntry::Liigub pidevalt hõljudes. Väljutab oma külgmistest magnetitest KÕUE LAINEid.
+_CharmanderDexEntry::Alates sünnist põleb tema saba otsas leek. Kui see kustub, siis lõpeb tema elu.
+_SquirtleDexEntry::Kui ta tõmbab oma pika kaela kesta sisse, pritsib ta vett välja erakordselt tugeva jõuga.
+_CharmeleonDexEntry::Ta vehib oma sabaga, et vastast maha tõmmata. Seejärel rebib ta vaenlase katki teravate küünistega.
+_WartortleDexEntry::See #MON on lemmikloomana väga populaarne. Tema karvaga kaetud saba on pikaealisuse sümbol.
+_CharizardDexEntry::Tema tiivad kannavad seda #MONi kuni 1400 meetri kõrgusele. Purskab tuld, mis on kõrgetel temperatuuridel.
+_OddishDexEntry::Tema teaduslik nimi on 'Oddium Wanderus'. Öösiti käib ta, omal kahel juurel, kuni 300 m.
+_GloomDexEntry::Tema tolmupead eritavad uskumatult halba lõhna. Õudne lehk võib põhjustada minestust 2 km kaugusel.
+_VileplumeDexEntry::Tema kroonlehed on maailma suurimad. Levitab meelega õietolmu, mis põhjustab allergiaid.
+_BellsproutDexEntry::Tema pung sarnaneb inimese näoga. Punga tõttu arvatakse, et ta võib olla alrauni liigist.
+_WeepinbellDexEntry::Tema lehtjad osad käituvad lõiketeradena vaenlaste ründamiseks. Ta sülitab vedelikku, mis lahustab kõike.
+_VictreebelDexEntry::Meelitab saaki oma suhu meeldiva aroomiga. Abitu saak sulab lahustavas vedelikus.
+_MissingNoDexEntry::Info puudub...
