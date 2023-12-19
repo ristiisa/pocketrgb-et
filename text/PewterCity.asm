@@ -1,5 +1,5 @@
 _PewterCityText1::
-;;Rääkitakse, et CLEFAIRY tuli kuu pealt!
+;;Räägitakse, et CLEFAIRY tuli kuu pealt!
 	text "It's rumored that"
 	line "PIPPIs came"
 	cont "from the moon!"
@@ -17,7 +17,7 @@ _PewterCityText2::
 	line "serious #MON"
 	cont "trainers here!"
 
-;;Kõik püüvavad ainult PUTUKAID aga NIBI saali juht, TAKESHI, on hingega asja juures!
+;;Kõik püüavad ainult PUTUKAID aga NIBI saali juht, TAKESHI, on hingega asja juures!
 	para "They're all like"
 	line "BUG CATCHERs,"
 	cont "but NIBI GYM's"

@@ -101,7 +101,7 @@ _Route3BattleText5::
 	done
 
 _Route3EndBattleText5::
-	text "Käitu kenasti!"
+	text "Ole kena!"
 	prompt
 
 _Route3AfterBattleText5::

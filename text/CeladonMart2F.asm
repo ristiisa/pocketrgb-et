@@ -1,5 +1,5 @@
 _CeladonMart2Text3::
-;;POKéTÕRJE2@ hoiab nõrgemad #MONid eemal...
+;;POKéTÕRJE2 hoiab nõrgemad #MONid eemal...
 	text "SILVER SPRAY keeps"
 	line "weak #MON at"
 	cont "bay..."

@@ -109,7 +109,8 @@ _FuchsiaGymBattleText3::
 
 _FuchsiaGymEndBattleText3::
 	text "Sina!"
-	line "Ma alahindasin sind!"
+;;Ma alahindasin sind!
+	line "had me fooled!"
 	prompt
 
 _FuchsiaGymAfterBattleText3::

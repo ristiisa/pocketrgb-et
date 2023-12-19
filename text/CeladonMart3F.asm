@@ -54,7 +54,7 @@ _CeladonMart3Text3::
 _CeladonMart3Text4::
 	text "Läki, GRAVELER!"
 
-;;Ma arvmastan GRAVELERi! Ma kogun neid!
+;;Ma armastan GRAVELERi! Ma kogun neid!
 	para "I love GOLONE!"
 	line "I collect them!"
 

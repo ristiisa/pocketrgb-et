@@ -76,8 +76,9 @@ _RockTunnel2BattleText6::
 	done
 
 _RockTunnel2EndBattleText6::
-	text "Ma annan alla! Sa"
-	line "oled parem võtete"
+	text "Ma"
+	line "annan alla! Sa"
+	cont "oled parem võtete"
 	cont "kasutaja!"
 	prompt
 

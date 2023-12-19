@@ -1,11 +1,12 @@
 _PewterPokecenterText2::
-	text "What!?"
+	text "Mida!?"
 
+;;RAKETTI KAMP ON OTSUKIMI mäel? Mis? Ma räägin telefoniga!
 	para "ROCKET GANG is at"
 	line "MT.OTSUKIMI? Huh?"
 	cont "I'm on the phone!"
 
-	para "Scram!"
+	para "KÕTT!"
 	done
 
 _PewterJigglypuffText::
