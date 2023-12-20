@@ -1,4 +1,4 @@
-_SSAnne6Text1:
+_SSAnne6Text1::
 ;;Sina mon petit! Meil on kiire! Eest ära!
 	text "You, mon petit!"
 	line "We're busy here!"

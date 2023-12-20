@@ -1,4 +1,4 @@
-ˇ_SSAnne5Text1::
+_SSAnne5Text1::
 ;;Pidu on läbi. Laev lahkub peagi.
 	text "The party's over."
 	line "The ship will be"
