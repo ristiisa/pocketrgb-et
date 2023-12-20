@@ -29,8 +29,8 @@ _Route4AfterBattleText1::
 	done
 
 _Route4Text5::
-	text "OTSUKIMI mägi"
-	line "Tunneli Sissepääs"
+	text "OTSUKIMI mäe"
+	line "tunneli sissepääs"
 	done
 
 _Route4Text6::
