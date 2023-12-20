@@ -18,8 +18,8 @@ _LavenderHouse2Text_1d9dc::
 	cont "from ROCKET GANG!"
 	done
 
-;;#MONi TORNI kummitus on läinud!
 _LavenderHouse2Text_1d9e1::
+;;#MONi TORNI kummitus on läinud!
 	text "The GHOST of"
 	line "#MON TOWER is"
 	cont "gone!"
