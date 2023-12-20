@@ -70,7 +70,7 @@ _SSAnne7Text2::
 	done
 
 _SSAnne7Text3::
-;;Kapten loeb raamatut nimega "Kuidas alistada merehaigus"...
+;;Kapten loeb raamatut nimega “Kuidas alistada merehaigus”...
 	text "How to Conquer"
 	line "Seasickness..."
 	cont "The CAPTAIN's"
