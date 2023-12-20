@@ -1388,9 +1388,8 @@ _PartyMenuNormalText::
 	done
 
 _PartyMenuItemUseText::
-	text "Millisel MONil"
-	line "tahad seda kasu-"
-	cont "tada?"
+	text "Kasuta millisel"
+	line "#MONil?"
 	done
 
 _PartyMenuBattleText::
