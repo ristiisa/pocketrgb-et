@@ -74,7 +74,7 @@ _Route13AfterBattleText5::
 	done
 
 _Route13BattleText6::
-;;Ma leidsin KOFFEIINI kord ühest koopast.
+;;Ma leidsin KOFEIINI kord ühest koopast.
 	text "I found"
 	line "INDOMETACIN in a"
 	cont "cave once."
@@ -86,7 +86,7 @@ _Route13EndBattleText6::
 	prompt
 
 _Route13AfterBattleText6::
-;;KOFFEIIN tõstis mu #MONide KIIRUST
+;;KOFEIIN tõstis mu #MONide KIIRUST
 	text "INDOMETACIN"
 	line "boosted the SPEED"
 	cont "of my #MON."

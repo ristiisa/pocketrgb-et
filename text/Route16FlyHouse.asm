@@ -1,9 +1,9 @@
 _Route16HouseText3::
-;;Või nii, sa oled leinud mu sala peiduka!
+;;Või nii, sa oled leidnud mu sala peiduka!
 	text "Oh, you found my"
 	line "secret retreat!"
 
-;;Palun ära räggi kellegile, et ma siin olen. Vaevatasuks annan sulle selle!
+;;Palun ära räägi kellegile, et ma siin olen. Vaevatasuks annan sulle selle!
 	para "Please don't tell"
 	line "anyone I'm here."
 	cont "I'll make it up"

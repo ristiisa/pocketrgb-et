@@ -1,5 +1,5 @@
 _Route15GateText1::
-;;Kas toiemtad #DEXiga?
+;;Kas toimetad #DEXiga?
 	text "Are you working"
 	line "on a #DEX?"
 
