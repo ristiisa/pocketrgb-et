@@ -596,7 +596,7 @@ _RedBedroomSNESText::
 	done
 
 _Route15UpstairsBinocularsText::
-	text "Vaatas läbi"
+	text "Vaatasid läbi"
 	line "binokli..."
 
 	para "Suur särav lind"

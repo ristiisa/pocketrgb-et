@@ -34,7 +34,7 @@ _TM39NoRoomText::
 	done
 
 _Route12GateUpstairsText_495b8::
-;;Vaatasid läbi binoklite.
+;;Vaatasid läbi binokli.
 	text "Looked into the"
 	line "binoculars."
 
@@ -43,7 +43,7 @@ _Route12GateUpstairsText_495b8::
 	done
 
 _Route12GateUpstairsText_495c4::
-;;Vaatasid läbi binoklite.
+;;Vaatasid läbi binokli.
 	text "Looked into the"
 	line "binoculars."
 

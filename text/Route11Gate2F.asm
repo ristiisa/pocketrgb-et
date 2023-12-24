@@ -16,7 +16,7 @@ _Route11GateUpstairsText_494a3::
 	done
 
 _BinocularsSnorlaxText::
-;;Vaatasid läbi binoklite.
+;;Vaatasid läbi binokli.
 	text "Looked into the"
 	line "binoculars."
 
@@ -26,7 +26,7 @@ _BinocularsSnorlaxText::
 	done
 
 _BinocularsNoSnorlaxText::
-;;Vaatasid läbi binoklite.
+;;Vaatasid läbi binokli.
 	text "Looked into the"
 	line "binoculars."
 
@@ -36,7 +36,7 @@ _BinocularsNoSnorlaxText::
 	done
 
 _Route11GateUpstairsText_494d5::
-;;Vaatasid läbi binoklite.
+;;Vaatasid läbi binokli.
 	text "Looked into the"
 	line "binoculars."
 

@@ -1,4 +1,5 @@
 _Route10BattleText1::
+;;Vau! Kas sa oled ka #MANIAKK? Tahad mu kogu näha?
 	text "Wow, are you a"
 	line "#MANIAC too?"
 	cont "Want to see my"
@@ -6,11 +7,12 @@ _Route10BattleText1::
 	done
 
 _Route10EndBattleText1::
-	text "Humph."
-	line "I'm not angry!"
+	text "Aih."
+	line "Ma pole pahane!"
 	prompt
 
 _Route10AfterBattleText1::
+;;Mul on kodus veel haruldasi #MONe!
 	text "I have more rare"
 	line "#MON at home!"
 	done
@@ -21,6 +23,7 @@ _Route10BattleText2::
 
 _Route10EndBattleText2::
 	text "Ha-haha!"
+;;... Ma tegelikult sõin... natuke võluseeni...
 	line "... I actually"
 	cont "ate.. some magic"
 	cont "mushrooms..."
@@ -33,21 +36,24 @@ _Route10AfterBattleText2::
 	done
 
 _Route10BattleText3::
+;;Hei, klutt! Tahad näha mu #MONe?
 	text "Hi kid, want to"
 	line "see my #MON?"
 	done
 
 _Route10EndBattleText3::
-	text "Oh no!"
-	line "My #MON!"
+	text "Oi ei!"
+	line "Mu #MONid!"
 	prompt
 
 _Route10AfterBattleText3::
+;;Sa ei meeldi mulle kuna sa said must jagu!
 	text "I don't like you"
 	line "for beating me!"
 	done
 
 _Route10BattleText4::
+;;Ma olen küll käinud #MON SAALIS mõned korrad aga olen igakord kaotanud.
 	text "I've been to a"
 	line "#MON GYM a few"
 	cont "times. But, I"
@@ -56,26 +62,30 @@ _Route10BattleText4::
 
 _Route10EndBattleText4::
 	text "Ohh!"
+;;Jälle läks untsu!
 	line "Blew it again!"
 	prompt
 
 _Route10AfterBattleText4::
+;;Ma olen siinkandis märganud luusimas mõnesid #MANIAKKE.
 	text "I noticed some"
 	line "#MANIACs"
 	cont "prowling around."
 	done
 
 _Route10BattleText5::
+;;Ah! See mägine õhk on nii imeline!
 	text "Ah! This mountain"
 	line "air is delicious!"
 	done
 
 _Route10EndBattleText5::
-	text "That"
-	line "cleared my head!"
+	text "Nüüd"
+	line "on pea selge!"
 	prompt
 
 _Route10AfterBattleText5::
+;;Ma tunnen nagu oleksin täis mäeõhku!
 	text "I feel bloated on"
 	line "mountain air!"
 	done
