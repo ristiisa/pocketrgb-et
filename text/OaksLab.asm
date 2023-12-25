@@ -110,7 +110,7 @@ _OaksLabDeliverParcelText2::
 	text_start
 	para "Ahaa! See ongi see"
 	line "eriline KOLLI"
-	cont "BALL mis ma tel-"
+	cont "PALL mis ma tel-"
 	cont "lisin! Aitäh!"
 	done
 
