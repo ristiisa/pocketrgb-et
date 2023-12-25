@@ -42,7 +42,7 @@ for path, _, files in walk(sys.argv[1]):
                     # print()
                     out.extend([f'\t{m[0][0] if i == 0 else "line" if i == 1 else "cont"} "{l.replace("POKé", "#")}"\n' for i, l in enumerate(dialog)])
                     j = i + 1
-                    while j < len(lines) and len(lines[j].strip()) > 0 and not list(filter(lines[j].strip().startswith, ["prompt", "done", "text_end"])):
+                    while j < len(lines) and len(lines[j].strip()) > 0 and not list(filter(lines[j].strip().startswith, ["prompt", "done", "text_end", "text_ram"])):
                         j = j + 1
                     i = j
                 else:

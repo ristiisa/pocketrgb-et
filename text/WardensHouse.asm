@@ -26,7 +26,7 @@ _WardenTeethText1::
 _WardenTeethText2::
 	text_start
 
-	para "WARDEN pani"
+	para "VALVUR pani"
 	line "hambad suhu!"
 	prompt
 
@@ -37,6 +37,7 @@ _WardenThankYouText::
 	cont "understand a word"
 	cont "that I said."
 
+;;Ma ei oleks saanud sedasi ju tööd teha. Las ma annan sulle midagi vaeva tasuks.
 	para "I couldn't work"
 	line "that way."
 	cont "Let me give you"

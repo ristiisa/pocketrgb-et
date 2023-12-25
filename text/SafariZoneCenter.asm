@@ -1,10 +1,11 @@
 _SafariZoneCenterText2::
-	text "REST HOUSE"
+	text "PUHKEMAJA"
 	done
 
 _SafariZoneCenterText3::
-	text "TRAINER TIPS"
+	text "NIPID TREENERITELE"
 
+;;Vajuta START, et kontrollida järelejäänud aega!
 	para "Press the START"
 	line "Button to check"
 	cont "remaining time!"

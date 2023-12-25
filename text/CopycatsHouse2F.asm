@@ -19,7 +19,7 @@ _CopycatsHouse2FText_5ccd4::
 
 _TM31PreReceiveText::
 	text "Oh lahe!"
-	line "CLEFAIRY NUKK!"
+	line "PIPI NUKK!"
 
 	para "Mulle?"
 	line "Aitäh!"
