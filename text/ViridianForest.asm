@@ -69,7 +69,7 @@ _ViridianForestText8::
 
 	para "Sa peaks alati"
 	line "rohkem kaasas"
-	cont "kandmakui sul"
+	cont "kandma kui sul"
 	cont "vaja on!"
 	done
 
