@@ -62,6 +62,7 @@ _TM41ExplanationText::
 	line "MON saab seda"
 	cont "kasutada"
 
+;;See #MON on õNNESEEN!
 	para "That #MON is"
 	line "LUCKY!"
 	done
